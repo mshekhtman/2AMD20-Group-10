@@ -1,0 +1,26 @@
+{
+  "/opendata/flightstatus": {
+    "status": "success",
+    "error": null
+  },
+  "/opendata/network-and-schedule": {
+    "status": "error",
+    "error": "Status code 404"
+  },
+  "/opendata/inspire/amenities": {
+    "status": "error",
+    "error": "Status code 400"
+  },
+  "/opendata/baggages": {
+    "status": "error",
+    "error": "Status code 404"
+  },
+  "/opendata/flightoffers": {
+    "status": "error",
+    "error": "Status code 596"
+  },
+  "/opendata/flightstatus/v4/flights": {
+    "status": "error",
+    "error": "Status code 404"
+  }
+}

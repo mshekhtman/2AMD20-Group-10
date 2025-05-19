@@ -1,9 +1,4 @@
-"""
-KLM API Flight Status Request
-
-This script implements the example cURL request from the KLM API documentation.
-"""
-
+import os
 import requests
 import json
 from datetime import datetime
@@ -57,7 +52,10 @@ def test_flight_status_request():
         
         # Save the response
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"klm_flightstatus_response_{timestamp}.json"
+        directory = os.path.join("data", "KLM", "raw")
+        os.makedirs(directory, exist_ok=True)  # Ensure directory exists
+        
+        filename = os.path.join(directory, f"klm_flightstatus_response_{timestamp}.json")
         
         with open(filename, "w", encoding="utf-8") as f:
             f.write(response.text)

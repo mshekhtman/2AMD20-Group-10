@@ -25,7 +25,7 @@ logger = logging.getLogger("FlightProcessor")
 class FlightDataProcessor:
     """Processor for KLM flight status data"""
     
-    def __init__(self, raw_dir='data/raw/klm_api', processed_dir='data/processed', specific_file=None):
+    def __init__(self, raw_dir='data/KLM/raw/klm_api', processed_dir='data/KLM/processed', specific_file=None):
         """
         Initialize the flight data processor
         

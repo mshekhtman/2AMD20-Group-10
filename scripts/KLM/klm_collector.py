@@ -26,7 +26,7 @@ logger = logging.getLogger("KLMCollector")
 class KLMApiCollector:
     """Collector for KLM API data with rate limiting"""
     
-    def __init__(self, api_key, output_dir='data/raw/klm_api'):
+    def __init__(self, api_key, output_dir='data/KLM/raw/klm_api'):
         """Initialize the KLM API collector"""
         self.api_key = api_key
         self.base_url = "https://api.airfranceklm.com"
