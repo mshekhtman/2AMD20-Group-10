@@ -1,0 +1,25 @@
+
+           # Query to analyze delay patterns by destination
+           PREFIX klm: <http://example.org/klm/>
+           PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+           
+           SELECT ?airport ?name ?country ?delayRate ?totalFlights ?delayedFlights
+           WHERE {
+               ?airport a klm:Airport ;
+                       klm:code ?code ;
+                       klm:name ?name ;
+                       klm:delayRate ?delayRate ;
+                       klm:totalFlights ?totalFlights ;
+                       klm:delayedFlights ?delayedFlights .
+               
+               # Only include destinations with significant flight volume
+               FILTER(?totalFlights >= 5)
+               
+               OPTIONAL { 
+                   ?airport klm:locatedIn ?city .
+                   ?city klm:locatedIn ?countryUri .
+                   ?countryUri klm:name ?country .
+               }
+           }
+           ORDER BY DESC(?delayRate)
+       

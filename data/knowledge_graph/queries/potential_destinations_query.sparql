@@ -1,0 +1,32 @@
+
+           # Query to find potential new destination airports based on passenger metrics
+           PREFIX klm: <http://example.org/klm/>
+           PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+           
+           # First, find all airports KLM currently flies to
+           SELECT ?airport ?name ?country ?passengerVolume
+           WHERE {
+               # Airports with significant passenger volume
+               ?airport a klm:Airport ;
+                       klm:name ?name ;
+                       klm:passengerVolume ?passengerVolume .
+               
+               OPTIONAL { 
+                   ?airport klm:locatedIn ?city .
+                   ?city klm:locatedIn ?countryUri .
+                   ?countryUri klm:name ?country .
+               }
+               
+               # High passenger volume
+               FILTER(?passengerVolume > 10000000)
+               
+               # Not already served by KLM
+               FILTER NOT EXISTS {
+                   ?route klm:hasDestination ?airport .
+                   ?klmAirline klm:operates ?route .
+                   ?klmAirline klm:code "KL" .
+               }
+           }
+           ORDER BY DESC(?passengerVolume)
+           LIMIT 15
+       

@@ -1,0 +1,26 @@
+2025-05-19 19:38:55,246 - KGBuilder - INFO - KLM Knowledge Graph Builder initialized
+2025-05-19 19:38:55,247 - KGBuilder - INFO - Building knowledge graph for KLM hub expansion analysis
+2025-05-19 19:38:55,247 - KGBuilder - INFO - Creating ontology for multi-hub analysis
+2025-05-19 19:38:55,249 - KGBuilder - INFO - Ontology created with hub analysis extensions
+2025-05-19 19:38:55,249 - KGBuilder - INFO - Loading processed data files
+2025-05-19 19:38:55,253 - KGBuilder - INFO - Loaded 109 airports
+2025-05-19 19:38:55,253 - KGBuilder - WARNING - Airlines file not found
+2025-05-19 19:38:55,253 - KGBuilder - WARNING - Routes file not found
+2025-05-19 19:38:55,260 - KGBuilder - INFO - Loaded 363 flights
+2025-05-19 19:38:55,260 - KGBuilder - INFO - Adding airports to the knowledge graph
+2025-05-19 19:38:55,301 - KGBuilder - INFO - Added 109 airports, 101 cities, and 22 countries to the knowledge graph
+2025-05-19 19:38:55,301 - KGBuilder - INFO - Adding flights to the knowledge graph
+2025-05-19 19:38:55,489 - KGBuilder - INFO - Added 363 flights to the knowledge graph with delay statistics
+2025-05-19 19:38:55,489 - KGBuilder - INFO - Calculating hub potential metrics
+2025-05-19 19:38:55,613 - KGBuilder - INFO - Hub metrics calculated and added to the knowledge graph
+2025-05-19 19:38:55,614 - KGBuilder - INFO - Placeholder for adding Eurostat data to the knowledge graph
+2025-05-19 19:38:55,634 - KGBuilder - INFO - Added passenger volume data for 10 major airports
+2025-05-19 19:38:55,796 - KGBuilder - INFO - Knowledge graph saved to data/knowledge_graph\klm_hub_expansion_kg_20250519.ttl
+2025-05-19 19:38:55,864 - KGBuilder - INFO - Knowledge graph also saved as RDF/XML to data/knowledge_graph\klm_hub_expansion_kg_20250519.rdf
+2025-05-19 19:38:55,865 - KGBuilder - INFO - Generating sample SPARQL queries for client research questions
+2025-05-19 19:38:55,866 - KGBuilder - INFO - Saved research query 'second_hub' to data/knowledge_graph\queries\second_hub_query.sparql
+2025-05-19 19:38:55,868 - KGBuilder - INFO - Saved research query 'potential_destinations' to data/knowledge_graph\queries\potential_destinations_query.sparql
+2025-05-19 19:38:55,869 - KGBuilder - INFO - Saved research query 'delay_analysis' to data/knowledge_graph\queries\delay_analysis_query.sparql
+2025-05-19 19:38:55,869 - KGBuilder - INFO - Knowledge graph built with 3863 triples
+2025-05-19 19:38:55,869 - KGBuilder - INFO - Knowledge graph files saved to data/knowledge_graph
+2025-05-19 19:38:55,869 - KGBuilder - INFO - The knowledge graph can now be used to analyze KLM's hub expansion opportunities

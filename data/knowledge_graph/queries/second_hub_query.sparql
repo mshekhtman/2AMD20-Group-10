@@ -1,0 +1,33 @@
+
+           # Query to find suitable airports for a second KLM hub
+           PREFIX klm: <http://example.org/klm/>
+           PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+           PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+           
+           SELECT ?airport ?name ?country ?hubScore ?routeCount ?passengerVolume ?delayRate
+           WHERE {
+               ?airport a klm:Airport ;
+                       klm:code ?code ;
+                       klm:name ?name ;
+                       klm:hubPotentialScore ?hubScore ;
+                       klm:routeCount ?routeCount .
+                       
+               # Filter out Schiphol (current hub)
+               FILTER(?code != "AMS")
+               
+               # Only consider airports with significant connectivity
+               FILTER(?routeCount > 3)
+               
+               OPTIONAL { ?airport klm:passengerVolume ?passengerVolume }
+               OPTIONAL { ?airport klm:delayRate ?delayRate }
+               
+               # Get country information if available
+               OPTIONAL { 
+                   ?airport klm:locatedIn ?city .
+                   ?city klm:locatedIn ?countryUri .
+                   ?countryUri klm:name ?country .
+               }
+           }
+           ORDER BY DESC(?hubScore)
+           LIMIT 10
+       

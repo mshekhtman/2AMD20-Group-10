@@ -1,0 +1,4247 @@
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix klm: <http://example.org/klm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/klm/airline/AF> klm:operates <http://example.org/klm/flight/20250518+AF+0027>,
+        <http://example.org/klm/flight/20250518+AF+0028> .
+
+<http://example.org/klm/airline/BF> klm:operates <http://example.org/klm/flight/20250518+BF+0710> .
+
+<http://example.org/klm/airline/DL> klm:operates <http://example.org/klm/flight/20250518+DL+0032>,
+        <http://example.org/klm/flight/20250518+DL+0313>,
+        <http://example.org/klm/flight/20250518+DL+0316>,
+        <http://example.org/klm/flight/20250518+DL+0366>,
+        <http://example.org/klm/flight/20250518+DL+0436>,
+        <http://example.org/klm/flight/20250518+DL+0555>,
+        <http://example.org/klm/flight/20250518+DL+0557>,
+        <http://example.org/klm/flight/20250518+DL+0634>,
+        <http://example.org/klm/flight/20250518+DL+0712>,
+        <http://example.org/klm/flight/20250518+DL+0867>,
+        <http://example.org/klm/flight/20250518+DL+0913>,
+        <http://example.org/klm/flight/20250518+DL+0918>,
+        <http://example.org/klm/flight/20250518+DL+0928>,
+        <http://example.org/klm/flight/20250518+DL+0965>,
+        <http://example.org/klm/flight/20250518+DL+0979>,
+        <http://example.org/klm/flight/20250518+DL+1015>,
+        <http://example.org/klm/flight/20250518+DL+1032>,
+        <http://example.org/klm/flight/20250518+DL+1046>,
+        <http://example.org/klm/flight/20250518+DL+1060>,
+        <http://example.org/klm/flight/20250518+DL+1085>,
+        <http://example.org/klm/flight/20250518+DL+1088>,
+        <http://example.org/klm/flight/20250518+DL+1115>,
+        <http://example.org/klm/flight/20250518+DL+1118>,
+        <http://example.org/klm/flight/20250518+DL+1136>,
+        <http://example.org/klm/flight/20250518+DL+1192>,
+        <http://example.org/klm/flight/20250518+DL+1249>,
+        <http://example.org/klm/flight/20250518+DL+1277>,
+        <http://example.org/klm/flight/20250518+DL+1293>,
+        <http://example.org/klm/flight/20250518+DL+1323>,
+        <http://example.org/klm/flight/20250518+DL+1334>,
+        <http://example.org/klm/flight/20250518+DL+1338>,
+        <http://example.org/klm/flight/20250518+DL+1342>,
+        <http://example.org/klm/flight/20250518+DL+1352>,
+        <http://example.org/klm/flight/20250518+DL+1373>,
+        <http://example.org/klm/flight/20250518+DL+1387>,
+        <http://example.org/klm/flight/20250518+DL+1412>,
+        <http://example.org/klm/flight/20250518+DL+1427>,
+        <http://example.org/klm/flight/20250518+DL+1439>,
+        <http://example.org/klm/flight/20250518+DL+1460>,
+        <http://example.org/klm/flight/20250518+DL+1463>,
+        <http://example.org/klm/flight/20250518+DL+1494>,
+        <http://example.org/klm/flight/20250518+DL+1496>,
+        <http://example.org/klm/flight/20250518+DL+1536>,
+        <http://example.org/klm/flight/20250518+DL+1566>,
+        <http://example.org/klm/flight/20250518+DL+1567>,
+        <http://example.org/klm/flight/20250518+DL+1628>,
+        <http://example.org/klm/flight/20250518+DL+1656>,
+        <http://example.org/klm/flight/20250518+DL+1672>,
+        <http://example.org/klm/flight/20250518+DL+1690>,
+        <http://example.org/klm/flight/20250518+DL+1717>,
+        <http://example.org/klm/flight/20250518+DL+1719>,
+        <http://example.org/klm/flight/20250518+DL+1738>,
+        <http://example.org/klm/flight/20250518+DL+2021>,
+        <http://example.org/klm/flight/20250518+DL+2035>,
+        <http://example.org/klm/flight/20250518+DL+2039>,
+        <http://example.org/klm/flight/20250518+DL+2077>,
+        <http://example.org/klm/flight/20250518+DL+2130>,
+        <http://example.org/klm/flight/20250518+DL+2197>,
+        <http://example.org/klm/flight/20250518+DL+2263>,
+        <http://example.org/klm/flight/20250518+DL+2343>,
+        <http://example.org/klm/flight/20250518+DL+2410>,
+        <http://example.org/klm/flight/20250518+DL+2428>,
+        <http://example.org/klm/flight/20250518+DL+2442>,
+        <http://example.org/klm/flight/20250518+DL+2473>,
+        <http://example.org/klm/flight/20250518+DL+2481>,
+        <http://example.org/klm/flight/20250518+DL+2534>,
+        <http://example.org/klm/flight/20250518+DL+2551>,
+        <http://example.org/klm/flight/20250518+DL+2606>,
+        <http://example.org/klm/flight/20250518+DL+2631>,
+        <http://example.org/klm/flight/20250518+DL+2666>,
+        <http://example.org/klm/flight/20250518+DL+2676>,
+        <http://example.org/klm/flight/20250518+DL+2759>,
+        <http://example.org/klm/flight/20250518+DL+2879>,
+        <http://example.org/klm/flight/20250518+DL+2896>,
+        <http://example.org/klm/flight/20250518+DL+3001>,
+        <http://example.org/klm/flight/20250518+DL+3132>,
+        <http://example.org/klm/flight/20250518+DL+3770>,
+        <http://example.org/klm/flight/20250518+DL+3777>,
+        <http://example.org/klm/flight/20250518+DL+3792>,
+        <http://example.org/klm/flight/20250518+DL+3798>,
+        <http://example.org/klm/flight/20250518+DL+3833>,
+        <http://example.org/klm/flight/20250518+DL+3858>,
+        <http://example.org/klm/flight/20250518+DL+3994>,
+        <http://example.org/klm/flight/20250518+DL+4102>,
+        <http://example.org/klm/flight/20250518+DL+5027>,
+        <http://example.org/klm/flight/20250518+DL+5619>,
+        <http://example.org/klm/flight/20250518+DL+5667>,
+        <http://example.org/klm/flight/20250518+DL+5767> .
+
+<http://example.org/klm/airline/KL> klm:hasHub <http://example.org/klm/airport/AMS> ;
+    klm:operates <http://example.org/klm/flight/20250518+KL+0701>,
+        <http://example.org/klm/flight/20250518+KL+0767>,
+        <http://example.org/klm/flight/20250518+KL+0807>,
+        <http://example.org/klm/flight/20250518+KL+0809>,
+        <http://example.org/klm/flight/20250518+KL+0835> .
+
+<http://example.org/klm/airline/KQ> klm:operates <http://example.org/klm/flight/20250518+KQ+0886> .
+
+<http://example.org/klm/airline/QF> klm:operates <http://example.org/klm/flight/20250518+QF+0002> .
+
+<http://example.org/klm/airline/SS> klm:operates <http://example.org/klm/flight/20250518+SS+0637>,
+        <http://example.org/klm/flight/20250518+SS+0774> .
+
+<http://example.org/klm/airport/ANC> a klm:Airport ;
+    klm:code "ANC" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/anchorage> ;
+    klm:name "ANCHORAGE TED STEVENS INTERNATIONAL" ;
+    klm:totalFlights 1 ;
+    schema1:name "ANCHORAGE TED STEVENS INTERNATIONAL" ;
+    geo1:lat 61.1692 ;
+    geo1:long -149.9853 .
+
+<http://example.org/klm/airport/ATL> a klm:Airport ;
+    klm:code "ATL" ;
+    klm:delayRate 0.07142857142857142 ;
+    klm:delayedFlights 4 ;
+    klm:locatedIn <http://example.org/klm/city/atlanta> ;
+    klm:name "HARTSFIELD-JACKSON INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 56 ;
+    schema1:name "HARTSFIELD-JACKSON INTERNATIONAL AIRPORT" ;
+    geo1:lat 33.6408 ;
+    geo1:long -84.4272 .
+
+<http://example.org/klm/airport/AUA> a klm:Airport ;
+    klm:code "AUA" ;
+    klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/aruba> ;
+    klm:name "REINA BEATRIX AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "REINA BEATRIX AIRPORT" ;
+    geo1:lat 12.5022 ;
+    geo1:long -70.0139 .
+
+<http://example.org/klm/airport/AUS> a klm:Airport ;
+    klm:code "AUS" ;
+    klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/austin> ;
+    klm:name "AUSTIN-BERGSTROM INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "AUSTIN-BERGSTROM INTERNATIONAL AIRPORT" ;
+    geo1:lat 30.2 ;
+    geo1:long -97.6667 .
+
+<http://example.org/klm/airport/AVL> a klm:Airport ;
+    klm:code "AVL" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/asheville_hendersonv_> ;
+    klm:name "ASHEVILLE REGIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "ASHEVILLE REGIONAL AIRPORT" ;
+    geo1:lat 35.435 ;
+    geo1:long -82.5411 .
+
+<http://example.org/klm/airport/BDL> a klm:Airport ;
+    klm:code "BDL" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/hartford> ;
+    klm:name "BRADLEY INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "BRADLEY INTERNATIONAL AIRPORT" ;
+    geo1:lat 41.9386 ;
+    geo1:long -72.6833 .
+
+<http://example.org/klm/airport/BKK> a klm:Airport ;
+    klm:code "BKK" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/bangkok> ;
+    klm:name "SUVARNABHUMI INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "SUVARNABHUMI INTERNATIONAL AIRPORT" ;
+    geo1:lat 13.6858 ;
+    geo1:long 100.7489 .
+
+<http://example.org/klm/airport/BNA> a klm:Airport ;
+    klm:code "BNA" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/nashville> ;
+    klm:name "NASHVILLE INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "NASHVILLE INTERNATIONAL AIRPORT" ;
+    geo1:lat 36.1267 ;
+    geo1:long -86.6819 .
+
+<http://example.org/klm/airport/BOI> a klm:Airport ;
+    klm:code "BOI" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/boise> ;
+    klm:name "BOISE AIR TERMINAL (GOWEN FIELD)" ;
+    klm:totalFlights 2 ;
+    schema1:name "BOISE AIR TERMINAL (GOWEN FIELD)" ;
+    geo1:lat 43.5653 ;
+    geo1:long -116.225 .
+
+<http://example.org/klm/airport/BON> a klm:Airport ;
+    klm:code "BON" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/bonaire> ;
+    klm:name "FLAMINGO INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "FLAMINGO INTERNATIONAL AIRPORT" ;
+    geo1:lat 12.1342 ;
+    geo1:long -68.2733 .
+
+<http://example.org/klm/airport/BOS> a klm:Airport ;
+    klm:code "BOS" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/boston> ;
+    klm:name "EDWARD L. LOGAN INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 8 ;
+    schema1:name "EDWARD L. LOGAN INTERNATIONAL AIRPORT" ;
+    geo1:lat 42.365 ;
+    geo1:long -71.0053 .
+
+<http://example.org/klm/airport/BRU> klm:passengerVolume 26000000 .
+
+<http://example.org/klm/airport/BTR> a klm:Airport ;
+    klm:code "BTR" ;
+    klm:locatedIn <http://example.org/klm/city/baton_rouge> ;
+    klm:name "RYAN AIRPORT" ;
+    schema1:name "RYAN AIRPORT" ;
+    geo1:lat 30.5317 ;
+    geo1:long -91.1506 .
+
+<http://example.org/klm/airport/BUF> a klm:Airport ;
+    klm:code "BUF" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/buffalo> ;
+    klm:name "BUFFALO NIAGARA INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "BUFFALO NIAGARA INTERNATIONAL AIRPORT" ;
+    geo1:lat 42.9411 ;
+    geo1:long -78.7364 .
+
+<http://example.org/klm/airport/BUR> a klm:Airport ;
+    klm:code "BUR" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/burbank> ;
+    klm:name "BOB HOPE AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "BOB HOPE AIRPORT" ;
+    geo1:lat 34.2 ;
+    geo1:long -118.3578 .
+
+<http://example.org/klm/airport/CAE> a klm:Airport ;
+    klm:code "CAE" ;
+    klm:locatedIn <http://example.org/klm/city/columbia> ;
+    klm:name "COLUMBIA METROPOLITAN AIRPORT" ;
+    schema1:name "COLUMBIA METROPOLITAN AIRPORT" ;
+    geo1:lat 33.9364 ;
+    geo1:long -81.1158 .
+
+<http://example.org/klm/airport/CAN> a klm:Airport ;
+    klm:code "CAN" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/guangzhou> ;
+    klm:name "BAIYUN INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "BAIYUN INTERNATIONAL AIRPORT" ;
+    geo1:lat 23.1833 ;
+    geo1:long 113.2661 .
+
+<http://example.org/klm/airport/CDG> a klm:Airport ;
+    klm:code "CDG" ;
+    klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/paris> ;
+    klm:name "CHARLES DE GAULLE AIRPORT" ;
+    klm:passengerVolume 76000000 ;
+    klm:totalFlights 1 ;
+    schema1:name "CHARLES DE GAULLE AIRPORT" ;
+    geo1:lat 49.0097 ;
+    geo1:long 2.5486 .
+
+<http://example.org/klm/airport/CGK> a klm:Airport ;
+    klm:code "CGK" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/jakarta> ;
+    klm:name "SOEKARNO-HATTA INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "SOEKARNO-HATTA INTERNATIONAL AIRPORT" ;
+    geo1:lat -6.1167 ;
+    geo1:long 106.65 .
+
+<http://example.org/klm/airport/CHS> a klm:Airport ;
+    klm:code "CHS" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/charleston> ;
+    klm:name "CHARLESTON INTERNATIONAL AIRFORCE BASE" ;
+    klm:totalFlights 1 ;
+    schema1:name "CHARLESTON INTERNATIONAL AIRFORCE BASE" ;
+    geo1:lat 32.8992 ;
+    geo1:long -80.0389 .
+
+<http://example.org/klm/airport/CLE> a klm:Airport ;
+    klm:code "CLE" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/cleveland> ;
+    klm:name "HOPKINS INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "HOPKINS INTERNATIONAL AIRPORT" ;
+    geo1:lat 41.4119 ;
+    geo1:long -81.8481 .
+
+<http://example.org/klm/airport/CLT> a klm:Airport ;
+    klm:code "CLT" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/charlotte> ;
+    klm:name "DOUGLAS INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "DOUGLAS INTERNATIONAL AIRPORT" ;
+    geo1:lat 35.2192 ;
+    geo1:long -80.9358 .
+
+<http://example.org/klm/airport/CPH> klm:passengerVolume 30000000 .
+
+<http://example.org/klm/airport/DAB> a klm:Airport ;
+    klm:code "DAB" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/daytona_beach> ;
+    klm:name "DAYTONA BEACH INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "DAYTONA BEACH INTERNATIONAL AIRPORT" ;
+    geo1:lat 29.1825 ;
+    geo1:long -81.0528 .
+
+<http://example.org/klm/airport/DAL> a klm:Airport ;
+    klm:code "DAL" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/dallas> ;
+    klm:name "LOVE FIELD" ;
+    klm:totalFlights 1 ;
+    schema1:name "LOVE FIELD" ;
+    geo1:lat 32.8469 ;
+    geo1:long -96.8533 .
+
+<http://example.org/klm/airport/DCA> a klm:Airport ;
+    klm:code "DCA" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/washington> ;
+    klm:name "RONALD REAGAN NATIONAL AIRPORT" ;
+    klm:totalFlights 3 ;
+    schema1:name "RONALD REAGAN NATIONAL AIRPORT" ;
+    geo1:lat 38.8517 ;
+    geo1:long -77.0369 .
+
+<http://example.org/klm/airport/DEN> a klm:Airport ;
+    klm:code "DEN" ;
+    klm:delayRate 0.25 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/denver> ;
+    klm:name "DENVER INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 4 ;
+    schema1:name "DENVER INTERNATIONAL AIRPORT" ;
+    geo1:lat 39.8547 ;
+    geo1:long -104.7181 .
+
+<http://example.org/klm/airport/DFW> a klm:Airport ;
+    klm:code "DFW" ;
+    klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/dallas> ;
+    klm:name "DALLAS/FT. WORTH INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "DALLAS/FT. WORTH INTERNATIONAL AIRPORT" ;
+    geo1:lat 32.8944 ;
+    geo1:long -97.0297 .
+
+<http://example.org/klm/airport/DPS> a klm:Airport ;
+    klm:code "DPS" ;
+    klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/denpasar_bali> ;
+    klm:name "NGURAH RAI AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "NGURAH RAI AIRPORT" ;
+    geo1:lat -8.7486 ;
+    geo1:long 115.165 .
+
+<http://example.org/klm/airport/DTW> a klm:Airport ;
+    klm:code "DTW" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/detroit> ;
+    klm:name "METROPOLITAN WAYNE COUNTY AIRPORT" ;
+    klm:totalFlights 21 ;
+    schema1:name "METROPOLITAN WAYNE COUNTY AIRPORT" ;
+    geo1:lat 42.2186 ;
+    geo1:long -83.3486 .
+
+<http://example.org/klm/airport/DZA> a klm:Airport ;
+    klm:code "DZA" ;
+    klm:locatedIn <http://example.org/klm/city/dzaoudzi> ;
+    klm:name "PAMANDZI INTERNATIONAL AIRPORT" ;
+    schema1:name "PAMANDZI INTERNATIONAL AIRPORT" ;
+    geo1:lat -12.7833 ;
+    geo1:long 45.2833 .
+
+<http://example.org/klm/airport/EWR> a klm:Airport ;
+    klm:code "EWR" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/new_york> ;
+    klm:name "NEWARK LIBERTY INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "NEWARK LIBERTY INTERNATIONAL AIRPORT" ;
+    geo1:lat 40.6958 ;
+    geo1:long -74.1717 .
+
+<http://example.org/klm/airport/EYW> a klm:Airport ;
+    klm:code "EYW" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/key_west> ;
+    klm:name "KEY WEST INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "KEY WEST INTERNATIONAL AIRPORT" ;
+    geo1:lat 24.5561 ;
+    geo1:long -81.7597 .
+
+<http://example.org/klm/airport/EZE> a klm:Airport ;
+    klm:code "EZE" ;
+    klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/buenos_aires> ;
+    klm:name "MINISTRO PISTARINI AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "MINISTRO PISTARINI AIRPORT" ;
+    geo1:lat -34.82 ;
+    geo1:long -58.5339 .
+
+<http://example.org/klm/airport/FAI> a klm:Airport ;
+    klm:code "FAI" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/fairbanks> ;
+    klm:name "FAIRBANKS INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "FAIRBANKS INTERNATIONAL AIRPORT" ;
+    geo1:lat 64.8144 ;
+    geo1:long -147.8628 .
+
+<http://example.org/klm/airport/FAT> a klm:Airport ;
+    klm:code "FAT" ;
+    klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/fresno> ;
+    klm:name "YOSEMITE INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "YOSEMITE INTERNATIONAL AIRPORT" ;
+    geo1:lat 36.7711 ;
+    geo1:long -119.7136 .
+
+<http://example.org/klm/airport/FCA> a klm:Airport ;
+    klm:code "FCA" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/kalispell> ;
+    klm:name "GLACIER PARK INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "GLACIER PARK INTERNATIONAL AIRPORT" ;
+    geo1:lat 48.3128 ;
+    geo1:long -114.2511 .
+
+<http://example.org/klm/airport/FCO> klm:passengerVolume 48000000 .
+
+<http://example.org/klm/airport/FLL> a klm:Airport ;
+    klm:code "FLL" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/fort_lauderdale> ;
+    klm:name "FORT LAUDERDALE INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 5 ;
+    schema1:name "FORT LAUDERDALE INTERNATIONAL AIRPORT" ;
+    geo1:lat 26.0742 ;
+    geo1:long -80.1517 .
+
+<http://example.org/klm/airport/FRA> klm:passengerVolume 70000000 .
+
+<http://example.org/klm/airport/GEG> a klm:Airport ;
+    klm:code "GEG" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/spokane> ;
+    klm:name "SPOKANE INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "SPOKANE INTERNATIONAL AIRPORT" ;
+    geo1:lat 47.6169 ;
+    geo1:long -117.5372 .
+
+<http://example.org/klm/airport/GNV> a klm:Airport ;
+    klm:code "GNV" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/gainesville> ;
+    klm:name "GAINESVILLE REGIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "GAINESVILLE REGIONAL AIRPORT" ;
+    geo1:lat 29.6897 ;
+    geo1:long -82.2758 .
+
+<http://example.org/klm/airport/GRR> a klm:Airport ;
+    klm:code "GRR" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/grand_rapids> ;
+    klm:name "GERALD R. FORD INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "GERALD R. FORD INTERNATIONAL AIRPORT" ;
+    geo1:lat 42.8811 ;
+    geo1:long -85.5242 .
+
+<http://example.org/klm/airport/GSO> a klm:Airport ;
+    klm:code "GSO" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/greensboro_high_point> ;
+    klm:name "PIEDMONT TRIAD INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "PIEDMONT TRIAD INTERNATIONAL AIRPORT" ;
+    geo1:lat 36.0919 ;
+    geo1:long -79.9428 .
+
+<http://example.org/klm/airport/HOU> a klm:Airport ;
+    klm:code "HOU" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/houston> ;
+    klm:name "HOBBY AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "HOBBY AIRPORT" ;
+    geo1:lat 29.645 ;
+    geo1:long -95.2786 .
+
+<http://example.org/klm/airport/HSV> a klm:Airport ;
+    klm:code "HSV" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/huntsville> ;
+    klm:name "INTERNATIONAL-CARL T. JONES FIELD" ;
+    klm:totalFlights 1 ;
+    schema1:name "INTERNATIONAL-CARL T. JONES FIELD" ;
+    geo1:lat 34.6428 ;
+    geo1:long -86.7756 .
+
+<http://example.org/klm/airport/IAD> a klm:Airport ;
+    klm:code "IAD" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/washington> ;
+    klm:name "DULLES INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "DULLES INTERNATIONAL AIRPORT" ;
+    geo1:lat 38.95 ;
+    geo1:long -77.45 .
+
+<http://example.org/klm/airport/IAH> a klm:Airport ;
+    klm:code "IAH" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/houston> ;
+    klm:name "GEORGE BUSH INTERCONTINENTAL AIRPORT" ;
+    klm:totalFlights 4 ;
+    schema1:name "GEORGE BUSH INTERCONTINENTAL AIRPORT" ;
+    geo1:lat 29.9833 ;
+    geo1:long -95.34 .
+
+<http://example.org/klm/airport/IST> klm:passengerVolume 68000000 .
+
+<http://example.org/klm/airport/JAX> a klm:Airport ;
+    klm:code "JAX" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/jacksonville> ;
+    klm:name "JACKSONVILLE INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "JACKSONVILLE INTERNATIONAL AIRPORT" ;
+    geo1:lat 30.4925 ;
+    geo1:long -81.6897 .
+
+<http://example.org/klm/airport/JFK> a klm:Airport ;
+    klm:code "JFK" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/new_york> ;
+    klm:name "JOHN F. KENNEDY INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 13 ;
+    schema1:name "JOHN F. KENNEDY INTERNATIONAL AIRPORT" ;
+    geo1:lat 40.6386 ;
+    geo1:long -73.7769 .
+
+<http://example.org/klm/airport/KUL> a klm:Airport ;
+    klm:code "KUL" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/kuala_lumpur> ;
+    klm:name "KUALA LUMPUR INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "KUALA LUMPUR INTERNATIONAL AIRPORT" ;
+    geo1:lat 2.7433 ;
+    geo1:long 101.6933 .
+
+<http://example.org/klm/airport/LAS> a klm:Airport ;
+    klm:code "LAS" ;
+    klm:delayRate 0.2 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/las_vegas> ;
+    klm:name "HARRY REID INTL" ;
+    klm:totalFlights 5 ;
+    schema1:name "HARRY REID INTL" ;
+    geo1:lat 36.08 ;
+    geo1:long -115.1522 .
+
+<http://example.org/klm/airport/LAX> a klm:Airport ;
+    klm:code "LAX" ;
+    klm:delayRate 0.13333333333333333 ;
+    klm:delayedFlights 2 ;
+    klm:locatedIn <http://example.org/klm/city/los_angeles> ;
+    klm:name "LOS ANGELES INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 15 ;
+    schema1:name "LOS ANGELES INTERNATIONAL AIRPORT" ;
+    geo1:lat 33.9422 ;
+    geo1:long -118.4072 .
+
+<http://example.org/klm/airport/LEX> a klm:Airport ;
+    klm:code "LEX" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/lexington> ;
+    klm:name "BLUE GRASS AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "BLUE GRASS AIRPORT" ;
+    geo1:lat 38.0397 ;
+    geo1:long -84.6022 .
+
+<http://example.org/klm/airport/LGA> a klm:Airport ;
+    klm:code "LGA" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/new_york> ;
+    klm:name "LA GUARDIA AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "LA GUARDIA AIRPORT" ;
+    geo1:lat 40.7794 ;
+    geo1:long -73.8758 .
+
+<http://example.org/klm/airport/LHR> a klm:Airport ;
+    klm:code "LHR" ;
+    klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/london> ;
+    klm:name "HEATHROW AIRPORT" ;
+    klm:passengerVolume 80000000 ;
+    klm:totalFlights 1 ;
+    schema1:name "HEATHROW AIRPORT" ;
+    geo1:lat 51.4714 ;
+    geo1:long -0.4528 .
+
+<http://example.org/klm/airport/LIT> a klm:Airport ;
+    klm:code "LIT" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/little_rock> ;
+    klm:name "LITTLE ROCK CLINTON NATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "LITTLE ROCK CLINTON NATIONAL AIRPORT" ;
+    geo1:lat 34.7292 ;
+    geo1:long -92.2344 .
+
+<http://example.org/klm/airport/LWS> a klm:Airport ;
+    klm:code "LWS" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/lewiston> ;
+    klm:name "NEZ PERCE COUNTY AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "NEZ PERCE COUNTY AIRPORT" ;
+    geo1:lat 46.3747 ;
+    geo1:long -117.0144 .
+
+<http://example.org/klm/airport/LYS> a klm:Airport ;
+    klm:code "LYS" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/lyon> ;
+    klm:name "LYON ST-EXUPERY AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "LYON ST-EXUPERY AIRPORT" ;
+    geo1:lat 45.7256 ;
+    geo1:long 5.0817 .
+
+<http://example.org/klm/airport/MAD> klm:passengerVolume 61000000 .
+
+<http://example.org/klm/airport/MCI> a klm:Airport ;
+    klm:code "MCI" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/kansas_city> ;
+    klm:name "KANSAS CITY INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 3 ;
+    schema1:name "KANSAS CITY INTERNATIONAL AIRPORT" ;
+    geo1:lat 39.2928 ;
+    geo1:long -94.7267 .
+
+<http://example.org/klm/airport/MCO> a klm:Airport ;
+    klm:code "MCO" ;
+    klm:delayRate 0.1111111111111111 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/orlando> ;
+    klm:name "ORLANDO INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 9 ;
+    schema1:name "ORLANDO INTERNATIONAL AIRPORT" ;
+    geo1:lat 28.4319 ;
+    geo1:long -81.3247 .
+
+<http://example.org/klm/airport/MDW> a klm:Airport ;
+    klm:code "MDW" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/chicago> ;
+    klm:name "MIDWAY INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "MIDWAY INTERNATIONAL AIRPORT" ;
+    geo1:lat 41.785 ;
+    geo1:long -87.7519 .
+
+<http://example.org/klm/airport/MEM> a klm:Airport ;
+    klm:code "MEM" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/memphis> ;
+    klm:name "MEMPHIS INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "MEMPHIS INTERNATIONAL AIRPORT" ;
+    geo1:lat 35.0497 ;
+    geo1:long -89.9789 .
+
+<http://example.org/klm/airport/MFR> a klm:Airport ;
+    klm:code "MFR" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/medford> ;
+    klm:name "ROGUE VALLEY INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "ROGUE VALLEY INTERNATIONAL AIRPORT" ;
+    geo1:lat 42.3736 ;
+    geo1:long -122.8722 .
+
+<http://example.org/klm/airport/MIA> a klm:Airport ;
+    klm:code "MIA" ;
+    klm:delayRate 0.3333333333333333 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/miami> ;
+    klm:name "MIAMI INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 3 ;
+    schema1:name "MIAMI INTERNATIONAL AIRPORT" ;
+    geo1:lat 25.7925 ;
+    geo1:long -80.2861 .
+
+<http://example.org/klm/airport/MKE> a klm:Airport ;
+    klm:code "MKE" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/milwaukee> ;
+    klm:name "GENERAL MITCHELL INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "GENERAL MITCHELL INTERNATIONAL AIRPORT" ;
+    geo1:lat 42.9503 ;
+    geo1:long -87.8972 .
+
+<http://example.org/klm/airport/MLB> a klm:Airport ;
+    klm:code "MLB" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/melbourne> ;
+    klm:name "MELBOURNE INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "MELBOURNE INTERNATIONAL AIRPORT" ;
+    geo1:lat 28.1025 ;
+    geo1:long -80.6303 .
+
+<http://example.org/klm/airport/MNL> a klm:Airport ;
+    klm:code "MNL" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/manila> ;
+    klm:name "NINOY AQUINO INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "NINOY AQUINO INTERNATIONAL AIRPORT" ;
+    geo1:lat 14.51 ;
+    geo1:long 121.0183 .
+
+<http://example.org/klm/airport/MRS> a klm:Airport ;
+    klm:code "MRS" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/marseille> ;
+    klm:name "PROVENCE AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "PROVENCE AIRPORT" ;
+    geo1:lat 43.4356 ;
+    geo1:long 5.2164 .
+
+<http://example.org/klm/airport/MSP> a klm:Airport ;
+    klm:code "MSP" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/minneapolis_st_paul> ;
+    klm:name "MINNEAPOLIS INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 21 ;
+    schema1:name "MINNEAPOLIS INTERNATIONAL AIRPORT" ;
+    geo1:lat 44.8861 ;
+    geo1:long -93.2178 .
+
+<http://example.org/klm/airport/MSY> a klm:Airport ;
+    klm:code "MSY" ;
+    klm:delayRate 0.2857142857142857 ;
+    klm:delayedFlights 2 ;
+    klm:locatedIn <http://example.org/klm/city/new_orleans> ;
+    klm:name "LOUIS ARMSTRONG INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 7 ;
+    schema1:name "LOUIS ARMSTRONG INTERNATIONAL AIRPORT" ;
+    geo1:lat 29.9911 ;
+    geo1:long -90.2514 .
+
+<http://example.org/klm/airport/NBO> a klm:Airport ;
+    klm:code "NBO" ;
+    klm:locatedIn <http://example.org/klm/city/nairobi> ;
+    klm:name "JOMO KENYATTA INTERNATIONAL AIRPORT" ;
+    schema1:name "JOMO KENYATTA INTERNATIONAL AIRPORT" ;
+    geo1:lat -1.3167 ;
+    geo1:long 36.9308 .
+
+<http://example.org/klm/airport/OGG> a klm:Airport ;
+    klm:code "OGG" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/kahului> ;
+    klm:name "KAHULUI AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "KAHULUI AIRPORT" ;
+    geo1:lat 20.9006 ;
+    geo1:long -156.4336 .
+
+<http://example.org/klm/airport/OMA> a klm:Airport ;
+    klm:code "OMA" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/omaha> ;
+    klm:name "EPPLEY AIRFIELD" ;
+    klm:totalFlights 1 ;
+    schema1:name "EPPLEY AIRFIELD" ;
+    geo1:lat 41.3025 ;
+    geo1:long -95.8942 .
+
+<http://example.org/klm/airport/ONT> a klm:Airport ;
+    klm:code "ONT" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/los_angeles> ;
+    klm:name "ONTARIO INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "ONTARIO INTERNATIONAL AIRPORT" ;
+    geo1:lat 34.0572 ;
+    geo1:long -117.6081 .
+
+<http://example.org/klm/airport/ORD> a klm:Airport ;
+    klm:code "ORD" ;
+    klm:delayRate 0.1111111111111111 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/chicago> ;
+    klm:name "O HARE INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 9 ;
+    schema1:name "O HARE INTERNATIONAL AIRPORT" ;
+    geo1:lat 41.9781 ;
+    geo1:long -87.9061 .
+
+<http://example.org/klm/airport/ORF> a klm:Airport ;
+    klm:code "ORF" ;
+    klm:locatedIn <http://example.org/klm/city/norfolk> ;
+    klm:name "NORFOLK INTERNATIONAL AIRPORT" ;
+    schema1:name "NORFOLK INTERNATIONAL AIRPORT" ;
+    geo1:lat 36.8958 ;
+    geo1:long -76.2014 .
+
+<http://example.org/klm/airport/ORY> a klm:Airport ;
+    klm:code "ORY" ;
+    klm:locatedIn <http://example.org/klm/city/paris> ;
+    klm:name "ORLY AIRPORT" ;
+    schema1:name "ORLY AIRPORT" ;
+    geo1:lat 48.7289 ;
+    geo1:long 2.3572 .
+
+<http://example.org/klm/airport/PBI> a klm:Airport ;
+    klm:code "PBI" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/west_palm_beach> ;
+    klm:name "PALM BEACH INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "PALM BEACH INTERNATIONAL AIRPORT" ;
+    geo1:lat 26.6822 ;
+    geo1:long -80.0942 .
+
+<http://example.org/klm/airport/PDX> a klm:Airport ;
+    klm:code "PDX" ;
+    klm:delayRate 0.16666666666666666 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/portland> ;
+    klm:name "PORTLAND INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 6 ;
+    schema1:name "PORTLAND INTERNATIONAL AIRPORT" ;
+    geo1:lat 45.5892 ;
+    geo1:long -122.595 .
+
+<http://example.org/klm/airport/PHL> a klm:Airport ;
+    klm:code "PHL" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/philadelphia> ;
+    klm:name "PHILADELPHIA INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "PHILADELPHIA INTERNATIONAL AIRPORT" ;
+    geo1:lat 39.8717 ;
+    geo1:long -75.2422 .
+
+<http://example.org/klm/airport/PHX> a klm:Airport ;
+    klm:code "PHX" ;
+    klm:delayRate 0.14285714285714285 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/phoenix> ;
+    klm:name "SKY HARBOR INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 7 ;
+    schema1:name "SKY HARBOR INTERNATIONAL AIRPORT" ;
+    geo1:lat 33.4353 ;
+    geo1:long -112.0119 .
+
+<http://example.org/klm/airport/PIT> a klm:Airport ;
+    klm:code "PIT" ;
+    klm:locatedIn <http://example.org/klm/city/pittsburgh> ;
+    klm:name "PITTSBURGH INTERNATIONAL AIRPORT" ;
+    schema1:name "PITTSBURGH INTERNATIONAL AIRPORT" ;
+    geo1:lat 40.4967 ;
+    geo1:long -80.2358 .
+
+<http://example.org/klm/airport/PNS> a klm:Airport ;
+    klm:code "PNS" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/pensacola> ;
+    klm:name "PENSACOLA INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "PENSACOLA INTERNATIONAL AIRPORT" ;
+    geo1:lat 30.4725 ;
+    geo1:long -87.1883 .
+
+<http://example.org/klm/airport/PPT> a klm:Airport ;
+    klm:code "PPT" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/tahiti> ;
+    klm:name "FAAA INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "FAAA INTERNATIONAL AIRPORT" ;
+    geo1:lat -17.5472 ;
+    geo1:long -149.6139 .
+
+<http://example.org/klm/airport/PSP> a klm:Airport ;
+    klm:code "PSP" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/palm_springs> ;
+    klm:name "PALM SPRINGS INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "PALM SPRINGS INTERNATIONAL AIRPORT" ;
+    geo1:lat 33.8267 ;
+    geo1:long -116.505 .
+
+<http://example.org/klm/airport/RDU> a klm:Airport ;
+    klm:code "RDU" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/raleigh_durham> ;
+    klm:name "RALEIGH/DURHAM INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 3 ;
+    schema1:name "RALEIGH/DURHAM INTERNATIONAL AIRPORT" ;
+    geo1:lat 35.8753 ;
+    geo1:long -78.7819 .
+
+<http://example.org/klm/airport/RNO> a klm:Airport ;
+    klm:code "RNO" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/reno> ;
+    klm:name "RENO/TAHOE INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "RENO/TAHOE INTERNATIONAL AIRPORT" ;
+    geo1:lat 39.4978 ;
+    geo1:long -119.7675 .
+
+<http://example.org/klm/airport/ROA> a klm:Airport ;
+    klm:code "ROA" ;
+    klm:locatedIn <http://example.org/klm/city/roanoke> ;
+    klm:name "ROANOKE REGIONAL (WOODRUM FLD) AIRPORT" ;
+    schema1:name "ROANOKE REGIONAL (WOODRUM FLD) AIRPORT" ;
+    geo1:lat 37.3247 ;
+    geo1:long -79.9764 .
+
+<http://example.org/klm/airport/RSW> a klm:Airport ;
+    klm:code "RSW" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/fort_myers> ;
+    klm:name "SOUTHWEST FLORIDA INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "SOUTHWEST FLORIDA INTERNATIONAL AIRPORT" ;
+    geo1:lat 26.5333 ;
+    geo1:long -81.75 .
+
+<http://example.org/klm/airport/RUN> a klm:Airport ;
+    klm:code "RUN" ;
+    klm:delayRate 1.0 ;
+    klm:delayedFlights 2 ;
+    klm:locatedIn <http://example.org/klm/city/saint_denis_de_la_reunion> ;
+    klm:name "ROLAND GARROS AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "ROLAND GARROS AIRPORT" ;
+    geo1:lat -20.8772 ;
+    geo1:long 55.5214 .
+
+<http://example.org/klm/airport/SAN> a klm:Airport ;
+    klm:code "SAN" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/san_diego> ;
+    klm:name "SAN DIEGO INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 5 ;
+    schema1:name "SAN DIEGO INTERNATIONAL AIRPORT" ;
+    geo1:lat 32.7328 ;
+    geo1:long -117.1872 .
+
+<http://example.org/klm/airport/SAT> a klm:Airport ;
+    klm:code "SAT" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/san_antonio> ;
+    klm:name "SAN ANTONIO INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "SAN ANTONIO INTERNATIONAL AIRPORT" ;
+    geo1:lat 29.5383 ;
+    geo1:long -98.4719 .
+
+<http://example.org/klm/airport/SAV> a klm:Airport ;
+    klm:code "SAV" ;
+    klm:locatedIn <http://example.org/klm/city/savannah> ;
+    klm:name "HILTON HEAD INTERNATIONAL AIRPORT" ;
+    schema1:name "HILTON HEAD INTERNATIONAL AIRPORT" ;
+    geo1:lat 32.1272 ;
+    geo1:long -81.1994 .
+
+<http://example.org/klm/airport/SCL> a klm:Airport ;
+    klm:code "SCL" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/santiago> ;
+    klm:name "ARTURO MERINO BENITEZ AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "ARTURO MERINO BENITEZ AIRPORT" ;
+    geo1:lat -33.3833 ;
+    geo1:long -70.7833 .
+
+<http://example.org/klm/airport/SEA> a klm:Airport ;
+    klm:code "SEA" ;
+    klm:delayRate 0.05555555555555555 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/seattle> ;
+    klm:name "SEATTLE-TACOMA INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 18 ;
+    schema1:name "SEATTLE-TACOMA INTERNATIONAL AIRPORT" ;
+    geo1:lat 47.4472 ;
+    geo1:long -122.3056 .
+
+<http://example.org/klm/airport/SFO> a klm:Airport ;
+    klm:code "SFO" ;
+    klm:delayRate 0.14285714285714285 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/san_francisco> ;
+    klm:name "SAN FRANCISCO INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 7 ;
+    schema1:name "SAN FRANCISCO INTERNATIONAL AIRPORT" ;
+    geo1:lat 37.6194 ;
+    geo1:long -122.3728 .
+
+<http://example.org/klm/airport/SGF> a klm:Airport ;
+    klm:code "SGF" ;
+    klm:locatedIn <http://example.org/klm/city/springfield> ;
+    klm:name "SPRINGFIELD-BRANSON NATIONAL AIRPORT" ;
+    schema1:name "SPRINGFIELD-BRANSON NATIONAL AIRPORT" ;
+    geo1:lat 37.24 ;
+    geo1:long -93.385 .
+
+<http://example.org/klm/airport/SIN> a klm:Airport ;
+    klm:code "SIN" ;
+    klm:delayRate 0.5 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/singapore> ;
+    klm:name "CHANGI AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "CHANGI AIRPORT" ;
+    geo1:lat 1.3581 ;
+    geo1:long 103.9106 .
+
+<http://example.org/klm/airport/SJC> a klm:Airport ;
+    klm:code "SJC" ;
+    klm:delayRate 0.3333333333333333 ;
+    klm:delayedFlights 1 ;
+    klm:locatedIn <http://example.org/klm/city/san_jose> ;
+    klm:name "SAN JOSE INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 3 ;
+    schema1:name "SAN JOSE INTERNATIONAL AIRPORT" ;
+    geo1:lat 37.3611 ;
+    geo1:long -121.9256 .
+
+<http://example.org/klm/airport/SLC> a klm:Airport ;
+    klm:code "SLC" ;
+    klm:delayRate 0.21212121212121213 ;
+    klm:delayedFlights 7 ;
+    klm:locatedIn <http://example.org/klm/city/salt_lake_city> ;
+    klm:name "SALT LAKE CITY INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 33 ;
+    schema1:name "SALT LAKE CITY INTERNATIONAL AIRPORT" ;
+    geo1:lat 40.7842 ;
+    geo1:long -111.9669 .
+
+<http://example.org/klm/airport/SMF> a klm:Airport ;
+    klm:code "SMF" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/sacramento> ;
+    klm:name "SACRAMENTO INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "SACRAMENTO INTERNATIONAL AIRPORT" ;
+    geo1:lat 38.6956 ;
+    geo1:long -121.5983 .
+
+<http://example.org/klm/airport/SNA> a klm:Airport ;
+    klm:code "SNA" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/santa_ana> ;
+    klm:name "JOHN WAYNE AIRPORT" ;
+    klm:totalFlights 3 ;
+    schema1:name "JOHN WAYNE AIRPORT" ;
+    geo1:lat 33.6756 ;
+    geo1:long -117.8669 .
+
+<http://example.org/klm/airport/STL> a klm:Airport ;
+    klm:code "STL" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/saint_louis> ;
+    klm:name "LAMBERT-ST. LOUIS INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "LAMBERT-ST. LOUIS INTERNATIONAL AIRPORT" ;
+    geo1:lat 38.7472 ;
+    geo1:long -90.3644 .
+
+<http://example.org/klm/airport/SYD> a klm:Airport ;
+    klm:code "SYD" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/sydney> ;
+    klm:name "KINGSFORD SMITH AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "KINGSFORD SMITH AIRPORT" ;
+    geo1:lat -33.9442 ;
+    geo1:long 151.1758 .
+
+<http://example.org/klm/airport/TNR> a klm:Airport ;
+    klm:code "TNR" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/antananarivo> ;
+    klm:name "IVATO INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "IVATO INTERNATIONAL AIRPORT" ;
+    geo1:lat -18.8 ;
+    geo1:long 47.4833 .
+
+<http://example.org/klm/airport/TPA> a klm:Airport ;
+    klm:code "TPA" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/tampa> ;
+    klm:name "TAMPA INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 4 ;
+    schema1:name "TAMPA INTERNATIONAL AIRPORT" ;
+    geo1:lat 27.9731 ;
+    geo1:long -82.5353 .
+
+<http://example.org/klm/airport/TPE> a klm:Airport ;
+    klm:code "TPE" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/taipei> ;
+    klm:name "TAIWAN TAOYUAN INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "TAIWAN TAOYUAN INTERNATIONAL AIRPORT" ;
+    geo1:lat 25.0711 ;
+    geo1:long 121.5436 .
+
+<http://example.org/klm/airport/TUS> a klm:Airport ;
+    klm:code "TUS" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/tucson> ;
+    klm:name "TUCSON INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "TUCSON INTERNATIONAL AIRPORT" ;
+    geo1:lat 32.125 ;
+    geo1:long -110.9492 .
+
+<http://example.org/klm/airport/VIE> klm:passengerVolume 31000000 .
+
+<http://example.org/klm/airport/VPS> a klm:Airport ;
+    klm:code "VPS" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/destin_ft_walton_beach> ;
+    klm:name "FT. WALTON BEACH AIRPORT" ;
+    klm:totalFlights 2 ;
+    schema1:name "FT. WALTON BEACH AIRPORT" ;
+    geo1:lat 30.4894 ;
+    geo1:long -86.5272 .
+
+<http://example.org/klm/airport/YVR> a klm:Airport ;
+    klm:code "YVR" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:locatedIn <http://example.org/klm/city/vancouver> ;
+    klm:name "VANCOUVER INTERNATIONAL AIRPORT" ;
+    klm:totalFlights 1 ;
+    schema1:name "VANCOUVER INTERNATIONAL AIRPORT" ;
+    geo1:lat 49.1872 ;
+    geo1:long -123.1853 .
+
+<http://example.org/klm/airport/YYZ> a klm:Airport ;
+    klm:code "YYZ" ;
+    klm:locatedIn <http://example.org/klm/city/toronto> ;
+    klm:name "LESTER B.PEARSON INTERNATIONAL AIRPORT" ;
+    schema1:name "LESTER B.PEARSON INTERNATIONAL AIRPORT" ;
+    geo1:lat 43.6833 ;
+    geo1:long -79.6333 .
+
+klm:code a owl:DatatypeProperty ;
+    rdfs:label "code" .
+
+klm:connectivityIndex a owl:DatatypeProperty ;
+    rdfs:label "connectivity index" ;
+    rdfs:domain klm:Airport ;
+    rdfs:range xsd:decimal .
+
+klm:delayRate a owl:DatatypeProperty ;
+    rdfs:label "delay rate" ;
+    rdfs:domain klm:Airport ;
+    rdfs:range xsd:decimal .
+
+klm:distance a owl:DatatypeProperty ;
+    rdfs:domain klm:Route ;
+    rdfs:range xsd:decimal .
+
+klm:estimatedArrival a owl:DatatypeProperty ;
+    rdfs:domain klm:Flight ;
+    rdfs:range xsd:dateTime .
+
+klm:flightNumber a owl:DatatypeProperty ;
+    rdfs:domain klm:Flight .
+
+klm:follows a owl:ObjectProperty ;
+    rdfs:label "follows" ;
+    rdfs:domain klm:Flight ;
+    rdfs:range klm:Route .
+
+klm:hasDestination a owl:ObjectProperty ;
+    rdfs:label "has destination" ;
+    rdfs:domain klm:Route ;
+    rdfs:range klm:Airport .
+
+klm:hasHub a owl:ObjectProperty ;
+    rdfs:label "has hub" ;
+    rdfs:domain klm:Airline ;
+    rdfs:range klm:HubAirport .
+
+klm:hasOrigin a owl:ObjectProperty ;
+    rdfs:label "has origin" ;
+    rdfs:domain klm:Route ;
+    rdfs:range klm:Airport .
+
+klm:locatedIn a owl:ObjectProperty ;
+    rdfs:label "located in" .
+
+klm:name a owl:DatatypeProperty ;
+    rdfs:label "name" .
+
+klm:operatedWith a owl:ObjectProperty ;
+    rdfs:label "operated with" ;
+    rdfs:domain klm:Flight ;
+    rdfs:range klm:Aircraft .
+
+klm:operates a owl:ObjectProperty ;
+    rdfs:label "operates" ;
+    rdfs:domain klm:Airline .
+
+klm:passengerVolume a owl:DatatypeProperty ;
+    rdfs:label "passenger volume" ;
+    rdfs:domain klm:Airport ;
+    rdfs:range xsd:integer .
+
+klm:potentialHubScore a owl:DatatypeProperty ;
+    rdfs:label "potential hub score" ;
+    rdfs:domain klm:Airport ;
+    rdfs:range xsd:decimal .
+
+klm:routeCount a owl:DatatypeProperty ;
+    rdfs:label "route count" ;
+    rdfs:domain klm:Airport ;
+    rdfs:range xsd:integer .
+
+klm:scheduledArrival a owl:DatatypeProperty ;
+    rdfs:domain klm:Flight ;
+    rdfs:range xsd:dateTime .
+
+klm:scheduledDeparture a owl:DatatypeProperty ;
+    rdfs:domain klm:Flight ;
+    rdfs:range xsd:dateTime .
+
+klm:scheduledDuration a owl:DatatypeProperty ;
+    rdfs:domain klm:Route ;
+    rdfs:range xsd:duration .
+
+klm:status a owl:DatatypeProperty ;
+    rdfs:domain klm:Flight .
+
+geo1:lat a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain klm:Airport ;
+    rdfs:range xsd:decimal .
+
+geo1:long a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain klm:Airport ;
+    rdfs:range xsd:decimal .
+
+klm:Aircraft a owl:Class ;
+    rdfs:label "Aircraft" ;
+    rdfs:comment "An aircraft type" .
+
+<http://example.org/klm/airport/AMS> a klm:Airport,
+        klm:HubAirport ;
+    klm:code "AMS" ;
+    klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:isMainHub true ;
+    klm:locatedIn <http://example.org/klm/city/amsterdam> ;
+    klm:name "SCHIPHOL AIRPORT" ;
+    klm:passengerVolume 71000000 ;
+    klm:totalFlights 1 ;
+    schema1:name "SCHIPHOL AIRPORT" ;
+    geo1:lat 52.3083 ;
+    geo1:long 4.7681 .
+
+<http://example.org/klm/city/amsterdam> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/netherlands> ;
+    klm:name "AMSTERDAM" ;
+    schema1:name "AMSTERDAM" .
+
+<http://example.org/klm/city/anchorage> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "ANCHORAGE" ;
+    schema1:name "ANCHORAGE" .
+
+<http://example.org/klm/city/antananarivo> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/madagascar> ;
+    klm:name "ANTANANARIVO" ;
+    schema1:name "ANTANANARIVO" .
+
+<http://example.org/klm/city/aruba> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/aruba> ;
+    klm:name "ARUBA" ;
+    schema1:name "ARUBA" .
+
+<http://example.org/klm/city/asheville_hendersonv_> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "ASHEVILLE/HENDERSONV." ;
+    schema1:name "ASHEVILLE/HENDERSONV." .
+
+<http://example.org/klm/city/atlanta> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "ATLANTA" ;
+    schema1:name "ATLANTA" .
+
+<http://example.org/klm/city/austin> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "AUSTIN" ;
+    schema1:name "AUSTIN" .
+
+<http://example.org/klm/city/bangkok> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/thailand> ;
+    klm:name "BANGKOK" ;
+    schema1:name "BANGKOK" .
+
+<http://example.org/klm/city/baton_rouge> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "BATON ROUGE" ;
+    schema1:name "BATON ROUGE" .
+
+<http://example.org/klm/city/boise> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "BOISE" ;
+    schema1:name "BOISE" .
+
+<http://example.org/klm/city/bonaire> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/bonaire_st_eustatius_saba> ;
+    klm:name "BONAIRE" ;
+    schema1:name "BONAIRE" .
+
+<http://example.org/klm/city/boston> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "BOSTON" ;
+    schema1:name "BOSTON" .
+
+<http://example.org/klm/city/buenos_aires> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/argentina> ;
+    klm:name "BUENOS AIRES" ;
+    schema1:name "BUENOS AIRES" .
+
+<http://example.org/klm/city/buffalo> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "BUFFALO" ;
+    schema1:name "BUFFALO" .
+
+<http://example.org/klm/city/burbank> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "BURBANK" ;
+    schema1:name "BURBANK" .
+
+<http://example.org/klm/city/charleston> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "CHARLESTON" ;
+    schema1:name "CHARLESTON" .
+
+<http://example.org/klm/city/charlotte> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "CHARLOTTE" ;
+    schema1:name "CHARLOTTE" .
+
+<http://example.org/klm/city/cleveland> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "CLEVELAND" ;
+    schema1:name "CLEVELAND" .
+
+<http://example.org/klm/city/columbia> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "COLUMBIA" ;
+    schema1:name "COLUMBIA" .
+
+<http://example.org/klm/city/daytona_beach> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "DAYTONA BEACH" ;
+    schema1:name "DAYTONA BEACH" .
+
+<http://example.org/klm/city/denpasar_bali> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/indonesia> ;
+    klm:name "DENPASAR-BALI" ;
+    schema1:name "DENPASAR-BALI" .
+
+<http://example.org/klm/city/denver> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "DENVER" ;
+    schema1:name "DENVER" .
+
+<http://example.org/klm/city/destin_ft_walton_beach> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "DESTIN/FT WALTON BEACH" ;
+    schema1:name "DESTIN/FT WALTON BEACH" .
+
+<http://example.org/klm/city/detroit> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "DETROIT" ;
+    schema1:name "DETROIT" .
+
+<http://example.org/klm/city/dzaoudzi> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/mayotte> ;
+    klm:name "DZAOUDZI" ;
+    schema1:name "DZAOUDZI" .
+
+<http://example.org/klm/city/fairbanks> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "FAIRBANKS" ;
+    schema1:name "FAIRBANKS" .
+
+<http://example.org/klm/city/fort_lauderdale> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "FORT LAUDERDALE" ;
+    schema1:name "FORT LAUDERDALE" .
+
+<http://example.org/klm/city/fort_myers> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "FORT MYERS" ;
+    schema1:name "FORT MYERS" .
+
+<http://example.org/klm/city/fresno> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "FRESNO" ;
+    schema1:name "FRESNO" .
+
+<http://example.org/klm/city/gainesville> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "GAINESVILLE" ;
+    schema1:name "GAINESVILLE" .
+
+<http://example.org/klm/city/grand_rapids> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "GRAND RAPIDS" ;
+    schema1:name "GRAND RAPIDS" .
+
+<http://example.org/klm/city/greensboro_high_point> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "GREENSBORO/HIGH POINT" ;
+    schema1:name "GREENSBORO/HIGH POINT" .
+
+<http://example.org/klm/city/guangzhou> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/china> ;
+    klm:name "GUANGZHOU" ;
+    schema1:name "GUANGZHOU" .
+
+<http://example.org/klm/city/hartford> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "HARTFORD" ;
+    schema1:name "HARTFORD" .
+
+<http://example.org/klm/city/huntsville> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "HUNTSVILLE" ;
+    schema1:name "HUNTSVILLE" .
+
+<http://example.org/klm/city/jacksonville> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "JACKSONVILLE" ;
+    schema1:name "JACKSONVILLE" .
+
+<http://example.org/klm/city/jakarta> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/indonesia> ;
+    klm:name "JAKARTA" ;
+    schema1:name "JAKARTA" .
+
+<http://example.org/klm/city/kahului> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "KAHULUI" ;
+    schema1:name "KAHULUI" .
+
+<http://example.org/klm/city/kalispell> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "KALISPELL" ;
+    schema1:name "KALISPELL" .
+
+<http://example.org/klm/city/kansas_city> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "KANSAS CITY" ;
+    schema1:name "KANSAS CITY" .
+
+<http://example.org/klm/city/key_west> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "KEY WEST" ;
+    schema1:name "KEY WEST" .
+
+<http://example.org/klm/city/kuala_lumpur> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/malaysia> ;
+    klm:name "KUALA LUMPUR" ;
+    schema1:name "KUALA LUMPUR" .
+
+<http://example.org/klm/city/las_vegas> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "LAS VEGAS" ;
+    schema1:name "LAS VEGAS" .
+
+<http://example.org/klm/city/lewiston> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "LEWISTON" ;
+    schema1:name "LEWISTON" .
+
+<http://example.org/klm/city/lexington> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "LEXINGTON" ;
+    schema1:name "LEXINGTON" .
+
+<http://example.org/klm/city/little_rock> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "LITTLE ROCK" ;
+    schema1:name "LITTLE ROCK" .
+
+<http://example.org/klm/city/london> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_kingdom> ;
+    klm:name "LONDON" ;
+    schema1:name "LONDON" .
+
+<http://example.org/klm/city/lyon> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/france> ;
+    klm:name "LYON" ;
+    schema1:name "LYON" .
+
+<http://example.org/klm/city/manila> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/philippines> ;
+    klm:name "MANILA" ;
+    schema1:name "MANILA" .
+
+<http://example.org/klm/city/marseille> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/france> ;
+    klm:name "MARSEILLE" ;
+    schema1:name "MARSEILLE" .
+
+<http://example.org/klm/city/medford> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "MEDFORD" ;
+    schema1:name "MEDFORD" .
+
+<http://example.org/klm/city/melbourne> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "MELBOURNE" ;
+    schema1:name "MELBOURNE" .
+
+<http://example.org/klm/city/memphis> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "MEMPHIS" ;
+    schema1:name "MEMPHIS" .
+
+<http://example.org/klm/city/miami> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "MIAMI" ;
+    schema1:name "MIAMI" .
+
+<http://example.org/klm/city/milwaukee> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "MILWAUKEE" ;
+    schema1:name "MILWAUKEE" .
+
+<http://example.org/klm/city/minneapolis_st_paul> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "MINNEAPOLIS/ST PAUL" ;
+    schema1:name "MINNEAPOLIS/ST PAUL" .
+
+<http://example.org/klm/city/nairobi> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/kenya> ;
+    klm:name "NAIROBI" ;
+    schema1:name "NAIROBI" .
+
+<http://example.org/klm/city/nashville> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "NASHVILLE" ;
+    schema1:name "NASHVILLE" .
+
+<http://example.org/klm/city/new_orleans> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "NEW ORLEANS" ;
+    schema1:name "NEW ORLEANS" .
+
+<http://example.org/klm/city/norfolk> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "NORFOLK" ;
+    schema1:name "NORFOLK" .
+
+<http://example.org/klm/city/omaha> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "OMAHA" ;
+    schema1:name "OMAHA" .
+
+<http://example.org/klm/city/orlando> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "ORLANDO" ;
+    schema1:name "ORLANDO" .
+
+<http://example.org/klm/city/palm_springs> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "PALM SPRINGS" ;
+    schema1:name "PALM SPRINGS" .
+
+<http://example.org/klm/city/pensacola> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "PENSACOLA" ;
+    schema1:name "PENSACOLA" .
+
+<http://example.org/klm/city/philadelphia> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "PHILADELPHIA" ;
+    schema1:name "PHILADELPHIA" .
+
+<http://example.org/klm/city/phoenix> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "PHOENIX" ;
+    schema1:name "PHOENIX" .
+
+<http://example.org/klm/city/pittsburgh> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "PITTSBURGH" ;
+    schema1:name "PITTSBURGH" .
+
+<http://example.org/klm/city/portland> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "PORTLAND" ;
+    schema1:name "PORTLAND" .
+
+<http://example.org/klm/city/raleigh_durham> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "RALEIGH/DURHAM" ;
+    schema1:name "RALEIGH/DURHAM" .
+
+<http://example.org/klm/city/reno> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "RENO" ;
+    schema1:name "RENO" .
+
+<http://example.org/klm/city/roanoke> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "ROANOKE" ;
+    schema1:name "ROANOKE" .
+
+<http://example.org/klm/city/sacramento> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SACRAMENTO" ;
+    schema1:name "SACRAMENTO" .
+
+<http://example.org/klm/city/saint_denis_de_la_reunion> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/reunion> ;
+    klm:name "SAINT DENIS DE LA REUNION" ;
+    schema1:name "SAINT DENIS DE LA REUNION" .
+
+<http://example.org/klm/city/saint_louis> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SAINT LOUIS" ;
+    schema1:name "SAINT LOUIS" .
+
+<http://example.org/klm/city/salt_lake_city> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SALT LAKE CITY" ;
+    schema1:name "SALT LAKE CITY" .
+
+<http://example.org/klm/city/san_antonio> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SAN ANTONIO" ;
+    schema1:name "SAN ANTONIO" .
+
+<http://example.org/klm/city/san_diego> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SAN DIEGO" ;
+    schema1:name "SAN DIEGO" .
+
+<http://example.org/klm/city/san_francisco> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SAN FRANCISCO" ;
+    schema1:name "SAN FRANCISCO" .
+
+<http://example.org/klm/city/san_jose> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SAN JOSE" ;
+    schema1:name "SAN JOSE" .
+
+<http://example.org/klm/city/santa_ana> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SANTA ANA" ;
+    schema1:name "SANTA ANA" .
+
+<http://example.org/klm/city/santiago> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/chile> ;
+    klm:name "SANTIAGO" ;
+    schema1:name "SANTIAGO" .
+
+<http://example.org/klm/city/savannah> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SAVANNAH" ;
+    schema1:name "SAVANNAH" .
+
+<http://example.org/klm/city/seattle> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SEATTLE" ;
+    schema1:name "SEATTLE" .
+
+<http://example.org/klm/city/singapore> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/singapore> ;
+    klm:name "SINGAPORE" ;
+    schema1:name "SINGAPORE" .
+
+<http://example.org/klm/city/spokane> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SPOKANE" ;
+    schema1:name "SPOKANE" .
+
+<http://example.org/klm/city/springfield> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "SPRINGFIELD" ;
+    schema1:name "SPRINGFIELD" .
+
+<http://example.org/klm/city/sydney> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/australia> ;
+    klm:name "SYDNEY" ;
+    schema1:name "SYDNEY" .
+
+<http://example.org/klm/city/tahiti> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/french_polynesia> ;
+    klm:name "TAHITI" ;
+    schema1:name "TAHITI" .
+
+<http://example.org/klm/city/taipei> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/chinese_taipei> ;
+    klm:name "TAIPEI" ;
+    schema1:name "TAIPEI" .
+
+<http://example.org/klm/city/tampa> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "TAMPA" ;
+    schema1:name "TAMPA" .
+
+<http://example.org/klm/city/toronto> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/canada> ;
+    klm:name "TORONTO" ;
+    schema1:name "TORONTO" .
+
+<http://example.org/klm/city/tucson> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "TUCSON" ;
+    schema1:name "TUCSON" .
+
+<http://example.org/klm/city/vancouver> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/canada> ;
+    klm:name "VANCOUVER" ;
+    schema1:name "VANCOUVER" .
+
+<http://example.org/klm/city/west_palm_beach> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "WEST PALM BEACH" ;
+    schema1:name "WEST PALM BEACH" .
+
+<http://example.org/klm/country/argentina> a klm:Country ;
+    klm:name "ARGENTINA" ;
+    schema1:name "ARGENTINA" .
+
+<http://example.org/klm/country/aruba> a klm:Country ;
+    klm:name "ARUBA" ;
+    schema1:name "ARUBA" .
+
+<http://example.org/klm/country/australia> a klm:Country ;
+    klm:name "AUSTRALIA" ;
+    schema1:name "AUSTRALIA" .
+
+<http://example.org/klm/country/bonaire_st_eustatius_saba> a klm:Country ;
+    klm:name "BONAIRE ST EUSTATIUS SABA" ;
+    schema1:name "BONAIRE ST EUSTATIUS SABA" .
+
+<http://example.org/klm/country/chile> a klm:Country ;
+    klm:name "CHILE" ;
+    schema1:name "CHILE" .
+
+<http://example.org/klm/country/china> a klm:Country ;
+    klm:name "CHINA" ;
+    schema1:name "CHINA" .
+
+<http://example.org/klm/country/chinese_taipei> a klm:Country ;
+    klm:name "CHINESE TAIPEI" ;
+    schema1:name "CHINESE TAIPEI" .
+
+<http://example.org/klm/country/french_polynesia> a klm:Country ;
+    klm:name "FRENCH POLYNESIA" ;
+    schema1:name "FRENCH POLYNESIA" .
+
+<http://example.org/klm/country/kenya> a klm:Country ;
+    klm:name "KENYA" ;
+    schema1:name "KENYA" .
+
+<http://example.org/klm/country/madagascar> a klm:Country ;
+    klm:name "MADAGASCAR" ;
+    schema1:name "MADAGASCAR" .
+
+<http://example.org/klm/country/malaysia> a klm:Country ;
+    klm:name "MALAYSIA" ;
+    schema1:name "MALAYSIA" .
+
+<http://example.org/klm/country/mayotte> a klm:Country ;
+    klm:name "MAYOTTE" ;
+    schema1:name "MAYOTTE" .
+
+<http://example.org/klm/country/netherlands> a klm:Country ;
+    klm:name "NETHERLANDS" ;
+    schema1:name "NETHERLANDS" .
+
+<http://example.org/klm/country/philippines> a klm:Country ;
+    klm:name "PHILIPPINES" ;
+    schema1:name "PHILIPPINES" .
+
+<http://example.org/klm/country/reunion> a klm:Country ;
+    klm:name "REUNION" ;
+    schema1:name "REUNION" .
+
+<http://example.org/klm/country/singapore> a klm:Country ;
+    klm:name "SINGAPORE" ;
+    schema1:name "SINGAPORE" .
+
+<http://example.org/klm/country/thailand> a klm:Country ;
+    klm:name "THAILAND" ;
+    schema1:name "THAILAND" .
+
+<http://example.org/klm/country/united_kingdom> a klm:Country ;
+    klm:name "UNITED KINGDOM" ;
+    schema1:name "UNITED KINGDOM" .
+
+<http://example.org/klm/flight/20250518+AF+0027> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:48:00-07:00"^^xsd:dateTime,
+        "2025-05-19T16:59:00+02:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "27"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/LAX-CDG>,
+        <http://example.org/klm/route/PPT-LAX> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:45:00-07:00"^^xsd:dateTime,
+        "2025-05-19T16:45:00+02:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:40:00-10:00"^^xsd:dateTime,
+        "2025-05-18T21:00:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+AF+0028> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T22:05:00-07:00"^^xsd:dateTime,
+        "2025-05-19T05:30:00-10:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "28"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/CDG-LAX>,
+        <http://example.org/klm/route/LAX-PPT> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T21:55:00-07:00"^^xsd:dateTime,
+        "2025-05-19T05:30:00-10:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T19:30:00+02:00"^^xsd:dateTime,
+        "2025-05-19T00:10:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+BF+0710> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T21:23:00-07:00"^^xsd:dateTime,
+        "2025-05-19T05:30:00-10:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "710"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ORY-SFO>,
+        <http://example.org/klm/route/SFO-PPT> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T21:05:00-07:00"^^xsd:dateTime,
+        "2025-05-19T05:30:00-10:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T18:30:00+02:00"^^xsd:dateTime,
+        "2025-05-18T22:05:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+0032> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T19:18:00-04:00"^^xsd:dateTime,
+        "2025-05-19T11:14:00+01:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "32"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-LHR>,
+        <http://example.org/klm/route/DFW-ATL> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T19:20:00-04:00"^^xsd:dateTime,
+        "2025-05-19T11:10:00+01:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T16:09:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:50:00-04:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+0313> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T21:26:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:45:00-06:00"^^xsd:dateTime,
+        "2025-05-19T05:44:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "313"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-PHX>,
+        <http://example.org/klm/route/DEN-JFK>,
+        <http://example.org/klm/route/JFK-DEN> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T21:26:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:45:00-06:00"^^xsd:dateTime,
+        "2025-05-19T05:44:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T20:22:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:59:00-06:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+0316> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T22:09:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:25:00-10:00"^^xsd:dateTime,
+        "2025-05-19T05:55:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "316"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-SEA>,
+        <http://example.org/klm/route/OGG-SLC>,
+        <http://example.org/klm/route/SLC-OGG> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T22:09:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:25:00-10:00"^^xsd:dateTime,
+        "2025-05-19T05:55:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:30:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:55:00-10:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+0366> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T06:30:00-06:00"^^xsd:dateTime,
+        "2025-05-18T14:50:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:24:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:23:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:27:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:53:00-08:00"^^xsd:dateTime,
+        "2025-05-19T06:29:00-05:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "366"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-PHX>,
+        <http://example.org/klm/route/FAI-MSP>,
+        <http://example.org/klm/route/LAX-ATL>,
+        <http://example.org/klm/route/MSP-FAI>,
+        <http://example.org/klm/route/MSP-YVR>,
+        <http://example.org/klm/route/OGG-SLC>,
+        <http://example.org/klm/route/PDX-JFK>,
+        <http://example.org/klm/route/PHX-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T06:30:00-06:00"^^xsd:dateTime,
+        "2025-05-18T14:50:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:24:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:23:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:27:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:53:00-08:00"^^xsd:dateTime,
+        "2025-05-19T06:29:00-05:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T20:30:00-10:00"^^xsd:dateTime,
+        "2025-05-18T13:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:59:00-07:00"^^xsd:dateTime,
+        "2025-05-18T13:05:00-07:00"^^xsd:dateTime,
+        "2025-05-18T15:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:10:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:35:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:10:00-08:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+0436> a klm:Flight ;
+    klm:estimatedArrival "2025-05-19T00:20:00-05:00"^^xsd:dateTime,
+        "2025-05-19T13:03:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "436"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-DFW>,
+        <http://example.org/klm/route/DFW-ATL> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:51:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:08:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T17:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:46:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+0555> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T16:35:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:08:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "555"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/SJC-SLC>,
+        <http://example.org/klm/route/SLC-SJC> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:12:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:00:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:20:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:02:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+0557> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:56:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:19:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "557"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BNA-BOS>,
+        <http://example.org/klm/route/BOS-BNA> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:56:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:19:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T16:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:45:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+0634> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T21:29:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:45:00-07:00"^^xsd:dateTime,
+        "2025-05-19T06:11:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "634"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DTW-PDX>,
+        <http://example.org/klm/route/PDX-DTW>,
+        <http://example.org/klm/route/SFO-JFK> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T21:29:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:45:00-07:00"^^xsd:dateTime,
+        "2025-05-19T06:11:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T12:45:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:55:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+0712> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T09:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:37:00-07:00"^^xsd:dateTime,
+        "2025-05-19T04:55:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "712"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-LAX>,
+        <http://example.org/klm/route/ATL-SAN>,
+        <http://example.org/klm/route/SAN-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T09:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:37:00-07:00"^^xsd:dateTime,
+        "2025-05-19T04:55:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:50:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:40:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+0867> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:59:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:36:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "867"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/LAX-MCO>,
+        <http://example.org/klm/route/MCO-LAX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T19:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:49:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T11:15:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:20:00-04:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+0913> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T22:31:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:04:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:44:00-07:00"^^xsd:dateTime,
+        "2025-05-19T06:11:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "913"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DEN-DTW>,
+        <http://example.org/klm/route/DTW-LAX>,
+        <http://example.org/klm/route/DTW-PDX>,
+        <http://example.org/klm/route/PDX-DTW> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T22:15:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:04:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:44:00-07:00"^^xsd:dateTime,
+        "2025-05-19T06:11:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T20:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:20:00-06:00"^^xsd:dateTime,
+        "2025-05-18T22:55:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+0918> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T12:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:38:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:20:00-07:00"^^xsd:dateTime,
+        "2025-05-18T23:09:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:06:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "918"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/JFK-MCO>,
+        <http://example.org/klm/route/LAS-JFK>,
+        <http://example.org/klm/route/LAS-SLC>,
+        <http://example.org/klm/route/PHX-ATL>,
+        <http://example.org/klm/route/SLC-LAS> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T12:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:38:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:20:00-07:00"^^xsd:dateTime,
+        "2025-05-18T23:09:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:06:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:05:00-07:00"^^xsd:dateTime,
+        "2025-05-18T09:25:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:55:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:45:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+0928> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T13:26:00-05:00"^^xsd:dateTime,
+        "2025-05-18T14:51:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:17:00-05:00"^^xsd:dateTime,
+        "2025-05-18T14:45:00-08:00"^^xsd:dateTime,
+        "2025-05-18T20:43:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "928"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ANC-SEA>,
+        <http://example.org/klm/route/LAX-MSP>,
+        <http://example.org/klm/route/SEA-ANC>,
+        <http://example.org/klm/route/SEA-MSP>,
+        <http://example.org/klm/route/SFO-JFK> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T13:26:00-05:00"^^xsd:dateTime,
+        "2025-05-18T14:51:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:17:00-05:00"^^xsd:dateTime,
+        "2025-05-18T14:45:00-08:00"^^xsd:dateTime,
+        "2025-05-18T20:43:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T08:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T11:40:00-07:00"^^xsd:dateTime,
+        "2025-05-18T12:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T16:05:00-08:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+0965> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T10:46:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:36:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:37:00-07:00"^^xsd:dateTime,
+        "2025-05-19T07:35:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "965"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-SEA>,
+        <http://example.org/klm/route/DTW-ATL>,
+        <http://example.org/klm/route/JFK-SFO>,
+        <http://example.org/klm/route/SFO-JFK> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T10:46:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:36:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:37:00-07:00"^^xsd:dateTime,
+        "2025-05-19T07:35:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T08:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:45:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+0979> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T15:29:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:10:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:44:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:11:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:27:00-07:00"^^xsd:dateTime,
+        "2025-05-19T08:36:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "979"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/JFK-SFO>,
+        <http://example.org/klm/route/LAX-JFK>,
+        <http://example.org/klm/route/LGA-ATL>,
+        <http://example.org/klm/route/LGA-ORD>,
+        <http://example.org/klm/route/ORD-LGA>,
+        <http://example.org/klm/route/SFO-JFK> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T15:29:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:10:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:44:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:11:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:27:00-07:00"^^xsd:dateTime,
+        "2025-05-19T08:36:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T15:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:55:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:20:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:45:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1015> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T10:24:00-07:00"^^xsd:dateTime,
+        "2025-05-18T13:07:00-06:00"^^xsd:dateTime,
+        "2025-05-18T15:18:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:08:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:57:00-05:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1015"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-BDL>,
+        <http://example.org/klm/route/BDL-ATL>,
+        <http://example.org/klm/route/IAD-SEA>,
+        <http://example.org/klm/route/MCO-MSP>,
+        <http://example.org/klm/route/MSP-MCO>,
+        <http://example.org/klm/route/MSP-SLC> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T10:24:00-07:00"^^xsd:dateTime,
+        "2025-05-18T13:07:00-06:00"^^xsd:dateTime,
+        "2025-05-18T15:18:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:08:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:57:00-05:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:15:00-05:00"^^xsd:dateTime,
+        "2025-05-18T12:57:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:50:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:20:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1032> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T23:57:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:18:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:11:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:18:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:46:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:26:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1032"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-PBI>,
+        <http://example.org/klm/route/DTW-ORD>,
+        <http://example.org/klm/route/MCO-MIA>,
+        <http://example.org/klm/route/MIA-MCO>,
+        <http://example.org/klm/route/MSP-ATL>,
+        <http://example.org/klm/route/ORD-DTW>,
+        <http://example.org/klm/route/PBI-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T23:57:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:18:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:11:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:18:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:46:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:26:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T20:25:00-05:00"^^xsd:dateTime,
+        "2025-05-18T15:53:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:51:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:55:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:50:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:10:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1046> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T13:31:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:55:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:24:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1046"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-FLL>,
+        <http://example.org/klm/route/LAX-PDX>,
+        <http://example.org/klm/route/MSP-ATL>,
+        <http://example.org/klm/route/PDX-LAX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T13:31:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:55:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:24:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T10:00:00-05:00"^^xsd:dateTime,
+        "2025-05-18T15:22:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:50:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:59:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1060> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T19:19:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:14:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1060"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-AUS>,
+        <http://example.org/klm/route/AUS-ATL> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:54:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:20:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T17:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1085> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T23:56:00-05:00"^^xsd:dateTime,
+        "2025-05-18T09:23:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:36:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:25:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:15:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1085"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-MCI>,
+        <http://example.org/klm/route/DCA-DTW>,
+        <http://example.org/klm/route/DTW-DCA>,
+        <http://example.org/klm/route/SFO-SLC>,
+        <http://example.org/klm/route/SLC-SFO> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T23:56:00-05:00"^^xsd:dateTime,
+        "2025-05-18T09:23:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:36:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:25:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:15:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T22:44:00-04:00"^^xsd:dateTime,
+        "2025-05-18T07:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:01:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:13:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:20:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1088> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T15:57:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:10:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1088"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/SFO-SLC>,
+        <http://example.org/klm/route/SLC-SFO> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:10:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:00:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:05:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:05:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1115> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T10:26:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:22:00-05:00"^^xsd:dateTime,
+        "2025-05-18T15:26:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:58:00-05:00"^^xsd:dateTime,
+        "2025-05-18T20:29:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:55:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1115"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-DAL>,
+        <http://example.org/klm/route/DAL-ATL>,
+        <http://example.org/klm/route/FCA-MSP>,
+        <http://example.org/klm/route/LAX-MSY>,
+        <http://example.org/klm/route/MSP-SAN>,
+        <http://example.org/klm/route/MSY-LAX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T10:26:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:22:00-05:00"^^xsd:dateTime,
+        "2025-05-18T15:26:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:58:00-05:00"^^xsd:dateTime,
+        "2025-05-18T20:29:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:55:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:35:00-06:00"^^xsd:dateTime,
+        "2025-05-18T10:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:22:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:10:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:40:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:50:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1118> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T08:05:00-05:00"^^xsd:dateTime,
+        "2025-05-18T10:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:51:00-04:00"^^xsd:dateTime,
+        "2025-05-19T00:01:00-05:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1118"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/MCO-MSP>,
+        <http://example.org/klm/route/MSP-MCO>,
+        <http://example.org/klm/route/PHL-ATL>,
+        <http://example.org/klm/route/PIT-MSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T08:05:00-05:00"^^xsd:dateTime,
+        "2025-05-18T10:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:51:00-04:00"^^xsd:dateTime,
+        "2025-05-19T00:01:00-05:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:30:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:20:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1136> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T08:56:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:29:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:20:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1136"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DTW-EWR>,
+        <http://example.org/klm/route/EWR-DTW>,
+        <http://example.org/klm/route/OMA-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T08:56:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:29:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:20:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T05:35:00-05:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:20:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1192> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T09:18:00-07:00"^^xsd:dateTime,
+        "2025-05-18T12:01:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:10:00-06:00"^^xsd:dateTime,
+        "2025-05-18T20:13:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:37:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:50:00-05:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1192"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DEN-MSP>,
+        <http://example.org/klm/route/JFK-ATL>,
+        <http://example.org/klm/route/MCO-MSP>,
+        <http://example.org/klm/route/MSP-MCO>,
+        <http://example.org/klm/route/SJC-SLC>,
+        <http://example.org/klm/route/SLC-SJC> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T09:18:00-07:00"^^xsd:dateTime,
+        "2025-05-18T12:01:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:10:00-06:00"^^xsd:dateTime,
+        "2025-05-18T20:13:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:37:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:50:00-05:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T08:00:00-06:00"^^xsd:dateTime,
+        "2025-05-18T09:00:00-06:00"^^xsd:dateTime,
+        "2025-05-18T10:13:00-07:00"^^xsd:dateTime,
+        "2025-05-18T15:55:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:25:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1249> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T10:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:51:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:01:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:40:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1249"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-LEX>,
+        <http://example.org/klm/route/ATL-TPA>,
+        <http://example.org/klm/route/DTW-FLL>,
+        <http://example.org/klm/route/FLL-DTW>,
+        <http://example.org/klm/route/LEX-ATL>,
+        <http://example.org/klm/route/TPA-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T10:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:51:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:01:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:40:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:50:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:23:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:16:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:59:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1277> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T15:44:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:01:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1277"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/SLC-SNA>,
+        <http://example.org/klm/route/SNA-SLC> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:11:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:53:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:15:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:01:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1293> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T10:45:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:08:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:58:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1293"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/SLC-SNA>,
+        <http://example.org/klm/route/SNA-SEA>,
+        <http://example.org/klm/route/SNA-SLC> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T10:45:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:08:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:58:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:45:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:10:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:05:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1323> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T20:37:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:33:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1323"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-MIA>,
+        <http://example.org/klm/route/MIA-ATL> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T19:32:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:49:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T17:34:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:40:00-04:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1334> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T09:08:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:08:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:08:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:10:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1334"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-FLL>,
+        <http://example.org/klm/route/ATL-RDU>,
+        <http://example.org/klm/route/FLL-ATL>,
+        <http://example.org/klm/route/RDU-ATL>,
+        <http://example.org/klm/route/SAN-SEA>,
+        <http://example.org/klm/route/SEA-SAN> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T09:08:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:08:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:08:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:10:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T09:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:17:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:10:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1338> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T08:34:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:39:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:52:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:34:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1338"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-MSY>,
+        <http://example.org/klm/route/BTR-ATL>,
+        <http://example.org/klm/route/MSY-ATL>,
+        <http://example.org/klm/route/MSY-LAX>,
+        <http://example.org/klm/route/ORF-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T08:34:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:39:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:52:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:34:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:00:00-05:00"^^xsd:dateTime,
+        "2025-05-18T06:30:00-05:00"^^xsd:dateTime,
+        "2025-05-18T08:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:02:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1342> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T16:07:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:49:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1342"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/SLC-SMF>,
+        <http://example.org/klm/route/SMF-SLC> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:20:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:35:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:15:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1352> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T07:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:31:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:15:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1352"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ROA-ATL>,
+        <http://example.org/klm/route/SFO-SLC>,
+        <http://example.org/klm/route/SLC-SFO> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T07:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:31:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:15:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:27:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:21:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1373> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T08:38:00-06:00"^^xsd:dateTime,
+        "2025-05-18T18:58:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:01:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:07:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1373"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-MCO>,
+        <http://example.org/klm/route/DTW-PHL>,
+        <http://example.org/klm/route/MCO-ATL>,
+        <http://example.org/klm/route/PHL-DTW>,
+        <http://example.org/klm/route/PHX-SLC> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T08:38:00-06:00"^^xsd:dateTime,
+        "2025-05-18T18:58:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:01:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:07:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:20:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:18:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1387> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T19:04:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:44:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1387"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/JFK-MSY>,
+        <http://example.org/klm/route/MSY-JFK> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:49:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:59:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T16:20:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:45:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1412> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T16:04:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:06:00-05:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1412"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/MSP-PHX>,
+        <http://example.org/klm/route/PHX-MSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:04:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:06:00-05:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T14:42:00-05:00"^^xsd:dateTime,
+        "2025-05-18T17:08:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1427> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T08:51:00-04:00"^^xsd:dateTime,
+        "2025-05-18T09:40:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:13:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:49:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:42:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:20:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:47:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1427"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DTW-MCO>,
+        <http://example.org/klm/route/DTW-RDU>,
+        <http://example.org/klm/route/JFK-ATL>,
+        <http://example.org/klm/route/MCO-DTW>,
+        <http://example.org/klm/route/MSP-STL>,
+        <http://example.org/klm/route/RDU-DTW>,
+        <http://example.org/klm/route/STL-MSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T08:51:00-04:00"^^xsd:dateTime,
+        "2025-05-18T09:40:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:13:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:49:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:42:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:20:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:47:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:10:00-05:00"^^xsd:dateTime,
+        "2025-05-18T09:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:10:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:07:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1439> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T19:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:05:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:36:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:09:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1439"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BOS-ORD>,
+        <http://example.org/klm/route/BOS-TPA>,
+        <http://example.org/klm/route/ORD-BOS>,
+        <http://example.org/klm/route/TPA-BOS> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T19:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:05:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:36:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:09:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:15:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1460> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T13:52:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:38:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:30:00-06:00"^^xsd:dateTime,
+        "2025-05-18T20:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:34:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1460"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-AVL>,
+        <http://example.org/klm/route/ATL-HSV>,
+        <http://example.org/klm/route/AVL-ATL>,
+        <http://example.org/klm/route/DEN-SEA>,
+        <http://example.org/klm/route/HSV-ATL>,
+        <http://example.org/klm/route/SEA-DEN> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T13:52:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:38:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:30:00-06:00"^^xsd:dateTime,
+        "2025-05-18T20:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:34:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T14:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:40:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:45:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:30:00-06:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1463> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:41:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:55:00-06:00"^^xsd:dateTime,
+        "2025-05-18T21:11:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1463"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BOI-SLC>,
+        <http://example.org/klm/route/IAH-MSP>,
+        <http://example.org/klm/route/SLC-BOI> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T18:41:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:55:00-06:00"^^xsd:dateTime,
+        "2025-05-18T21:11:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T16:00:00-05:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-06:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1494> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:28:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:00:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1494"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-STL>,
+        <http://example.org/klm/route/STL-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:28:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:00:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T17:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:25:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1496> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:05:00-07:00"^^xsd:dateTime,
+        "2025-05-18T23:59:00-05:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1496"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/MSP-PHX>,
+        <http://example.org/klm/route/PHX-MSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:05:00-07:00"^^xsd:dateTime,
+        "2025-05-18T23:59:00-05:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:30:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:55:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1536> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T09:57:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:58:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:20:00-05:00"^^xsd:dateTime,
+        "2025-05-18T20:34:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:28:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1536"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/IAH-SLC>,
+        <http://example.org/klm/route/MSP-TPA>,
+        <http://example.org/klm/route/SLC-IAH>,
+        <http://example.org/klm/route/STL-ATL>,
+        <http://example.org/klm/route/TPA-MSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T09:57:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:58:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:20:00-05:00"^^xsd:dateTime,
+        "2025-05-18T20:34:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:28:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:20:00-05:00"^^xsd:dateTime,
+        "2025-05-18T12:45:00-05:00"^^xsd:dateTime,
+        "2025-05-18T14:19:00-06:00"^^xsd:dateTime,
+        "2025-05-18T18:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:20:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1566> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T22:48:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:06:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:26:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1566"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-JAX>,
+        <http://example.org/klm/route/DTW-IAD>,
+        <http://example.org/klm/route/JAX-ATL>,
+        <http://example.org/klm/route/LGA-MSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T22:48:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:06:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:26:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T21:20:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:10:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1567> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T23:09:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:29:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:50:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:30:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:57:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1567"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DTW-ORD>,
+        <http://example.org/klm/route/MIA-JFK>,
+        <http://example.org/klm/route/MSP-BUF>,
+        <http://example.org/klm/route/MSP-ORD>,
+        <http://example.org/klm/route/ORD-DTW>,
+        <http://example.org/klm/route/ORD-MSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T23:09:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:29:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:50:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:30:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:57:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T19:55:00-05:00"^^xsd:dateTime,
+        "2025-05-18T07:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:00:00-05:00"^^xsd:dateTime,
+        "2025-05-18T12:17:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:30:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1628> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T08:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T09:51:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:20:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:48:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1628"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-AVL>,
+        <http://example.org/klm/route/ATL-GNV>,
+        <http://example.org/klm/route/AVL-ATL>,
+        <http://example.org/klm/route/GNV-ATL>,
+        <http://example.org/klm/route/IAH-SLC>,
+        <http://example.org/klm/route/SGF-ATL>,
+        <http://example.org/klm/route/SLC-IAH> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T08:43:00-04:00"^^xsd:dateTime,
+        "2025-05-18T09:51:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:20:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:48:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:00:00-05:00"^^xsd:dateTime,
+        "2025-05-18T08:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:36:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:16:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:19:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:40:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1656> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T10:47:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:27:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:22:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:20:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:40:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:58:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:15:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1656"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BOS-DTW>,
+        <http://example.org/klm/route/DTW-ORD>,
+        <http://example.org/klm/route/DTW-RSW>,
+        <http://example.org/klm/route/ORD-DTW>,
+        <http://example.org/klm/route/RSW-DTW>,
+        <http://example.org/klm/route/SAT-SLC>,
+        <http://example.org/klm/route/SLC-SAT> ;
+    klm:isDelayed false ;
+    klm:legStatus "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T10:47:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:27:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:22:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:20:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:40:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:58:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:15:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T08:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:29:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:40:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:22:00-05:00"^^xsd:dateTime,
+        "2025-05-18T19:35:00-05:00"^^xsd:dateTime ;
+    klm:status "CANCELLED" .
+
+<http://example.org/klm/flight/20250518+DL+1672> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:33:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:50:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1672"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/LAS-SLC>,
+        <http://example.org/klm/route/SLC-LAS> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:03:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:39:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:35:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:10:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+1690> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T11:17:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:55:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:54:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:14:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:03:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:58:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1690"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-MLB>,
+        <http://example.org/klm/route/DTW-IAH>,
+        <http://example.org/klm/route/IAH-DTW>,
+        <http://example.org/klm/route/LAS-SLC>,
+        <http://example.org/klm/route/MLB-ATL>,
+        <http://example.org/klm/route/SLC-LAS> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T11:17:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:55:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:54:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:14:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:03:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:58:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T08:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T09:44:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:30:00-05:00"^^xsd:dateTime,
+        "2025-05-18T17:35:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:30:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1717> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T11:49:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:34:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:05:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1717"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-EYW>,
+        <http://example.org/klm/route/ATL-GSO>,
+        <http://example.org/klm/route/EYW-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T11:49:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:34:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:05:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T09:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:31:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:50:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1719> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T21:07:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:02:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:00:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1719"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-BNA>,
+        <http://example.org/klm/route/PHX-SLC>,
+        <http://example.org/klm/route/SLC-PHX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T21:07:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:02:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:00:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T21:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:20:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:25:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+1738> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T16:55:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:44:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "1738"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/PHX-SLC>,
+        <http://example.org/klm/route/SLC-PHX> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:20:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:00:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:40:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:25:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+2021> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T23:36:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:25:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:56:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:44:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:03:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2021"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-FLL>,
+        <http://example.org/klm/route/ATL-LIT>,
+        <http://example.org/klm/route/ATL-MEM>,
+        <http://example.org/klm/route/FLL-ATL>,
+        <http://example.org/klm/route/LAS-LAX>,
+        <http://example.org/klm/route/LAX-LAS>,
+        <http://example.org/klm/route/MEM-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T23:36:00-05:00"^^xsd:dateTime,
+        "2025-05-18T13:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:25:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:56:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:44:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:03:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T22:59:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:02:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:35:00-05:00"^^xsd:dateTime,
+        "2025-05-18T15:30:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2035> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T13:26:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:16:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:39:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2035"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-CLE>,
+        <http://example.org/klm/route/ATL-MCO>,
+        <http://example.org/klm/route/CLE-ATL>,
+        <http://example.org/klm/route/MCO-ATL> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T13:26:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:48:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:39:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T11:42:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:55:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2039> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T13:52:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:02:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:06:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:22:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:22:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:46:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2039"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-GSO>,
+        <http://example.org/klm/route/ATL-MEM>,
+        <http://example.org/klm/route/DTW-ORD>,
+        <http://example.org/klm/route/GSO-ATL>,
+        <http://example.org/klm/route/MEM-ATL>,
+        <http://example.org/klm/route/ORD-DTW> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T13:52:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:02:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:06:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:22:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:22:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:46:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T12:33:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:59:00-05:00"^^xsd:dateTime,
+        "2025-05-18T17:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:20:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2077> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T11:22:00-06:00"^^xsd:dateTime,
+        "2025-05-18T14:28:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:07:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:50:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2077"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DEN-SEA>,
+        <http://example.org/klm/route/SEA-DEN>,
+        <http://example.org/klm/route/SLC-SNA>,
+        <http://example.org/klm/route/SNA-SLC> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T11:22:00-06:00"^^xsd:dateTime,
+        "2025-05-18T14:28:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:07:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:50:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:35:00-07:00"^^xsd:dateTime,
+        "2025-05-18T12:25:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:15:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:00:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2130> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T00:04:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:46:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:56:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:11:00-05:00"^^xsd:dateTime,
+        "2025-05-18T17:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:41:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:12:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:48:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:32:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:56:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2130"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-DAB>,
+        <http://example.org/klm/route/ATL-PNS>,
+        <http://example.org/klm/route/ATL-VPS>,
+        <http://example.org/klm/route/LAX-BOS>,
+        <http://example.org/klm/route/MIA-MSP>,
+        <http://example.org/klm/route/MSP-MIA>,
+        <http://example.org/klm/route/ONT-SEA>,
+        <http://example.org/klm/route/PNS-ATL>,
+        <http://example.org/klm/route/SEA-ONT>,
+        <http://example.org/klm/route/VPS-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T00:04:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:46:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:56:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:11:00-05:00"^^xsd:dateTime,
+        "2025-05-18T17:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:41:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:12:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:48:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:32:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:56:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T22:37:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T09:45:00-05:00"^^xsd:dateTime,
+        "2025-05-18T10:25:00-07:00"^^xsd:dateTime,
+        "2025-05-18T12:55:00-05:00"^^xsd:dateTime,
+        "2025-05-18T14:59:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:20:00-05:00"^^xsd:dateTime,
+        "2025-05-18T15:15:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:59:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2197> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:04:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:22:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2197"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/MSY-SLC>,
+        <http://example.org/klm/route/SLC-MSY> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:19:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:59:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T14:00:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:14:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+2263> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T09:49:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:55:00-06:00"^^xsd:dateTime,
+        "2025-05-18T21:11:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2263"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BOI-SLC>,
+        <http://example.org/klm/route/SLC-BOI>,
+        <http://example.org/klm/route/TPA-MSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T09:49:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:55:00-06:00"^^xsd:dateTime,
+        "2025-05-18T21:11:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-06:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2343> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T19:48:00-07:00"^^xsd:dateTime,
+        "2025-05-18T10:11:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:14:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:27:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2343"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-FLL>,
+        <http://example.org/klm/route/BOS-RDU>,
+        <http://example.org/klm/route/FLL-ATL>,
+        <http://example.org/klm/route/RDU-BOS>,
+        <http://example.org/klm/route/SEA-SJC> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T19:48:00-07:00"^^xsd:dateTime,
+        "2025-05-18T10:11:00-04:00"^^xsd:dateTime,
+        "2025-05-18T12:14:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:27:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T17:35:00-07:00"^^xsd:dateTime,
+        "2025-05-18T08:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:11:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:20:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2410> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T15:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:18:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:09:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2410"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/CAE-ATL>,
+        <http://example.org/klm/route/MSY-SLC>,
+        <http://example.org/klm/route/SLC-MSY> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T15:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:18:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:09:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T14:22:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:59:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:35:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2428> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T10:31:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:11:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:01:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:15:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2428"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-IAH>,
+        <http://example.org/klm/route/MIA-JFK>,
+        <http://example.org/klm/route/SAN-SEA>,
+        <http://example.org/klm/route/SEA-SAN> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T10:31:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:11:00-07:00"^^xsd:dateTime,
+        "2025-05-18T21:01:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:15:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:20:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:53:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:20:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2442> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T16:59:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:16:00-07:00"^^xsd:dateTime,
+        "2025-05-18T23:21:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2442"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BOS-JFK>,
+        <http://example.org/klm/route/PHX-SEA>,
+        <http://example.org/klm/route/SEA-PHX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T16:59:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:16:00-07:00"^^xsd:dateTime,
+        "2025-05-18T23:21:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T15:20:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:05:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2473> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T22:12:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:09:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:20:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:26:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2473"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-HOU>,
+        <http://example.org/klm/route/DTW-GRR>,
+        <http://example.org/klm/route/HOU-ATL>,
+        <http://example.org/klm/route/LGA-MSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T22:12:00-04:00"^^xsd:dateTime,
+        "2025-05-18T10:09:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:20:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:26:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T21:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:16:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:18:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2481> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T09:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:48:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:45:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2481"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/CLT-DTW>,
+        <http://example.org/klm/route/DTW-CLT>,
+        <http://example.org/klm/route/LAX-MSY>,
+        <http://example.org/klm/route/MSY-LAX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T09:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T11:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:48:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:45:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:30:00-04:00"^^xsd:dateTime,
+        "2025-05-18T09:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:40:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2534> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T07:48:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:10:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:06:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2534"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/PDX-SLC>,
+        <http://example.org/klm/route/SAT-LAX>,
+        <http://example.org/klm/route/SLC-PDX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T07:48:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:10:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:06:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:30:00-05:00"^^xsd:dateTime,
+        "2025-05-18T17:15:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:15:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2551> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T16:08:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:17:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2551"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/LAX-PDX>,
+        <http://example.org/klm/route/PDX-LAX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:08:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:31:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T13:43:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:05:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+2606> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T14:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:05:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:41:00-07:00"^^xsd:dateTime,
+        "2025-05-18T16:59:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:19:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2606"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/EWR-MSP>,
+        <http://example.org/klm/route/LAX-SEA>,
+        <http://example.org/klm/route/LAX-SFO>,
+        <http://example.org/klm/route/MSP-EWR>,
+        <http://example.org/klm/route/SFO-LAX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T14:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:05:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:41:00-07:00"^^xsd:dateTime,
+        "2025-05-18T16:59:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:19:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T10:25:00-05:00"^^xsd:dateTime,
+        "2025-05-18T15:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T14:05:00-07:00"^^xsd:dateTime,
+        "2025-05-18T15:25:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2631> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T16:15:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:11:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2631"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/PDX-SLC>,
+        <http://example.org/klm/route/SLC-PDX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:15:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:11:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:20:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:21:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+2666> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T08:49:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:51:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:45:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:10:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2666"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/MCI-MSP>,
+        <http://example.org/klm/route/MSP-MCI>,
+        <http://example.org/klm/route/SAN-SLC>,
+        <http://example.org/klm/route/SLC-SAN> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T08:49:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:51:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:45:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:10:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:20:00-05:00"^^xsd:dateTime,
+        "2025-05-18T10:27:00-05:00"^^xsd:dateTime,
+        "2025-05-18T17:50:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:19:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2676> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T08:21:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:08:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:35:00-05:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2676"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BOS-ORD>,
+        <http://example.org/klm/route/DCA-DTW>,
+        <http://example.org/klm/route/DTW-DCA>,
+        <http://example.org/klm/route/SFO-SEA> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T08:21:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:08:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:35:00-05:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T06:05:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:30:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+2759> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T20:14:00-06:00"^^xsd:dateTime,
+        "2025-05-18T22:54:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2759"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DEN-SEA>,
+        <http://example.org/klm/route/SEA-DEN> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T17:50:00-06:00"^^xsd:dateTime,
+        "2025-05-18T20:43:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T14:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:45:00-06:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+2879> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T19:49:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:45:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2879"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-ORD>,
+        <http://example.org/klm/route/ORD-ATL> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:48:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:11:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T17:35:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+2896> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T17:44:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:41:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:36:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:05:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:51:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2896"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-TPA>,
+        <http://example.org/klm/route/BOS-DTW>,
+        <http://example.org/klm/route/CHS-ATL>,
+        <http://example.org/klm/route/LAS-SEA>,
+        <http://example.org/klm/route/MSP-BDL>,
+        <http://example.org/klm/route/SEA-LAS>,
+        <http://example.org/klm/route/TPA-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T17:44:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:41:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:36:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:05:00-07:00"^^xsd:dateTime,
+        "2025-05-18T22:51:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T14:10:00-05:00"^^xsd:dateTime,
+        "2025-05-18T16:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:09:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:40:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:45:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:50:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+3001> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T09:14:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:36:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:12:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:48:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "3001"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-VPS>,
+        <http://example.org/klm/route/BNA-ATL>,
+        <http://example.org/klm/route/SAV-ATL>,
+        <http://example.org/klm/route/VPS-ATL> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-18T09:14:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:36:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:12:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:48:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T07:00:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:19:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:59:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:31:00-05:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+3132> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:39:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:11:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "3132"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ATL-MSY>,
+        <http://example.org/klm/route/MSY-ATL> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:05:00-05:00"^^xsd:dateTime,
+        "2025-05-18T21:50:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T17:33:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:10:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+3770> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T15:41:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:32:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "3770"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/MFR-SEA>,
+        <http://example.org/klm/route/SEA-MFR> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:02:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:44:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T14:25:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:10:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+3777> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T16:55:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:21:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "3777"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/FAT-SLC>,
+        <http://example.org/klm/route/SLC-FAT> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:21:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:44:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:33:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:01:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+3792> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T22:25:00-05:00"^^xsd:dateTime,
+        "2025-05-18T10:39:00-07:00"^^xsd:dateTime,
+        "2025-05-18T11:01:00-07:00"^^xsd:dateTime,
+        "2025-05-18T13:45:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:02:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:16:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:49:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "3792"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/GEG-SEA>,
+        <http://example.org/klm/route/LAX-TUS>,
+        <http://example.org/klm/route/MSP-MDW>,
+        <http://example.org/klm/route/SEA-GEG>,
+        <http://example.org/klm/route/SLC-TUS>,
+        <http://example.org/klm/route/TUS-LAX>,
+        <http://example.org/klm/route/YVR-SEA> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T22:25:00-05:00"^^xsd:dateTime,
+        "2025-05-18T10:39:00-07:00"^^xsd:dateTime,
+        "2025-05-18T11:01:00-07:00"^^xsd:dateTime,
+        "2025-05-18T13:45:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:02:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:16:00-07:00"^^xsd:dateTime,
+        "2025-05-18T18:49:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T20:35:00-05:00"^^xsd:dateTime,
+        "2025-05-18T09:20:00-07:00"^^xsd:dateTime,
+        "2025-05-18T12:00:00-07:00"^^xsd:dateTime,
+        "2025-05-18T16:18:00-06:00"^^xsd:dateTime,
+        "2025-05-18T15:50:00-07:00"^^xsd:dateTime,
+        "2025-05-18T17:30:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+3798> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T17:10:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:45:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "3798"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/FCA-SLC>,
+        <http://example.org/klm/route/SLC-FCA> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T17:25:00-06:00"^^xsd:dateTime,
+        "2025-05-18T19:54:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:40:00-06:00"^^xsd:dateTime,
+        "2025-05-18T18:05:00-06:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+3833> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T15:57:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:24:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "3833"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/LWS-SLC>,
+        <http://example.org/klm/route/SLC-LWS> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:06:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:37:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:30:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:00:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+3858> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T22:47:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:42:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:39:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:43:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:58:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:58:00-07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "3858"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DTW-IAD>,
+        <http://example.org/klm/route/DTW-MDW>,
+        <http://example.org/klm/route/DTW-OMA>,
+        <http://example.org/klm/route/LAX-RNO>,
+        <http://example.org/klm/route/MDW-DTW>,
+        <http://example.org/klm/route/RNO-LAX> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T22:47:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:42:00-05:00"^^xsd:dateTime,
+        "2025-05-18T11:39:00-04:00"^^xsd:dateTime,
+        "2025-05-18T16:43:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:58:00-05:00"^^xsd:dateTime,
+        "2025-05-18T18:58:00-07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T21:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T08:25:00-04:00"^^xsd:dateTime,
+        "2025-05-18T09:30:00-05:00"^^xsd:dateTime,
+        "2025-05-18T15:15:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T17:20:00-07:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+3994> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T15:59:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:46:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "3994"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/PSP-SLC>,
+        <http://example.org/klm/route/SLC-PSP> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:28:00-07:00"^^xsd:dateTime,
+        "2025-05-18T19:54:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:34:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:08:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+4102> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T16:18:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:15:00-06:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "4102"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BUR-SLC>,
+        <http://example.org/klm/route/SLC-BUR> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T16:18:00-07:00"^^xsd:dateTime,
+        "2025-05-18T20:15:00-06:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T15:15:00-06:00"^^xsd:dateTime,
+        "2025-05-18T17:19:00-07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+5027> a klm:Flight ;
+    klm:estimatedArrival "2025-05-17T23:32:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:46:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:04:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "5027"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BUF-JFK>,
+        <http://example.org/klm/route/JFK-BUF>,
+        <http://example.org/klm/route/MSP-CHS>,
+        <http://example.org/klm/route/YYZ-DTW> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "CANCELLED" ;
+    klm:scheduledArrival "2025-05-17T23:32:00-04:00"^^xsd:dateTime,
+        "2025-05-18T13:40:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:46:00-04:00"^^xsd:dateTime,
+        "2025-05-18T22:04:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-17T19:45:00-05:00"^^xsd:dateTime,
+        "2025-05-18T12:20:00-04:00"^^xsd:dateTime,
+        "2025-05-18T18:00:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:20:00-04:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+DL+5619> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:50:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:47:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "5619"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BOS-MKE>,
+        <http://example.org/klm/route/MKE-BOS> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:56:00-05:00"^^xsd:dateTime,
+        "2025-05-18T22:59:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T17:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:40:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+5667> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T19:07:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:44:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "5667"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BOS-DCA>,
+        <http://example.org/klm/route/DCA-BOS> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T19:07:00-04:00"^^xsd:dateTime,
+        "2025-05-18T23:44:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T17:10:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:59:00-04:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+DL+5767> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:39:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:03:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "5767"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BOS-MCI>,
+        <http://example.org/klm/route/MCI-BOS> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T18:43:00-05:00"^^xsd:dateTime,
+        "2025-05-18T23:29:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T16:05:00-04:00"^^xsd:dateTime,
+        "2025-05-18T19:25:00-05:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+KL+0701> a klm:Flight ;
+    klm:estimatedArrival "2025-05-19T05:33:00-03:00"^^xsd:dateTime,
+        "2025-05-19T08:17:00-04:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "701"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-EZE>,
+        <http://example.org/klm/route/EZE-SCL> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-19T05:30:00-03:00"^^xsd:dateTime,
+        "2025-05-19T08:25:00-04:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T20:50:00+02:00"^^xsd:dateTime,
+        "2025-05-19T07:10:00-03:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+KL+0767> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T18:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:04:00-04:00"^^xsd:dateTime,
+        "2025-05-19T12:43:00+02:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "767"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-AUA>,
+        <http://example.org/klm/route/AUA-BON>,
+        <http://example.org/klm/route/BON-AMS> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T17:55:00-04:00"^^xsd:dateTime,
+        "2025-05-18T20:05:00-04:00"^^xsd:dateTime,
+        "2025-05-19T12:45:00+02:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T13:55:00+02:00"^^xsd:dateTime,
+        "2025-05-18T19:15:00-04:00"^^xsd:dateTime,
+        "2025-05-18T21:15:00-04:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+KL+0807> a klm:Flight ;
+    klm:estimatedArrival "2025-05-19T15:00:00+08:00"^^xsd:dateTime,
+        "2025-05-19T18:45:00+08:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "807"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-TPE>,
+        <http://example.org/klm/route/TPE-MNL> ;
+    klm:isDelayed false ;
+    klm:legStatus "CANCELLED" ;
+    klm:scheduledArrival "2025-05-19T15:00:00+08:00"^^xsd:dateTime,
+        "2025-05-19T18:45:00+08:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T20:20:00+02:00"^^xsd:dateTime,
+        "2025-05-19T16:20:00+08:00"^^xsd:dateTime ;
+    klm:status "CANCELLED" .
+
+<http://example.org/klm/flight/20250518+KL+0809> a klm:Flight ;
+    klm:estimatedArrival "2025-05-19T15:25:00+08:00"^^xsd:dateTime,
+        "2025-05-19T18:01:00+07:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "809"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-KUL>,
+        <http://example.org/klm/route/KUL-CGK> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-19T15:40:00+08:00"^^xsd:dateTime,
+        "2025-05-19T18:15:00+07:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T21:25:00+02:00"^^xsd:dateTime,
+        "2025-05-19T17:05:00+08:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+KL+0835> a klm:Flight ;
+    klm:estimatedArrival "2025-05-19T15:46:00+08:00"^^xsd:dateTime,
+        "2025-05-19T19:30:00+08:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "835"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-SIN>,
+        <http://example.org/klm/route/SIN-DPS> ;
+    klm:isDelayed true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-19T15:30:00+08:00"^^xsd:dateTime,
+        "2025-05-19T19:25:00+08:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T20:50:00+02:00"^^xsd:dateTime,
+        "2025-05-19T16:50:00+08:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+KQ+0886> a klm:Flight ;
+    klm:estimatedArrival "2025-05-19T13:30:00+07:00"^^xsd:dateTime,
+        "2025-05-19T18:46:00+08:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "886"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/BKK-CAN>,
+        <http://example.org/klm/route/NBO-BKK> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-19T13:30:00+07:00"^^xsd:dateTime,
+        "2025-05-19T19:00:00+08:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T23:59:00+03:00"^^xsd:dateTime,
+        "2025-05-19T15:05:00+07:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+QF+0002> a klm:Flight ;
+    klm:estimatedArrival "2025-05-19T17:25:00+08:00"^^xsd:dateTime,
+        "2025-05-20T05:10:00+10:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "2"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/LHR-SIN>,
+        <http://example.org/klm/route/SIN-SYD> ;
+    klm:isDelayed false ;
+    klm:legStatus "ARRIVED",
+        "DELAYED_DEPARTURE" ;
+    klm:scheduledArrival "2025-05-19T17:25:00+08:00"^^xsd:dateTime,
+        "2025-05-20T05:10:00+10:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T20:50:00+01:00"^^xsd:dateTime,
+        "2025-05-19T19:30:00+08:00"^^xsd:dateTime ;
+    klm:status "ON_TIME" .
+
+<http://example.org/klm/flight/20250518+SS+0637> a klm:Flight ;
+    klm:estimatedArrival "2025-05-18T19:39:00+04:00"^^xsd:dateTime,
+        "2025-05-19T07:45:00+02:00"^^xsd:dateTime,
+        "2025-05-19T09:50:00+02:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "637"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/DZA-RUN>,
+        <http://example.org/klm/route/MRS-LYS>,
+        <http://example.org/klm/route/RUN-MRS> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-18T19:30:00+04:00"^^xsd:dateTime,
+        "2025-05-19T07:45:00+02:00"^^xsd:dateTime,
+        "2025-05-19T09:50:00+02:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T16:15:00+03:00"^^xsd:dateTime,
+        "2025-05-18T22:30:00+04:00"^^xsd:dateTime,
+        "2025-05-19T08:45:00+02:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+<http://example.org/klm/flight/20250518+SS+0774> a klm:Flight ;
+    klm:estimatedArrival "2025-05-19T10:09:00+04:00"^^xsd:dateTime,
+        "2025-05-19T10:30:00+03:00"^^xsd:dateTime ;
+    klm:flightDate "2025-05-18"^^xsd:date ;
+    klm:flightNumber "774"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/ORY-RUN>,
+        <http://example.org/klm/route/RUN-TNR> ;
+    klm:isDelayed false,
+        true ;
+    klm:legStatus "ARRIVED" ;
+    klm:scheduledArrival "2025-05-19T10:00:00+04:00"^^xsd:dateTime,
+        "2025-05-19T10:30:00+03:00"^^xsd:dateTime ;
+    klm:scheduledDeparture "2025-05-18T21:00:00+02:00"^^xsd:dateTime,
+        "2025-05-19T11:00:00+04:00"^^xsd:dateTime ;
+    klm:status "ARRIVED" .
+
+klm:Airline a owl:Class ;
+    rdfs:label "Airline" ;
+    rdfs:comment "An airline company" .
+
+klm:HubAirport a owl:Class ;
+    rdfs:label "Hub Airport" ;
+    rdfs:comment "An airport that serves as a hub for an airline" ;
+    rdfs:subClassOf klm:Airport .
+
+<http://example.org/klm/city/chicago> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "CHICAGO" ;
+    schema1:name "CHICAGO" .
+
+<http://example.org/klm/city/dallas> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "DALLAS" ;
+    schema1:name "DALLAS" .
+
+<http://example.org/klm/city/houston> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "HOUSTON" ;
+    schema1:name "HOUSTON" .
+
+<http://example.org/klm/city/los_angeles> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "LOS ANGELES" ;
+    schema1:name "LOS ANGELES" .
+
+<http://example.org/klm/city/paris> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/france> ;
+    klm:name "PARIS" ;
+    schema1:name "PARIS" .
+
+<http://example.org/klm/city/washington> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "WASHINGTON" ;
+    schema1:name "WASHINGTON" .
+
+<http://example.org/klm/country/canada> a klm:Country ;
+    klm:name "CANADA" ;
+    schema1:name "CANADA" .
+
+<http://example.org/klm/country/indonesia> a klm:Country ;
+    klm:name "INDONESIA" ;
+    schema1:name "INDONESIA" .
+
+<http://example.org/klm/city/new_york> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_states> ;
+    klm:name "NEW YORK" ;
+    schema1:name "NEW YORK" .
+
+<http://example.org/klm/country/france> a klm:Country ;
+    klm:name "FRANCE" ;
+    schema1:name "FRANCE" .
+
+klm:Route a owl:Class ;
+    rdfs:label "Route" ;
+    rdfs:comment "A flight route between airports" .
+
+klm:Country a owl:Class ;
+    rdfs:label "Country" ;
+    rdfs:comment "A country" .
+
+<http://example.org/klm/country/united_states> a klm:Country ;
+    klm:name "UNITED STATES" ;
+    schema1:name "UNITED STATES" .
+
+klm:City a owl:Class ;
+    rdfs:label "City" ;
+    rdfs:comment "A city" .
+
+klm:Flight a owl:Class ;
+    rdfs:label "Flight" ;
+    rdfs:comment "A specific flight instance" .
+
+klm:Airport a owl:Class ;
+    rdfs:label "Airport" ;
+    rdfs:comment "An airport facility" .
+
