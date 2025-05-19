@@ -1,0 +1,18 @@
+{
+  "api_key": "qawc94kkpwnkcmch3vgc4cdm",
+  "api_secret": "Pb72TS5I6l",
+  "base_url": "https://api.airfranceklm.com",
+  "token_url": "https://api.airfranceklm.com/cid/token",
+  "endpoints": {
+    "flight_offers": "/opendata/flightoffers",
+    "network_schedule": "/opendata/network-and-schedule",
+    "inspire": "/opendata/inspire/amenities",
+    "baggage": "/opendata/baggages",
+    "flight_status": "/opendata/flightstatus",
+    "flights_v4": "/opendata/flightstatus/v4/flights"
+  },
+  "rate_limits": {
+    "calls_per_day": 100,
+    "calls_per_second": 1
+  }
+}
