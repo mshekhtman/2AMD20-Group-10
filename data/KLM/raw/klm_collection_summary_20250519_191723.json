@@ -1,0 +1,9 @@
+{
+  "collection_time": "2025-05-19T19:17:23.409458",
+  "results": {
+    "flight_status": "Success",
+    "baggage": "Failed",
+    "inspire": "Failed",
+    "offers": "Failed"
+  }
+}

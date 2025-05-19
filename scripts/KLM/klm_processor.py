@@ -1,8 +1,8 @@
 """
 KLM Flight Data Processor
 
-This script processes the flight status data from the KLM API into structured formats.
-Uses a specific file path by default.
+This script processes data from all available KLM API endpoints into structured formats
+for the knowledge graph.
 """
 
 import json
@@ -17,263 +17,197 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("flight_data_processing.log"),
+        logging.FileHandler("klm_data_processing.log"),
         logging.StreamHandler()
     ]
 )
-logger = logging.getLogger("FlightProcessor")
+logger = logging.getLogger("KLMProcessor")
 
-class FlightDataProcessor:
-    """Processor for KLM flight status data"""
+class KLMDataProcessor:
+    """Processor for KLM API data"""
     
-    def __init__(self, raw_dir='data/raw/klm_api', processed_dir='data/KLM/processed', specific_file=None):
+    def __init__(self, raw_dir='data/KLM/raw', processed_dir='data/KLM/processed'):
         """
-        Initialize the flight data processor
+        Initialize the KLM data processor
         
         Args:
             raw_dir: Directory containing raw KLM API data
             processed_dir: Directory for processed data
-            specific_file: Optional specific file to process instead of searching in raw_dir
         """
         self.raw_dir = raw_dir
         self.processed_dir = processed_dir
-        self.specific_file = specific_file
         os.makedirs(processed_dir, exist_ok=True)
         
-        logger.info("Flight Data Processor initialized")
+        logger.info("KLM Data Processor initialized")
     
-    def find_flight_status_file(self):
-        """Find the latest flight status file"""
-        # First check if a specific file was provided
-        if self.specific_file and os.path.exists(self.specific_file):
-            logger.info(f"Using specific file: {self.specific_file}")
-            return self.specific_file
-        
-        # Check for files in the project root
-        root_pattern = "klm_flightstatus_response_*.json"
-        root_files = glob.glob(root_pattern)
-        if root_files:
-            latest_file = max(root_files, key=os.path.getmtime)
-            logger.info(f"Found flight status file in project root: {latest_file}")
-            return latest_file
-        
-        # Look in the raw directory
-        pattern = os.path.join(self.raw_dir, "flight_status_*.json")
+    def get_latest_file(self, prefix):
+        """Get the latest file with the given prefix"""
+        pattern = os.path.join(self.raw_dir, f"{prefix}_*.json")
         files = glob.glob(pattern)
         
         if not files:
-            logger.error("No flight status files found")
+            logger.warning(f"No files found with prefix {prefix}")
             return None
         
-        # Sort by modification time (newest first)
+        # Sort by modification time (most recent first)
         latest_file = max(files, key=os.path.getmtime)
-        logger.info(f"Found flight status file in raw directory: {latest_file}")
+        logger.info(f"Latest file for {prefix}: {latest_file}")
         
         return latest_file
     
-    def process_flights(self):
-        """Process flight status data into structured formats"""
-        logger.info("Processing flight status data")
-        
-        # Find the flight status file
-        filepath = self.find_flight_status_file()
+    def load_json_data(self, filepath):
+        """Load JSON data from a file"""
         if not filepath:
             return None
         
-        # Load the data
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
-            logger.info(f"Successfully loaded data from {filepath}")
-            
-            # Check for operationalFlights key (in this specific format)
-            if "operationalFlights" not in data:
-                logger.error("Data does not contain 'operationalFlights' key. Raw keys found: " + str(list(data.keys())))
-                return None
-                
-            # Use operationalFlights as the flight data
-            flights_data = data["operationalFlights"]
-            logger.info(f"Found {len(flights_data)} operational flights in the data")
-                
+            logger.info(f"Loaded data from {filepath}")
+            return data
         except Exception as e:
-            logger.error(f"Error loading flight status data: {str(e)}")
+            logger.error(f"Error loading data from {filepath}: {str(e)}")
+            return None
+    
+    def process_flight_status(self):
+        """Process flight status data"""
+        logger.info("Processing flight status data")
+        
+        # Get the latest flight status file
+        filepath = self.get_latest_file("klm_flightstatus_response")
+        if not filepath:
+            return None
+        
+        # Load the data
+        data = self.load_json_data(filepath)
+        if not data:
+            return None
+        
+        # Check if there are flights in the data
+        if "operationalFlights" not in data:
+            logger.warning("No operational flights found in the data")
             return None
         
         # Extract flight information
         flights = []
         
-        for flight in flights_data:
-            # Basic flight information
+        for flight in data["operationalFlights"]:
             flight_info = {
                 "flight_number": flight.get("flightNumber"),
                 "flight_date": flight.get("flightScheduleDate"),
                 "flight_id": flight.get("id"),
+                "airline_code": flight.get("airline", {}).get("code"),
+                "airline_name": flight.get("airline", {}).get("name"),
                 "status": flight.get("flightStatusPublic")
             }
             
-            # Add airline information
-            if "airline" in flight:
-                flight_info["airline_code"] = flight["airline"].get("code")
-                flight_info["airline_name"] = flight["airline"].get("name")
-            
-            # Route information
-            if "route" in flight and flight["route"]:
-                flight_info["route"] = "->".join(flight["route"])
+            # Extract route information
+            if "route" in flight:
                 flight_info["origin"] = flight["route"][0] if len(flight["route"]) > 0 else None
                 flight_info["destination"] = flight["route"][-1] if len(flight["route"]) > 0 else None
             
-            # Process flight legs
-            if "flightLegs" in flight:
-                leg_count = len(flight["flightLegs"])
-                logger.info(f"Flight {flight_info['flight_number']} has {leg_count} legs")
-                
+            # Extract leg information
+            if "flightLegs" in flight and flight["flightLegs"]:
                 for leg in flight["flightLegs"]:
-                    leg_info = flight_info.copy()
+                    leg_info = flight_info.copy()  # Start with the flight information
                     
-                    # Leg status
+                    # Add leg-specific information
                     leg_info["leg_status"] = leg.get("legStatusPublic")
-                    leg_info["leg_status_name"] = leg.get("legStatusPublicLangTransl")
                     
-                    # Departure information
+                    # Add departure information
                     dep_info = leg.get("departureInformation", {})
                     if "airport" in dep_info:
-                        airport = dep_info["airport"]
-                        leg_info["departure_airport_code"] = airport.get("code")
-                        leg_info["departure_airport_name"] = airport.get("name")
+                        leg_info["departure_airport_code"] = dep_info["airport"].get("code")
+                        leg_info["departure_airport_name"] = dep_info["airport"].get("name")
                         
-                        # City information
-                        if "city" in airport:
-                            city = airport["city"]
-                            leg_info["departure_city_code"] = city.get("code")
-                            leg_info["departure_city_name"] = city.get("name")
+                        if "city" in dep_info["airport"]:
+                            leg_info["departure_city"] = dep_info["airport"]["city"].get("name")
                             
-                            # Country information
-                            if "country" in city:
-                                country = city["country"]
-                                leg_info["departure_country_code"] = country.get("code")
-                                leg_info["departure_country_name"] = country.get("name")
+                            if "country" in dep_info["airport"]["city"]:
+                                leg_info["departure_country"] = dep_info["airport"]["city"]["country"].get("name")
                         
-                        # Location information
-                        if "location" in airport:
-                            leg_info["departure_latitude"] = airport["location"].get("latitude")
-                            leg_info["departure_longitude"] = airport["location"].get("longitude")
+                        if "location" in dep_info["airport"]:
+                            leg_info["departure_latitude"] = dep_info["airport"]["location"].get("latitude")
+                            leg_info["departure_longitude"] = dep_info["airport"]["location"].get("longitude")
                     
-                    # Departure time information
+                    # Add departure time
                     if "times" in dep_info:
                         leg_info["scheduled_departure_time"] = dep_info["times"].get("scheduled")
-                        leg_info["latest_departure_time"] = dep_info["times"].get("latestPublished")
                     
-                    # Arrival information
+                    # Add arrival information
                     arr_info = leg.get("arrivalInformation", {})
                     if "airport" in arr_info:
-                        airport = arr_info["airport"]
-                        leg_info["arrival_airport_code"] = airport.get("code")
-                        leg_info["arrival_airport_name"] = airport.get("name")
+                        leg_info["arrival_airport_code"] = arr_info["airport"].get("code")
+                        leg_info["arrival_airport_name"] = arr_info["airport"].get("name")
                         
-                        # City information
-                        if "city" in airport:
-                            city = airport["city"]
-                            leg_info["arrival_city_code"] = city.get("code")
-                            leg_info["arrival_city_name"] = city.get("name")
+                        if "city" in arr_info["airport"]:
+                            leg_info["arrival_city"] = arr_info["airport"]["city"].get("name")
                             
-                            # Country information
-                            if "country" in city:
-                                country = city["country"]
-                                leg_info["arrival_country_code"] = country.get("code")
-                                leg_info["arrival_country_name"] = country.get("name")
+                            if "country" in arr_info["airport"]["city"]:
+                                leg_info["arrival_country"] = arr_info["airport"]["city"]["country"].get("name")
                         
-                        # Location information
-                        if "location" in airport:
-                            leg_info["arrival_latitude"] = airport["location"].get("latitude")
-                            leg_info["arrival_longitude"] = airport["location"].get("longitude")
+                        if "location" in arr_info["airport"]:
+                            leg_info["arrival_latitude"] = arr_info["airport"]["location"].get("latitude")
+                            leg_info["arrival_longitude"] = arr_info["airport"]["location"].get("longitude")
                     
-                    # Arrival time information
+                    # Add arrival time
                     if "times" in arr_info:
                         leg_info["scheduled_arrival_time"] = arr_info["times"].get("scheduled")
-                        leg_info["latest_arrival_time"] = arr_info["times"].get("latestPublished")
-                        
-                        # Estimated arrival time
                         if "estimated" in arr_info["times"]:
                             leg_info["estimated_arrival_time"] = arr_info["times"]["estimated"].get("value")
                     
-                    # Flight details
-                    leg_info["scheduled_duration"] = leg.get("scheduledFlightDuration")
-                    leg_info["completion_percentage"] = leg.get("completionPercentage")
-                    
-                    # Aircraft information
+                    # Add aircraft information
                     if "aircraft" in leg:
-                        aircraft = leg["aircraft"]
-                        leg_info["aircraft_type_code"] = aircraft.get("typeCode")
-                        leg_info["aircraft_type_name"] = aircraft.get("typeName")
-                        leg_info["aircraft_owner"] = aircraft.get("ownerAirlineName")
+                        leg_info["aircraft_type"] = leg["aircraft"].get("typeName")
+                        leg_info["aircraft_code"] = leg["aircraft"].get("typeCode")
+                    
+                    # Add flight duration
+                    leg_info["scheduled_duration"] = leg.get("scheduledFlightDuration")
                     
                     flights.append(leg_info)
-                    
             else:
-                # If no flight legs, just add the basic flight info
+                # If no legs, just add the flight information
                 flights.append(flight_info)
         
         # Convert to DataFrame
-        if not flights:
-            logger.warning("No flight data extracted")
-            return None
-        
         df = pd.DataFrame(flights)
         
         # Save as CSV
-        flights_csv = os.path.join(self.processed_dir, "flights.csv")
-        df.to_csv(flights_csv, index=False)
+        csv_path = os.path.join(self.processed_dir, "flights.csv")
+        df.to_csv(csv_path, index=False)
         
-        logger.info(f"Saved {len(flights)} flights to {flights_csv}")
+        logger.info(f"Processed {len(flights)} flights and saved to {csv_path}")
         
-        # Extract and process airports
-        self.process_airports(flights)
-        
-        # Extract and process airlines
-        self.process_airlines(flights)
-        
-        # Extract and process routes
-        self.process_routes(flights)
-        
-        return df
-    
-    def process_airports(self, flights):
-        """Extract and process airport information"""
-        logger.info("Extracting airport information")
-        
+        # Also extract all airports
         airports = []
         
         for flight in flights:
-            # Process departure airport
+            # Add departure airport
             if "departure_airport_code" in flight and flight["departure_airport_code"]:
                 airport = {
                     "airport_code": flight["departure_airport_code"],
-                    "airport_name": flight.get("departure_airport_name", ""),
-                    "city_code": flight.get("departure_city_code", ""),
-                    "city_name": flight.get("departure_city_name", ""),
-                    "country_code": flight.get("departure_country_code", ""),
-                    "country_name": flight.get("departure_country_name", ""),
+                    "airport_name": flight.get("departure_airport_name"),
+                    "city": flight.get("departure_city"),
+                    "country": flight.get("departure_country"),
                     "latitude": flight.get("departure_latitude"),
                     "longitude": flight.get("departure_longitude")
                 }
                 airports.append(airport)
             
-            # Process arrival airport
+            # Add arrival airport
             if "arrival_airport_code" in flight and flight["arrival_airport_code"]:
                 airport = {
                     "airport_code": flight["arrival_airport_code"],
-                    "airport_name": flight.get("arrival_airport_name", ""),
-                    "city_code": flight.get("arrival_city_code", ""),
-                    "city_name": flight.get("arrival_city_name", ""),
-                    "country_code": flight.get("arrival_country_code", ""),
-                    "country_name": flight.get("arrival_country_name", ""),
+                    "airport_name": flight.get("arrival_airport_name"),
+                    "city": flight.get("arrival_city"),
+                    "country": flight.get("arrival_country"),
                     "latitude": flight.get("arrival_latitude"),
                     "longitude": flight.get("arrival_longitude")
                 }
                 airports.append(airport)
         
-        # Remove duplicates by airport code
+        # Remove duplicates (by airport code)
         unique_airports = {}
         for airport in airports:
             code = airport["airport_code"]
@@ -281,114 +215,210 @@ class FlightDataProcessor:
                 unique_airports[code] = airport
         
         # Convert to DataFrame
-        airport_data = list(unique_airports.values())
-        
-        if not airport_data:
-            logger.warning("No airport data extracted")
-            return None
-        
-        airport_df = pd.DataFrame(airport_data)
+        airport_df = pd.DataFrame(list(unique_airports.values()))
         
         # Save as CSV
-        airport_csv = os.path.join(self.processed_dir, "airports.csv")
-        airport_df.to_csv(airport_csv, index=False)
+        airport_csv_path = os.path.join(self.processed_dir, "airports.csv")
+        airport_df.to_csv(airport_csv_path, index=False)
         
-        logger.info(f"Saved {len(airport_data)} airports to {airport_csv}")
+        logger.info(f"Processed {len(unique_airports)} airports and saved to {airport_csv_path}")
         
-        return airport_df
+        return {
+            "flights": df,
+            "airports": airport_df
+        }
     
-    def process_airlines(self, flights):
-        """Extract and process airline information"""
-        logger.info("Extracting airline information")
+    def process_baggage_data(self):
+        """Process baggage allowance data"""
+        logger.info("Processing baggage allowance data")
         
-        airlines = []
-        
-        for flight in flights:
-            if "airline_code" in flight and flight["airline_code"]:
-                airline = {
-                    "airline_code": flight["airline_code"],
-                    "airline_name": flight.get("airline_name", "")
-                }
-                airlines.append(airline)
-        
-        # Remove duplicates by airline code
-        unique_airlines = {}
-        for airline in airlines:
-            code = airline["airline_code"]
-            if code and code not in unique_airlines:
-                unique_airlines[code] = airline
-        
-        # Convert to DataFrame
-        airline_data = list(unique_airlines.values())
-        
-        if not airline_data:
-            logger.warning("No airline data extracted")
+        # Get the latest baggage file
+        filepath = self.get_latest_file("klm_baggage_response")
+        if not filepath:
             return None
         
-        airline_df = pd.DataFrame(airline_data)
+        # Load the data
+        data = self.load_json_data(filepath)
+        if not data:
+            return None
         
-        # Save as CSV
-        airline_csv = os.path.join(self.processed_dir, "airlines.csv")
-        airline_df.to_csv(airline_csv, index=False)
-        
-        logger.info(f"Saved {len(airline_data)} airlines to {airline_csv}")
-        
-        return airline_df
-    
-    def process_routes(self, flights):
-        """Extract and process route information"""
-        logger.info("Extracting route information")
-        
-        routes = []
-        
-        for flight in flights:
-            if "departure_airport_code" in flight and "arrival_airport_code" in flight:
-                origin = flight["departure_airport_code"]
-                destination = flight["arrival_airport_code"]
-                
-                if origin and destination:
-                    route = {
-                        "origin": origin,
-                        "destination": destination,
-                        "airline_code": flight.get("airline_code", ""),
-                        "scheduled_duration": flight.get("scheduled_duration", "")
+        # Process baggage data (modify based on actual structure)
+        # This is a placeholder - you'll need to adapt this to the actual structure
+        # of the baggage response once you've collected it
+        try:
+            baggage_items = []
+            
+            if "baggageAllowances" in data:
+                for item in data["baggageAllowances"]:
+                    baggage_info = {
+                        "baggage_type": item.get("type"),
+                        "description": item.get("description"),
+                        "allowance": item.get("allowance"),
+                        "weight_limit": item.get("weightLimit"),
+                        "dimensions": item.get("dimensions")
                     }
-                    routes.append(route)
+                    baggage_items.append(baggage_info)
+            
+            # Convert to DataFrame
+            if baggage_items:
+                df = pd.DataFrame(baggage_items)
+                
+                # Save as CSV
+                csv_path = os.path.join(self.processed_dir, "baggage_allowances.csv")
+                df.to_csv(csv_path, index=False)
+                
+                logger.info(f"Processed {len(baggage_items)} baggage allowances and saved to {csv_path}")
+                return df
+            else:
+                logger.warning("No baggage data found to process")
+                return None
+                
+        except Exception as e:
+            logger.error(f"Error processing baggage data: {str(e)}")
+            return None
+    
+    def process_inspire_data(self):
+        """Process inspire/amenities data"""
+        logger.info("Processing inspire/amenities data")
         
-        # Remove duplicates by origin-destination pair
-        unique_routes = {}
-        for route in routes:
-            key = f"{route['origin']}-{route['destination']}"
-            if key not in unique_routes:
-                unique_routes[key] = route
-        
-        # Convert to DataFrame
-        route_data = list(unique_routes.values())
-        
-        if not route_data:
-            logger.warning("No route data extracted")
+        # Get the latest inspire file
+        filepath = self.get_latest_file("klm_inspire_response")
+        if not filepath:
             return None
         
-        route_df = pd.DataFrame(route_data)
+        # Load the data
+        data = self.load_json_data(filepath)
+        if not data:
+            return None
         
-        # Save as CSV
-        route_csv = os.path.join(self.processed_dir, "routes.csv")
-        route_df.to_csv(route_csv, index=False)
+        # Process inspire data (modify based on actual structure)
+        # This is a placeholder - you'll need to adapt this to the actual structure
+        # of the inspire response once you've collected it
+        try:
+            amenities = []
+            
+            if "amenities" in data:
+                for item in data["amenities"]:
+                    amenity_info = {
+                        "amenity_id": item.get("id"),
+                        "name": item.get("name"),
+                        "description": item.get("description"),
+                        "category": item.get("category")
+                    }
+                    amenities.append(amenity_info)
+            
+            # Convert to DataFrame
+            if amenities:
+                df = pd.DataFrame(amenities)
+                
+                # Save as CSV
+                csv_path = os.path.join(self.processed_dir, "amenities.csv")
+                df.to_csv(csv_path, index=False)
+                
+                logger.info(f"Processed {len(amenities)} amenities and saved to {csv_path}")
+                return df
+            else:
+                logger.warning("No amenities data found to process")
+                return None
+                
+        except Exception as e:
+            logger.error(f"Error processing inspire data: {str(e)}")
+            return None
+    
+    def process_offers_data(self):
+        """Process flight offers data"""
+        logger.info("Processing flight offers data")
         
-        logger.info(f"Saved {len(route_data)} routes to {route_csv}")
+        # Get the latest offers file
+        filepath = self.get_latest_file("klm_offers_response")
+        if not filepath:
+            return None
         
-        return route_df
+        # Load the data
+        data = self.load_json_data(filepath)
+        if not data:
+            return None
+        
+        # Process offers data (modify based on actual structure)
+        # This is a placeholder - you'll need to adapt this to the actual structure
+        # of the offers response once you've collected it
+        try:
+            offers = []
+            
+            if "flightOffers" in data:
+                for item in data["flightOffers"]:
+                    offer_info = {
+                        "offer_id": item.get("id"),
+                        "origin": item.get("origin"),
+                        "destination": item.get("destination"),
+                        "price": item.get("price"),
+                        "date": item.get("date")
+                    }
+                    offers.append(offer_info)
+            
+            # Convert to DataFrame
+            if offers:
+                df = pd.DataFrame(offers)
+                
+                # Save as CSV
+                csv_path = os.path.join(self.processed_dir, "flight_offers.csv")
+                df.to_csv(csv_path, index=False)
+                
+                logger.info(f"Processed {len(offers)} flight offers and saved to {csv_path}")
+                return df
+            else:
+                logger.warning("No flight offers data found to process")
+                return None
+                
+        except Exception as e:
+            logger.error(f"Error processing offers data: {str(e)}")
+            return None
+    
+    def process_all(self):
+        """Process all available data"""
+        logger.info("Processing all KLM data")
+        
+        results = {}
+        
+        # Process flight status data
+        results["flight_status"] = self.process_flight_status()
+        
+        # Process baggage data
+        results["baggage"] = self.process_baggage_data()
+        
+        # Process inspire data
+        results["inspire"] = self.process_inspire_data()
+        
+        # Process offers data
+        results["offers"] = self.process_offers_data()
+        
+        logger.info("Completed processing all KLM data")
+        return results
 
 def main():
-    """Main function that uses a specific file path"""
-    # Hardcoded path to the KLM flight status file
-    specific_file = r"C:\Users\20211062\GitHub\2AMD20-Group-10\data\KLM\raw\klm_flightstatus_response_20250519_183951.json"
+    """Main function"""
+    import argparse
     
-    # Create processor with the specific file
-    processor = FlightDataProcessor(specific_file=specific_file)
+    parser = argparse.ArgumentParser(description="Process KLM API data")
+    parser.add_argument("--type", choices=["all", "flight_status", "baggage", "inspire", "offers"], 
+                        default="all", help="Specific data type to process")
     
-    # Process flight data
-    processor.process_flights()
+    args = parser.parse_args()
+    
+    # Create processor
+    processor = KLMDataProcessor()
+    
+    # Process data
+    if args.type == "all":
+        processor.process_all()
+    elif args.type == "flight_status":
+        processor.process_flight_status()
+    elif args.type == "baggage":
+        processor.process_baggage_data()
+    elif args.type == "inspire":
+        processor.process_inspire_data()
+    elif args.type == "offers":
+        processor.process_offers_data()
 
 if __name__ == "__main__":
     main()
