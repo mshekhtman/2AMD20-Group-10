@@ -1,0 +1,2087 @@
+{
+  "flights": [
+    {
+      "lastUpdatedAt": "2025-05-19T09:23:41.097+02:00",
+      "actualLandingTime": "2025-05-19T07:40:28.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "77W"
+      },
+      "baggageClaim": {
+        "belts": [
+          "18"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8469",
+          "DL9471",
+          "VS7140"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T07:40:28.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T08:40:48.225+02:00",
+      "flightDirection": "A",
+      "flightName": "VS7140",
+      "flightNumber": 7140,
+      "id": "142381870270017298",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0656",
+      "prefixIATA": "VS",
+      "prefixICAO": "VIR",
+      "airlineCode": 181,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "MSP"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:27:54.312+02:00",
+      "actualOffBlockTime": "2025-05-19T06:12:42.000+02:00",
+      "aircraftRegistration": "PHHXM",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:15:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T02:55:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2675"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV5623",
+      "flightNumber": 5623,
+      "gate": "D86",
+      "pier": "D",
+      "id": "142381868339442405",
+      "isOperationalFlight": true,
+      "mainFlight": "HV5623",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "PMI"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:05:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:05:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:27:54.312+02:00",
+      "actualOffBlockTime": "2025-05-19T06:12:42.000+02:00",
+      "aircraftRegistration": "PHHXM",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:15:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T02:55:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2675"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL2675",
+      "flightNumber": 2675,
+      "gate": "D86",
+      "pier": "D",
+      "id": "142381868717719383",
+      "isOperationalFlight": true,
+      "mainFlight": "HV5623",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "PMI"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:05:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:05:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:23:59.613+02:00",
+      "actualOffBlockTime": "2025-05-19T06:09:16.000+02:00",
+      "aircraftRegistration": "PHHXO",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:20:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:00:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2681"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV5673",
+      "flightNumber": 5673,
+      "gate": "D83",
+      "pier": "D",
+      "id": "142381868339442775",
+      "isOperationalFlight": true,
+      "mainFlight": "HV5673",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "IBZ"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:10:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:10:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:23:59.613+02:00",
+      "actualOffBlockTime": "2025-05-19T06:09:16.000+02:00",
+      "aircraftRegistration": "PHHXO",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:20:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:00:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2681"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL2681",
+      "flightNumber": 2681,
+      "gate": "D83",
+      "pier": "D",
+      "id": "142381868717719449",
+      "isOperationalFlight": true,
+      "mainFlight": "HV5673",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "IBZ"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:10:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:10:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:25:56.979+02:00",
+      "actualOffBlockTime": "2025-05-19T06:10:46.000+02:00",
+      "aircraftRegistration": "PHHXA",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:20:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:10:00.000+02:00"
+          }
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV1861",
+      "flightNumber": 1861,
+      "gate": "D87",
+      "pier": "D",
+      "id": "142381868339042949",
+      "isOperationalFlight": true,
+      "mainFlight": "HV1861",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "JSI",
+          "MJT"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:10:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:10:00",
+      "serviceType": "C",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:17:54.923+02:00",
+      "actualOffBlockTime": "2025-05-19T06:01:01.000+02:00",
+      "aircraftRegistration": "PHHZV",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "flightDirection": "D",
+      "flightName": "HV081",
+      "flightNumber": 81,
+      "id": "142381867176433537",
+      "isOperationalFlight": true,
+      "mainFlight": "HV081",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "RTM"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:15:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:15:00",
+      "serviceType": "P",
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:48:01.903+02:00",
+      "actualLandingTime": "2025-05-19T06:44:14.000+02:00",
+      "aircraftType": {
+        "iataMain": "74F",
+        "iataSub": "74Y"
+      },
+      "estimatedLandingTime": "2025-05-19T06:44:14.000+02:00",
+      "flightDirection": "A",
+      "flightName": "MP6162",
+      "flightNumber": 6162,
+      "id": "142381869010479952",
+      "isOperationalFlight": true,
+      "mainFlight": "MP6162",
+      "prefixIATA": "MP",
+      "prefixICAO": "MPH",
+      "airlineCode": 122,
+      "publicFlightState": {
+        "flightStates": [
+          "LND",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "BOG",
+          "MIA"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:15:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:15:00",
+      "serviceType": "F",
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:29:26.592+02:00",
+      "actualOffBlockTime": "2025-05-19T06:10:17.000+02:00",
+      "aircraftRegistration": "PHHXG",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:30:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:20:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2697"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV6629",
+      "flightNumber": 6629,
+      "gate": "C9",
+      "pier": "C",
+      "id": "142381868339543723",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6629",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "FNC"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:20:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:20:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:29:26.592+02:00",
+      "actualOffBlockTime": "2025-05-19T06:10:17.000+02:00",
+      "aircraftRegistration": "PHHXG",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:30:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:20:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2697"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL2697",
+      "flightNumber": 2697,
+      "gate": "C9",
+      "pier": "C",
+      "id": "142381868717719535",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6629",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "FNC"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:20:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:20:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:43:33.339+02:00",
+      "actualOffBlockTime": "2025-05-19T06:25:10.000+02:00",
+      "aircraftRegistration": "PHYHA",
+      "aircraftType": {
+        "iataMain": "32S",
+        "iataSub": "32Q"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:30:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:20:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2599"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV6673",
+      "flightNumber": 6673,
+      "gate": "D85",
+      "pier": "D",
+      "id": "142381868339544081",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6673",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "TFS"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:20:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:20:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:43:33.339+02:00",
+      "actualOffBlockTime": "2025-05-19T06:25:10.000+02:00",
+      "aircraftRegistration": "PHYHA",
+      "aircraftType": {
+        "iataMain": "32S",
+        "iataSub": "32Q"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:30:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:20:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2599"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL2599",
+      "flightNumber": 2599,
+      "gate": "D85",
+      "pier": "D",
+      "id": "142381868717716801",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6673",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "TFS"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:20:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:20:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:47:53.266+02:00",
+      "actualOffBlockTime": "2025-05-19T06:26:17.000+02:00",
+      "aircraftRegistration": "PHTFU",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "7M8"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:35:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "22",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      },
+                      {
+                        "position": 11
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "23",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      },
+                      {
+                        "position": 11
+                      },
+                      {
+                        "position": 12
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:20:00.000+02:00"
+          }
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "OR1635",
+      "flightNumber": 1635,
+      "gate": "D60",
+      "pier": "D",
+      "id": "142381869294859369",
+      "isOperationalFlight": true,
+      "mainFlight": "OR1635",
+      "prefixIATA": "OR",
+      "prefixICAO": "TFL",
+      "airlineCode": 231,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LPA"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:20:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:20:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:40:27.302+02:00",
+      "actualLandingTime": "2025-05-19T06:03:18.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "77W"
+      },
+      "baggageClaim": {
+        "belts": [
+          "22"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:03:18.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:01:28.249+02:00",
+      "flightDirection": "A",
+      "flightName": "KL0714",
+      "flightNumber": 714,
+      "id": "142381868717519062",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0714",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "PBM"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:20:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:20:00",
+      "serviceType": "J",
+      "terminal": 4,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:48:56.125+02:00",
+      "actualOffBlockTime": "2025-05-19T06:39:38.000+02:00",
+      "aircraftRegistration": "PHYHY",
+      "aircraftType": {
+        "iataMain": "32S",
+        "iataSub": "32Q"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:35:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:15:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2615"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV6917",
+      "flightNumber": 6917,
+      "gate": "D59",
+      "pier": "D",
+      "id": "142381868339551859",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6917",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "OLB"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:25:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:25:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:48:56.125+02:00",
+      "actualOffBlockTime": "2025-05-19T06:39:38.000+02:00",
+      "aircraftRegistration": "PHYHY",
+      "aircraftType": {
+        "iataMain": "32S",
+        "iataSub": "32Q"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:35:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:15:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2615"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL2615",
+      "flightNumber": 2615,
+      "gate": "D59",
+      "pier": "D",
+      "id": "142381868717718939",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6917",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "OLB"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:25:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:25:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:31:33.198+02:00",
+      "actualOffBlockTime": "2025-05-19T07:07:28.000+02:00",
+      "aircraftRegistration": "PHYHZ",
+      "aircraftType": {
+        "iataMain": "32S",
+        "iataSub": "32Q"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:40:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:30:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2685"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV6727",
+      "flightNumber": 6727,
+      "gate": "D77",
+      "pier": "D",
+      "id": "142381868339546457",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6727",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "SVQ"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:30:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:30:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:31:33.198+02:00",
+      "actualOffBlockTime": "2025-05-19T07:07:28.000+02:00",
+      "aircraftRegistration": "PHYHZ",
+      "aircraftType": {
+        "iataMain": "32S",
+        "iataSub": "32Q"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:40:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:30:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2685"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL2685",
+      "flightNumber": 2685,
+      "gate": "D77",
+      "pier": "D",
+      "id": "142381868717719457",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6727",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "SVQ"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:30:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:30:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:54:57.082+02:00",
+      "actualLandingTime": "2025-05-19T06:24:17.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "772"
+      },
+      "baggageClaim": {
+        "belts": [
+          "11"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8422",
+          "DL9500",
+          "SK6859"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:24:17.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:16:27.965+02:00",
+      "flightDirection": "A",
+      "flightName": "DL9500",
+      "flightNumber": 9500,
+      "id": "142381867747609860",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0428",
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "airlineCode": 58,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "DXB"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:30:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:30:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:54:57.082+02:00",
+      "actualLandingTime": "2025-05-19T06:24:17.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "772"
+      },
+      "baggageClaim": {
+        "belts": [
+          "11"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8422",
+          "DL9500",
+          "SK6859"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:24:17.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:16:27.965+02:00",
+      "flightDirection": "A",
+      "flightName": "SK6859",
+      "flightNumber": 6859,
+      "id": "142381869823884932",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0428",
+      "prefixIATA": "SK",
+      "prefixICAO": "SAS",
+      "airlineCode": 150,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "DXB"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:30:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:30:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    }
+  ]
+}

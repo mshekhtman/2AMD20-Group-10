@@ -1,0 +1,1744 @@
+{
+  "flights": [
+    {
+      "lastUpdatedAt": "2025-05-19T07:54:57.082+02:00",
+      "actualLandingTime": "2025-05-19T06:24:17.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "772"
+      },
+      "baggageClaim": {
+        "belts": [
+          "11"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8422",
+          "DL9500",
+          "SK6859"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:24:17.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:16:27.965+02:00",
+      "flightDirection": "A",
+      "flightName": "KL0428",
+      "flightNumber": 428,
+      "id": "142381868717510930",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0428",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "DXB"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:30:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:30:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:54:57.082+02:00",
+      "actualLandingTime": "2025-05-19T06:24:17.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "772"
+      },
+      "baggageClaim": {
+        "belts": [
+          "11"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8422",
+          "DL9500",
+          "SK6859"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:24:17.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:16:27.965+02:00",
+      "flightDirection": "A",
+      "flightName": "AF8422",
+      "flightNumber": 8422,
+      "id": "142381867308952294",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0428",
+      "prefixIATA": "AF",
+      "prefixICAO": "AFR",
+      "airlineCode": 80,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "DXB"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:30:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:30:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:55:53.102+02:00",
+      "actualLandingTime": "2025-05-19T06:21:45.000+02:00",
+      "aircraftType": {
+        "iataMain": "787",
+        "iataSub": "789"
+      },
+      "baggageClaim": {
+        "belts": [
+          "10"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8404",
+          "QF4217"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:21:45.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:07:56.146+02:00",
+      "flightDirection": "A",
+      "flightName": "KL0888",
+      "flightNumber": 888,
+      "id": "142381868717522326",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0888",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "HKG"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:30:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:30:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:55:53.102+02:00",
+      "actualLandingTime": "2025-05-19T06:21:45.000+02:00",
+      "aircraftType": {
+        "iataMain": "787",
+        "iataSub": "789"
+      },
+      "baggageClaim": {
+        "belts": [
+          "10"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8404",
+          "QF4217"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:21:45.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:07:56.146+02:00",
+      "flightDirection": "A",
+      "flightName": "AF8404",
+      "flightNumber": 8404,
+      "id": "142381867308952150",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0888",
+      "prefixIATA": "AF",
+      "prefixICAO": "AFR",
+      "airlineCode": 80,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "HKG"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:30:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:30:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:55:53.102+02:00",
+      "actualLandingTime": "2025-05-19T06:21:45.000+02:00",
+      "aircraftType": {
+        "iataMain": "787",
+        "iataSub": "789"
+      },
+      "baggageClaim": {
+        "belts": [
+          "10"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8404",
+          "QF4217"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:21:45.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:07:56.146+02:00",
+      "flightDirection": "A",
+      "flightName": "QF4217",
+      "flightNumber": 4217,
+      "id": "142381869527548154",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0888",
+      "prefixIATA": "QF",
+      "prefixICAO": "QFA",
+      "airlineCode": 205,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "HKG"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:30:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:30:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:44:57.169+02:00",
+      "actualOffBlockTime": "2025-05-19T06:25:49.000+02:00",
+      "aircraftRegistration": "PHHSI",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:45:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:25:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2749"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV5465",
+      "flightNumber": 5465,
+      "gate": "D78",
+      "pier": "D",
+      "id": "142381868339437229",
+      "isOperationalFlight": true,
+      "mainFlight": "HV5465",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "VRN"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:35:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:35:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:44:57.169+02:00",
+      "actualOffBlockTime": "2025-05-19T06:25:49.000+02:00",
+      "aircraftRegistration": "PHHSI",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:45:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:25:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2749"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL2749",
+      "flightNumber": 2749,
+      "gate": "D78",
+      "pier": "D",
+      "id": "142381868717721907",
+      "isOperationalFlight": true,
+      "mainFlight": "HV5465",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "VRN"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:35:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:35:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:46:08.448+02:00",
+      "actualOffBlockTime": "2025-05-19T06:35:11.000+02:00",
+      "aircraftRegistration": "PHEXG",
+      "aircraftType": {
+        "iataMain": "EMJ",
+        "iataSub": "E7W"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:55:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "6",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "7",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "8",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T04:30:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "DL9299"
+        ]
+      },
+      "expectedTimeBoarding": "2025-05-19T06:10:00.000+02:00",
+      "expectedTimeGateClosing": "2025-05-19T06:20:00.000+02:00",
+      "expectedTimeGateOpen": "2025-05-19T06:05:00.000+02:00",
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL1497",
+      "flightNumber": 1497,
+      "gate": "B16",
+      "pier": "B",
+      "id": "142381868717612753",
+      "isOperationalFlight": true,
+      "mainFlight": "KL1497",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "BCN"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:35:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:35:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:46:08.448+02:00",
+      "actualOffBlockTime": "2025-05-19T06:35:11.000+02:00",
+      "aircraftRegistration": "PHEXG",
+      "aircraftType": {
+        "iataMain": "EMJ",
+        "iataSub": "E7W"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:55:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "6",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "7",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "8",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T04:30:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "DL9299"
+        ]
+      },
+      "expectedTimeBoarding": "2025-05-19T06:10:00.000+02:00",
+      "expectedTimeGateClosing": "2025-05-19T06:20:00.000+02:00",
+      "expectedTimeGateOpen": "2025-05-19T06:05:00.000+02:00",
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "DL9299",
+      "flightNumber": 9299,
+      "gate": "B16",
+      "pier": "B",
+      "id": "142381867747602331",
+      "isOperationalFlight": true,
+      "mainFlight": "KL1497",
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "airlineCode": 58,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "BCN"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:35:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:35:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T08:08:52.159+02:00",
+      "actualLandingTime": "2025-05-19T06:06:50.000+02:00",
+      "aircraftType": {
+        "iataMain": "350",
+        "iataSub": "359"
+      },
+      "baggageClaim": {
+        "belts": [
+          "17"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:06:50.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:10:31.311+02:00",
+      "flightDirection": "A",
+      "flightName": "CZ0307",
+      "flightNumber": 307,
+      "id": "142381867660481238",
+      "isOperationalFlight": true,
+      "mainFlight": "CZ0307",
+      "prefixIATA": "CZ",
+      "prefixICAO": "CSN",
+      "airlineCode": 43,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "CAN"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:35:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:35:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T08:13:28.105+02:00",
+      "actualLandingTime": "2025-05-19T06:26:48.000+02:00",
+      "aircraftType": {
+        "iataMain": "787",
+        "iataSub": "789"
+      },
+      "baggageClaim": {
+        "belts": [
+          "16"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8398",
+          "MH5632"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:26:48.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:39:26.822+02:00",
+      "flightDirection": "A",
+      "flightName": "KL0810",
+      "flightNumber": 810,
+      "id": "142381868717521792",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0810",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "CGK",
+          "KUL"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:35:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:35:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T08:13:28.105+02:00",
+      "actualLandingTime": "2025-05-19T06:26:48.000+02:00",
+      "aircraftType": {
+        "iataMain": "787",
+        "iataSub": "789"
+      },
+      "baggageClaim": {
+        "belts": [
+          "16"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8398",
+          "MH5632"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:26:48.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:39:26.822+02:00",
+      "flightDirection": "A",
+      "flightName": "AF8398",
+      "flightNumber": 8398,
+      "id": "142381867308950086",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0810",
+      "prefixIATA": "AF",
+      "prefixICAO": "AFR",
+      "airlineCode": 80,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "CGK",
+          "KUL"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:35:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:35:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T08:13:28.105+02:00",
+      "actualLandingTime": "2025-05-19T06:26:48.000+02:00",
+      "aircraftType": {
+        "iataMain": "787",
+        "iataSub": "789"
+      },
+      "baggageClaim": {
+        "belts": [
+          "16"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8398",
+          "MH5632"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:26:48.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:39:26.822+02:00",
+      "flightDirection": "A",
+      "flightName": "MH5632",
+      "flightNumber": 5632,
+      "id": "142381868980405538",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0810",
+      "prefixIATA": "MH",
+      "prefixICAO": "MAS",
+      "airlineCode": 5065,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "CGK",
+          "KUL"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:35:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:35:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T08:13:55.099+02:00",
+      "actualLandingTime": "2025-05-19T06:36:23.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "77W"
+      },
+      "baggageClaim": {
+        "belts": [
+          "17"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8248",
+          "DL9373"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:36:23.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:37:11.836+02:00",
+      "flightDirection": "A",
+      "flightName": "DL9373",
+      "flightNumber": 9373,
+      "id": "142381867747604908",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0590",
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "airlineCode": 58,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "ACC"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:40:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:40:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T08:13:55.099+02:00",
+      "actualLandingTime": "2025-05-19T06:36:23.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "77W"
+      },
+      "baggageClaim": {
+        "belts": [
+          "17"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8248",
+          "DL9373"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:36:23.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:37:11.836+02:00",
+      "flightDirection": "A",
+      "flightName": "KL0590",
+      "flightNumber": 590,
+      "id": "142381868717514170",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0590",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "ACC"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:40:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:40:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T08:13:55.099+02:00",
+      "actualLandingTime": "2025-05-19T06:36:23.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "77W"
+      },
+      "baggageClaim": {
+        "belts": [
+          "17"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8248",
+          "DL9373"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T06:36:23.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T07:37:11.836+02:00",
+      "flightDirection": "A",
+      "flightName": "AF8248",
+      "flightNumber": 8248,
+      "id": "142381867308946978",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0590",
+      "prefixIATA": "AF",
+      "prefixICAO": "AFR",
+      "airlineCode": 80,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "ACC"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:40:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:40:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:57:19.207+02:00",
+      "actualOffBlockTime": "2025-05-19T06:44:13.000+02:00",
+      "aircraftRegistration": "PHEXI",
+      "aircraftType": {
+        "iataMain": "EMJ",
+        "iataSub": "E7W"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T06:05:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "6",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "7",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "8",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T04:30:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "DL9479"
+        ]
+      },
+      "expectedTimeBoarding": "2025-05-19T06:20:00.000+02:00",
+      "expectedTimeGateClosing": "2025-05-19T06:30:00.000+02:00",
+      "expectedTimeGateOpen": "2025-05-19T06:15:00.000+02:00",
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL1731",
+      "flightNumber": 1731,
+      "gate": "B6",
+      "pier": "B",
+      "id": "142381868717620511",
+      "isOperationalFlight": true,
+      "mainFlight": "KL1731",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LUX"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:45:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:45:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:57:19.207+02:00",
+      "actualOffBlockTime": "2025-05-19T06:44:13.000+02:00",
+      "aircraftRegistration": "PHEXI",
+      "aircraftType": {
+        "iataMain": "EMJ",
+        "iataSub": "E7W"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T06:05:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "6",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "7",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "8",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T04:30:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "DL9479"
+        ]
+      },
+      "expectedTimeBoarding": "2025-05-19T06:20:00.000+02:00",
+      "expectedTimeGateClosing": "2025-05-19T06:30:00.000+02:00",
+      "expectedTimeGateOpen": "2025-05-19T06:15:00.000+02:00",
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "DL9479",
+      "flightNumber": 9479,
+      "gate": "B6",
+      "pier": "B",
+      "id": "142381867747607659",
+      "isOperationalFlight": true,
+      "mainFlight": "KL1731",
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "airlineCode": 58,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LUX"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:45:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:45:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:01:26.477+02:00",
+      "actualOffBlockTime": "2025-05-19T06:50:19.000+02:00",
+      "aircraftRegistration": "PHYHV",
+      "aircraftType": {
+        "iataMain": "32S",
+        "iataSub": "32Q"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:55:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:45:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2649"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV6115",
+      "flightNumber": 6115,
+      "gate": "C14",
+      "pier": "C",
+      "id": "142381868339529951",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6115",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "AGP"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:45:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:45:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:01:26.477+02:00",
+      "actualOffBlockTime": "2025-05-19T06:50:19.000+02:00",
+      "aircraftRegistration": "PHYHV",
+      "aircraftType": {
+        "iataMain": "32S",
+        "iataSub": "32Q"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:55:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T03:45:00.000+02:00"
+          }
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "KL2649"
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "KL2649",
+      "flightNumber": 2649,
+      "gate": "C14",
+      "pier": "C",
+      "id": "142381868717719169",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6115",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "AGP"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:45:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:45:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    }
+  ]
+}

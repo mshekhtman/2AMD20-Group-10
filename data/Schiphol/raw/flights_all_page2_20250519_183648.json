@@ -1,0 +1,1147 @@
+{
+  "flights": [
+    {
+      "lastUpdatedAt": "2025-05-19T06:07:13.544+02:00",
+      "actualOffBlockTime": "2025-05-19T05:50:07.000+02:00",
+      "aircraftRegistration": "PHHZL",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:05:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T02:55:00.000+02:00"
+          }
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV5131",
+      "flightNumber": 5131,
+      "gate": "C7",
+      "pier": "C",
+      "id": "142381868339428785",
+      "isOperationalFlight": true,
+      "mainFlight": "HV5131",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "BCN"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T05:55:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "05:55:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:10:46.096+02:00",
+      "actualLandingTime": "2025-05-19T05:39:16.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "332"
+      },
+      "baggageClaim": {
+        "belts": [
+          "17"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF5479",
+          "DL9507"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:39:16.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:36:57.708+02:00",
+      "flightDirection": "A",
+      "flightName": "KL0588",
+      "flightNumber": 588,
+      "id": "142381868717514112",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0588",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LOS"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T05:55:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "05:55:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:10:46.096+02:00",
+      "actualLandingTime": "2025-05-19T05:39:16.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "332"
+      },
+      "baggageClaim": {
+        "belts": [
+          "17"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF5479",
+          "DL9507"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:39:16.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:36:57.708+02:00",
+      "flightDirection": "A",
+      "flightName": "AF5479",
+      "flightNumber": 5479,
+      "id": "142381867308648760",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0588",
+      "prefixIATA": "AF",
+      "prefixICAO": "AFR",
+      "airlineCode": 80,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LOS"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T05:55:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "05:55:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:10:46.096+02:00",
+      "actualLandingTime": "2025-05-19T05:39:16.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "332"
+      },
+      "baggageClaim": {
+        "belts": [
+          "17"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF5479",
+          "DL9507"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:39:16.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:36:57.708+02:00",
+      "flightDirection": "A",
+      "flightName": "DL9507",
+      "flightNumber": 9507,
+      "id": "142381867747609874",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0588",
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "airlineCode": 58,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "LOS"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T05:55:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "05:55:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T06:10:43.153+02:00",
+      "actualOffBlockTime": "2025-05-19T05:56:19.000+02:00",
+      "aircraftRegistration": "PHHXD",
+      "aircraftType": {
+        "iataMain": "737",
+        "iataSub": "73H"
+      },
+      "checkinAllocations": {
+        "checkinAllocations": [
+          {
+            "endTime": "2025-05-19T05:10:00.000+02:00",
+            "rows": {
+              "rows": [
+                {
+                  "position": "2",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": "3",
+                  "desks": {
+                    "desks": [
+                      {
+                        "position": 1
+                      },
+                      {
+                        "position": 2
+                      },
+                      {
+                        "position": 3
+                      },
+                      {
+                        "position": 4
+                      },
+                      {
+                        "position": 5
+                      },
+                      {
+                        "position": 6
+                      },
+                      {
+                        "position": 7
+                      },
+                      {
+                        "position": 8
+                      },
+                      {
+                        "position": 9
+                      },
+                      {
+                        "position": 10
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "startTime": "2025-05-19T02:50:00.000+02:00"
+          }
+        ]
+      },
+      "expectedSecurityFilter": "VF1",
+      "flightDirection": "D",
+      "flightName": "HV6463",
+      "flightNumber": 6463,
+      "gate": "D81",
+      "pier": "D",
+      "id": "142381868339538531",
+      "isOperationalFlight": true,
+      "mainFlight": "HV6463",
+      "prefixIATA": "HV",
+      "prefixICAO": "TRA",
+      "airlineCode": 164,
+      "publicFlightState": {
+        "flightStates": [
+          "DEP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "JMK"
+        ],
+        "eu": "S",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 1,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:05:20.082+02:00",
+      "actualLandingTime": "2025-05-19T05:29:35.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "333"
+      },
+      "baggageClaim": {
+        "belts": [
+          "15"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF3652",
+          "KL6071",
+          "VS4054"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:29:35.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:32:02.219+02:00",
+      "flightDirection": "A",
+      "flightName": "AF3652",
+      "flightNumber": 3652,
+      "id": "142381867308451462",
+      "isOperationalFlight": true,
+      "mainFlight": "DL0070",
+      "prefixIATA": "AF",
+      "prefixICAO": "AFR",
+      "airlineCode": 80,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "ATL"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:05:20.082+02:00",
+      "actualLandingTime": "2025-05-19T05:29:35.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "333"
+      },
+      "baggageClaim": {
+        "belts": [
+          "15"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF3652",
+          "KL6071",
+          "VS4054"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:29:35.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:32:02.219+02:00",
+      "flightDirection": "A",
+      "flightName": "KL6071",
+      "flightNumber": 6071,
+      "id": "142381868718108170",
+      "isOperationalFlight": true,
+      "mainFlight": "DL0070",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "ATL"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:05:20.082+02:00",
+      "actualLandingTime": "2025-05-19T05:29:35.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "333"
+      },
+      "baggageClaim": {
+        "belts": [
+          "15"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF3652",
+          "KL6071",
+          "VS4054"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:29:35.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:32:02.219+02:00",
+      "flightDirection": "A",
+      "flightName": "VS4054",
+      "flightNumber": 4054,
+      "id": "142381870269710724",
+      "isOperationalFlight": true,
+      "mainFlight": "DL0070",
+      "prefixIATA": "VS",
+      "prefixICAO": "VIR",
+      "airlineCode": 181,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "ATL"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:05:20.082+02:00",
+      "actualLandingTime": "2025-05-19T05:29:35.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "333"
+      },
+      "baggageClaim": {
+        "belts": [
+          "15"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF3652",
+          "KL6071",
+          "VS4054"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:29:35.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:32:02.219+02:00",
+      "flightDirection": "A",
+      "flightName": "DL0070",
+      "flightNumber": 70,
+      "id": "142381867746684934",
+      "isOperationalFlight": true,
+      "mainFlight": "DL0070",
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "airlineCode": 58,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "ATL"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:32:01.065+02:00",
+      "actualLandingTime": "2025-05-19T05:49:21.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "333"
+      },
+      "baggageClaim": {
+        "belts": [
+          "12"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8266",
+          "DL9699",
+          "VS7164"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:49:21.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:49:35.813+02:00",
+      "flightDirection": "A",
+      "flightName": "KL0692",
+      "flightNumber": 692,
+      "id": "142381868717516912",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0692",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "YYZ"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:32:01.065+02:00",
+      "actualLandingTime": "2025-05-19T05:49:21.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "333"
+      },
+      "baggageClaim": {
+        "belts": [
+          "12"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8266",
+          "DL9699",
+          "VS7164"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:49:21.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:49:35.813+02:00",
+      "flightDirection": "A",
+      "flightName": "AF8266",
+      "flightNumber": 8266,
+      "id": "142381867308947122",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0692",
+      "prefixIATA": "AF",
+      "prefixICAO": "AFR",
+      "airlineCode": 80,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "YYZ"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:32:01.065+02:00",
+      "actualLandingTime": "2025-05-19T05:49:21.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "333"
+      },
+      "baggageClaim": {
+        "belts": [
+          "12"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8266",
+          "DL9699",
+          "VS7164"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:49:21.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:49:35.813+02:00",
+      "flightDirection": "A",
+      "flightName": "DL9699",
+      "flightNumber": 9699,
+      "id": "142381867747613282",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0692",
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "airlineCode": 58,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "YYZ"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:32:01.065+02:00",
+      "actualLandingTime": "2025-05-19T05:49:21.000+02:00",
+      "aircraftType": {
+        "iataMain": "330",
+        "iataSub": "333"
+      },
+      "baggageClaim": {
+        "belts": [
+          "12"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8266",
+          "DL9699",
+          "VS7164"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:49:21.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:49:35.813+02:00",
+      "flightDirection": "A",
+      "flightName": "VS7164",
+      "flightNumber": 7164,
+      "id": "142381870270017454",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0692",
+      "prefixIATA": "VS",
+      "prefixICAO": "VIR",
+      "airlineCode": 181,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "YYZ"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 2,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:32:53.102+02:00",
+      "actualLandingTime": "2025-05-19T05:58:21.000+02:00",
+      "aircraftType": {
+        "iataMain": "350",
+        "iataSub": "359"
+      },
+      "baggageClaim": {
+        "belts": [
+          "16"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF5606",
+          "KL6018",
+          "VS3929"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:58:21.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:55:33.970+02:00",
+      "flightDirection": "A",
+      "flightName": "DL0132",
+      "flightNumber": 132,
+      "id": "142381867746687380",
+      "isOperationalFlight": true,
+      "mainFlight": "DL0132",
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "airlineCode": 58,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "DTW"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:32:53.102+02:00",
+      "actualLandingTime": "2025-05-19T05:58:21.000+02:00",
+      "aircraftType": {
+        "iataMain": "350",
+        "iataSub": "359"
+      },
+      "baggageClaim": {
+        "belts": [
+          "16"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF5606",
+          "KL6018",
+          "VS3929"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:58:21.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:55:33.970+02:00",
+      "flightDirection": "A",
+      "flightName": "AF5606",
+      "flightNumber": 5606,
+      "id": "142381867308653712",
+      "isOperationalFlight": true,
+      "mainFlight": "DL0132",
+      "prefixIATA": "AF",
+      "prefixICAO": "AFR",
+      "airlineCode": 80,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "DTW"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:32:53.102+02:00",
+      "actualLandingTime": "2025-05-19T05:58:21.000+02:00",
+      "aircraftType": {
+        "iataMain": "350",
+        "iataSub": "359"
+      },
+      "baggageClaim": {
+        "belts": [
+          "16"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF5606",
+          "KL6018",
+          "VS3929"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:58:21.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:55:33.970+02:00",
+      "flightDirection": "A",
+      "flightName": "KL6018",
+      "flightNumber": 6018,
+      "id": "142381868718107740",
+      "isOperationalFlight": true,
+      "mainFlight": "DL0132",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "DTW"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T07:32:53.102+02:00",
+      "actualLandingTime": "2025-05-19T05:58:21.000+02:00",
+      "aircraftType": {
+        "iataMain": "350",
+        "iataSub": "359"
+      },
+      "baggageClaim": {
+        "belts": [
+          "16"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF5606",
+          "KL6018",
+          "VS3929"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T05:58:21.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T06:55:33.970+02:00",
+      "flightDirection": "A",
+      "flightName": "VS3929",
+      "flightNumber": 3929,
+      "id": "142381870269633848",
+      "isOperationalFlight": true,
+      "mainFlight": "DL0132",
+      "prefixIATA": "VS",
+      "prefixICAO": "VIR",
+      "airlineCode": 181,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "DTW"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T09:23:41.097+02:00",
+      "actualLandingTime": "2025-05-19T07:40:28.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "77W"
+      },
+      "baggageClaim": {
+        "belts": [
+          "18"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8469",
+          "DL9471",
+          "VS7140"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T07:40:28.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T08:40:48.225+02:00",
+      "flightDirection": "A",
+      "flightName": "KL0656",
+      "flightNumber": 656,
+      "id": "142381868717516624",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0656",
+      "prefixIATA": "KL",
+      "prefixICAO": "KLM",
+      "airlineCode": 100,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "MSP"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T09:23:41.097+02:00",
+      "actualLandingTime": "2025-05-19T07:40:28.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "77W"
+      },
+      "baggageClaim": {
+        "belts": [
+          "18"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8469",
+          "DL9471",
+          "VS7140"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T07:40:28.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T08:40:48.225+02:00",
+      "flightDirection": "A",
+      "flightName": "AF8469",
+      "flightNumber": 8469,
+      "id": "142381867308952604",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0656",
+      "prefixIATA": "AF",
+      "prefixICAO": "AFR",
+      "airlineCode": 80,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "MSP"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    },
+    {
+      "lastUpdatedAt": "2025-05-19T09:23:41.097+02:00",
+      "actualLandingTime": "2025-05-19T07:40:28.000+02:00",
+      "aircraftType": {
+        "iataMain": "777",
+        "iataSub": "77W"
+      },
+      "baggageClaim": {
+        "belts": [
+          "18"
+        ]
+      },
+      "codeshares": {
+        "codeshares": [
+          "AF8469",
+          "DL9471",
+          "VS7140"
+        ]
+      },
+      "estimatedLandingTime": "2025-05-19T07:40:28.000+02:00",
+      "expectedTimeOnBelt": "2025-05-19T08:40:48.225+02:00",
+      "flightDirection": "A",
+      "flightName": "DL9471",
+      "flightNumber": 9471,
+      "id": "142381867747607642",
+      "isOperationalFlight": true,
+      "mainFlight": "KL0656",
+      "prefixIATA": "DL",
+      "prefixICAO": "DAL",
+      "airlineCode": 58,
+      "publicFlightState": {
+        "flightStates": [
+          "ARR",
+          "EXP"
+        ]
+      },
+      "route": {
+        "destinations": [
+          "MSP"
+        ],
+        "eu": "N",
+        "visa": false
+      },
+      "scheduleDateTime": "2025-05-19T06:00:00.000+02:00",
+      "scheduleDate": "2025-05-19",
+      "scheduleTime": "06:00:00",
+      "serviceType": "J",
+      "terminal": 3,
+      "schemaVersion": "4"
+    }
+  ]
+}

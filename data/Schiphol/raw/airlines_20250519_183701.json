@@ -1,0 +1,123 @@
+{
+  "airlines": [
+    {
+      "iata": "0B",
+      "icao": "BLA",
+      "nvls": 5191,
+      "publicName": "Blue Air"
+    },
+    {
+      "iata": "2F",
+      "icao": "EZZ",
+      "nvls": 5316,
+      "publicName": "ETF Airways"
+    },
+    {
+      "iata": "2L",
+      "icao": "OAW",
+      "nvls": 449,
+      "publicName": "Helvetic"
+    },
+    {
+      "iata": "2N",
+      "icao": "LYX",
+      "nvls": 5259,
+      "publicName": "Smart Lynx Malta"
+    },
+    {
+      "iata": "2W",
+      "icao": "WFL",
+      "nvls": 5309,
+      "publicName": "World2fly"
+    },
+    {
+      "iata": "3O",
+      "icao": "MAC",
+      "nvls": 4891,
+      "publicName": "Air Arabia Maroc"
+    },
+    {
+      "iata": "4M",
+      "icao": "MGH",
+      "nvls": 5310,
+      "publicName": "MGA Airlines"
+    },
+    {
+      "iata": "4U",
+      "icao": "GWI",
+      "nvls": 5005,
+      "publicName": "Germanwings"
+    },
+    {
+      "iata": "4Y",
+      "icao": "BGA",
+      "nvls": 5234,
+      "publicName": "Airbus Transport International"
+    },
+    {
+      "iata": "5F",
+      "icao": "FIA",
+      "nvls": 5291,
+      "publicName": "Flyone"
+    },
+    {
+      "iata": "5K",
+      "icao": "HFY",
+      "nvls": 114,
+      "publicName": "Hi Fly SA"
+    },
+    {
+      "iata": "5M",
+      "icao": "HFM",
+      "nvls": 5192,
+      "publicName": "Hi Fly Ltd"
+    },
+    {
+      "iata": "5O",
+      "icao": "FPO",
+      "nvls": 5082,
+      "publicName": "ASL Airlines France"
+    },
+    {
+      "iata": "5P",
+      "icao": "LLX",
+      "nvls": 5084,
+      "publicName": "Small Planet Airlines"
+    },
+    {
+      "iata": "6B",
+      "icao": "BLX",
+      "nvls": 5135,
+      "publicName": "TUIfly Nordic"
+    },
+    {
+      "iata": "6E",
+      "icao": "IGO",
+      "nvls": 5300,
+      "publicName": "IndiGo"
+    },
+    {
+      "iata": "6H",
+      "icao": "ISR",
+      "nvls": 96,
+      "publicName": "Israir"
+    },
+    {
+      "iata": "6I",
+      "nvls": 5251,
+      "publicName": "Air Alisie A/S"
+    },
+    {
+      "iata": "6K",
+      "icao": "TAH",
+      "nvls": 5321,
+      "publicName": "Air Anka"
+    },
+    {
+      "iata": "6Y",
+      "icao": "ART",
+      "nvls": 5088,
+      "publicName": "SmartLynx Airlines"
+    }
+  ]
+}
