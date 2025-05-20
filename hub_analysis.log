@@ -66,3 +66,10 @@
 2025-05-20 20:05:08,776 - HubAnalyzer - INFO - Using Schiphol coordinates: (np.float64(52.3083), np.float64(4.7681))
 2025-05-20 20:05:08,784 - HubAnalyzer - INFO - Calculated metrics for 109 airports
 2025-05-20 20:05:09,085 - HubAnalyzer - INFO - Visualization saved to data/Q1/results\hub_analysis_20250520_200508.png
+2025-05-20 20:51:17,565 - HubAnalyzer - INFO - Hub metrics exported to data/Q1/results\hub_metrics_20250520_205117.csv
+2025-05-20 20:51:17,571 - HubAnalyzer - INFO - Top hub candidates exported to data/Q1/results\top_hub_candidates_20250520_205117.json
+2025-05-20 20:51:17,571 - HubAnalyzer - INFO - Hub analysis completed successfully
+2025-05-20 20:51:17,577 - HubAnalyzer - INFO - Hub analysis completed successfully. Results available at results\hub_analysis_results_20250520_192300.html
+2025-05-20 20:51:17,598 - HubAnalyzer - INFO - Hub metrics exported to data/Q1/results\hub_metrics_20250520_205117.csv
+2025-05-20 20:51:17,610 - HubAnalyzer - INFO - Top hub candidates exported to data/Q1/results\top_hub_candidates_20250520_205117.json
+2025-05-20 20:51:17,610 - HubAnalyzer - INFO - Hub analysis completed successfully
