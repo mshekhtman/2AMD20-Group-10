@@ -27,7 +27,7 @@ logger = logging.getLogger("KGBuilder")
 class KLMKnowledgeGraphBuilder:
     """Knowledge Graph Builder for KLM flight data to support multi-hub analysis"""
     
-    def __init__(self, processed_dir='data/KLM/processed', output_dir='data/knowledge_graph'):
+    def __init__(self, processed_dir='data/KLM/processed', output_dir='data/KLM/knowledge_graph'):
         """Initialize the knowledge graph builder"""
         self.processed_dir = processed_dir
         self.output_dir = output_dir
@@ -836,7 +836,7 @@ def main():
    parser = argparse.ArgumentParser(description="Build a knowledge graph from KLM flight data")
    parser.add_argument("--processed-dir", default="data/KLM/processed", 
                      help="Directory containing processed data files")
-   parser.add_argument("--output-dir", default="data/knowledge_graph",
+   parser.add_argument("--output-dir", default="data/KLM/knowledge_graph",
                      help="Directory to save the knowledge graph files")
    
    args = parser.parse_args()

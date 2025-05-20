@@ -1,0 +1,48 @@
+
+            # Query to identify promising expansion destinations based on Schiphol connectivity
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            
+            SELECT ?airport ?name ?country ?isEU ?requiresVisa
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name .
+                
+                # Get country information
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+                
+                # Get EU status if available
+                OPTIONAL { 
+                    ?route klm:hasDestination ?airport .
+                    ?route sch:isEU ?isEU .
+                }
+                
+                # Get visa requirements if available
+                OPTIONAL { 
+                    ?route klm:hasDestination ?airport .
+                    ?route sch:requiresVisa ?requiresVisa .
+                }
+                
+                # Only consider airports that are NOT currently served by KLM
+                FILTER NOT EXISTS {
+                    ?route klm:hasDestination ?airport .
+                    ?flight klm:follows ?route .
+                    ?airline klm:operates ?flight .
+                    ?airline klm:code "KL" .
+                }
+                
+                # Only consider destinations already served by other airlines at Schiphol
+                # (indicating market demand exists)
+                EXISTS {
+                    ?flight a sch:SchipholFlight .
+                    ?flight klm:follows ?otherRoute .
+                    ?otherRoute klm:hasDestination ?airport .
+                }
+            }
+            ORDER BY ?country ?name
+        

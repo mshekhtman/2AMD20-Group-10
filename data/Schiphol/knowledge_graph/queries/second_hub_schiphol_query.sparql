@@ -1,0 +1,45 @@
+
+            # Query to find suitable airports for a second KLM hub based on Schiphol data
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            
+            SELECT ?airport ?name ?country ?routeCount ?connectionEfficiency ?isEU ?delayRate ?requiresVisa
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:routeCount ?routeCount .
+                
+                # Only consider airports with significant connectivity
+                FILTER (?routeCount > 5)
+                
+                # Exclude Schiphol (current hub)
+                FILTER NOT EXISTS { ?airport sch:isMainSchipholHub true }
+                
+                # Include Schiphol-specific metrics when available
+                OPTIONAL { ?airport sch:connectionEfficiency ?connectionEfficiency }
+                OPTIONAL { ?airport klm:delayRate ?delayRate }
+                
+                # Get EU status if available (from routes)
+                OPTIONAL { 
+                    ?route klm:hasDestination ?airport .
+                    ?route sch:isEU ?isEU .
+                }
+                
+                # Get visa requirements if available
+                OPTIONAL { 
+                    ?route klm:hasDestination ?airport .
+                    ?route sch:requiresVisa ?requiresVisa .
+                }
+                
+                # Get country information if available
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            ORDER BY DESC(?routeCount) DESC(?connectionEfficiency)
+            LIMIT 15
+        

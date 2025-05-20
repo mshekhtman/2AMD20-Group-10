@@ -1,0 +1,23 @@
+
+            # Query for analyzing terminal and gate usage patterns at potential hub airports
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            
+            SELECT ?airport ?name ?terminal (COUNT(?gate) as ?gateCount) (COUNT(?flight) as ?flightCount)
+            WHERE {
+                # Focus on airports that could be potential hubs
+                ?airport a klm:PotentialHubAirport ;
+                        klm:name ?name .
+                
+                # Find flights to this airport
+                ?flight a sch:SchipholFlight ;
+                        klm:follows ?route ;
+                        sch:terminal ?terminal ;
+                        sch:gate ?gate .
+                
+                ?route klm:hasDestination ?airport .
+            }
+            GROUP BY ?airport ?name ?terminal
+            ORDER BY ?name ?terminal
+        

@@ -1,0 +1,35 @@
+
+            # Query to analyze delay patterns by destination based on Schiphol data
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            
+            SELECT ?airport ?name ?country ?delayRate ?totalFlights ?delayedFlights ?avgDelayMinutes ?isEU
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:delayRate ?delayRate ;
+                        klm:totalFlights ?totalFlights ;
+                        klm:delayedFlights ?delayedFlights .
+                
+                # Only include airports with significant flight volume
+                FILTER(?totalFlights >= 5)
+                
+                # Get average delay minutes if available
+                OPTIONAL { ?airport sch:averageDelayMinutes ?avgDelayMinutes }
+                
+                # Get EU status
+                OPTIONAL { 
+                    ?route klm:hasDestination ?airport .
+                    ?route sch:isEU ?isEU .
+                }
+                
+                # Get country information
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            ORDER BY DESC(?delayRate) DESC(?totalFlights)
+        

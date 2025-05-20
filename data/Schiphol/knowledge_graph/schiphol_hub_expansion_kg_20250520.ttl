@@ -1,0 +1,2353 @@
+@prefix klm: <http://example.org/klm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sch: <http://example.org/schiphol/> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/klm/aircraft/100> a klm:Aircraft ;
+    klm:code "100" ;
+    klm:name "FOKKER 100" ;
+    sch:iataSubType "100" .
+
+<http://example.org/klm/aircraft/146> a klm:Aircraft ;
+    klm:code "146" ;
+    klm:name "BRITISH AEROSPACE 146-100",
+        "BRITISH AEROSPACE 146-200 PASSENGER",
+        "BRITISH AEROSPACE 146-300" ;
+    sch:iataSubType "141",
+        "142",
+        "143" .
+
+<http://example.org/klm/aircraft/14F> a klm:Aircraft ;
+    klm:code "14F" ;
+    klm:name "BRITISH AEROSPACE 146-200 FREIGHTER" ;
+    sch:iataSubType "14Y" .
+
+<http://example.org/klm/aircraft/220> a klm:Aircraft ;
+    klm:code "220" ;
+    klm:name "Airbus A220-100",
+        "Airbus A220-300" ;
+    sch:iataSubType "221",
+        "223" .
+
+<http://example.org/klm/aircraft/310> a klm:Aircraft ;
+    klm:code "310" ;
+    klm:name "AIRBUS A310-300 PASSENGER" ;
+    sch:iataSubType "313" .
+
+<http://example.org/klm/aircraft/31F> a klm:Aircraft ;
+    klm:code "31F" ;
+    klm:name "AIRBUS A310-300 FREIGHTER" ;
+    sch:iataSubType "31Y" .
+
+<http://example.org/klm/airline/0B> a klm:Airline ;
+    klm:code "0B" ;
+    klm:name "Blue Air" ;
+    sch:icaoCode "BLA" ;
+    schema1:name "Blue Air" .
+
+<http://example.org/klm/airline/2F> a klm:Airline ;
+    klm:code "2F" ;
+    klm:name "ETF Airways" ;
+    sch:icaoCode "EZZ" ;
+    schema1:name "ETF Airways" .
+
+<http://example.org/klm/airline/2L> a klm:Airline ;
+    klm:code "2L" ;
+    klm:name "Helvetic" ;
+    sch:icaoCode "OAW" ;
+    schema1:name "Helvetic" .
+
+<http://example.org/klm/airline/2N> a klm:Airline ;
+    klm:code "2N" ;
+    klm:name "Smart Lynx Malta" ;
+    sch:icaoCode "LYX" ;
+    schema1:name "Smart Lynx Malta" .
+
+<http://example.org/klm/airline/2W> a klm:Airline ;
+    klm:code "2W" ;
+    klm:name "World2fly" ;
+    sch:icaoCode "WFL" ;
+    schema1:name "World2fly" .
+
+<http://example.org/klm/airline/3O> a klm:Airline ;
+    klm:code "3O" ;
+    klm:name "Air Arabia Maroc" ;
+    sch:icaoCode "MAC" ;
+    schema1:name "Air Arabia Maroc" .
+
+<http://example.org/klm/airline/4M> a klm:Airline ;
+    klm:code "4M" ;
+    klm:name "MGA Airlines" ;
+    sch:icaoCode "MGH" ;
+    schema1:name "MGA Airlines" .
+
+<http://example.org/klm/airline/4U> a klm:Airline ;
+    klm:code "4U" ;
+    klm:name "Germanwings" ;
+    sch:icaoCode "GWI" ;
+    schema1:name "Germanwings" .
+
+<http://example.org/klm/airline/4Y> a klm:Airline ;
+    klm:code "4Y" ;
+    klm:name "Airbus Transport International" ;
+    sch:icaoCode "BGA" ;
+    schema1:name "Airbus Transport International" .
+
+<http://example.org/klm/airline/5F> a klm:Airline ;
+    klm:code "5F" ;
+    klm:name "Flyone" ;
+    sch:icaoCode "FIA" ;
+    schema1:name "Flyone" .
+
+<http://example.org/klm/airline/5K> a klm:Airline ;
+    klm:code "5K" ;
+    klm:name "Hi Fly SA" ;
+    sch:icaoCode "HFY" ;
+    schema1:name "Hi Fly SA" .
+
+<http://example.org/klm/airline/5M> a klm:Airline ;
+    klm:code "5M" ;
+    klm:name "Hi Fly Ltd" ;
+    sch:icaoCode "HFM" ;
+    schema1:name "Hi Fly Ltd" .
+
+<http://example.org/klm/airline/5O> a klm:Airline ;
+    klm:code "5O" ;
+    klm:name "ASL Airlines France" ;
+    sch:icaoCode "FPO" ;
+    schema1:name "ASL Airlines France" .
+
+<http://example.org/klm/airline/5P> a klm:Airline ;
+    klm:code "5P" ;
+    klm:name "Small Planet Airlines" ;
+    sch:icaoCode "LLX" ;
+    schema1:name "Small Planet Airlines" .
+
+<http://example.org/klm/airline/6B> a klm:Airline ;
+    klm:code "6B" ;
+    klm:name "TUIfly Nordic" ;
+    sch:icaoCode "BLX" ;
+    schema1:name "TUIfly Nordic" .
+
+<http://example.org/klm/airline/6E> a klm:Airline ;
+    klm:code "6E" ;
+    klm:name "IndiGo" ;
+    sch:icaoCode "IGO" ;
+    schema1:name "IndiGo" .
+
+<http://example.org/klm/airline/6H> a klm:Airline ;
+    klm:code "6H" ;
+    klm:name "Israir" ;
+    sch:icaoCode "ISR" ;
+    schema1:name "Israir" .
+
+<http://example.org/klm/airline/6I> a klm:Airline ;
+    klm:code "6I" ;
+    klm:name "Air Alisie A/S" ;
+    schema1:name "Air Alisie A/S" .
+
+<http://example.org/klm/airline/6K> a klm:Airline ;
+    klm:code "6K" ;
+    klm:name "Air Anka" ;
+    sch:icaoCode "TAH" ;
+    schema1:name "Air Anka" .
+
+<http://example.org/klm/airline/6Y> a klm:Airline ;
+    klm:code "6Y" ;
+    klm:name "SmartLynx Airlines" ;
+    sch:icaoCode "ART" ;
+    schema1:name "SmartLynx Airlines" .
+
+<http://example.org/klm/airline/AF> klm:operates <http://example.org/schiphol/flight/142381867308437476>,
+        <http://example.org/schiphol/flight/142381867308451172>,
+        <http://example.org/schiphol/flight/142381867308451462>,
+        <http://example.org/schiphol/flight/142381867308648760>,
+        <http://example.org/schiphol/flight/142381867308653712>,
+        <http://example.org/schiphol/flight/142381867308946978>,
+        <http://example.org/schiphol/flight/142381867308947122>,
+        <http://example.org/schiphol/flight/142381867308950086>,
+        <http://example.org/schiphol/flight/142381867308952150>,
+        <http://example.org/schiphol/flight/142381867308952294>,
+        <http://example.org/schiphol/flight/142381867308952604> .
+
+<http://example.org/klm/airline/CD> klm:operates <http://example.org/schiphol/flight/142381867155887146> .
+
+<http://example.org/klm/airline/CZ> klm:operates <http://example.org/schiphol/flight/142381867660481238> .
+
+<http://example.org/klm/airline/DL> klm:operates <http://example.org/schiphol/flight/142381867746684934>,
+        <http://example.org/schiphol/flight/142381867746687380>,
+        <http://example.org/schiphol/flight/142381867746690274>,
+        <http://example.org/schiphol/flight/142381867747602331>,
+        <http://example.org/schiphol/flight/142381867747604908>,
+        <http://example.org/schiphol/flight/142381867747607642>,
+        <http://example.org/schiphol/flight/142381867747607659>,
+        <http://example.org/schiphol/flight/142381867747609860>,
+        <http://example.org/schiphol/flight/142381867747609874>,
+        <http://example.org/schiphol/flight/142381867747613282> .
+
+<http://example.org/klm/airline/HV> klm:operates <http://example.org/schiphol/flight/142381867176433537>,
+        <http://example.org/schiphol/flight/142381867176436206>,
+        <http://example.org/schiphol/flight/142381868339031858>,
+        <http://example.org/schiphol/flight/142381868339034813>,
+        <http://example.org/schiphol/flight/142381868339042949>,
+        <http://example.org/schiphol/flight/142381868339426121>,
+        <http://example.org/schiphol/flight/142381868339428785>,
+        <http://example.org/schiphol/flight/142381868339428790>,
+        <http://example.org/schiphol/flight/142381868339434113>,
+        <http://example.org/schiphol/flight/142381868339434118>,
+        <http://example.org/schiphol/flight/142381868339434410>,
+        <http://example.org/schiphol/flight/142381868339434417>,
+        <http://example.org/schiphol/flight/142381868339434483>,
+        <http://example.org/schiphol/flight/142381868339437229>,
+        <http://example.org/schiphol/flight/142381868339442405>,
+        <http://example.org/schiphol/flight/142381868339442775>,
+        <http://example.org/schiphol/flight/142381868339445143>,
+        <http://example.org/schiphol/flight/142381868339445444>,
+        <http://example.org/schiphol/flight/142381868339448252>,
+        <http://example.org/schiphol/flight/142381868339450838>,
+        <http://example.org/schiphol/flight/142381868339527136>,
+        <http://example.org/schiphol/flight/142381868339529951>,
+        <http://example.org/schiphol/flight/142381868339529956>,
+        <http://example.org/schiphol/flight/142381868339530236>,
+        <http://example.org/schiphol/flight/142381868339535580>,
+        <http://example.org/schiphol/flight/142381868339538531>,
+        <http://example.org/schiphol/flight/142381868339543723>,
+        <http://example.org/schiphol/flight/142381868339544081>,
+        <http://example.org/schiphol/flight/142381868339546457>,
+        <http://example.org/schiphol/flight/142381868339549636>,
+        <http://example.org/schiphol/flight/142381868339551859> .
+
+<http://example.org/klm/airline/KE> klm:operates <http://example.org/schiphol/flight/142381868691792890> .
+
+<http://example.org/klm/airline/KL> klm:operates <http://example.org/schiphol/flight/142381868717510930>,
+        <http://example.org/schiphol/flight/142381868717514112>,
+        <http://example.org/schiphol/flight/142381868717514170>,
+        <http://example.org/schiphol/flight/142381868717516624>,
+        <http://example.org/schiphol/flight/142381868717516912>,
+        <http://example.org/schiphol/flight/142381868717519062>,
+        <http://example.org/schiphol/flight/142381868717521792>,
+        <http://example.org/schiphol/flight/142381868717522100>,
+        <http://example.org/schiphol/flight/142381868717522326>,
+        <http://example.org/schiphol/flight/142381868717612753>,
+        <http://example.org/schiphol/flight/142381868717620511>,
+        <http://example.org/schiphol/flight/142381868717716793>,
+        <http://example.org/schiphol/flight/142381868717716801>,
+        <http://example.org/schiphol/flight/142381868717718939>,
+        <http://example.org/schiphol/flight/142381868717719095>,
+        <http://example.org/schiphol/flight/142381868717719158>,
+        <http://example.org/schiphol/flight/142381868717719169>,
+        <http://example.org/schiphol/flight/142381868717719228>,
+        <http://example.org/schiphol/flight/142381868717719313>,
+        <http://example.org/schiphol/flight/142381868717719383>,
+        <http://example.org/schiphol/flight/142381868717719449>,
+        <http://example.org/schiphol/flight/142381868717719457>,
+        <http://example.org/schiphol/flight/142381868717719535>,
+        <http://example.org/schiphol/flight/142381868717721907>,
+        <http://example.org/schiphol/flight/142381868717721974>,
+        <http://example.org/schiphol/flight/142381868717809804>,
+        <http://example.org/schiphol/flight/142381868718107740>,
+        <http://example.org/schiphol/flight/142381868718108170>,
+        <http://example.org/schiphol/flight/142381868718108326> .
+
+<http://example.org/klm/airline/MH> klm:operates <http://example.org/schiphol/flight/142381868980405538> .
+
+<http://example.org/klm/airline/MP> klm:operates <http://example.org/schiphol/flight/142381869010479952>,
+        <http://example.org/schiphol/flight/142381869010688113> .
+
+<http://example.org/klm/airline/OR> klm:operates <http://example.org/schiphol/flight/142381869294842867>,
+        <http://example.org/schiphol/flight/142381869294848409>,
+        <http://example.org/schiphol/flight/142381869294856414>,
+        <http://example.org/schiphol/flight/142381869294859369>,
+        <http://example.org/schiphol/flight/142381869295045398>,
+        <http://example.org/schiphol/flight/142381869295045694> .
+
+<http://example.org/klm/airline/QF> klm:operates <http://example.org/schiphol/flight/142381869527548154> .
+
+<http://example.org/klm/airline/SK> klm:operates <http://example.org/schiphol/flight/142381869823884932> .
+
+<http://example.org/klm/airline/VS> klm:operates <http://example.org/schiphol/flight/142381870269633764>,
+        <http://example.org/schiphol/flight/142381870269633848>,
+        <http://example.org/schiphol/flight/142381870269710724>,
+        <http://example.org/schiphol/flight/142381870270017298>,
+        <http://example.org/schiphol/flight/142381870270017454> .
+
+<http://example.org/klm/airport/AAA> a klm:Airport ;
+    klm:code "AAA" ;
+    klm:name "Anaa, TU" ;
+    schema1:name "Anaa, TU" .
+
+<http://example.org/klm/airport/AAB> a klm:Airport ;
+    klm:code "AAB" ;
+    klm:name "Arrabury, QL" ;
+    schema1:name "Arrabury, QL" .
+
+<http://example.org/klm/airport/AAC> a klm:Airport ;
+    klm:code "AAC" ;
+    klm:locatedIn <http://example.org/klm/city/al_arish> ;
+    klm:name "Al-Arish" ;
+    schema1:name "Al-Arish" .
+
+<http://example.org/klm/airport/AAD> a klm:Airport ;
+    klm:code "AAD" ;
+    klm:locatedIn <http://example.org/klm/city/ad_dabbah> ;
+    klm:name "Ad-Dabbah" ;
+    schema1:name "Ad-Dabbah" .
+
+<http://example.org/klm/airport/AAE> a klm:Airport ;
+    klm:code "AAE" ;
+    klm:locatedIn <http://example.org/klm/city/annaba> ;
+    klm:name "Annaba" ;
+    schema1:name "Annaba" .
+
+<http://example.org/klm/airport/AAF> a klm:Airport ;
+    klm:code "AAF" ;
+    klm:locatedIn <http://example.org/klm/city/apalachicola> ;
+    klm:name "Municipal, FL" ;
+    schema1:name "Municipal, FL" .
+
+<http://example.org/klm/airport/AAG> a klm:Airport ;
+    klm:code "AAG" ;
+    klm:name "Arapoti, PR" ;
+    schema1:name "Arapoti, PR" .
+
+<http://example.org/klm/airport/AAH> a klm:Airport ;
+    klm:code "AAH" ;
+    klm:locatedIn <http://example.org/klm/city/aachen> ;
+    klm:name "Merzbrueck" ;
+    schema1:name "Merzbrueck" .
+
+<http://example.org/klm/airport/AAI> a klm:Airport ;
+    klm:code "AAI" ;
+    klm:name "Arraias, TD" ;
+    schema1:name "Arraias, TD" .
+
+<http://example.org/klm/airport/AAJ> a klm:Airport ;
+    klm:code "AAJ" ;
+    klm:locatedIn <http://example.org/klm/city/awaradam> ;
+    klm:name "Cayana Airstrip" ;
+    schema1:name "Cayana Airstrip" .
+
+<http://example.org/klm/airport/AAK> a klm:Airport ;
+    klm:code "AAK" ;
+    klm:name "Aranuka" ;
+    schema1:name "Aranuka" .
+
+<http://example.org/klm/airport/AAL> a klm:Airport ;
+    klm:code "AAL" ;
+    klm:locatedIn <http://example.org/klm/city/aalborg> ;
+    klm:name "Aalborg" ;
+    schema1:name "Aalborg" .
+
+<http://example.org/klm/airport/AAM> a klm:Airport ;
+    klm:code "AAM" ;
+    klm:name "Malamala" ;
+    schema1:name "Malamala" .
+
+<http://example.org/klm/airport/AAN> a klm:Airport ;
+    klm:code "AAN" ;
+    klm:locatedIn <http://example.org/klm/city/al_ain> ;
+    klm:name "Al Ain" ;
+    schema1:name "Al Ain" .
+
+<http://example.org/klm/airport/AAO> a klm:Airport ;
+    klm:code "AAO" ;
+    klm:name "Anaco, AN" ;
+    schema1:name "Anaco, AN" .
+
+<http://example.org/klm/airport/AAP> a klm:Airport ;
+    klm:code "AAP" ;
+    klm:locatedIn <http://example.org/klm/city/houston> ;
+    klm:name "Andrau Airpark, TX" ;
+    schema1:name "Andrau Airpark, TX" .
+
+<http://example.org/klm/airport/AAQ> a klm:Airport ;
+    klm:code "AAQ" ;
+    klm:locatedIn <http://example.org/klm/city/anapa> ;
+    klm:name "Vitiazevo" ;
+    schema1:name "Vitiazevo" .
+
+<http://example.org/klm/airport/AAR> a klm:Airport ;
+    klm:code "AAR" ;
+    klm:locatedIn <http://example.org/klm/city/aarhus> ;
+    klm:name "Aarhus" ;
+    schema1:name "Aarhus" .
+
+<http://example.org/klm/airport/AAS> a klm:Airport ;
+    klm:code "AAS" ;
+    klm:name "Apalapsili" ;
+    schema1:name "Apalapsili" .
+
+<http://example.org/klm/airport/AAT> a klm:Airport ;
+    klm:code "AAT" ;
+    klm:name "Altay" ;
+    schema1:name "Altay" .
+
+<http://example.org/klm/airport/ARN> klm:passengerVolume 27000000 .
+
+<http://example.org/klm/airport/BRU> klm:passengerVolume 26000000 .
+
+<http://example.org/klm/airport/CDG> klm:passengerVolume 76000000 .
+
+<http://example.org/klm/airport/CPH> klm:passengerVolume 30000000 .
+
+<http://example.org/klm/airport/DUB> klm:passengerVolume 31000000 .
+
+<http://example.org/klm/airport/FCO> klm:passengerVolume 48000000 .
+
+<http://example.org/klm/airport/FRA> klm:passengerVolume 70000000 .
+
+<http://example.org/klm/airport/HEL> klm:passengerVolume 21000000 .
+
+<http://example.org/klm/airport/LGW> klm:passengerVolume 46000000 .
+
+<http://example.org/klm/airport/LHR> klm:passengerVolume 80000000 .
+
+<http://example.org/klm/airport/MAD> klm:passengerVolume 61000000 .
+
+<http://example.org/klm/airport/MAN> klm:passengerVolume 29000000 .
+
+<http://example.org/klm/airport/MUC> klm:passengerVolume 47000000 .
+
+<http://example.org/klm/airport/ORY> klm:passengerVolume 32000000 .
+
+<http://example.org/klm/airport/OSL> klm:passengerVolume 28000000 .
+
+<http://example.org/klm/airport/VIE> klm:passengerVolume 31000000 .
+
+<http://example.org/klm/airport/ZRH> klm:passengerVolume 31000000 .
+
+sch:capacity a owl:DatatypeProperty ;
+    rdfs:domain klm:Aircraft ;
+    rdfs:range xsd:integer .
+
+sch:connectionEfficiency a owl:DatatypeProperty ;
+    rdfs:domain klm:Airport ;
+    rdfs:range xsd:decimal .
+
+sch:dailyCapacity a owl:DatatypeProperty ;
+    rdfs:domain klm:Airport ;
+    rdfs:range xsd:integer .
+
+sch:flightState a owl:DatatypeProperty ;
+    rdfs:domain sch:SchipholFlight ;
+    rdfs:range xsd:string .
+
+sch:gate a owl:ObjectProperty ;
+    rdfs:domain sch:SchipholFlight ;
+    rdfs:range sch:Gate .
+
+sch:isEU a owl:DatatypeProperty ;
+    rdfs:domain klm:Route ;
+    rdfs:range xsd:boolean .
+
+sch:pier a owl:ObjectProperty ;
+    rdfs:domain sch:SchipholFlight ;
+    rdfs:range sch:Pier .
+
+sch:requiresVisa a owl:DatatypeProperty ;
+    rdfs:domain klm:Route ;
+    rdfs:range xsd:boolean .
+
+sch:terminal a owl:ObjectProperty ;
+    rdfs:domain sch:SchipholFlight ;
+    rdfs:range sch:Terminal .
+
+<http://example.org/klm/airport/BCN> klm:passengerVolume 52000000 .
+
+<http://example.org/klm/airport/CFU> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 1 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/FNC> klm:delayRate 0.5 ;
+    klm:delayedFlights 1 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 2 ;
+    sch:averageDelayMinutes 30.0 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/HER> klm:delayRate 0.3333333333333333 ;
+    klm:delayedFlights 1 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 3 ;
+    sch:averageDelayMinutes 20.0 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/IBZ> klm:delayRate 0.5 ;
+    klm:delayedFlights 1 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 2 ;
+    sch:averageDelayMinutes 25.0 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/JMK> klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 1 ;
+    sch:averageDelayMinutes 30.0 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/JNB> klm:delayRate 1.0 ;
+    klm:delayedFlights 1 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 1 ;
+    sch:averageDelayMinutes 20.0 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/JSI> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 1 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/KGS> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 1 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/LIS> klm:passengerVolume 31000000 .
+
+<http://example.org/klm/airport/LPA> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 1 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/LUX> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 2 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/OLB> klm:delayRate 0.5 ;
+    klm:delayedFlights 1 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 2 ;
+    sch:averageDelayMinutes 10.0 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/PVK> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 1 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/RTM> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 1 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/SVQ> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 2 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/TFS> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 2 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/VRN> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 2 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/airport/ZTH> klm:delayRate 0.0 ;
+    klm:delayedFlights 0 ;
+    klm:routeCount 1 ;
+    klm:totalFlights 1 ;
+    sch:connectionEfficiency 0.65 ;
+    sch:hubPotentialScore 2.0 .
+
+<http://example.org/klm/city/aachen> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/germany> ;
+    klm:name "Aachen" ;
+    schema1:name "Aachen" .
+
+<http://example.org/klm/city/aalborg> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/denmark> ;
+    klm:name "Aalborg" ;
+    schema1:name "Aalborg" .
+
+<http://example.org/klm/city/aarhus> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/denmark> ;
+    klm:name "Aarhus" ;
+    schema1:name "Aarhus" .
+
+<http://example.org/klm/city/ad_dabbah> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/sudan> ;
+    klm:name "Ad-Dabbah" ;
+    schema1:name "Ad-Dabbah" .
+
+<http://example.org/klm/city/al_ain> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/united_arab_emirates__the_> ;
+    klm:name "Al Ain" ;
+    schema1:name "Al Ain" .
+
+<http://example.org/klm/city/al_arish> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/egypt> ;
+    klm:name "Al-Arish" ;
+    schema1:name "Al-Arish" .
+
+<http://example.org/klm/city/anapa> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/russia__cis_> ;
+    klm:name "Anapa" ;
+    schema1:name "Anapa" .
+
+<http://example.org/klm/city/annaba> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/algeria> ;
+    klm:name "Annaba" ;
+    schema1:name "Annaba" .
+
+<http://example.org/klm/city/apalachicola> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/usa> ;
+    klm:name "Apalachicola" ;
+    schema1:name "Apalachicola" .
+
+<http://example.org/klm/city/awaradam> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/surinam> ;
+    klm:name "Awaradam" ;
+    schema1:name "Awaradam" .
+
+<http://example.org/klm/city/houston> a klm:City ;
+    klm:locatedIn <http://example.org/klm/country/usa> ;
+    klm:name "Houston" ;
+    schema1:name "Houston" .
+
+<http://example.org/klm/country/algeria> a klm:Country ;
+    klm:name "Algeria" ;
+    schema1:name "Algeria" .
+
+<http://example.org/klm/country/egypt> a klm:Country ;
+    klm:name "Egypt" ;
+    schema1:name "Egypt" .
+
+<http://example.org/klm/country/germany> a klm:Country ;
+    klm:name "Germany" ;
+    schema1:name "Germany" .
+
+<http://example.org/klm/country/russia__cis_> a klm:Country ;
+    klm:name "Russia (CIS)" ;
+    schema1:name "Russia (CIS)" .
+
+<http://example.org/klm/country/sudan> a klm:Country ;
+    klm:name "Sudan" ;
+    schema1:name "Sudan" .
+
+<http://example.org/klm/country/surinam> a klm:Country ;
+    klm:name "Surinam" ;
+    schema1:name "Surinam" .
+
+<http://example.org/klm/country/united_arab_emirates__the_> a klm:Country ;
+    klm:name "United Arab Emirates (the)" ;
+    schema1:name "United Arab Emirates (the)" .
+
+<http://example.org/klm/route/AMS-BOG> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/BOG> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-CAN> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/CAN> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-CFU> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/CFU> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-DLM> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/DLM> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-GRO> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/GRO> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-HRG> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/HRG> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-JMK> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/JMK> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-JNB> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/JNB> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-JSI> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/JSI> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-KEF> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/KEF> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-KGS> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/KGS> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-LIS> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/LIS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-LPA> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/LPA> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-OPO> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/OPO> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-PBM> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/PBM> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-PVK> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/PVK> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-RHO> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/RHO> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-RTM> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/RTM> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-SPU> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/SPU> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-VLC> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/VLC> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-ZTH> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/ZTH> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/schiphol/flight/142381867155887146> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "724"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-RHO> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:50:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "CD724" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867176433537> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "81"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-RTM> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:15:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV081" ;
+    sch:flightState "DEP" .
+
+<http://example.org/schiphol/flight/142381867176436206> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "174"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-AYT> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T00:20:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV174" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867308437476> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "3112"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ICN> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T05:20:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF3112" ;
+    sch:flightState "SCH" .
+
+<http://example.org/schiphol/flight/142381867308451172> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "3615"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-BOS> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T05:40:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF3615" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867308451462> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "3652"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ATL> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF3652" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867308648760> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5479"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-LOS> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T05:55:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF5479" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867308653712> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5606"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-DTW> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/350> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 15 ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF5606" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867308946978> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "8248"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ACC> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:40:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF8248" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867308947122> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "8266"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-YYZ> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF8266" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381867308950086> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "8398"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-CGK> ;
+    klm:operatedWith <http://example.org/klm/aircraft/787> ;
+    klm:scheduledDeparture "2025-05-19T06:35:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF8398" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867308952150> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "8404"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-HKG> ;
+    klm:operatedWith <http://example.org/klm/aircraft/787> ;
+    klm:scheduledDeparture "2025-05-19T06:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF8404" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381867308952294> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "8422"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-DXB> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF8422" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381867308952604> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "8469"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-MSP> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "AF8469" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867660481238> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "307"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-CAN> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/350> ;
+    klm:scheduledDeparture "2025-05-19T06:35:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 25 ;
+    sch:flightDirection "A" ;
+    sch:flightName "CZ0307" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867746684934> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "70"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ATL> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "DL0070" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867746687380> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "132"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-DTW> ;
+    klm:operatedWith <http://example.org/klm/aircraft/350> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "DL0132" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867746690274> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "256"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-BOS> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T05:40:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 25 ;
+    sch:flightDirection "A" ;
+    sch:flightName "DL0256" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867747602331> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "9299"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-BCN> ;
+    klm:operatedWith <http://example.org/klm/aircraft/EMJ> ;
+    klm:scheduledDeparture "2025-05-19T06:35:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "DL9299" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/B16> ;
+    sch:pier <http://example.org/schiphol/pier/B> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381867747604908> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "9373"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ACC> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:40:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "DL9373" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867747607642> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "9471"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-MSP> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 20 ;
+    sch:flightDirection "A" ;
+    sch:flightName "DL9471" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867747607659> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "9479"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-LUX> ;
+    klm:operatedWith <http://example.org/klm/aircraft/EMJ> ;
+    klm:scheduledDeparture "2025-05-19T06:45:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "DL9479" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/B6> ;
+    sch:pier <http://example.org/schiphol/pier/B> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381867747609860> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "9500"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-DXB> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "DL9500" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381867747609874> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "9507"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-LOS> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T05:55:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "DL9507" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381867747613282> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "9699"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-YYZ> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "DL9699" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381868339031858> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "1446"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-HRG> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T01:25:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV1446" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868339034813> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "1573"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-HER> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T05:15:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV1573" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C18> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339042949> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "1861"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-JSI> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:10:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV1861" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D87> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339426121> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5041"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-KGS> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T05:35:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV5041" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D84> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339428785> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5131"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-BCN> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T05:55:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV5131" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C7> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339428790> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5134"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-BCN> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:10:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV5134" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339434113> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5311"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-CFU> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T05:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV5311" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C13> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339434118> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5314"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-LCA> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:05:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV5314" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339434410> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5352"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-FAO> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T00:05:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV5352" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339434417> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5355"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-FAO> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T05:10:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 10 ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV5355" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C11> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339434483> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5361"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-FAO> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T05:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV5361" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C9> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339437229> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5465"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-VRN> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:35:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV5465" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D78> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339442405> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5623"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-PMI> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:05:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV5623" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D86> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339442775> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5673"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-IBZ> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:10:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV5673" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D83> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339445143> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5723"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-HER> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T05:35:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 20 ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV5723" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D82> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339445444> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5766"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-GRO> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:35:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 25 ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV5766" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339448252> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5874"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-SPU> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:40:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV5874" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339450838> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5952"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-LIS> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T00:05:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 15 ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV5952" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339527136> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6004"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-OPO> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:10:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV6004" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339529951> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6115"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-AGP> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T06:45:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV6115" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C14> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339529956> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6118"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-AGP> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:10:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV6118" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339530236> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6150"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ALC> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:25:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV6150" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339535580> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6338"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-VLC> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:40:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV6338" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339538531> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6463"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-JMK> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 30 ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV6463" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D81> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339543723> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6629"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-FNC> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:20:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV6629" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C9> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339544081> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6673"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-TFS> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T06:20:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV6673" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D85> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339546457> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6727"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-SVQ> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T06:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV6727" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D77> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339549636> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6886"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-KEF> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T01:15:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 30 ;
+    sch:flightDirection "A" ;
+    sch:flightName "HV6886" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868339551859> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6917"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-OLB> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T06:25:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 10 ;
+    sch:flightDirection "D" ;
+    sch:flightName "HV6917" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D59> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868691792890> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5925"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ICN> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T05:20:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 15 ;
+    sch:flightDirection "A" ;
+    sch:flightName "KE5925" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868717510930> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "428"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-DXB> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL0428" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381868717514112> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "588"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-LOS> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T05:55:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL0588" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868717514170> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "590"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ACC> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:40:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 30 ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL0590" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868717516624> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "656"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-MSP> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL0656" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868717516912> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "692"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-YYZ> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 10 ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL0692" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381868717519062> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "714"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-PBM> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:20:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL0714" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/4.0> .
+
+<http://example.org/schiphol/flight/142381868717521792> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "810"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-CGK> ;
+    klm:operatedWith <http://example.org/klm/aircraft/787> ;
+    klm:scheduledDeparture "2025-05-19T06:35:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL0810" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868717522100> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "856"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ICN> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T05:20:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL0856" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868717522326> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "888"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-HKG> ;
+    klm:operatedWith <http://example.org/klm/aircraft/787> ;
+    klm:scheduledDeparture "2025-05-19T06:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL0888" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381868717612753> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "1497"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-BCN> ;
+    klm:operatedWith <http://example.org/klm/aircraft/EMJ> ;
+    klm:scheduledDeparture "2025-05-19T06:35:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL1497" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/B16> ;
+    sch:pier <http://example.org/schiphol/pier/B> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717620511> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "1731"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-LUX> ;
+    klm:operatedWith <http://example.org/klm/aircraft/EMJ> ;
+    klm:scheduledDeparture "2025-05-19T06:45:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL1731" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/B6> ;
+    sch:pier <http://example.org/schiphol/pier/B> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717716793> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2595"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-HER> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T05:35:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2595" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D82> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717716801> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2599"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-TFS> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T06:20:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2599" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D85> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717718939> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2615"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-OLB> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T06:25:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2615" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D59> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717719095> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2639"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-FAO> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T05:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2639" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C9> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717719158> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2644"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ALC> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:25:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL2644" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717719169> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2649"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-AGP> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T06:45:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 10 ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2649" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C14> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717719228> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2652"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-AGP> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:10:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL2652" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717719313> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2667"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-FAO> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T05:10:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2667" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C11> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717719383> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2675"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-PMI> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:05:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2675" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D86> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717719449> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2681"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-IBZ> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:10:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 25 ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2681" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D83> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717719457> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2685"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-SVQ> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T06:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2685" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D77> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717719535> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2697"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-FNC> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:20:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 30 ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2697" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/C9> ;
+    sch:pier <http://example.org/schiphol/pier/C> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717721907> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2749"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-VRN> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:35:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "KL2749" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D78> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717721974> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "2756"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-LCA> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:05:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL2756" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868717809804> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "3282"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-FAO> ;
+    klm:operatedWith <http://example.org/klm/aircraft/32S> ;
+    klm:scheduledDeparture "2025-05-19T00:05:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL3282" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/flight/142381868718107740> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6018"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-DTW> ;
+    klm:operatedWith <http://example.org/klm/aircraft/350> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL6018" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868718108170> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6071"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ATL> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL6071" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868718108326> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6095"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-BOS> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T05:40:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "KL6095" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381868980405538> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "5632"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-CGK> ;
+    klm:operatedWith <http://example.org/klm/aircraft/787> ;
+    klm:scheduledDeparture "2025-05-19T06:35:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "MH5632" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381869010479952> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6162"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-BOG> ;
+    klm:operatedWith <http://example.org/klm/aircraft/74F> ;
+    klm:scheduledDeparture "2025-05-19T06:15:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "MP6162" ;
+    sch:flightState "EXP",
+        "LND" .
+
+<http://example.org/schiphol/flight/142381869010688113> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "8371"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-JNB> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/74F> ;
+    klm:scheduledDeparture "2025-05-19T00:15:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 20 ;
+    sch:flightDirection "D" ;
+    sch:flightName "MP8371" ;
+    sch:flightState "DEP" .
+
+<http://example.org/schiphol/flight/142381869294842867> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "1025"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-PVK> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T05:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "OR1025" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D66> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381869294848409> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "1231"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ZTH> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T05:25:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "OR1231" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D62> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381869294856414> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "1508"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-PMI> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T01:10:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "OR1508" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/4.0> .
+
+<http://example.org/schiphol/flight/142381869294859369> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "1635"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-LPA> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T06:20:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "D" ;
+    sch:flightName "OR1635" ;
+    sch:flightState "DEP" ;
+    sch:gate <http://example.org/schiphol/gate/D60> ;
+    sch:pier <http://example.org/schiphol/pier/D> ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381869295045398> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "3012"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-AYT> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T00:30:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "OR3012" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/4.0> .
+
+<http://example.org/schiphol/flight/142381869295045694> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "3052"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-DLM> ;
+    klm:operatedWith <http://example.org/klm/aircraft/737> ;
+    klm:scheduledDeparture "2025-05-19T01:20:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "OR3052" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381869527548154> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "4217"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-HKG> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/787> ;
+    klm:scheduledDeparture "2025-05-19T06:30:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 20 ;
+    sch:flightDirection "A" ;
+    sch:flightName "QF4217" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381869823884932> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "6859"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-DXB> ;
+    klm:isDelayed true ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:30:00+02:00"^^xsd:dateTime ;
+    sch:delayMinutes 15 ;
+    sch:flightDirection "A" ;
+    sch:flightName "SK6859" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/flight/142381870269633764> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "3914"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-BOS> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T05:40:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "VS3914" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381870269633848> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "3929"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-DTW> ;
+    klm:operatedWith <http://example.org/klm/aircraft/350> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "VS3929" ;
+    sch:flightState "ARR" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381870269710724> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "4054"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-ATL> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "VS4054" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381870270017298> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "7140"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-MSP> ;
+    klm:operatedWith <http://example.org/klm/aircraft/777> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "VS7140" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/flight/142381870270017454> a klm:Flight,
+        sch:SchipholFlight ;
+    klm:flightNumber "7164"^^xsd:string ;
+    klm:follows <http://example.org/klm/route/AMS-YYZ> ;
+    klm:operatedWith <http://example.org/klm/aircraft/330> ;
+    klm:scheduledDeparture "2025-05-19T06:00:00+02:00"^^xsd:dateTime ;
+    sch:flightDirection "A" ;
+    sch:flightName "VS7164" ;
+    sch:flightState "ARR",
+        "EXP" ;
+    sch:terminal <http://example.org/schiphol/terminal/2.0> .
+
+<http://example.org/schiphol/gate/C13> a sch:Gate ;
+    sch:gateNumber "C13" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/C18> a sch:Gate ;
+    sch:gateNumber "C18" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/C7> a sch:Gate ;
+    sch:gateNumber "C7" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D60> a sch:Gate ;
+    sch:gateNumber "D60" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/gate/D62> a sch:Gate ;
+    sch:gateNumber "D62" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/gate/D66> a sch:Gate ;
+    sch:gateNumber "D66" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/3.0> .
+
+<http://example.org/schiphol/gate/D81> a sch:Gate ;
+    sch:gateNumber "D81" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D84> a sch:Gate ;
+    sch:gateNumber "D84" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D87> a sch:Gate ;
+    sch:gateNumber "D87" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/klm/country/denmark> a klm:Country ;
+    klm:name "Denmark" ;
+    schema1:name "Denmark" .
+
+<http://example.org/klm/country/usa> a klm:Country ;
+    klm:name "USA" ;
+    schema1:name "USA" .
+
+<http://example.org/klm/route/AMS-ALC> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/ALC> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-AYT> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/AYT> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-FNC> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/FNC> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-IBZ> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/IBZ> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-LCA> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/LCA> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-LUX> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/LUX> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-OLB> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/OLB> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-SVQ> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/SVQ> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-TFS> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/TFS> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-VRN> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/VRN> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/schiphol/gate/B16> a sch:Gate ;
+    sch:gateNumber "B16" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/B6> a sch:Gate ;
+    sch:gateNumber "B6" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/C11> a sch:Gate ;
+    sch:gateNumber "C11" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/C14> a sch:Gate ;
+    sch:gateNumber "C14" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D59> a sch:Gate ;
+    sch:gateNumber "D59" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D77> a sch:Gate ;
+    sch:gateNumber "D77" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D78> a sch:Gate ;
+    sch:gateNumber "D78" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D82> a sch:Gate ;
+    sch:gateNumber "D82" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D83> a sch:Gate ;
+    sch:gateNumber "D83" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D85> a sch:Gate ;
+    sch:gateNumber "D85" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/gate/D86> a sch:Gate ;
+    sch:gateNumber "D86" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/klm/route/AMS-ACC> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/ACC> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-CGK> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/CGK> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-HER> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/HER> ;
+    klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-HKG> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/HKG> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-ICN> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/ICN> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-LOS> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/LOS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-PMI> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/PMI> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/schiphol/terminal/4.0> a sch:Terminal ;
+    sch:terminalNumber 4e+00 .
+
+<http://example.org/klm/route/AMS-AGP> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/AGP> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-ATL> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/ATL> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-BCN> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/BCN> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-BOS> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/BOS> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-DTW> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/DTW> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-DXB> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/DXB> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-MSP> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/MSP> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/klm/route/AMS-YYZ> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/YYZ> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+sch:Pier a owl:Class ;
+    rdfs:label "Pier" ;
+    rdfs:comment "An airport pier" .
+
+<http://example.org/schiphol/gate/C9> a sch:Gate ;
+    sch:gateNumber "C9" ;
+    sch:inTerminal <http://example.org/schiphol/terminal/1.0> .
+
+<http://example.org/schiphol/pier/B> a sch:Pier ;
+    sch:pierNumber "B" .
+
+sch:Terminal a owl:Class ;
+    rdfs:label "Terminal" ;
+    rdfs:comment "An airport terminal" .
+
+<http://example.org/klm/route/AMS-FAO> a klm:Route ;
+    klm:hasDestination <http://example.org/klm/airport/AMS> ;
+    klm:hasOrigin <http://example.org/klm/airport/FAO> ;
+    sch:isEU false ;
+    sch:requiresVisa false .
+
+<http://example.org/schiphol/pier/C> a sch:Pier ;
+    sch:pierNumber "C" .
+
+<http://example.org/schiphol/terminal/2.0> a sch:Terminal ;
+    sch:terminalNumber 2e+00 .
+
+<http://example.org/klm/aircraft/32S> a klm:Aircraft ;
+    klm:code "32S" ;
+    klm:name "AIRBUS A318",
+        "AIRBUS A319",
+        "AIRBUS A319 NEO",
+        "AIRBUS A320",
+        "AIRBUS A320 NEO",
+        "AIRBUS A320-214 SHARKLETS",
+        "AIRBUS A321 NEO (XLR)",
+        "AIRBUS A321-100/200",
+        "AIRBUS A321-200P2F" ;
+    sch:iataSubType "318",
+        "319",
+        "31N",
+        "320",
+        "321",
+        "32A",
+        "32N",
+        "32Q",
+        "32X" .
+
+<http://example.org/klm/aircraft/330> a klm:Aircraft ;
+    klm:code "330" ;
+    klm:name "AIRBUS A330-200",
+        "AIRBUS A330-900neo" ;
+    sch:iataSubType "332",
+        "339" .
+
+<http://example.org/schiphol/pier/D> a sch:Pier ;
+    sch:pierNumber "D" .
+
+sch:Gate a owl:Class ;
+    rdfs:label "Gate" ;
+    rdfs:comment "An airport gate" .
+
+<http://example.org/schiphol/terminal/3.0> a sch:Terminal ;
+    sch:terminalNumber 3e+00 .
+
+<http://example.org/klm/airport/AMS> klm:delayRate 0.1891891891891892 ;
+    klm:delayedFlights 14 ;
+    klm:passengerVolume 71000000 ;
+    klm:totalFlights 74 ;
+    sch:averageDelayMinutes 18.928571428571427 .
+
+<http://example.org/schiphol/terminal/1.0> a sch:Terminal ;
+    sch:terminalNumber 1e+00 .
+
+sch:SchipholFlight a owl:Class ;
+    rdfs:label "Schiphol Flight" ;
+    rdfs:comment "A flight operated through Schiphol Airport" ;
+    rdfs:subClassOf klm:Flight .
+

@@ -1,0 +1,2661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:klm="http://example.org/klm/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sch="http://example.org/schiphol/"
+   xmlns:schema1="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867746684934">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70</klm:flightNumber>
+    <sch:flightName>DL0070</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ATL"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339551859">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6917</klm:flightNumber>
+    <sch:flightName>HV6917</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:25:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D59"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-OLB"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D77">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D77</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717719228">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2652</klm:flightNumber>
+    <sch:flightName>KL2652</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-AGP"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAL">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAL</klm:code>
+    <klm:name>Aalborg</klm:name>
+    <schema1:name>Aalborg</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/aalborg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/apalachicola">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Apalachicola</klm:name>
+    <schema1:name>Apalachicola</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/usa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339442405">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5623</klm:flightNumber>
+    <sch:flightName>HV5623</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:05:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D86"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-PMI"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/KL">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717809804"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717721974"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717719228"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717719158"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717719095"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717719313"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717522100"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717716793"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868718108326"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717514112"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868718108170"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717516912"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868718107740"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717516624"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717719383"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717719449"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717719535"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717716801"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717519062"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717718939"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717719457"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717510930"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717522326"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717721907"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717612753"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717521792"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717514170"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717620511"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868717719169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/country/algeria">
+    <rdf:type rdf:resource="http://example.org/klm/Country"/>
+    <klm:name>Algeria</klm:name>
+    <schema1:name>Algeria</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867176436206">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">174</klm:flightNumber>
+    <sch:flightName>HV174</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-AYT"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/aircraft/146">
+    <rdf:type rdf:resource="http://example.org/klm/Aircraft"/>
+    <klm:code>146</klm:code>
+    <klm:name>BRITISH AEROSPACE 146-100</klm:name>
+    <klm:name>BRITISH AEROSPACE 146-300</klm:name>
+    <klm:name>BRITISH AEROSPACE 146-200 PASSENGER</klm:name>
+    <sch:iataSubType>141</sch:iataSubType>
+    <sch:iataSubType>143</sch:iataSubType>
+    <sch:iataSubType>142</sch:iataSubType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869527548154">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4217</klm:flightNumber>
+    <sch:flightName>QF4217</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-HKG"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/787"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308451462">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3652</klm:flightNumber>
+    <sch:flightName>AF3652</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ATL"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717516912">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">692</klm:flightNumber>
+    <sch:flightName>KL0692</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-YYZ"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339442775">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5673</klm:flightNumber>
+    <sch:flightName>HV5673</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D83"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-IBZ"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339445143">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5723</klm:flightNumber>
+    <sch:flightName>HV5723</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D82"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-HER"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/al_arish">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Al-Arish</klm:name>
+    <schema1:name>Al-Arish</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/egypt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-BOG">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/BOG"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869295045694">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3052</klm:flightNumber>
+    <sch:flightName>OR3052</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T01:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-DLM"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717719095">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2639</klm:flightNumber>
+    <sch:flightName>KL2639</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C9"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-FAO"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/JMK">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:delayedFlights>
+    <sch:averageDelayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</sch:averageDelayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/ad_dabbah">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Ad-Dabbah</klm:name>
+    <schema1:name>Ad-Dabbah</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/sudan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/Terminal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Terminal</rdfs:label>
+    <rdfs:comment>An airport terminal</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308653712">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5606</klm:flightNumber>
+    <sch:flightName>AF5606</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-DTW"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/350"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/aachen">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Aachen</klm:name>
+    <schema1:name>Aachen</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/germany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/5F">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>5F</klm:code>
+    <sch:icaoCode>FIA</sch:icaoCode>
+    <klm:name>Flyone</klm:name>
+    <schema1:name>Flyone</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAK">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAK</klm:code>
+    <klm:name>Aranuka</klm:name>
+    <schema1:name>Aranuka</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869295045398">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3012</klm:flightNumber>
+    <sch:flightName>OR3012</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/4.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-AYT"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339428785">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5131</klm:flightNumber>
+    <sch:flightName>HV5131</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:55:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C7"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-BCN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867747607642">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9471</klm:flightNumber>
+    <sch:flightName>DL9471</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-MSP"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/terminal/1.0">
+    <rdf:type rdf:resource="http://example.org/schiphol/Terminal"/>
+    <sch:terminalNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</sch:terminalNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717719158">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2644</klm:flightNumber>
+    <sch:flightName>KL2644</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:25:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ALC"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717809804">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3282</klm:flightNumber>
+    <sch:flightName>KL3282</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:05:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-FAO"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717719457">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2685</klm:flightNumber>
+    <sch:flightName>KL2685</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D77"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-SVQ"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/AF">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308437476"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308451172"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308648760"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308451462"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308947122"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308653712"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308952604"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308952294"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308952150"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308950086"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867308946978"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717522326">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">888</klm:flightNumber>
+    <sch:flightName>KL0888</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-HKG"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/787"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869294859369">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1635</klm:flightNumber>
+    <sch:flightName>OR1635</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D60"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-LPA"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717716793">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2595</klm:flightNumber>
+    <sch:flightName>KL2595</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D82"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-HER"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-KGS">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/KGS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869010688113">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8371</klm:flightNumber>
+    <sch:flightName>MP8371</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:15:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-JNB"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/74F"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D81">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D81</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339434118">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5314</klm:flightNumber>
+    <sch:flightName>HV5314</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:05:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-LCA"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/C13">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>C13</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-BCN">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/BCN"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339538531">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6463</klm:flightNumber>
+    <sch:flightName>HV6463</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D81"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-JMK"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717510930">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">428</klm:flightNumber>
+    <sch:flightName>KL0428</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-DXB"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339529956">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6118</klm:flightNumber>
+    <sch:flightName>HV6118</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-AGP"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339434410">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5352</klm:flightNumber>
+    <sch:flightName>HV5352</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:05:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-FAO"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867747607659">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9479</klm:flightNumber>
+    <sch:flightName>DL9479</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:45:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/B6"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/B"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-LUX"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/EMJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717521792">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">810</klm:flightNumber>
+    <sch:flightName>KL0810</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-CGK"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/787"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868718107740">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6018</klm:flightNumber>
+    <sch:flightName>KL6018</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-DTW"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/350"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867747609860">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9500</klm:flightNumber>
+    <sch:flightName>DL9500</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-DXB"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339042949">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1861</klm:flightNumber>
+    <sch:flightName>HV1861</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D87"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-JSI"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867660481238">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">307</klm:flightNumber>
+    <sch:flightName>CZ0307</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-CAN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/350"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-KEF">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/KEF"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308952294">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8422</klm:flightNumber>
+    <sch:flightName>AF8422</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-DXB"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339529951">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6115</klm:flightNumber>
+    <sch:flightName>HV6115</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:45:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C14"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-AGP"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-JMK">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/JMK"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/2W">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>2W</klm:code>
+    <sch:icaoCode>WFL</sch:icaoCode>
+    <klm:name>World2fly</klm:name>
+    <schema1:name>World2fly</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-RTM">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/RTM"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717719535">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2697</klm:flightNumber>
+    <sch:flightName>KL2697</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C9"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-FNC"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339437229">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5465</klm:flightNumber>
+    <sch:flightName>HV5465</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D78"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-VRN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/6Y">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>6Y</klm:code>
+    <sch:icaoCode>ART</sch:icaoCode>
+    <klm:name>SmartLynx Airlines</klm:name>
+    <schema1:name>SmartLynx Airlines</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D84">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D84</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308451172">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3615</klm:flightNumber>
+    <sch:flightName>AF3615</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:40:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-BOS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/DL">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867746690274"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867747609874"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867746684934"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867747613282"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867746687380"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867747607642"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867747609860"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867747602331"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867747604908"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867747607659"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAI">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAI</klm:code>
+    <klm:name>Arraias, TD</klm:name>
+    <schema1:name>Arraias, TD</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/aircraft/330">
+    <rdf:type rdf:resource="http://example.org/klm/Aircraft"/>
+    <klm:code>330</klm:code>
+    <klm:name>AIRBUS A330-900neo</klm:name>
+    <klm:name>AIRBUS A330-200</klm:name>
+    <sch:iataSubType>339</sch:iataSubType>
+    <sch:iataSubType>332</sch:iataSubType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAR">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAR</klm:code>
+    <klm:name>Aarhus</klm:name>
+    <schema1:name>Aarhus</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/aarhus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/awaradam">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Awaradam</klm:name>
+    <schema1:name>Awaradam</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/surinam"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/MH">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868980405538"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/LUX">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/5M">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>5M</klm:code>
+    <sch:icaoCode>HFM</sch:icaoCode>
+    <klm:name>Hi Fly Ltd</klm:name>
+    <schema1:name>Hi Fly Ltd</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-DTW">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/DTW"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869294848409">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1231</klm:flightNumber>
+    <sch:flightName>OR1231</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:25:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D62"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ZTH"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-JSI">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/JSI"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339450838">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5952</klm:flightNumber>
+    <sch:flightName>HV5952</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:05:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-LIS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339544081">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6673</klm:flightNumber>
+    <sch:flightName>HV6673</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D85"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-TFS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717719313">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2667</klm:flightNumber>
+    <sch:flightName>KL2667</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C11"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-FAO"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339448252">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5874</klm:flightNumber>
+    <sch:flightName>HV5874</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:40:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-SPU"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339549636">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6886</klm:flightNumber>
+    <sch:flightName>HV6886</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T01:15:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-KEF"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869294842867">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1025</klm:flightNumber>
+    <sch:flightName>OR1025</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D66"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-PVK"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/aircraft/32S">
+    <rdf:type rdf:resource="http://example.org/klm/Aircraft"/>
+    <klm:code>32S</klm:code>
+    <klm:name>AIRBUS A321-200P2F</klm:name>
+    <klm:name>AIRBUS A320-214 SHARKLETS</klm:name>
+    <klm:name>AIRBUS A319 NEO</klm:name>
+    <klm:name>AIRBUS A318</klm:name>
+    <klm:name>AIRBUS A319</klm:name>
+    <klm:name>AIRBUS A321 NEO (XLR)</klm:name>
+    <klm:name>AIRBUS A321-100/200</klm:name>
+    <klm:name>AIRBUS A320 NEO</klm:name>
+    <klm:name>AIRBUS A320</klm:name>
+    <sch:iataSubType>32X</sch:iataSubType>
+    <sch:iataSubType>32A</sch:iataSubType>
+    <sch:iataSubType>31N</sch:iataSubType>
+    <sch:iataSubType>318</sch:iataSubType>
+    <sch:iataSubType>319</sch:iataSubType>
+    <sch:iataSubType>32Q</sch:iataSubType>
+    <sch:iataSubType>321</sch:iataSubType>
+    <sch:iataSubType>32N</sch:iataSubType>
+    <sch:iataSubType>320</sch:iataSubType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339034813">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1573</klm:flightNumber>
+    <sch:flightName>HV1573</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:15:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C18"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-HER"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867746690274">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">256</klm:flightNumber>
+    <sch:flightName>DL0256</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:40:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-BOS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/country/surinam">
+    <rdf:type rdf:resource="http://example.org/klm/Country"/>
+    <klm:name>Surinam</klm:name>
+    <schema1:name>Surinam</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717719169">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2649</klm:flightNumber>
+    <sch:flightName>KL2649</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:45:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C14"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-AGP"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAO">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAO</klm:code>
+    <klm:name>Anaco, AN</klm:name>
+    <schema1:name>Anaco, AN</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/LHR">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAJ">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAJ</klm:code>
+    <klm:name>Cayana Airstrip</klm:name>
+    <schema1:name>Cayana Airstrip</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/awaradam"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-LOS">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/LOS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/OLB">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:delayedFlights>
+    <sch:averageDelayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</sch:averageDelayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAF">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAF</klm:code>
+    <klm:name>Municipal, FL</klm:name>
+    <schema1:name>Municipal, FL</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/apalachicola"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717620511">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1731</klm:flightNumber>
+    <sch:flightName>KL1731</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:45:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/B6"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/B"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-LUX"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/EMJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAC">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAC</klm:code>
+    <klm:name>Al-Arish</klm:name>
+    <schema1:name>Al-Arish</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/al_arish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867176433537">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</klm:flightNumber>
+    <sch:flightName>HV081</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:15:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-RTM"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869010479952">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6162</klm:flightNumber>
+    <sch:flightName>MP6162</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:15:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>LND</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-BOG"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/74F"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-CFU">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/CFU"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339428790">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5134</klm:flightNumber>
+    <sch:flightName>HV5134</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-BCN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339530236">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6150</klm:flightNumber>
+    <sch:flightName>HV6150</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:25:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ALC"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339426121">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5041</klm:flightNumber>
+    <sch:flightName>HV5041</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D84"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-KGS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/4U">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>4U</klm:code>
+    <sch:icaoCode>GWI</sch:icaoCode>
+    <klm:name>Germanwings</klm:name>
+    <schema1:name>Germanwings</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339434417">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5355</klm:flightNumber>
+    <sch:flightName>HV5355</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C11"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-FAO"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867747613282">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9699</klm:flightNumber>
+    <sch:flightName>DL9699</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-YYZ"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-CGK">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/CGK"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339527136">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6004</klm:flightNumber>
+    <sch:flightName>HV6004</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-OPO"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867747609874">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9507</klm:flightNumber>
+    <sch:flightName>DL9507</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:55:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-LOS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/SVQ">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/country/usa">
+    <rdf:type rdf:resource="http://example.org/klm/Country"/>
+    <klm:name>USA</klm:name>
+    <schema1:name>USA</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867155887146">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">724</klm:flightNumber>
+    <sch:flightName>CD724</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:50:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-RHO"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339543723">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6629</klm:flightNumber>
+    <sch:flightName>HV6629</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C9"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-FNC"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/JNB">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:delayedFlights>
+    <sch:averageDelayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</sch:averageDelayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-PVK">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/PVK"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717514112">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">588</klm:flightNumber>
+    <sch:flightName>KL0588</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:55:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-LOS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/CZ">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867660481238"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAE">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAE</klm:code>
+    <klm:name>Annaba</klm:name>
+    <schema1:name>Annaba</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/annaba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308946978">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8248</klm:flightNumber>
+    <sch:flightName>AF8248</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:40:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ACC"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAH">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAH</klm:code>
+    <klm:name>Merzbrueck</klm:name>
+    <schema1:name>Merzbrueck</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/aachen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/4Y">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>4Y</klm:code>
+    <sch:icaoCode>BGA</sch:icaoCode>
+    <klm:name>Airbus Transport International</klm:name>
+    <schema1:name>Airbus Transport International</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/aircraft/31F">
+    <rdf:type rdf:resource="http://example.org/klm/Aircraft"/>
+    <klm:code>31F</klm:code>
+    <klm:name>AIRBUS A310-300 FREIGHTER</klm:name>
+    <sch:iataSubType>31Y</sch:iataSubType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308952604">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8469</klm:flightNumber>
+    <sch:flightName>AF8469</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-MSP"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717721907">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2749</klm:flightNumber>
+    <sch:flightName>KL2749</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D78"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-VRN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867746687380">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">132</klm:flightNumber>
+    <sch:flightName>DL0132</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-DTW"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/350"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-RHO">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/RHO"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868718108326">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6095</klm:flightNumber>
+    <sch:flightName>KL6095</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:40:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-BOS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/terminal/2.0">
+    <rdf:type rdf:resource="http://example.org/schiphol/Terminal"/>
+    <sch:terminalNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</sch:terminalNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/MUC">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-GRO">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/GRO"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/JSI">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-PMI">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/PMI"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381870269633848">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3929</klm:flightNumber>
+    <sch:flightName>VS3929</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-DTW"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/350"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717716801">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2599</klm:flightNumber>
+    <sch:flightName>KL2599</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D85"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-TFS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/ZTH">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/OR">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869295045398"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869294856414"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869295045694"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869294848409"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869294842867"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869294859369"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339434113">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5311</klm:flightNumber>
+    <sch:flightName>HV5311</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C13"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-CFU"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/0B">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>0B</klm:code>
+    <sch:icaoCode>BLA</sch:icaoCode>
+    <klm:name>Blue Air</klm:name>
+    <schema1:name>Blue Air</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339535580">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6338</klm:flightNumber>
+    <sch:flightName>HV6338</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:40:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-VLC"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/aircraft/100">
+    <rdf:type rdf:resource="http://example.org/klm/Aircraft"/>
+    <klm:code>100</klm:code>
+    <klm:name>FOKKER 100</klm:name>
+    <sch:iataSubType>100</sch:iataSubType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717719383">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2675</klm:flightNumber>
+    <sch:flightName>KL2675</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:05:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D86"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-PMI"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717721974">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2756</klm:flightNumber>
+    <sch:flightName>KL2756</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:05:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-LCA"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868980405538">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5632</klm:flightNumber>
+    <sch:flightName>MH5632</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-CGK"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/787"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868718108170">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6071</klm:flightNumber>
+    <sch:flightName>KL6071</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ATL"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAM">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAM</klm:code>
+    <klm:name>Malamala</klm:name>
+    <schema1:name>Malamala</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/6E">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>6E</klm:code>
+    <sch:icaoCode>IGO</sch:icaoCode>
+    <klm:name>IndiGo</klm:name>
+    <schema1:name>IndiGo</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/LPA">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-BOS">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/BOS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867747602331">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9299</klm:flightNumber>
+    <sch:flightName>DL9299</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/B16"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/B"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-BCN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/EMJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAS">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAS</klm:code>
+    <klm:name>Apalapsili</klm:name>
+    <schema1:name>Apalapsili</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/C18">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>C18</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381870269633764">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3914</klm:flightNumber>
+    <sch:flightName>VS3914</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:40:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-BOS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339434483">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5361</klm:flightNumber>
+    <sch:flightName>HV5361</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/C9"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/C"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-FAO"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/2F">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>2F</klm:code>
+    <sch:icaoCode>EZZ</sch:icaoCode>
+    <klm:name>ETF Airways</klm:name>
+    <schema1:name>ETF Airways</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308952150">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8404</klm:flightNumber>
+    <sch:flightName>AF8404</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-HKG"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/787"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/al_ain">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Al Ain</klm:name>
+    <schema1:name>Al Ain</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/united_arab_emirates__the_"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/HV">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339434410"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339434118"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339450838"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339527136"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339428790"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339529956"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867176436206"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339530236"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339445444"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339448252"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339535580"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339549636"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339031858"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339434483"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339434417"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339034813"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339434113"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339426121"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339445143"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339428785"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339538531"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339442405"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339442775"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339042949"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867176433537"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339543723"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339544081"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339551859"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339546457"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339437229"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868339529951"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869294856414">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1508</klm:flightNumber>
+    <sch:flightName>OR1508</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T01:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/4.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-PMI"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339445444">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5766</klm:flightNumber>
+    <sch:flightName>HV5766</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T00:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-GRO"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717516624">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">656</klm:flightNumber>
+    <sch:flightName>KL0656</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-MSP"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-TFS">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/TFS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/HER">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3333333333333333</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:delayedFlights>
+    <sch:averageDelayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</sch:averageDelayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-IBZ">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/IBZ"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-FNC">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/FNC"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/C14">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>C14</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/4M">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>4M</klm:code>
+    <sch:icaoCode>MGH</sch:icaoCode>
+    <klm:name>MGA Airlines</klm:name>
+    <schema1:name>MGA Airlines</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/FNC">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:delayedFlights>
+    <sch:averageDelayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</sch:averageDelayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/terminal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <rdfs:range rdf:resource="http://example.org/schiphol/Terminal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-ALC">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/ALC"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381869823884932">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6859</klm:flightNumber>
+    <sch:flightName>SK6859</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-DXB"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717718939">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2615</klm:flightNumber>
+    <sch:flightName>KL2615</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:25:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D59"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-OLB"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/5O">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>5O</klm:code>
+    <sch:icaoCode>FPO</sch:icaoCode>
+    <klm:name>ASL Airlines France</klm:name>
+    <schema1:name>ASL Airlines France</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/aircraft/220">
+    <rdf:type rdf:resource="http://example.org/klm/Aircraft"/>
+    <klm:code>220</klm:code>
+    <klm:name>Airbus A220-100</klm:name>
+    <klm:name>Airbus A220-300</klm:name>
+    <sch:iataSubType>221</sch:iataSubType>
+    <sch:iataSubType>223</sch:iataSubType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308947122">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8266</klm:flightNumber>
+    <sch:flightName>AF8266</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-YYZ"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/country/denmark">
+    <rdf:type rdf:resource="http://example.org/klm/Country"/>
+    <klm:name>Denmark</klm:name>
+    <schema1:name>Denmark</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381870269710724">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4054</klm:flightNumber>
+    <sch:flightName>VS4054</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ATL"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/VRN">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717719449">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2681</klm:flightNumber>
+    <sch:flightName>KL2681</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:10:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D83"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-IBZ"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868691792890">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5925</klm:flightNumber>
+    <sch:flightName>KE5925</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ICN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-AYT">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AYT"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/QF">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869527548154"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339031858">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1446</klm:flightNumber>
+    <sch:flightName>HV1446</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T01:25:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-HRG"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAP">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAP</klm:code>
+    <klm:name>Andrau Airpark, TX</klm:name>
+    <schema1:name>Andrau Airpark, TX</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/houston"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-SPU">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/SPU"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-OLB">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/OLB"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D83">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D83</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/FCO">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308950086">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8398</klm:flightNumber>
+    <sch:flightName>AF8398</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-CGK"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/787"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/6B">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>6B</klm:code>
+    <sch:icaoCode>BLX</sch:icaoCode>
+    <klm:name>TUIfly Nordic</klm:name>
+    <schema1:name>TUIfly Nordic</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717522100">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">856</klm:flightNumber>
+    <sch:flightName>KL0856</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ICN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-LUX">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/LUX"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717612753">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1497</klm:flightNumber>
+    <sch:flightName>KL1497</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:35:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/B16"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/B"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-BCN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/EMJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/country/sudan">
+    <rdf:type rdf:resource="http://example.org/klm/Country"/>
+    <klm:name>Sudan</klm:name>
+    <schema1:name>Sudan</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867747604908">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9373</klm:flightNumber>
+    <sch:flightName>DL9373</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:40:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ACC"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308648760">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5479</klm:flightNumber>
+    <sch:flightName>AF5479</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:55:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-LOS"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381870270017298">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7140</klm:flightNumber>
+    <sch:flightName>VS7140</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-MSP"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/RTM">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAQ">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAQ</klm:code>
+    <klm:name>Vitiazevo</klm:name>
+    <schema1:name>Vitiazevo</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/anapa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flightState">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-CAN">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/CAN"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381867308437476">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3112</klm:flightNumber>
+    <sch:flightName>AF3112</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T05:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>SCH</sch:flightState>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ICN"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-AGP">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AGP"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-JNB">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/JNB"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/ZRH">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/FRA">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AMS">
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1891891891891892</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</klm:delayedFlights>
+    <sch:averageDelayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.928571428571427</sch:averageDelayMinutes>
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-LIS">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/LIS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/terminal/3.0">
+    <rdf:type rdf:resource="http://example.org/schiphol/Terminal"/>
+    <sch:terminalNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</sch:terminalNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-VRN">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/VRN"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/aalborg">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Aalborg</klm:name>
+    <schema1:name>Aalborg</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/denmark"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D62">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D62</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-HKG">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/HKG"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D66">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D66</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/houston">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Houston</klm:name>
+    <schema1:name>Houston</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/usa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-DXB">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/DXB"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-ICN">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/ICN"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/KGS">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/3O">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>3O</klm:code>
+    <sch:icaoCode>MAC</sch:icaoCode>
+    <klm:name>Air Arabia Maroc</klm:name>
+    <schema1:name>Air Arabia Maroc</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/2L">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>2L</klm:code>
+    <sch:icaoCode>OAW</sch:icaoCode>
+    <klm:name>Helvetic</klm:name>
+    <schema1:name>Helvetic</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D85">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D85</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/CD">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381867155887146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717519062">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">714</klm:flightNumber>
+    <sch:flightName>KL0714</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:20:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/4.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-PBM"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/aircraft/14F">
+    <rdf:type rdf:resource="http://example.org/klm/Aircraft"/>
+    <klm:code>14F</klm:code>
+    <klm:name>BRITISH AEROSPACE 146-200 FREIGHTER</klm:name>
+    <sch:iataSubType>14Y</sch:iataSubType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/country/united_arab_emirates__the_">
+    <rdf:type rdf:resource="http://example.org/klm/Country"/>
+    <klm:name>United Arab Emirates (the)</klm:name>
+    <schema1:name>United Arab Emirates (the)</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868717514170">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">590</klm:flightNumber>
+    <sch:flightName>KL0590</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:40:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-ACC"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/777"/>
+    <klm:isDelayed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</klm:isDelayed>
+    <sch:delayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</sch:delayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <rdfs:range rdf:resource="http://example.org/schiphol/Gate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/SchipholFlight">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/klm/Flight"/>
+    <rdfs:label>Schiphol Flight</rdfs:label>
+    <rdfs:comment>A flight operated through Schiphol Airport</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381870270017454">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7164</klm:flightNumber>
+    <sch:flightName>VS7164</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:00:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>A</sch:flightDirection>
+    <sch:flightState>ARR</sch:flightState>
+    <sch:flightState>EXP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/2.0"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-YYZ"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-SVQ">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/SVQ"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/IBZ">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:delayedFlights>
+    <sch:averageDelayMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.0</sch:averageDelayMinutes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/B6">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>B6</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/aircraft/310">
+    <rdf:type rdf:resource="http://example.org/klm/Aircraft"/>
+    <klm:code>310</klm:code>
+    <klm:name>AIRBUS A310-300 PASSENGER</klm:name>
+    <sch:iataSubType>313</sch:iataSubType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAT">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAT</klm:code>
+    <klm:name>Altay</klm:name>
+    <schema1:name>Altay</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/VS">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381870269633764"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381870269710724"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381870270017454"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381870269633848"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381870270017298"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D86">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D86</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/5P">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>5P</klm:code>
+    <sch:icaoCode>LLX</sch:icaoCode>
+    <klm:name>Small Planet Airlines</klm:name>
+    <schema1:name>Small Planet Airlines</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-DLM">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/DLM"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/country/russia__cis_">
+    <rdf:type rdf:resource="http://example.org/klm/Country"/>
+    <klm:name>Russia (CIS)</klm:name>
+    <schema1:name>Russia (CIS)</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/C7">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>C7</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/CFU">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-HER">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/HER"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-LPA">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/LPA"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAN">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAN</klm:code>
+    <klm:name>Al Ain</klm:name>
+    <schema1:name>Al Ain</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/al_ain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/VIE">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/B16">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>B16</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/BRU">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/anapa">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Anapa</klm:name>
+    <schema1:name>Anapa</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/russia__cis_"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D87">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D87</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-OPO">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/OPO"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/country/germany">
+    <rdf:type rdf:resource="http://example.org/klm/Country"/>
+    <klm:name>Germany</klm:name>
+    <schema1:name>Germany</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D60">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D60</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/6I">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>6I</klm:code>
+    <klm:name>Air Alisie A/S</klm:name>
+    <schema1:name>Air Alisie A/S</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-ATL">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/ATL"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-HRG">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/HRG"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-PBM">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/PBM"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/C9">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>C9</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/PVK">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/5K">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>5K</klm:code>
+    <sch:icaoCode>HFY</sch:icaoCode>
+    <klm:name>Hi Fly SA</klm:name>
+    <schema1:name>Hi Fly SA</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-VLC">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/VLC"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-ACC">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/ACC"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAG">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAG</klm:code>
+    <klm:name>Arapoti, PR</klm:name>
+    <schema1:name>Arapoti, PR</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/ORY">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-ZTH">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/AMS"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/ZTH"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/TFS">
+    <klm:routeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</klm:routeCount>
+    <sch:hubPotentialScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</sch:hubPotentialScore>
+    <sch:connectionEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</sch:connectionEfficiency>
+    <klm:delayRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</klm:delayRate>
+    <klm:totalFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</klm:totalFlights>
+    <klm:delayedFlights rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</klm:delayedFlights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/flight/142381868339546457">
+    <rdf:type rdf:resource="http://example.org/klm/Flight"/>
+    <rdf:type rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <klm:flightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6727</klm:flightNumber>
+    <sch:flightName>HV6727</sch:flightName>
+    <klm:scheduledDeparture rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T06:30:00+02:00</klm:scheduledDeparture>
+    <sch:flightDirection>D</sch:flightDirection>
+    <sch:flightState>DEP</sch:flightState>
+    <sch:terminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+    <sch:gate rdf:resource="http://example.org/schiphol/gate/D77"/>
+    <sch:pier rdf:resource="http://example.org/schiphol/pier/D"/>
+    <klm:follows rdf:resource="http://example.org/klm/route/AMS-SVQ"/>
+    <klm:operatedWith rdf:resource="http://example.org/klm/aircraft/32S"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D82">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D82</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-LCA">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/LCA"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/6H">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>6H</klm:code>
+    <sch:icaoCode>ISR</sch:icaoCode>
+    <klm:name>Israir</klm:name>
+    <schema1:name>Israir</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/pier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/schiphol/SchipholFlight"/>
+    <rdfs:range rdf:resource="http://example.org/schiphol/Pier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAA">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAA</klm:code>
+    <klm:name>Anaa, TU</klm:name>
+    <schema1:name>Anaa, TU</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D59">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D59</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/CDG">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAB">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAB</klm:code>
+    <klm:name>Arrabury, QL</klm:name>
+    <schema1:name>Arrabury, QL</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/6K">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>6K</klm:code>
+    <sch:icaoCode>TAH</sch:icaoCode>
+    <klm:name>Air Anka</klm:name>
+    <schema1:name>Air Anka</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/BCN">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-FAO">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/FAO"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/capacity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/klm/Aircraft"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/connectionEfficiency">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/klm/Airport"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/C11">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>C11</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-MSP">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/MSP"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/annaba">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Annaba</klm:name>
+    <schema1:name>Annaba</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/algeria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/isEU">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/klm/Route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/dailyCapacity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/klm/Airport"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/AAD">
+    <rdf:type rdf:resource="http://example.org/klm/Airport"/>
+    <klm:code>AAD</klm:code>
+    <klm:name>Ad-Dabbah</klm:name>
+    <schema1:name>Ad-Dabbah</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/city/ad_dabbah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/route/AMS-YYZ">
+    <rdf:type rdf:resource="http://example.org/klm/Route"/>
+    <klm:hasOrigin rdf:resource="http://example.org/klm/airport/YYZ"/>
+    <klm:hasDestination rdf:resource="http://example.org/klm/airport/AMS"/>
+    <sch:isEU rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:isEU>
+    <sch:requiresVisa rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sch:requiresVisa>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/requiresVisa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/klm/Route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/LIS">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/KE">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381868691792890"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/LGW">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/gate/D78">
+    <rdf:type rdf:resource="http://example.org/schiphol/Gate"/>
+    <sch:gateNumber>D78</sch:gateNumber>
+    <sch:inTerminal rdf:resource="http://example.org/schiphol/terminal/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/CPH">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/city/aarhus">
+    <rdf:type rdf:resource="http://example.org/klm/City"/>
+    <klm:name>Aarhus</klm:name>
+    <schema1:name>Aarhus</schema1:name>
+    <klm:locatedIn rdf:resource="http://example.org/klm/country/denmark"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/pier/C">
+    <rdf:type rdf:resource="http://example.org/schiphol/Pier"/>
+    <sch:pierNumber>C</sch:pierNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/country/egypt">
+    <rdf:type rdf:resource="http://example.org/klm/Country"/>
+    <klm:name>Egypt</klm:name>
+    <schema1:name>Egypt</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/MAN">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/2N">
+    <rdf:type rdf:resource="http://example.org/klm/Airline"/>
+    <klm:code>2N</klm:code>
+    <sch:icaoCode>LYX</sch:icaoCode>
+    <klm:name>Smart Lynx Malta</klm:name>
+    <schema1:name>Smart Lynx Malta</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/ARN">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/OSL">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/Gate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Gate</rdfs:label>
+    <rdfs:comment>An airport gate</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/pier/D">
+    <rdf:type rdf:resource="http://example.org/schiphol/Pier"/>
+    <sch:pierNumber>D</sch:pierNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/MP">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869010688113"/>
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869010479952"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/DUB">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/pier/B">
+    <rdf:type rdf:resource="http://example.org/schiphol/Pier"/>
+    <sch:pierNumber>B</sch:pierNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/terminal/4.0">
+    <rdf:type rdf:resource="http://example.org/schiphol/Terminal"/>
+    <sch:terminalNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</sch:terminalNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/schiphol/Pier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pier</rdfs:label>
+    <rdfs:comment>An airport pier</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/MAD">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airport/HEL">
+    <klm:passengerVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21000000</klm:passengerVolume>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/klm/airline/SK">
+    <klm:operates rdf:resource="http://example.org/schiphol/flight/142381869823884932"/>
+  </rdf:Description>
+</rdf:RDF>
