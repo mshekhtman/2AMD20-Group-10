@@ -1,0 +1,37 @@
+2025-05-20 20:01:06,732 - DataProcessor - INFO - KLM Data Processor initialized
+2025-05-20 20:04:31,616 - DataProcessor - INFO - KLM Data Processor initialized
+2025-05-20 20:04:31,616 - DataProcessor - INFO - Starting KLM data processing
+2025-05-20 20:04:31,616 - DataProcessor - INFO - Loading KLM flight data
+2025-05-20 20:04:31,616 - DataProcessor - INFO - Found latest file: data/KLM/raw\klm_flightstatus_response_20250519_191719.json
+2025-05-20 20:04:31,626 - DataProcessor - INFO - Loaded 363 KLM flights and 109 airports
+2025-05-20 20:04:31,626 - DataProcessor - INFO - Loading Schiphol data
+2025-05-20 20:04:31,627 - DataProcessor - INFO - Found latest file: data/Schiphol/raw\all_flights_all_20250519_183653.json
+2025-05-20 20:04:31,627 - DataProcessor - INFO - Found latest file: data/Schiphol/raw\destinations_20250519_183659.json
+2025-05-20 20:04:31,629 - DataProcessor - INFO - Loaded 100 Schiphol flights
+2025-05-20 20:04:31,629 - DataProcessor - INFO - Loaded 20 Schiphol destinations
+2025-05-20 20:04:31,629 - DataProcessor - INFO - Enriching airports data
+2025-05-20 20:04:31,631 - DataProcessor - INFO - Calculating airport metrics
+2025-05-20 20:04:31,645 - DataProcessor - INFO - Saving processed data
+2025-05-20 20:04:31,649 - DataProcessor - INFO - Saved 363 KLM flights to data/Q1/processed\flights.csv
+2025-05-20 20:04:31,650 - DataProcessor - INFO - Saved 109 airports to data/Q1/processed\airports.csv
+2025-05-20 20:04:31,651 - DataProcessor - INFO - Saved 100 Schiphol flights to data/Q1/processed\schiphol_flights.csv
+2025-05-20 20:04:31,651 - DataProcessor - INFO - Saved 20 Schiphol destinations to data/Q1/processed\schiphol_destinations.csv
+2025-05-20 20:04:31,651 - DataProcessor - INFO - Data processing completed successfully
+2025-05-20 20:04:56,318 - DataProcessor - INFO - KLM Data Processor initialized
+2025-05-20 20:04:56,318 - DataProcessor - INFO - Starting KLM data processing
+2025-05-20 20:04:56,318 - DataProcessor - INFO - Loading KLM flight data
+2025-05-20 20:04:56,318 - DataProcessor - INFO - Found latest file: data/KLM/raw\klm_flightstatus_response_20250519_191719.json
+2025-05-20 20:04:56,326 - DataProcessor - INFO - Loaded 363 KLM flights and 109 airports
+2025-05-20 20:04:56,327 - DataProcessor - INFO - Loading Schiphol data
+2025-05-20 20:04:56,327 - DataProcessor - INFO - Found latest file: data/Schiphol/raw\all_flights_all_20250519_183653.json
+2025-05-20 20:04:56,327 - DataProcessor - INFO - Found latest file: data/Schiphol/raw\destinations_20250519_183659.json
+2025-05-20 20:04:56,328 - DataProcessor - INFO - Loaded 100 Schiphol flights
+2025-05-20 20:04:56,329 - DataProcessor - INFO - Loaded 20 Schiphol destinations
+2025-05-20 20:04:56,329 - DataProcessor - INFO - Enriching airports data
+2025-05-20 20:04:56,331 - DataProcessor - INFO - Calculating airport metrics
+2025-05-20 20:04:56,343 - DataProcessor - INFO - Saving processed data
+2025-05-20 20:04:56,347 - DataProcessor - INFO - Saved 363 KLM flights to data/Q1/processed\flights.csv
+2025-05-20 20:04:56,348 - DataProcessor - INFO - Saved 109 airports to data/Q1/processed\airports.csv
+2025-05-20 20:04:56,349 - DataProcessor - INFO - Saved 100 Schiphol flights to data/Q1/processed\schiphol_flights.csv
+2025-05-20 20:04:56,350 - DataProcessor - INFO - Saved 20 Schiphol destinations to data/Q1/processed\schiphol_destinations.csv
+2025-05-20 20:04:56,350 - DataProcessor - INFO - Data processing completed successfully

@@ -1,0 +1,68 @@
+2025-05-20 18:29:21,806 - HubAnalyzer - INFO - Loading data from CSV files
+2025-05-20 18:29:21,817 - HubAnalyzer - INFO - Loaded 109 airports from data/Q1/processed/airports.csv
+2025-05-20 18:29:21,827 - HubAnalyzer - INFO - Loaded 363 flights from data/Q1/processed/flights.csv
+2025-05-20 18:29:21,833 - HubAnalyzer - INFO - Loaded 100 Schiphol flights from data/Q1/processed/schiphol_flights.csv
+2025-05-20 18:29:21,834 - HubAnalyzer - INFO - Loaded 20 Schiphol destinations from data/Q1/processed/schiphol_destinations.csv
+2025-05-20 18:29:21,835 - HubAnalyzer - INFO - Starting KLM second hub analysis
+2025-05-20 18:29:21,835 - HubAnalyzer - INFO - Loading data from processed directories
+2025-05-20 18:29:21,836 - HubAnalyzer - INFO - Loaded 109 airports from KLM data
+2025-05-20 18:29:21,839 - HubAnalyzer - INFO - Loaded 363 flights from KLM data
+2025-05-20 18:29:21,839 - HubAnalyzer - INFO - Loaded 100 flights from Schiphol data
+2025-05-20 18:29:21,840 - HubAnalyzer - INFO - Loaded 20 destinations from Schiphol data
+2025-05-20 18:29:21,840 - HubAnalyzer - WARNING - Aircraft types file not found: data/Q1/processed\schiphol_aircraft_types.csv
+2025-05-20 18:29:21,840 - HubAnalyzer - INFO - Calculating airport metrics for hub analysis
+2025-05-20 18:29:21,840 - HubAnalyzer - INFO - Preparing airports data for analysis
+2025-05-20 18:29:21,842 - HubAnalyzer - INFO - Preparing flights data for analysis
+2025-05-20 18:29:21,843 - HubAnalyzer - INFO - Found 11 KLM flights out of 363 total flights
+2025-05-20 18:29:21,843 - HubAnalyzer - INFO - Preparing Schiphol data for analysis
+2025-05-20 18:29:21,844 - HubAnalyzer - INFO - Found 29 KLM flights in Schiphol data out of 100 total flights
+2025-05-20 18:29:21,844 - HubAnalyzer - INFO - Using Schiphol coordinates: (np.float64(52.3083), np.float64(4.7681))
+2025-05-20 18:29:21,853 - HubAnalyzer - INFO - Calculated metrics for 109 airports
+2025-05-20 18:29:22,516 - HubAnalyzer - INFO - Visualization saved to data/Q1/results\hub_analysis_20250520_182922.png
+2025-05-20 19:23:00,533 - HubAnalyzer - INFO - Loading data from processed directories
+2025-05-20 19:23:00,534 - HubAnalyzer - INFO - Loaded 109 airports from KLM data
+2025-05-20 19:23:00,537 - HubAnalyzer - INFO - Loaded 363 flights from KLM data
+2025-05-20 19:23:00,538 - HubAnalyzer - INFO - Loaded 100 flights from Schiphol data
+2025-05-20 19:23:00,539 - HubAnalyzer - INFO - Loaded 20 destinations from Schiphol data
+2025-05-20 19:23:00,540 - HubAnalyzer - INFO - Loaded 20 aircraft types from Schiphol data
+2025-05-20 19:23:00,540 - HubAnalyzer - INFO - Starting KLM second hub analysis
+2025-05-20 19:23:00,540 - HubAnalyzer - INFO - Loading data from processed directories
+2025-05-20 19:23:00,540 - HubAnalyzer - INFO - Loaded 109 airports from KLM data
+2025-05-20 19:23:00,543 - HubAnalyzer - INFO - Loaded 363 flights from KLM data
+2025-05-20 19:23:00,545 - HubAnalyzer - INFO - Loaded 100 flights from Schiphol data
+2025-05-20 19:23:00,545 - HubAnalyzer - INFO - Loaded 20 destinations from Schiphol data
+2025-05-20 19:23:00,546 - HubAnalyzer - INFO - Loaded 20 aircraft types from Schiphol data
+2025-05-20 19:23:00,546 - HubAnalyzer - INFO - Calculating airport metrics for hub analysis
+2025-05-20 19:23:00,546 - HubAnalyzer - INFO - Preparing airports data for analysis
+2025-05-20 19:23:00,547 - HubAnalyzer - INFO - Preparing flights data for analysis
+2025-05-20 19:23:00,548 - HubAnalyzer - INFO - Found 11 KLM flights out of 363 total flights
+2025-05-20 19:23:00,548 - HubAnalyzer - INFO - Preparing Schiphol data for analysis
+2025-05-20 19:23:00,548 - HubAnalyzer - INFO - Found 29 KLM flights in Schiphol data out of 100 total flights
+2025-05-20 19:23:00,549 - HubAnalyzer - INFO - Using Schiphol coordinates: (np.float64(52.3083), np.float64(4.7681))
+2025-05-20 19:23:00,564 - HubAnalyzer - INFO - Calculated metrics for 109 airports
+2025-05-20 19:23:00,838 - HubAnalyzer - INFO - Visualization saved to results\hub_analysis_viz_20250520_192300.png
+2025-05-20 19:23:00,853 - HubAnalyzer - INFO - Results page generated at results\hub_analysis_results_20250520_192300.html
+2025-05-20 19:23:00,857 - HubAnalyzer - INFO - Hub metrics exported to results\hub_metrics_20250520_192300.csv
+2025-05-20 19:23:00,861 - HubAnalyzer - INFO - Top hub candidates exported to results\top_hub_candidates_20250520_192300.json
+2025-05-20 19:23:01,110 - HubAnalyzer - INFO - Visualization saved to results\hub_analysis_20250520_192300.png
+2025-05-20 20:05:08,743 - HubAnalyzer - INFO - Loading data from CSV files
+2025-05-20 20:05:08,752 - HubAnalyzer - INFO - Loaded 109 airports from data/Q1/processed/airports.csv
+2025-05-20 20:05:08,760 - HubAnalyzer - INFO - Loaded 363 flights from data/Q1/processed/flights.csv
+2025-05-20 20:05:08,767 - HubAnalyzer - INFO - Loaded 100 Schiphol flights from data/Q1/processed/schiphol_flights.csv
+2025-05-20 20:05:08,768 - HubAnalyzer - INFO - Loaded 20 Schiphol destinations from data/Q1/processed/schiphol_destinations.csv
+2025-05-20 20:05:08,769 - HubAnalyzer - INFO - Starting KLM second hub analysis
+2025-05-20 20:05:08,769 - HubAnalyzer - INFO - Loading data from processed directories
+2025-05-20 20:05:08,770 - HubAnalyzer - INFO - Loaded 109 airports from KLM data
+2025-05-20 20:05:08,772 - HubAnalyzer - INFO - Loaded 363 flights from KLM data
+2025-05-20 20:05:08,773 - HubAnalyzer - INFO - Loaded 100 flights from Schiphol data
+2025-05-20 20:05:08,774 - HubAnalyzer - INFO - Loaded 20 destinations from Schiphol data
+2025-05-20 20:05:08,774 - HubAnalyzer - WARNING - Aircraft types file not found: data/Q1/processed\schiphol_aircraft_types.csv
+2025-05-20 20:05:08,774 - HubAnalyzer - INFO - Calculating airport metrics for hub analysis
+2025-05-20 20:05:08,774 - HubAnalyzer - INFO - Preparing airports data for analysis
+2025-05-20 20:05:08,775 - HubAnalyzer - INFO - Preparing flights data for analysis
+2025-05-20 20:05:08,775 - HubAnalyzer - INFO - Found 11 KLM flights out of 363 total flights
+2025-05-20 20:05:08,775 - HubAnalyzer - INFO - Preparing Schiphol data for analysis
+2025-05-20 20:05:08,776 - HubAnalyzer - INFO - Found 29 KLM flights in Schiphol data out of 100 total flights
+2025-05-20 20:05:08,776 - HubAnalyzer - INFO - Using Schiphol coordinates: (np.float64(52.3083), np.float64(4.7681))
+2025-05-20 20:05:08,784 - HubAnalyzer - INFO - Calculated metrics for 109 airports
+2025-05-20 20:05:09,085 - HubAnalyzer - INFO - Visualization saved to data/Q1/results\hub_analysis_20250520_200508.png
