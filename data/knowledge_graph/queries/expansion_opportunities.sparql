@@ -1,0 +1,45 @@
+
+            # Route expansion analysis
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            
+            SELECT ?airport ?name ?country ?passengerVolume ?isEU ?requiresVisa
+                   (GROUP_CONCAT(DISTINCT ?competitor; SEPARATOR=', ') AS ?competitors)
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name .
+                
+                # High passenger volume destinations
+                ?airport klm:passengerVolume ?passengerVolume .
+                FILTER(?passengerVolume > 15000000)
+                
+                # Not currently served by KLM from AMS
+                FILTER NOT EXISTS {
+                    ?klmRoute klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+                             klm:hasDestination ?airport .
+                    ?klmAirline klm:operates ?klmRoute ;
+                               klm:code "KL" .
+                }
+                
+                # But served by other airlines (market validation)
+                ?competitorRoute klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+                                klm:hasDestination ?airport .
+                ?competitorAirline klm:operates ?competitorRoute ;
+                                  klm:name ?competitor .
+                FILTER(?competitorAirline != <http://example.org/klm/airline/KL>)
+                
+                OPTIONAL { 
+                    ?competitorRoute sch:isEU ?isEU .
+                    ?competitorRoute sch:requiresVisa ?requiresVisa .
+                }
+                
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            GROUP BY ?airport ?name ?country ?passengerVolume ?isEU ?requiresVisa
+            ORDER BY DESC(?passengerVolume)
+            LIMIT 15
+        

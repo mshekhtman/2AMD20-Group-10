@@ -1,0 +1,33 @@
+
+            # Airport infrastructure capacity analysis
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX arcgis: <http://example.org/arcgis/>
+            
+            SELECT ?airport ?name ?country ?runwayCapacity ?runwayLength ?runwayWidth
+                   ?elevation ?strategicDistance ?hubPriorityScore ?passengerVolume
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name .
+                
+                # Focus on airports with infrastructure data
+                ?airport arcgis:runwayCapacity ?runwayCapacity .
+                
+                OPTIONAL { ?airport arcgis:runwayLength ?runwayLength }
+                OPTIONAL { ?airport arcgis:runwayWidth ?runwayWidth }
+                OPTIONAL { ?airport arcgis:elevation ?elevation }
+                OPTIONAL { ?airport arcgis:strategicDistance ?strategicDistance }
+                OPTIONAL { ?airport arcgis:hubPriorityScore ?hubPriorityScore }
+                OPTIONAL { ?airport klm:passengerVolume ?passengerVolume }
+                
+                # Country information
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+                
+                # Focus on large capacity airports
+                FILTER(?runwayCapacity = "large")
+            }
+            ORDER BY DESC(?hubPriorityScore) DESC(?passengerVolume)
+        

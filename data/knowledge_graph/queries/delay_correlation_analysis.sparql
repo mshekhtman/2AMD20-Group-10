@@ -1,0 +1,33 @@
+
+            # Delay analysis by destination
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            
+            SELECT ?airport ?name ?country ?delayRate ?totalFlights ?delayedFlights 
+                   ?isEU ?routeCount ?passengerVolume
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:delayRate ?delayRate ;
+                        klm:totalFlights ?totalFlights ;
+                        klm:delayedFlights ?delayedFlights .
+                
+                # Minimum flight volume for statistical significance
+                FILTER(?totalFlights >= 10)
+                
+                OPTIONAL { ?airport klm:routeCount ?routeCount }
+                OPTIONAL { ?airport klm:passengerVolume ?passengerVolume }
+                
+                OPTIONAL { 
+                    ?route klm:hasDestination ?airport .
+                    ?route sch:isEU ?isEU .
+                }
+                
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            ORDER BY DESC(?delayRate) DESC(?totalFlights)
+        

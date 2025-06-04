@@ -1,0 +1,30 @@
+
+            # Competitive landscape analysis
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            
+            SELECT ?airport ?name ?country 
+                   (COUNT(DISTINCT ?airline) AS ?airlineCount)
+                   (COUNT(DISTINCT ?route) AS ?routeCount)
+                   ?passengerVolume ?hubScore
+            WHERE {
+                ?route klm:hasDestination ?airport .
+                ?airline klm:operates ?route ;
+                        klm:name ?airlineName .
+                
+                ?airport klm:name ?name .
+                
+                OPTIONAL { ?airport klm:passengerVolume ?passengerVolume }
+                OPTIONAL { ?airport klm:hubPotentialScore ?hubScore }
+                
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            GROUP BY ?airport ?name ?country ?passengerVolume ?hubScore
+            HAVING (?airlineCount > 3)
+            ORDER BY DESC(?airlineCount) DESC(?routeCount)
+            LIMIT 20
+        

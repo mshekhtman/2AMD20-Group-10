@@ -1,0 +1,41 @@
+
+            # Comprehensive second hub analysis
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            
+            SELECT ?airport ?name ?country 
+                   ?routeCount ?passengerVolume ?hubScore 
+                   ?connectivityIndex ?delayRate ?isEU
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:routeCount ?routeCount ;
+                        klm:hubPotentialScore ?hubScore .
+                
+                # Exclude current main hub
+                FILTER NOT EXISTS { ?airport klm:isMainHub true }
+                
+                # Minimum thresholds for hub consideration
+                FILTER(?routeCount >= 8)
+                
+                OPTIONAL { ?airport klm:passengerVolume ?passengerVolume }
+                OPTIONAL { ?airport klm:connectivityIndex ?connectivityIndex }
+                OPTIONAL { ?airport klm:delayRate ?delayRate }
+                
+                # EU status check
+                OPTIONAL { 
+                    ?route klm:hasDestination ?airport .
+                    ?route sch:isEU ?isEU .
+                }
+                
+                # Country information
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            ORDER BY DESC(?hubScore) DESC(?passengerVolume)
+            LIMIT 10
+        

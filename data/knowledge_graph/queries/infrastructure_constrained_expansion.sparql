@@ -1,0 +1,44 @@
+
+            # Route expansion considering infrastructure constraints
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX arcgis: <http://example.org/arcgis/>
+            PREFIX sch: <http://example.org/schiphol/>
+            
+            SELECT ?airport ?name ?country ?passengerVolume ?runwayCapacity
+                   ?strategicDistance ?isEU ?requiresVisa
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:passengerVolume ?passengerVolume ;
+                        arcgis:runwayCapacity ?runwayCapacity .
+                
+                # High passenger volume destinations with good infrastructure
+                FILTER(?passengerVolume > 10000000)
+                FILTER(?runwayCapacity = "large" || ?runwayCapacity = "medium")
+                
+                # Not currently served by KLM from AMS
+                FILTER NOT EXISTS {
+                    ?klmRoute klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+                             klm:hasDestination ?airport .
+                    ?klmAirline klm:operates ?klmRoute ;
+                               klm:code "KL" .
+                }
+                
+                OPTIONAL { ?airport arcgis:strategicDistance ?strategicDistance }
+                
+                # Check EU status and visa requirements
+                OPTIONAL { 
+                    ?route klm:hasDestination ?airport .
+                    ?route sch:isEU ?isEU .
+                    ?route sch:requiresVisa ?requiresVisa .
+                }
+                
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            ORDER BY DESC(?passengerVolume) ?runwayCapacity
+            LIMIT 20
+        

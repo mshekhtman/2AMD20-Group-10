@@ -1,0 +1,43 @@
+
+            # Enhanced second hub analysis with infrastructure data
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            PREFIX arcgis: <http://example.org/arcgis/>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            
+            SELECT ?airport ?name ?country 
+                   ?routeCount ?passengerVolume ?hubScore 
+                   ?runwayCapacity ?strategicDistance ?hubPriorityScore
+                   ?distanceFromAMS ?delayRate
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:routeCount ?routeCount ;
+                        klm:hubPotentialScore ?hubScore .
+                
+                # Exclude current main hub
+                FILTER NOT EXISTS { ?airport klm:isMainHub true }
+                
+                # Minimum thresholds for hub consideration
+                FILTER(?routeCount >= 5)
+                
+                # ArcGIS infrastructure data
+                OPTIONAL { ?airport arcgis:runwayCapacity ?runwayCapacity }
+                OPTIONAL { ?airport arcgis:strategicDistance ?strategicDistance }
+                OPTIONAL { ?airport arcgis:hubPriorityScore ?hubPriorityScore }
+                OPTIONAL { ?airport arcgis:distanceFromAMS ?distanceFromAMS }
+                
+                # Standard metrics
+                OPTIONAL { ?airport klm:passengerVolume ?passengerVolume }
+                OPTIONAL { ?airport klm:delayRate ?delayRate }
+                
+                # Country information
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            ORDER BY DESC(?hubScore) DESC(?hubPriorityScore)
+            LIMIT 15
+        

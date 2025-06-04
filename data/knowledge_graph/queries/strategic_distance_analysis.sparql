@@ -1,0 +1,29 @@
+
+            # Strategic distance analysis for optimal hub placement
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX arcgis: <http://example.org/arcgis/>
+            
+            SELECT ?airport ?name ?country ?strategicDistance ?distanceFromAMS
+                   ?hubScore ?routeCount ?runwayCapacity
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        arcgis:strategicDistance ?strategicDistance ;
+                        arcgis:distanceFromAMS ?distanceFromAMS .
+                
+                OPTIONAL { ?airport klm:hubPotentialScore ?hubScore }
+                OPTIONAL { ?airport klm:routeCount ?routeCount }
+                OPTIONAL { ?airport arcgis:runwayCapacity ?runwayCapacity }
+                
+                # Country information
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+                
+                # Focus on continental and intercontinental distances
+                FILTER(?strategicDistance = "continental" || ?strategicDistance = "intercontinental")
+            }
+            ORDER BY ?strategicDistance DESC(?hubScore)
+        
