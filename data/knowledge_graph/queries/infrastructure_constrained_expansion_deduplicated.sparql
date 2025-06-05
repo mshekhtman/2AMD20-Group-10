@@ -1,0 +1,43 @@
+
+            # Route expansion considering infrastructure constraints with proper deduplication
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX arcgis: <http://example.org/arcgis/>
+            PREFIX sch: <http://example.org/schiphol/>
+            
+            SELECT ?airport ?name ?country ?passengerVolume ?runwayCapacity
+                   ?strategicDistance ?dataQuality ?sourceCount
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:passengerVolume ?passengerVolume ;
+                        klm:dataQualityScore ?dataQuality ;
+                        klm:sourceCount ?sourceCount .
+                
+                # High passenger volume destinations with good data quality
+                FILTER(?passengerVolume > 10000000)
+                FILTER(?dataQuality >= 0.7)
+                
+                # Prefer well-documented airports (reduces chance of duplicates)
+                FILTER(?sourceCount >= 2)
+                
+                # Infrastructure data
+                OPTIONAL { ?airport arcgis:runwayCapacity ?runwayCapacity }
+                OPTIONAL { ?airport arcgis:strategicDistance ?strategicDistance }
+                
+                # Not currently served by KLM from AMS
+                FILTER NOT EXISTS {
+                    ?klmRoute klm:hasOrigin <http://example.org/klm/airport/AMS> ;
+                             klm:hasDestination ?airport .
+                    ?klmAirline klm:operates ?klmRoute ;
+                               klm:code "KL" .
+                }
+                
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            ORDER BY DESC(?passengerVolume) DESC(?dataQuality) DESC(?sourceCount)
+            LIMIT 20
+        

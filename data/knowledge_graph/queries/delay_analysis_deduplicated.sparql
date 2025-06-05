@@ -1,0 +1,30 @@
+
+            # Delay analysis with proper deduplication verification
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX arcgis: <http://example.org/arcgis/>
+            
+            SELECT ?airport ?name ?country ?delayRate ?totalFlights ?delayedFlights
+                   ?dataQuality ?sourceCount ?isWellDocumented
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:delayRate ?delayRate ;
+                        klm:totalFlights ?totalFlights ;
+                        klm:delayedFlights ?delayedFlights ;
+                        klm:dataQualityScore ?dataQuality ;
+                        klm:sourceCount ?sourceCount ;
+                        klm:isWellDocumented ?isWellDocumented .
+                
+                # Quality filters to ensure reliable data
+                FILTER(?totalFlights >= 10)
+                FILTER(?dataQuality >= 0.6)
+                FILTER(?isWellDocumented = true)
+                
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            ORDER BY DESC(?delayRate) DESC(?totalFlights)
+        

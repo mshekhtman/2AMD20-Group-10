@@ -1,0 +1,22 @@
+
+            # Query to verify airport deduplication was successful
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX arcgis: <http://example.org/arcgis/>
+            
+            SELECT ?airport ?name ?sourceCount ?dataQuality 
+                   ?hasCoordinates ?isWellDocumented ?routeCount
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:sourceCount ?sourceCount ;
+                        klm:dataQualityScore ?dataQuality ;
+                        klm:hasCoordinates ?hasCoordinates ;
+                        klm:isWellDocumented ?isWellDocumented .
+                
+                OPTIONAL { ?airport klm:routeCount ?routeCount }
+                
+                # Focus on airports that appear in multiple sources
+                FILTER(?sourceCount > 1)
+            }
+            ORDER BY DESC(?sourceCount) DESC(?dataQuality)
+        

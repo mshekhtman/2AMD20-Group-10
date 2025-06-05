@@ -1,0 +1,47 @@
+
+            # Enhanced second hub analysis with infrastructure data and proper deduplication
+            PREFIX klm: <http://example.org/klm/>
+            PREFIX sch: <http://example.org/schiphol/>
+            PREFIX arcgis: <http://example.org/arcgis/>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            
+            SELECT ?airport ?name ?country 
+                   ?routeCount ?passengerVolume ?hubScore ?dataQuality
+                   ?runwayCapacity ?strategicDistance ?hubPriorityScore
+                   ?distanceFromAMS ?delayRate ?sourceCount
+            WHERE {
+                ?airport a klm:Airport ;
+                        klm:name ?name ;
+                        klm:routeCount ?routeCount ;
+                        klm:hubPotentialScore ?hubScore ;
+                        klm:dataQualityScore ?dataQuality ;
+                        klm:sourceCount ?sourceCount .
+                
+                # Exclude current main hub
+                FILTER NOT EXISTS { ?airport klm:isMainHub true }
+                
+                # Quality thresholds for hub consideration (ensures no duplicates)
+                FILTER(?routeCount >= 5)
+                FILTER(?dataQuality >= 0.6)
+                FILTER(?sourceCount >= 1)
+                
+                # ArcGIS infrastructure data
+                OPTIONAL { ?airport arcgis:runwayCapacity ?runwayCapacity }
+                OPTIONAL { ?airport arcgis:strategicDistance ?strategicDistance }
+                OPTIONAL { ?airport arcgis:hubPriorityScore ?hubPriorityScore }
+                OPTIONAL { ?airport arcgis:distanceFromAMS ?distanceFromAMS }
+                
+                # Standard metrics
+                OPTIONAL { ?airport klm:passengerVolume ?passengerVolume }
+                OPTIONAL { ?airport klm:delayRate ?delayRate }
+                
+                # Country information
+                OPTIONAL { 
+                    ?airport klm:locatedIn ?city .
+                    ?city klm:locatedIn ?countryUri .
+                    ?countryUri klm:name ?country .
+                }
+            }
+            ORDER BY DESC(?hubScore) DESC(?dataQuality) DESC(?sourceCount)
+            LIMIT 15
+        
