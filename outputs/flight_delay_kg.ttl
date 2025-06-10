@@ -2,810 +2,1527 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://example.org/flight/flight/0> a ex:Flight ;
-    ex:delayMinutes -1.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes -1e+00 ;
     ex:hasDestination <http://example.org/flight/airport/BRU> .
 
 <http://example.org/flight/flight/1> a ex:Flight ;
-    ex:delayMinutes -1.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes -1e+00 ;
     ex:hasDestination <http://example.org/flight/airport/LUX> .
 
 <http://example.org/flight/flight/10> a ex:Flight ;
-    ex:delayMinutes 65.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 6.5e+01 ;
     ex:hasDestination <http://example.org/flight/airport/GVA> .
 
 <http://example.org/flight/flight/11> a ex:Flight ;
-    ex:delayMinutes 8.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 8e+00 ;
     ex:hasDestination <http://example.org/flight/airport/BEG> .
 
 <http://example.org/flight/flight/12> a ex:Flight ;
-    ex:delayMinutes 0.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 0e+00 ;
     ex:hasDestination <http://example.org/flight/airport/CDG> .
 
 <http://example.org/flight/flight/13> a ex:Flight ;
-    ex:delayMinutes 7.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 7e+00 ;
     ex:hasDestination <http://example.org/flight/airport/DUB> .
 
 <http://example.org/flight/flight/14> a ex:Flight ;
-    ex:delayMinutes 3.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 3e+00 ;
     ex:hasDestination <http://example.org/flight/airport/AMS> .
 
 <http://example.org/flight/flight/15> a ex:Flight ;
-    ex:delayMinutes 14.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.4e+01 ;
     ex:hasDestination <http://example.org/flight/airport/CWL> .
 
 <http://example.org/flight/flight/16> a ex:Flight ;
-    ex:delayMinutes 11.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.1e+01 ;
     ex:hasDestination <http://example.org/flight/airport/GDN> .
 
 <http://example.org/flight/flight/17> a ex:Flight ;
-    ex:delayMinutes 4.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4e+00 ;
     ex:hasDestination <http://example.org/flight/airport/NCE> .
 
 <http://example.org/flight/flight/18> a ex:Flight ;
-    ex:delayMinutes -4.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes -4e+00 ;
     ex:hasDestination <http://example.org/flight/airport/ORK> .
 
 <http://example.org/flight/flight/19> a ex:Flight ;
-    ex:delayMinutes 9.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 9e+00 ;
     ex:hasDestination <http://example.org/flight/airport/LAX> .
 
 <http://example.org/flight/flight/2> a ex:Flight ;
-    ex:delayMinutes 5.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 5e+00 ;
     ex:hasDestination <http://example.org/flight/airport/HAM> .
 
 <http://example.org/flight/flight/20> a ex:Flight ;
-    ex:delayMinutes 51.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 5.1e+01 ;
     ex:hasDestination <http://example.org/flight/airport/IAH> .
 
 <http://example.org/flight/flight/21> a ex:Flight ;
-    ex:delayMinutes 13.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.3e+01 ;
     ex:hasDestination <http://example.org/flight/airport/MAN> .
 
 <http://example.org/flight/flight/22> a ex:Flight ;
-    ex:delayMinutes 13.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.3e+01 ;
     ex:hasDestination <http://example.org/flight/airport/SVG> .
 
 <http://example.org/flight/flight/23> a ex:Flight ;
-    ex:delayMinutes 3.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 3e+00 ;
     ex:hasDestination <http://example.org/flight/airport/WRO> .
 
 <http://example.org/flight/flight/24> a ex:Flight ;
-    ex:delayMinutes -2.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes -2e+00 ;
     ex:hasDestination <http://example.org/flight/airport/FCO> .
 
 <http://example.org/flight/flight/25> a ex:Flight ;
-    ex:delayMinutes 40.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4e+01 ;
     ex:hasDestination <http://example.org/flight/airport/FLR> .
 
 <http://example.org/flight/flight/26> a ex:Flight ;
-    ex:delayMinutes 32.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 3.2e+01 ;
     ex:hasDestination <http://example.org/flight/airport/ZRH> .
 
 <http://example.org/flight/flight/27> a ex:Flight ;
-    ex:delayMinutes 13.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.3e+01 ;
     ex:hasDestination <http://example.org/flight/airport/HRG> .
 
 <http://example.org/flight/flight/28> a ex:Flight ;
-    ex:delayMinutes 190.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.9e+02 ;
     ex:hasDestination <http://example.org/flight/airport/CPT> .
 
 <http://example.org/flight/flight/29> a ex:Flight ;
-    ex:delayMinutes 32.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 3.2e+01 ;
     ex:hasDestination <http://example.org/flight/airport/CUR> .
 
 <http://example.org/flight/flight/3> a ex:Flight ;
-    ex:delayMinutes 19.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.9e+01 ;
     ex:hasDestination <http://example.org/flight/airport/BRE> .
 
 <http://example.org/flight/flight/30> a ex:Flight ;
-    ex:delayMinutes 6.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 6e+00 ;
     ex:hasDestination <http://example.org/flight/airport/ABZ> .
 
 <http://example.org/flight/flight/31> a ex:Flight ;
-    ex:delayMinutes 11.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.1e+01 ;
     ex:hasDestination <http://example.org/flight/airport/NTE> .
 
 <http://example.org/flight/flight/32> a ex:Flight ;
-    ex:delayMinutes 77.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 7.7e+01 ;
     ex:hasDestination <http://example.org/flight/airport/SFO> .
 
 <http://example.org/flight/flight/33> a ex:Flight ;
-    ex:delayMinutes 134.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.34e+02 ;
     ex:hasDestination <http://example.org/flight/airport/HEL> .
 
 <http://example.org/flight/flight/34> a ex:Flight ;
-    ex:delayMinutes 7.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 7e+00 ;
     ex:hasDestination <http://example.org/flight/airport/MAD> .
 
 <http://example.org/flight/flight/35> a ex:Flight ;
-    ex:delayMinutes 5.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 5e+00 ;
     ex:hasDestination <http://example.org/flight/airport/BER> .
 
 <http://example.org/flight/flight/36> a ex:Flight ;
-    ex:delayMinutes 7.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 7e+00 ;
     ex:hasDestination <http://example.org/flight/airport/VIE> .
 
 <http://example.org/flight/flight/37> a ex:Flight ;
-    ex:delayMinutes 4.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4e+00 ;
     ex:hasDestination <http://example.org/flight/airport/ZRH> .
 
 <http://example.org/flight/flight/38> a ex:Flight ;
-    ex:delayMinutes 15.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.5e+01 ;
     ex:hasDestination <http://example.org/flight/airport/MAN> .
 
 <http://example.org/flight/flight/39> a ex:Flight ;
-    ex:delayMinutes 48.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4.8e+01 ;
     ex:hasDestination <http://example.org/flight/airport/ATL> .
 
 <http://example.org/flight/flight/4> a ex:Flight ;
-    ex:delayMinutes 15.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.5e+01 ;
     ex:hasDestination <http://example.org/flight/airport/BSL> .
 
 <http://example.org/flight/flight/40> a ex:Flight ;
-    ex:delayMinutes 4.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4e+00 ;
     ex:hasDestination <http://example.org/flight/airport/FRA> .
 
 <http://example.org/flight/flight/41> a ex:Flight ;
-    ex:delayMinutes 4.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4e+00 ;
     ex:hasDestination <http://example.org/flight/airport/MXP> .
 
 <http://example.org/flight/flight/42> a ex:Flight ;
-    ex:delayMinutes -1.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes -1e+00 ;
     ex:hasDestination <http://example.org/flight/airport/LPL> .
 
 <http://example.org/flight/flight/43> a ex:Flight ;
-    ex:delayMinutes 19.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.9e+01 ;
     ex:hasDestination <http://example.org/flight/airport/OPO> .
 
 <http://example.org/flight/flight/44> a ex:Flight ;
-    ex:delayMinutes 13.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.3e+01 ;
     ex:hasDestination <http://example.org/flight/airport/AMS> .
 
 <http://example.org/flight/flight/45> a ex:Flight ;
-    ex:delayMinutes 13.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.3e+01 ;
     ex:hasDestination <http://example.org/flight/airport/CPH> .
 
 <http://example.org/flight/flight/46> a ex:Flight ;
-    ex:delayMinutes 4.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4e+00 ;
     ex:hasDestination <http://example.org/flight/airport/TLS> .
 
 <http://example.org/flight/flight/47> a ex:Flight ;
-    ex:delayMinutes 17.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.7e+01 ;
     ex:hasDestination <http://example.org/flight/airport/LHR> .
 
 <http://example.org/flight/flight/48> a ex:Flight ;
-    ex:delayMinutes 20.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2e+01 ;
     ex:hasDestination <http://example.org/flight/airport/AMS> .
 
 <http://example.org/flight/flight/49> a ex:Flight ;
-    ex:delayMinutes 3.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 3e+00 ;
     ex:hasDestination <http://example.org/flight/airport/OSL> .
 
 <http://example.org/flight/flight/5> a ex:Flight ;
-    ex:delayMinutes 0.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 0e+00 ;
     ex:hasDestination <http://example.org/flight/airport/LYS> .
 
 <http://example.org/flight/flight/50> a ex:Flight ;
-    ex:delayMinutes 13.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.3e+01 ;
     ex:hasDestination <http://example.org/flight/airport/BOD> .
 
 <http://example.org/flight/flight/51> a ex:Flight ;
-    ex:delayMinutes 1.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1e+00 ;
     ex:hasDestination <http://example.org/flight/airport/STR> .
 
 <http://example.org/flight/flight/52> a ex:Flight ;
-    ex:delayMinutes 11.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.1e+01 ;
     ex:hasDestination <http://example.org/flight/airport/DTW> .
 
 <http://example.org/flight/flight/53> a ex:Flight ;
-    ex:delayMinutes 14.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.4e+01 ;
     ex:hasDestination <http://example.org/flight/airport/JNB> .
 
 <http://example.org/flight/flight/54> a ex:Flight ;
-    ex:delayMinutes 22.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.2e+01 ;
     ex:hasDestination <http://example.org/flight/airport/AMS> .
 
 <http://example.org/flight/flight/55> a ex:Flight ;
-    ex:delayMinutes 1.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1e+00 ;
     ex:hasDestination <http://example.org/flight/airport/BLL> .
 
 <http://example.org/flight/flight/56> a ex:Flight ;
-    ex:delayMinutes 8.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 8e+00 ;
     ex:hasDestination <http://example.org/flight/airport/WAW> .
 
 <http://example.org/flight/flight/57> a ex:Flight ;
-    ex:delayMinutes 3.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 3e+00 ;
     ex:hasDestination <http://example.org/flight/airport/BUD> .
 
 <http://example.org/flight/flight/58> a ex:Flight ;
-    ex:delayMinutes 15.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.5e+01 ;
     ex:hasDestination <http://example.org/flight/airport/BCN> .
 
 <http://example.org/flight/flight/59> a ex:Flight ;
-    ex:delayMinutes 2.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2e+00 ;
     ex:hasDestination <http://example.org/flight/airport/DUS> .
 
 <http://example.org/flight/flight/6> a ex:Flight ;
-    ex:delayMinutes 22.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.2e+01 ;
     ex:hasDestination <http://example.org/flight/airport/GLA> .
 
 <http://example.org/flight/flight/60> a ex:Flight ;
-    ex:delayMinutes 31.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 3.1e+01 ;
     ex:hasDestination <http://example.org/flight/airport/SEA> .
 
 <http://example.org/flight/flight/61> a ex:Flight ;
-    ex:delayMinutes 9.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 9e+00 ;
     ex:hasDestination <http://example.org/flight/airport/TBS> .
 
 <http://example.org/flight/flight/62> a ex:Flight ;
-    ex:delayMinutes 38.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 3.8e+01 ;
     ex:hasDestination <http://example.org/flight/airport/LHR> .
 
 <http://example.org/flight/flight/63> a ex:Flight ;
-    ex:delayMinutes 24.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.4e+01 ;
     ex:hasDestination <http://example.org/flight/airport/PBM> .
 
 <http://example.org/flight/flight/64> a ex:Flight ;
-    ex:delayMinutes 40.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4e+01 ;
     ex:hasDestination <http://example.org/flight/airport/IAH> .
 
 <http://example.org/flight/flight/65> a ex:Flight ;
-    ex:delayMinutes 25.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.5e+01 ;
     ex:hasDestination <http://example.org/flight/airport/SIN> .
 
 <http://example.org/flight/flight/66> a ex:Flight ;
-    ex:delayMinutes 15.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.5e+01 ;
     ex:hasDestination <http://example.org/flight/airport/BCN> .
 
 <http://example.org/flight/flight/67> a ex:Flight ;
-    ex:delayMinutes 13.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.3e+01 ;
     ex:hasDestination <http://example.org/flight/airport/CDG> .
 
 <http://example.org/flight/flight/68> a ex:Flight ;
-    ex:delayMinutes 0.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 0e+00 ;
     ex:hasDestination <http://example.org/flight/airport/NCL> .
 
 <http://example.org/flight/flight/69> a ex:Flight ;
-    ex:delayMinutes 6.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 6e+00 ;
     ex:hasDestination <http://example.org/flight/airport/WAW> .
 
 <http://example.org/flight/flight/7> a ex:Flight ;
-    ex:delayMinutes 0.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 0e+00 ;
     ex:hasDestination <http://example.org/flight/airport/LTN> .
 
 <http://example.org/flight/flight/70> a ex:Flight ;
-    ex:delayMinutes 25.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.5e+01 ;
     ex:hasDestination <http://example.org/flight/airport/MSP> .
 
 <http://example.org/flight/flight/71> a ex:Flight ;
-    ex:delayMinutes 1.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1e+00 ;
     ex:hasDestination <http://example.org/flight/airport/DXB> .
 
 <http://example.org/flight/flight/72> a ex:Flight ;
-    ex:delayMinutes 7.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 7e+00 ;
     ex:hasDestination <http://example.org/flight/airport/BLQ> .
 
 <http://example.org/flight/flight/73> a ex:Flight ;
-    ex:delayMinutes 10.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1e+01 ;
     ex:hasDestination <http://example.org/flight/airport/LPA> .
 
 <http://example.org/flight/flight/74> a ex:Flight ;
-    ex:delayMinutes -1.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes -1e+00 ;
     ex:hasDestination <http://example.org/flight/airport/BRS> .
 
 <http://example.org/flight/flight/75> a ex:Flight ;
-    ex:delayMinutes 15.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.5e+01 ;
     ex:hasDestination <http://example.org/flight/airport/GIG> .
 
 <http://example.org/flight/flight/76> a ex:Flight ;
-    ex:delayMinutes 20.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2e+01 ;
     ex:hasDestination <http://example.org/flight/airport/ARN> .
 
 <http://example.org/flight/flight/77> a ex:Flight ;
-    ex:delayMinutes 26.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.6e+01 ;
     ex:hasDestination <http://example.org/flight/airport/FRA> .
 
 <http://example.org/flight/flight/78> a ex:Flight ;
-    ex:delayMinutes 5.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 5e+00 ;
     ex:hasDestination <http://example.org/flight/airport/JFK> .
 
 <http://example.org/flight/flight/79> a ex:Flight ;
-    ex:delayMinutes 10.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1e+01 ;
     ex:hasDestination <http://example.org/flight/airport/ATL> .
 
 <http://example.org/flight/flight/8> a ex:Flight ;
-    ex:delayMinutes 4.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4e+00 ;
     ex:hasDestination <http://example.org/flight/airport/TRN> .
 
 <http://example.org/flight/flight/80> a ex:Flight ;
-    ex:delayMinutes 16.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.6e+01 ;
     ex:hasDestination <http://example.org/flight/airport/AMS> .
 
 <http://example.org/flight/flight/81> a ex:Flight ;
-    ex:delayMinutes 14.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.4e+01 ;
     ex:hasDestination <http://example.org/flight/airport/BLR> .
 
 <http://example.org/flight/flight/82> a ex:Flight ;
-    ex:delayMinutes 24.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.4e+01 ;
     ex:hasDestination <http://example.org/flight/airport/MAN> .
 
 <http://example.org/flight/flight/83> a ex:Flight ;
-    ex:delayMinutes 87.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 8.7e+01 ;
     ex:hasDestination <http://example.org/flight/airport/LGW> .
 
 <http://example.org/flight/flight/84> a ex:Flight ;
-    ex:delayMinutes 27.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.7e+01 ;
     ex:hasDestination <http://example.org/flight/airport/GRU> .
 
 <http://example.org/flight/flight/85> a ex:Flight ;
-    ex:delayMinutes 19.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.9e+01 ;
     ex:hasDestination <http://example.org/flight/airport/MUC> .
 
 <http://example.org/flight/flight/86> a ex:Flight ;
-    ex:delayMinutes 26.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.6e+01 ;
     ex:hasDestination <http://example.org/flight/airport/IAD> .
 
 <http://example.org/flight/flight/87> a ex:Flight ;
-    ex:delayMinutes 23.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 2.3e+01 ;
     ex:hasDestination <http://example.org/flight/airport/MAD> .
 
 <http://example.org/flight/flight/88> a ex:Flight ;
-    ex:delayMinutes 13.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1.3e+01 ;
     ex:hasDestination <http://example.org/flight/airport/TPE> .
 
 <http://example.org/flight/flight/89> a ex:Flight ;
-    ex:delayMinutes 44.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 4.4e+01 ;
     ex:hasDestination <http://example.org/flight/airport/HEL> .
 
 <http://example.org/flight/flight/9> a ex:Flight ;
-    ex:delayMinutes 1.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 1e+00 ;
     ex:hasDestination <http://example.org/flight/airport/MUC> .
 
 <http://example.org/flight/flight/90> a ex:Flight ;
-    ex:delayMinutes 6.0 ;
+    ex:dayOfWeek "Wednesday"^^xsd:string ;
+    ex:delayMinutes 6e+00 ;
     ex:hasDestination <http://example.org/flight/airport/BOS> .
 
+<http://example.org/flight/region/AF> a ex:Region .
+
+<http://example.org/flight/region/AG> a ex:Region .
+
+<http://example.org/flight/region/AI> a ex:Region .
+
+<http://example.org/flight/region/AL> a ex:Region .
+
+<http://example.org/flight/region/AM> a ex:Region .
+
+<http://example.org/flight/region/AO> a ex:Region .
+
+<http://example.org/flight/region/AQ> a ex:Region .
+
+<http://example.org/flight/region/AR> a ex:Region .
+
+<http://example.org/flight/region/AS> a ex:Region .
+
+<http://example.org/flight/region/AU> a ex:Region .
+
+<http://example.org/flight/region/AW> a ex:Region .
+
+<http://example.org/flight/region/AZ> a ex:Region .
+
+<http://example.org/flight/region/BA> a ex:Region .
+
+<http://example.org/flight/region/BB> a ex:Region .
+
+<http://example.org/flight/region/BD> a ex:Region .
+
+<http://example.org/flight/region/BF> a ex:Region .
+
+<http://example.org/flight/region/BG> a ex:Region .
+
+<http://example.org/flight/region/BH> a ex:Region .
+
+<http://example.org/flight/region/BI> a ex:Region .
+
+<http://example.org/flight/region/BJ> a ex:Region .
+
+<http://example.org/flight/region/BL> a ex:Region .
+
+<http://example.org/flight/region/BM> a ex:Region .
+
+<http://example.org/flight/region/BN> a ex:Region .
+
+<http://example.org/flight/region/BO> a ex:Region .
+
+<http://example.org/flight/region/BQ> a ex:Region .
+
+<http://example.org/flight/region/BS> a ex:Region .
+
+<http://example.org/flight/region/BT> a ex:Region .
+
+<http://example.org/flight/region/BW> a ex:Region .
+
+<http://example.org/flight/region/BY> a ex:Region .
+
+<http://example.org/flight/region/BZ> a ex:Region .
+
+<http://example.org/flight/region/CA> a ex:Region .
+
+<http://example.org/flight/region/CC> a ex:Region .
+
+<http://example.org/flight/region/CD> a ex:Region .
+
+<http://example.org/flight/region/CF> a ex:Region .
+
+<http://example.org/flight/region/CG> a ex:Region .
+
+<http://example.org/flight/region/CI> a ex:Region .
+
+<http://example.org/flight/region/CK> a ex:Region .
+
+<http://example.org/flight/region/CL> a ex:Region .
+
+<http://example.org/flight/region/CM> a ex:Region .
+
+<http://example.org/flight/region/CN> a ex:Region .
+
+<http://example.org/flight/region/CO> a ex:Region .
+
+<http://example.org/flight/region/CR> a ex:Region .
+
+<http://example.org/flight/region/CU> a ex:Region .
+
+<http://example.org/flight/region/CV> a ex:Region .
+
+<http://example.org/flight/region/CX> a ex:Region .
+
+<http://example.org/flight/region/CY> a ex:Region .
+
+<http://example.org/flight/region/CZ> a ex:Region .
+
+<http://example.org/flight/region/DJ> a ex:Region .
+
+<http://example.org/flight/region/DM> a ex:Region .
+
+<http://example.org/flight/region/DO> a ex:Region .
+
+<http://example.org/flight/region/DZ> a ex:Region .
+
+<http://example.org/flight/region/EC> a ex:Region .
+
+<http://example.org/flight/region/EE> a ex:Region .
+
+<http://example.org/flight/region/EH> a ex:Region .
+
+<http://example.org/flight/region/ER> a ex:Region .
+
+<http://example.org/flight/region/ET> a ex:Region .
+
+<http://example.org/flight/region/FJ> a ex:Region .
+
+<http://example.org/flight/region/FK> a ex:Region .
+
+<http://example.org/flight/region/FM> a ex:Region .
+
+<http://example.org/flight/region/FO> a ex:Region .
+
+<http://example.org/flight/region/GA> a ex:Region .
+
+<http://example.org/flight/region/GD> a ex:Region .
+
+<http://example.org/flight/region/GF> a ex:Region .
+
+<http://example.org/flight/region/GG> a ex:Region .
+
+<http://example.org/flight/region/GH> a ex:Region .
+
+<http://example.org/flight/region/GI> a ex:Region .
+
+<http://example.org/flight/region/GL> a ex:Region .
+
+<http://example.org/flight/region/GM> a ex:Region .
+
+<http://example.org/flight/region/GN> a ex:Region .
+
+<http://example.org/flight/region/GP> a ex:Region .
+
+<http://example.org/flight/region/GQ> a ex:Region .
+
+<http://example.org/flight/region/GR> a ex:Region .
+
+<http://example.org/flight/region/GT> a ex:Region .
+
+<http://example.org/flight/region/GU> a ex:Region .
+
+<http://example.org/flight/region/GW> a ex:Region .
+
+<http://example.org/flight/region/GY> a ex:Region .
+
+<http://example.org/flight/region/HK> a ex:Region .
+
+<http://example.org/flight/region/HN> a ex:Region .
+
+<http://example.org/flight/region/HR> a ex:Region .
+
+<http://example.org/flight/region/HT> a ex:Region .
+
+<http://example.org/flight/region/ID> a ex:Region .
+
+<http://example.org/flight/region/IL> a ex:Region .
+
+<http://example.org/flight/region/IM> a ex:Region .
+
+<http://example.org/flight/region/IO> a ex:Region .
+
+<http://example.org/flight/region/IQ> a ex:Region .
+
+<http://example.org/flight/region/IR> a ex:Region .
+
+<http://example.org/flight/region/IS> a ex:Region .
+
+<http://example.org/flight/region/JE> a ex:Region .
+
+<http://example.org/flight/region/JM> a ex:Region .
+
+<http://example.org/flight/region/JO> a ex:Region .
+
+<http://example.org/flight/region/JP> a ex:Region .
+
+<http://example.org/flight/region/KE> a ex:Region .
+
+<http://example.org/flight/region/KG> a ex:Region .
+
+<http://example.org/flight/region/KH> a ex:Region .
+
+<http://example.org/flight/region/KI> a ex:Region .
+
+<http://example.org/flight/region/KM> a ex:Region .
+
+<http://example.org/flight/region/KN> a ex:Region .
+
+<http://example.org/flight/region/KP> a ex:Region .
+
+<http://example.org/flight/region/KR> a ex:Region .
+
+<http://example.org/flight/region/KW> a ex:Region .
+
+<http://example.org/flight/region/KY> a ex:Region .
+
+<http://example.org/flight/region/KZ> a ex:Region .
+
+<http://example.org/flight/region/LA> a ex:Region .
+
+<http://example.org/flight/region/LB> a ex:Region .
+
+<http://example.org/flight/region/LC> a ex:Region .
+
+<http://example.org/flight/region/LK> a ex:Region .
+
+<http://example.org/flight/region/LR> a ex:Region .
+
+<http://example.org/flight/region/LS> a ex:Region .
+
+<http://example.org/flight/region/LT> a ex:Region .
+
+<http://example.org/flight/region/LV> a ex:Region .
+
+<http://example.org/flight/region/LY> a ex:Region .
+
+<http://example.org/flight/region/MA> a ex:Region .
+
+<http://example.org/flight/region/MD> a ex:Region .
+
+<http://example.org/flight/region/ME> a ex:Region .
+
+<http://example.org/flight/region/MF> a ex:Region .
+
+<http://example.org/flight/region/MG> a ex:Region .
+
+<http://example.org/flight/region/MH> a ex:Region .
+
+<http://example.org/flight/region/MK> a ex:Region .
+
+<http://example.org/flight/region/ML> a ex:Region .
+
+<http://example.org/flight/region/MM> a ex:Region .
+
+<http://example.org/flight/region/MN> a ex:Region .
+
+<http://example.org/flight/region/MO> a ex:Region .
+
+<http://example.org/flight/region/MP> a ex:Region .
+
+<http://example.org/flight/region/MQ> a ex:Region .
+
+<http://example.org/flight/region/MR> a ex:Region .
+
+<http://example.org/flight/region/MS> a ex:Region .
+
+<http://example.org/flight/region/MT> a ex:Region .
+
+<http://example.org/flight/region/MU> a ex:Region .
+
+<http://example.org/flight/region/MV> a ex:Region .
+
+<http://example.org/flight/region/MW> a ex:Region .
+
+<http://example.org/flight/region/MX> a ex:Region .
+
+<http://example.org/flight/region/MY> a ex:Region .
+
+<http://example.org/flight/region/MZ> a ex:Region .
+
+<http://example.org/flight/region/NC> a ex:Region .
+
+<http://example.org/flight/region/NE> a ex:Region .
+
+<http://example.org/flight/region/NF> a ex:Region .
+
+<http://example.org/flight/region/NG> a ex:Region .
+
+<http://example.org/flight/region/NI> a ex:Region .
+
+<http://example.org/flight/region/NP> a ex:Region .
+
+<http://example.org/flight/region/NR> a ex:Region .
+
+<http://example.org/flight/region/NU> a ex:Region .
+
+<http://example.org/flight/region/NZ> a ex:Region .
+
+<http://example.org/flight/region/OM> a ex:Region .
+
+<http://example.org/flight/region/PA> a ex:Region .
+
+<http://example.org/flight/region/PE> a ex:Region .
+
+<http://example.org/flight/region/PF> a ex:Region .
+
+<http://example.org/flight/region/PG> a ex:Region .
+
+<http://example.org/flight/region/PH> a ex:Region .
+
+<http://example.org/flight/region/PK> a ex:Region .
+
+<http://example.org/flight/region/PM> a ex:Region .
+
+<http://example.org/flight/region/PR> a ex:Region .
+
+<http://example.org/flight/region/PS> a ex:Region .
+
+<http://example.org/flight/region/PW> a ex:Region .
+
+<http://example.org/flight/region/PY> a ex:Region .
+
+<http://example.org/flight/region/QA> a ex:Region .
+
+<http://example.org/flight/region/RE> a ex:Region .
+
+<http://example.org/flight/region/RO> a ex:Region .
+
+<http://example.org/flight/region/RU> a ex:Region .
+
+<http://example.org/flight/region/RW> a ex:Region .
+
+<http://example.org/flight/region/SA> a ex:Region .
+
+<http://example.org/flight/region/SB> a ex:Region .
+
+<http://example.org/flight/region/SC> a ex:Region .
+
+<http://example.org/flight/region/SD> a ex:Region .
+
+<http://example.org/flight/region/SH> a ex:Region .
+
+<http://example.org/flight/region/SI> a ex:Region .
+
+<http://example.org/flight/region/SK> a ex:Region .
+
+<http://example.org/flight/region/SL> a ex:Region .
+
+<http://example.org/flight/region/SN> a ex:Region .
+
+<http://example.org/flight/region/SO> a ex:Region .
+
+<http://example.org/flight/region/SS> a ex:Region .
+
+<http://example.org/flight/region/ST> a ex:Region .
+
+<http://example.org/flight/region/SV> a ex:Region .
+
+<http://example.org/flight/region/SX> a ex:Region .
+
+<http://example.org/flight/region/SY> a ex:Region .
+
+<http://example.org/flight/region/SZ> a ex:Region .
+
+<http://example.org/flight/region/TC> a ex:Region .
+
+<http://example.org/flight/region/TD> a ex:Region .
+
+<http://example.org/flight/region/TG> a ex:Region .
+
+<http://example.org/flight/region/TH> a ex:Region .
+
+<http://example.org/flight/region/TJ> a ex:Region .
+
+<http://example.org/flight/region/TL> a ex:Region .
+
+<http://example.org/flight/region/TM> a ex:Region .
+
+<http://example.org/flight/region/TN> a ex:Region .
+
+<http://example.org/flight/region/TO> a ex:Region .
+
+<http://example.org/flight/region/TR> a ex:Region .
+
+<http://example.org/flight/region/TT> a ex:Region .
+
+<http://example.org/flight/region/TV> a ex:Region .
+
+<http://example.org/flight/region/TZ> a ex:Region .
+
+<http://example.org/flight/region/UA> a ex:Region .
+
+<http://example.org/flight/region/UG> a ex:Region .
+
+<http://example.org/flight/region/UM> a ex:Region .
+
+<http://example.org/flight/region/UY> a ex:Region .
+
+<http://example.org/flight/region/UZ> a ex:Region .
+
+<http://example.org/flight/region/VC> a ex:Region .
+
+<http://example.org/flight/region/VE> a ex:Region .
+
+<http://example.org/flight/region/VG> a ex:Region .
+
+<http://example.org/flight/region/VI> a ex:Region .
+
+<http://example.org/flight/region/VN> a ex:Region .
+
+<http://example.org/flight/region/VU> a ex:Region .
+
+<http://example.org/flight/region/WF> a ex:Region .
+
+<http://example.org/flight/region/WS> a ex:Region .
+
+<http://example.org/flight/region/XK> a ex:Region .
+
+<http://example.org/flight/region/YE> a ex:Region .
+
+<http://example.org/flight/region/YT> a ex:Region .
+
+<http://example.org/flight/region/ZM> a ex:Region .
+
+<http://example.org/flight/region/ZW> a ex:Region .
+
 <http://example.org/flight/airport/ABZ> a ex:Airport ;
-    ex:avgDelay 6.0 ;
+    ex:avgDelay 6e+00 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/ARN> a ex:Airport ;
-    ex:avgDelay 20.0 ;
+    ex:avgDelay 2e+01 ;
+    ex:hasRegion <http://example.org/flight/region/SE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BEG> a ex:Airport ;
-    ex:avgDelay 8.0 ;
+    ex:avgDelay 8e+00 ;
+    ex:hasRegion <http://example.org/flight/region/RS> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BER> a ex:Airport ;
-    ex:avgDelay 5.0 ;
+    ex:avgDelay 5e+00 ;
+    ex:hasRegion <http://example.org/flight/region/DE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BLL> a ex:Airport ;
-    ex:avgDelay 1.0 ;
+    ex:avgDelay 1e+00 ;
+    ex:hasRegion <http://example.org/flight/region/DK> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BLQ> a ex:Airport ;
-    ex:avgDelay 7.0 ;
+    ex:avgDelay 7e+00 ;
+    ex:hasRegion <http://example.org/flight/region/IT> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BLR> a ex:Airport ;
-    ex:avgDelay 14.0 ;
+    ex:avgDelay 1.4e+01 ;
+    ex:hasRegion <http://example.org/flight/region/IN> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BOD> a ex:Airport ;
-    ex:avgDelay 13.0 ;
+    ex:avgDelay 1.3e+01 ;
+    ex:hasRegion <http://example.org/flight/region/FR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BOS> a ex:Airport ;
-    ex:avgDelay 6.0 ;
+    ex:avgDelay 6e+00 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BRE> a ex:Airport ;
-    ex:avgDelay 19.0 ;
+    ex:avgDelay 1.9e+01 ;
+    ex:hasRegion <http://example.org/flight/region/DE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BRS> a ex:Airport ;
-    ex:avgDelay -1.0 ;
+    ex:avgDelay -1e+00 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BRU> a ex:Airport ;
-    ex:avgDelay -1.0 ;
+    ex:avgDelay -1e+00 ;
+    ex:hasRegion <http://example.org/flight/region/BE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BSL> a ex:Airport ;
-    ex:avgDelay 15.0 ;
+    ex:avgDelay 1.5e+01 ;
+    ex:hasRegion <http://example.org/flight/region/FR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/BUD> a ex:Airport ;
-    ex:avgDelay 3.0 ;
+    ex:avgDelay 3e+00 ;
+    ex:hasRegion <http://example.org/flight/region/HU> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/CPH> a ex:Airport ;
-    ex:avgDelay 13.0 ;
+    ex:avgDelay 1.3e+01 ;
+    ex:hasRegion <http://example.org/flight/region/DK> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/CPT> a ex:Airport ;
-    ex:avgDelay 190.0 ;
+    ex:avgDelay 1.9e+02 ;
+    ex:hasRegion <http://example.org/flight/region/ZA> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/CUR> a ex:Airport ;
-    ex:avgDelay 32.0 ;
+    ex:avgDelay 3.2e+01 ;
+    ex:hasRegion <http://example.org/flight/region/CW> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/CWL> a ex:Airport ;
-    ex:avgDelay 14.0 ;
+    ex:avgDelay 1.4e+01 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/DTW> a ex:Airport ;
-    ex:avgDelay 11.0 ;
+    ex:avgDelay 1.1e+01 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/DUB> a ex:Airport ;
-    ex:avgDelay 7.0 ;
+    ex:avgDelay 7e+00 ;
+    ex:hasRegion <http://example.org/flight/region/IE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/DUS> a ex:Airport ;
-    ex:avgDelay 2.0 ;
+    ex:avgDelay 2e+00 ;
+    ex:hasRegion <http://example.org/flight/region/DE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/DXB> a ex:Airport ;
-    ex:avgDelay 1.0 ;
+    ex:avgDelay 1e+00 ;
+    ex:hasRegion <http://example.org/flight/region/AE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/FCO> a ex:Airport ;
-    ex:avgDelay -2.0 ;
+    ex:avgDelay -2e+00 ;
+    ex:hasRegion <http://example.org/flight/region/IT> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/FLR> a ex:Airport ;
-    ex:avgDelay 40.0 ;
+    ex:avgDelay 4e+01 ;
+    ex:hasRegion <http://example.org/flight/region/IT> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/GDN> a ex:Airport ;
-    ex:avgDelay 11.0 ;
+    ex:avgDelay 1.1e+01 ;
+    ex:hasRegion <http://example.org/flight/region/PL> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/GIG> a ex:Airport ;
-    ex:avgDelay 15.0 ;
+    ex:avgDelay 1.5e+01 ;
+    ex:hasRegion <http://example.org/flight/region/BR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/GLA> a ex:Airport ;
-    ex:avgDelay 22.0 ;
+    ex:avgDelay 2.2e+01 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/GRU> a ex:Airport ;
-    ex:avgDelay 27.0 ;
+    ex:avgDelay 2.7e+01 ;
+    ex:hasRegion <http://example.org/flight/region/BR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/GVA> a ex:Airport ;
-    ex:avgDelay 65.0 ;
+    ex:avgDelay 6.5e+01 ;
+    ex:hasRegion <http://example.org/flight/region/CH> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/HAM> a ex:Airport ;
-    ex:avgDelay 5.0 ;
+    ex:avgDelay 5e+00 ;
+    ex:hasRegion <http://example.org/flight/region/DE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/HRG> a ex:Airport ;
-    ex:avgDelay 13.0 ;
+    ex:avgDelay 1.3e+01 ;
+    ex:hasRegion <http://example.org/flight/region/EG> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/IAD> a ex:Airport ;
-    ex:avgDelay 26.0 ;
+    ex:avgDelay 2.6e+01 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/JFK> a ex:Airport ;
-    ex:avgDelay 5.0 ;
+    ex:avgDelay 5e+00 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/JNB> a ex:Airport ;
-    ex:avgDelay 14.0 ;
+    ex:avgDelay 1.4e+01 ;
+    ex:hasRegion <http://example.org/flight/region/ZA> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/LAX> a ex:Airport ;
-    ex:avgDelay 9.0 ;
+    ex:avgDelay 9e+00 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/LGW> a ex:Airport ;
-    ex:avgDelay 87.0 ;
+    ex:avgDelay 8.7e+01 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/LPA> a ex:Airport ;
-    ex:avgDelay 10.0 ;
+    ex:avgDelay 1e+01 ;
+    ex:hasRegion <http://example.org/flight/region/ES> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/LPL> a ex:Airport ;
-    ex:avgDelay -1.0 ;
+    ex:avgDelay -1e+00 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/LTN> a ex:Airport ;
-    ex:avgDelay 0.0 ;
+    ex:avgDelay 0e+00 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/LUX> a ex:Airport ;
-    ex:avgDelay -1.0 ;
+    ex:avgDelay -1e+00 ;
+    ex:hasRegion <http://example.org/flight/region/LU> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/LYS> a ex:Airport ;
-    ex:avgDelay 0.0 ;
+    ex:avgDelay 0e+00 ;
+    ex:hasRegion <http://example.org/flight/region/FR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/MSP> a ex:Airport ;
-    ex:avgDelay 25.0 ;
+    ex:avgDelay 2.5e+01 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/MXP> a ex:Airport ;
-    ex:avgDelay 4.0 ;
+    ex:avgDelay 4e+00 ;
+    ex:hasRegion <http://example.org/flight/region/IT> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/NCE> a ex:Airport ;
-    ex:avgDelay 4.0 ;
+    ex:avgDelay 4e+00 ;
+    ex:hasRegion <http://example.org/flight/region/FR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/NCL> a ex:Airport ;
-    ex:avgDelay 0.0 ;
+    ex:avgDelay 0e+00 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/NTE> a ex:Airport ;
-    ex:avgDelay 11.0 ;
+    ex:avgDelay 1.1e+01 ;
+    ex:hasRegion <http://example.org/flight/region/FR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/OPO> a ex:Airport ;
-    ex:avgDelay 19.0 ;
+    ex:avgDelay 1.9e+01 ;
+    ex:hasRegion <http://example.org/flight/region/PT> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/ORK> a ex:Airport ;
-    ex:avgDelay -4.0 ;
+    ex:avgDelay -4e+00 ;
+    ex:hasRegion <http://example.org/flight/region/IE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/OSL> a ex:Airport ;
-    ex:avgDelay 3.0 ;
+    ex:avgDelay 3e+00 ;
+    ex:hasRegion <http://example.org/flight/region/NO> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/PBM> a ex:Airport ;
-    ex:avgDelay 24.0 ;
+    ex:avgDelay 2.4e+01 ;
+    ex:hasRegion <http://example.org/flight/region/SR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/SEA> a ex:Airport ;
-    ex:avgDelay 31.0 ;
+    ex:avgDelay 3.1e+01 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/SFO> a ex:Airport ;
-    ex:avgDelay 77.0 ;
+    ex:avgDelay 7.7e+01 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub false ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/SIN> a ex:Airport ;
-    ex:avgDelay 25.0 ;
+    ex:avgDelay 2.5e+01 ;
+    ex:hasRegion <http://example.org/flight/region/SG> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/STR> a ex:Airport ;
-    ex:avgDelay 1.0 ;
+    ex:avgDelay 1e+00 ;
+    ex:hasRegion <http://example.org/flight/region/DE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/SVG> a ex:Airport ;
-    ex:avgDelay 13.0 ;
+    ex:avgDelay 1.3e+01 ;
+    ex:hasRegion <http://example.org/flight/region/NO> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/TBS> a ex:Airport ;
-    ex:avgDelay 9.0 ;
+    ex:avgDelay 9e+00 ;
+    ex:hasRegion <http://example.org/flight/region/GE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/TLS> a ex:Airport ;
-    ex:avgDelay 4.0 ;
+    ex:avgDelay 4e+00 ;
+    ex:hasRegion <http://example.org/flight/region/FR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/TPE> a ex:Airport ;
-    ex:avgDelay 13.0 ;
+    ex:avgDelay 1.3e+01 ;
+    ex:hasRegion <http://example.org/flight/region/TW> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/TRN> a ex:Airport ;
-    ex:avgDelay 4.0 ;
+    ex:avgDelay 4e+00 ;
+    ex:hasRegion <http://example.org/flight/region/IT> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/VIE> a ex:Airport ;
-    ex:avgDelay 7.0 ;
+    ex:avgDelay 7e+00 ;
+    ex:hasRegion <http://example.org/flight/region/AT> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
 <http://example.org/flight/airport/WRO> a ex:Airport ;
-    ex:avgDelay 3.0 ;
+    ex:avgDelay 3e+00 ;
+    ex:hasRegion <http://example.org/flight/region/PL> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 1 .
 
+<http://example.org/flight/region/AE> a ex:Region .
+
+<http://example.org/flight/region/AT> a ex:Region .
+
+<http://example.org/flight/region/BE> a ex:Region .
+
+<http://example.org/flight/region/CW> a ex:Region .
+
+<http://example.org/flight/region/EG> a ex:Region .
+
+<http://example.org/flight/region/FI> a ex:Region .
+
+<http://example.org/flight/region/GE> a ex:Region .
+
+<http://example.org/flight/region/HU> a ex:Region .
+
+<http://example.org/flight/region/IN> a ex:Region .
+
+<http://example.org/flight/region/LU> a ex:Region .
+
+<http://example.org/flight/region/NL> a ex:Region .
+
+<http://example.org/flight/region/PT> a ex:Region .
+
+<http://example.org/flight/region/RS> a ex:Region .
+
+<http://example.org/flight/region/SE> a ex:Region .
+
+<http://example.org/flight/region/SG> a ex:Region .
+
+<http://example.org/flight/region/SR> a ex:Region .
+
+<http://example.org/flight/region/TW> a ex:Region .
+
+<http://example.org/flight/volume/High> a ex:VolumeBucket .
+
+<http://example.org/flight/volume/Med> a ex:VolumeBucket .
+
 <http://example.org/flight/airport/ATL> a ex:Airport ;
-    ex:avgDelay 29.0 ;
+    ex:avgDelay 2.9e+01 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/BCN> a ex:Airport ;
-    ex:avgDelay 15.0 ;
+    ex:avgDelay 1.5e+01 ;
+    ex:hasRegion <http://example.org/flight/region/ES> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/CDG> a ex:Airport ;
-    ex:avgDelay 6.5 ;
+    ex:avgDelay 6.5e+00 ;
+    ex:hasRegion <http://example.org/flight/region/FR> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/FRA> a ex:Airport ;
-    ex:avgDelay 15.0 ;
+    ex:avgDelay 1.5e+01 ;
+    ex:hasRegion <http://example.org/flight/region/DE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/HEL> a ex:Airport ;
-    ex:avgDelay 89.0 ;
+    ex:avgDelay 8.9e+01 ;
+    ex:hasRegion <http://example.org/flight/region/FI> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/IAH> a ex:Airport ;
-    ex:avgDelay 45.5 ;
+    ex:avgDelay 4.55e+01 ;
+    ex:hasRegion <http://example.org/flight/region/US> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/LHR> a ex:Airport ;
-    ex:avgDelay 27.5 ;
+    ex:avgDelay 2.75e+01 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/MAD> a ex:Airport ;
-    ex:avgDelay 15.0 ;
+    ex:avgDelay 1.5e+01 ;
+    ex:hasRegion <http://example.org/flight/region/ES> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/MUC> a ex:Airport ;
-    ex:avgDelay 10.0 ;
+    ex:avgDelay 1e+01 ;
+    ex:hasRegion <http://example.org/flight/region/DE> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/WAW> a ex:Airport ;
-    ex:avgDelay 7.0 ;
+    ex:avgDelay 7e+00 ;
+    ex:hasRegion <http://example.org/flight/region/PL> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU true ;
     ex:numFlights 2 .
 
 <http://example.org/flight/airport/ZRH> a ex:Airport ;
-    ex:avgDelay 18.0 ;
+    ex:avgDelay 1.8e+01 ;
+    ex:hasRegion <http://example.org/flight/region/CH> ;
+    ex:inBucket <http://example.org/flight/volume/Low> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 2 .
 
+<http://example.org/flight/region/BR> a ex:Region .
+
+<http://example.org/flight/region/CH> a ex:Region .
+
+<http://example.org/flight/region/DK> a ex:Region .
+
+<http://example.org/flight/region/IE> a ex:Region .
+
+<http://example.org/flight/region/NO> a ex:Region .
+
+<http://example.org/flight/region/ZA> a ex:Region .
+
 <http://example.org/flight/airport/MAN> a ex:Airport ;
-    ex:avgDelay 17.333333333333332 ;
+    ex:avgDelay 1.733333e+01 ;
+    ex:hasRegion <http://example.org/flight/region/GB> ;
+    ex:inBucket <http://example.org/flight/volume/Med> ;
     ex:isHub true ;
     ex:isIntraEU false ;
     ex:numFlights 3 .
 
+<http://example.org/flight/region/ES> a ex:Region .
+
+<http://example.org/flight/region/PL> a ex:Region .
+
 <http://example.org/flight/airport/AMS> a ex:Airport ;
-    ex:avgDelay 14.8 ;
+    ex:avgDelay 1.48e+01 ;
+    ex:hasRegion <http://example.org/flight/region/NL> ;
+    ex:inBucket <http://example.org/flight/volume/High> ;
     ex:isHub false ;
     ex:isIntraEU true ;
     ex:numFlights 5 .
+
+<http://example.org/flight/region/IT> a ex:Region .
+
+<http://example.org/flight/region/DE> a ex:Region .
+
+<http://example.org/flight/region/FR> a ex:Region .
+
+<http://example.org/flight/region/GB> a ex:Region .
+
+<http://example.org/flight/region/US> a ex:Region .
+
+<http://example.org/flight/volume/Low> a ex:VolumeBucket .
 

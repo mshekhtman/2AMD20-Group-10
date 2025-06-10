@@ -127,7 +127,7 @@ def run_tests(df: pd.DataFrame):
 def make_plots(df: pd.DataFrame):
     os.makedirs("outputs", exist_ok=True)
 
-    # 6a) LOWESS bubble scatter
+    # 6a) LOWESS bubble scatter (summary df)
     plt.figure(figsize=(8,6))
     sizes = (df["num_flights"] / df["num_flights"].max()) * 400
     sns.regplot(x="num_flights", y="avg_delay", data=df,
@@ -140,10 +140,10 @@ def make_plots(df: pd.DataFrame):
     plt.savefig("outputs/delay_vs_count.png")
     plt.show()
 
-    # 6b) Violin plots
-    raw = load_klm()
+    # 6b) Violin plots (use raw for distributions)
+    raw = load_klm()  # reload raw flight-level data
     merged = pd.merge(raw, df, on="destinationIATA")
-    for col,title in [("isHub","Hub vs Regional"),("isIntraEU","Intra-EU vs Intercontinental")]:
+    for col, title in [("isHub", "Hub vs Regional"), ("isIntraEU", "Intra-EU vs Intercontinental")]:
         plt.figure(figsize=(6,4))
         sns.violinplot(x=col, y="delayMinutes", data=merged, inner="quartile")
         plt.title(title)
@@ -151,7 +151,7 @@ def make_plots(df: pd.DataFrame):
         plt.savefig(f"outputs/{col}_violin.png")
         plt.show()
 
-    # 6c) Interactive delay map
+    # 6c) Interactive delay map (summary df used for setting radius/color)
     arc = pd.read_csv("data/ArcGIS/ArcGIS_data.csv", low_memory=False)
     arc = arc.rename(columns={"IATA-Code":"destinationIATA","Latitude":"lat","Longitude":"lon"})
     arc = arc[["destinationIATA","lat","lon"]].dropna()
@@ -173,22 +173,64 @@ def make_plots(df: pd.DataFrame):
     m.save("outputs/delay_map.html")
     print("Map → outputs/delay_map.html")
 
-    # df originally from load_klm with columns flightDate, dayOfWeek, destinationIATA, delayMinutes
-    df["dayOfWeek"] = pd.to_datetime(df["flightDate"]).dt.day_name()
-    pivot = df.pivot_table(index="destinationIATA", columns="dayOfWeek", 
-                           values="delayMinutes", aggfunc="mean").reindex(
-        ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], axis=1)
+    # 6d) Heatmap by Weekday (raw data)
+    raw = load_klm()  # reload raw flight-level data
+    raw["dayOfWeek"] = pd.to_datetime(raw["flightDate"]).dt.day_name()
+
+    # pivot: index=airport, columns=dayOfWeek, values=mean delay
+    pivot = (
+        raw
+        .pivot_table(index="destinationIATA",
+                     columns="dayOfWeek",
+                     values="delayMinutes",
+                     aggfunc="mean",
+                     fill_value=np.nan)
+        .reindex(
+            ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+            axis=1,
+            fill_value=np.nan
+        )
+    )
+
+
     plt.figure(figsize=(10,8))
-    sns.heatmap(pivot, cmap="crest", linewidths=0.5, linecolor="gray")
+    sns.heatmap(pivot, cmap="crest", linewidths=0.5, linecolor="gray",
+                cbar_kws={"label": "Avg Delay (min)"})
     plt.title("Average Delay by Destination & Weekday")
+    plt.xlabel("Day of Week")
+    plt.ylabel("Destination IATA")
+    plt.tight_layout()
     plt.savefig("outputs/heatmap_weekday.png")
     plt.show()
 
-    # Tail-Risk plot
-    df["p95_delay"] = df["delayMinutes"].groupby(df["destinationIATA"]).transform(lambda x: np.percentile(x,95))
-    tail = df.drop_duplicates("destinationIATA")[["destinationIATA","p95_delay","num_flights"]]
+    # 6e) Tail‐Risk Plot (raw + summary)
+    raw   = load_klm()  # flight‐level
+    # Compute 95th‐percentile delay per destination
+    p95 = (
+        raw.groupby("destinationIATA")["delayMinutes"]
+           .quantile(0.95)
+           .reset_index()
+           .rename(columns={"delayMinutes":"p95_delay"})
+    )
+
+    # Compute summary (num_flights, etc.)
+    summary = compute_flight_counts(raw)
+
+    # Merge them
+    tail = pd.merge(summary, p95, on="destinationIATA", how="inner")
+
+    # Now tail has destinationIATA, num_flights, avg_delay, med_delay, and p95_delay
     plt.figure(figsize=(8,6))
-    sns.scatterplot(data=tail, x="num_flights", y="p95_delay", hue="p95_delay", palette="flare", size="num_flights", sizes=(20,200))
+    sns.scatterplot(
+        data=tail,
+        x="num_flights",
+        y="p95_delay",
+        hue="p95_delay",
+        palette="flare",
+        size="num_flights",
+        sizes=(20,200),
+        legend="brief"
+    )
     plt.xscale("log")
     plt.xlabel("Flight Count (log)")
     plt.ylabel("95th %-ile Delay (min)")

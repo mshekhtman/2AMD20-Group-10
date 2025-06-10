@@ -62,13 +62,23 @@ def build_kg():
         dow = parser.isoparse(row.flightDate).strftime("%A")
         g.add((f, EX.dayOfWeek, Literal(dow, datatype=XSD.string)))
 
-    # 6) Volume buckets: add a column to df_air, then create + link
-    # Compute tercile buckets directly on the DataFrame
-    df_air["bucket"] = pd.qcut(
-        df_air["num_flights"],
-        q=3,
-        labels=["Low", "Med", "High"]
-    )
+    # 6) Volume buckets: robustly create tertiles or equal‐width bins
+    counts = df_air["num_flights"]
+    try:
+        # Attempt tertiles, dropping duplicate cuts if any
+        df_air["bucket"] = pd.qcut(
+            counts,
+            q=3,
+            labels=["Low", "Med", "High"],
+            duplicates="drop"
+        )
+    except ValueError:
+        # Fallback: equal‐width bins if qcut still fails
+        df_air["bucket"] = pd.cut(
+            counts,
+            bins=3,
+            labels=["Low", "Med", "High"]
+        )
 
     # Create VolumeBucket class nodes
     for label in df_air["bucket"].cat.categories:
@@ -77,12 +87,11 @@ def build_kg():
 
     # Link each airport to its bucket
     for _, row in df_air.iterrows():
-        a = EX[f"airport/{row.destinationIATA}"]
         bucket = row["bucket"]
         if pd.isna(bucket):
             continue
+        a = EX[f"airport/{row.destinationIATA}"]
         g.add((a, EX.inBucket, EX[f"volume/{bucket}"]))
-
 
     # 7) Validate against extended SHACL
     conforms, results, report = validate(
