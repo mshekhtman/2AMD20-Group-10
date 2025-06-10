@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"avgDelay": -1.0, "color": "rgb(58,76,192)", "id": "BRU", "label": "BRU", "numFlights": 1, "shape": "dot", "size": 10, "title": "BRU\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: -1.0 min", "value": 11.0}, {"avgDelay": -1.0, "color": "rgb(58,76,192)", "id": "LUX", "label": "LUX", "numFlights": 1, "shape": "dot", "size": 10, "title": "LUX\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: -1.0 min", "value": 11.0}, {"avgDelay": 65.0, "color": "rgb(172,200,252)", "id": "GVA", "label": "GVA", "numFlights": 1, "shape": "dot", "size": 10, "title": "GVA\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 65.0 min", "value": 11.0}, {"avgDelay": 8.0, "color": "rgb(70,93,207)", "id": "BEG", "label": "BEG", "numFlights": 1, "shape": "dot", "size": 10, "title": "BEG\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 8.0 min", "value": 11.0}, {"avgDelay": 6.5, "color": "rgb(67,90,204)", "id": "CDG", "label": "CDG", "numFlights": 2, "shape": "dot", "size": 10, "title": "CDG\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 6.5 min", "value": 17.0}, {"avgDelay": 7.0, "color": "rgb(69,91,205)", "id": "DUB", "label": "DUB", "numFlights": 1, "shape": "dot", "size": 10, "title": "DUB\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 7.0 min", "value": 11.0}, {"avgDelay": 14.8, "color": "rgb(81,108,219)", "id": "AMS", "label": "AMS", "numFlights": 5, "shape": "dot", "size": 10, "title": "AMS\u003cbr\u003eFlights: 5\u003cbr\u003eAvg Delay: 14.8 min", "value": 35.0}, {"avgDelay": 14.0, "color": "rgb(80,107,218)", "id": "CWL", "label": "CWL", "numFlights": 1, "shape": "dot", "size": 10, "title": "CWL\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 14.0 min", "value": 11.0}, {"avgDelay": 11.0, "color": "rgb(75,100,212)", "id": "GDN", "label": "GDN", "numFlights": 1, "shape": "dot", "size": 10, "title": "GDN\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 11.0 min", "value": 11.0}, {"avgDelay": 4.0, "color": "rgb(64,84,199)", "id": "NCE", "label": "NCE", "numFlights": 1, "shape": "dot", "size": 10, "title": "NCE\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 4.0 min", "value": 11.0}, {"avgDelay": -4.0, "color": "rgb(58,76,192)", "id": "ORK", "label": "ORK", "numFlights": 1, "shape": "dot", "size": 10, "title": "ORK\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: -4.0 min", "value": 11.0}, {"avgDelay": 9.0, "color": "rgb(72,96,209)", "id": "LAX", "label": "LAX", "numFlights": 1, "shape": "dot", "size": 10, "title": "LAX\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 9.0 min", "value": 11.0}, {"avgDelay": 5.0, "color": "rgb(65,86,201)", "id": "HAM", "label": "HAM", "numFlights": 1, "shape": "dot", "size": 10, "title": "HAM\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 5.0 min", "value": 11.0}, {"avgDelay": 45.5, "color": "rgb(137,172,252)", "id": "IAH", "label": "IAH", "numFlights": 2, "shape": "dot", "size": 10, "title": "IAH\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 45.5 min", "value": 17.0}, {"avgDelay": 17.333333333333332, "color": "rgb(86,115,224)", "id": "MAN", "label": "MAN", "numFlights": 3, "shape": "dot", "size": 10, "title": "MAN\u003cbr\u003eFlights: 3\u003cbr\u003eAvg Delay: 17.3 min", "value": 23.0}, {"avgDelay": 13.0, "color": "rgb(78,105,216)", "id": "SVG", "label": "SVG", "numFlights": 1, "shape": "dot", "size": 10, "title": "SVG\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 13.0 min", "value": 11.0}, {"avgDelay": 3.0, "color": "rgb(63,83,198)", "id": "WRO", "label": "WRO", "numFlights": 1, "shape": "dot", "size": 10, "title": "WRO\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 3.0 min", "value": 11.0}, {"avgDelay": -2.0, "color": "rgb(58,76,192)", "id": "FCO", "label": "FCO", "numFlights": 1, "shape": "dot", "size": 10, "title": "FCO\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: -2.0 min", "value": 11.0}, {"avgDelay": 40.0, "color": "rgb(126,161,249)", "id": "FLR", "label": "FLR", "numFlights": 1, "shape": "dot", "size": 10, "title": "FLR\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 40.0 min", "value": 11.0}, {"avgDelay": 18.0, "color": "rgb(87,117,225)", "id": "ZRH", "label": "ZRH", "numFlights": 2, "shape": "dot", "size": 10, "title": "ZRH\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 18.0 min", "value": 17.0}, {"avgDelay": 13.0, "color": "rgb(78,105,216)", "id": "HRG", "label": "HRG", "numFlights": 1, "shape": "dot", "size": 10, "title": "HRG\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 13.0 min", "value": 11.0}, {"avgDelay": 190.0, "color": "rgb(179,3,38)", "id": "CPT", "label": "CPT", "numFlights": 1, "shape": "dot", "size": 10, "title": "CPT\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 190.0 min", "value": 11.0}, {"avgDelay": 32.0, "color": "rgb(112,147,243)", "id": "CUR", "label": "CUR", "numFlights": 1, "shape": "dot", "size": 10, "title": "CUR\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 32.0 min", "value": 11.0}, {"avgDelay": 19.0, "color": "rgb(88,118,226)", "id": "BRE", "label": "BRE", "numFlights": 1, "shape": "dot", "size": 10, "title": "BRE\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 19.0 min", "value": 11.0}, {"avgDelay": 6.0, "color": "rgb(67,90,204)", "id": "ABZ", "label": "ABZ", "numFlights": 1, "shape": "dot", "size": 10, "title": "ABZ\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 6.0 min", "value": 11.0}, {"avgDelay": 11.0, "color": "rgb(75,100,212)", "id": "NTE", "label": "NTE", "numFlights": 1, "shape": "dot", "size": 10, "title": "NTE\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 11.0 min", "value": 11.0}, {"avgDelay": 77.0, "color": "rgb(193,212,244)", "id": "SFO", "label": "SFO", "numFlights": 1, "shape": "dot", "size": 10, "title": "SFO\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 77.0 min", "value": 11.0}, {"avgDelay": 89.0, "color": "rgb(211,219,230)", "id": "HEL", "label": "HEL", "numFlights": 2, "shape": "dot", "size": 10, "title": "HEL\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 89.0 min", "value": 17.0}, {"avgDelay": 15.0, "color": "rgb(82,110,220)", "id": "MAD", "label": "MAD", "numFlights": 2, "shape": "dot", "size": 10, "title": "MAD\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 15.0 min", "value": 17.0}, {"avgDelay": 5.0, "color": "rgb(65,86,201)", "id": "BER", "label": "BER", "numFlights": 1, "shape": "dot", "size": 10, "title": "BER\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 5.0 min", "value": 11.0}, {"avgDelay": 7.0, "color": "rgb(69,91,205)", "id": "VIE", "label": "VIE", "numFlights": 1, "shape": "dot", "size": 10, "title": "VIE\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 7.0 min", "value": 11.0}, {"avgDelay": 29.0, "color": "rgb(107,141,240)", "id": "ATL", "label": "ATL", "numFlights": 2, "shape": "dot", "size": 10, "title": "ATL\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 29.0 min", "value": 17.0}, {"avgDelay": 15.0, "color": "rgb(82,110,220)", "id": "BSL", "label": "BSL", "numFlights": 1, "shape": "dot", "size": 10, "title": "BSL\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 15.0 min", "value": 11.0}, {"avgDelay": 15.0, "color": "rgb(82,110,220)", "id": "FRA", "label": "FRA", "numFlights": 2, "shape": "dot", "size": 10, "title": "FRA\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 15.0 min", "value": 17.0}, {"avgDelay": 4.0, "color": "rgb(64,84,199)", "id": "MXP", "label": "MXP", "numFlights": 1, "shape": "dot", "size": 10, "title": "MXP\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 4.0 min", "value": 11.0}, {"avgDelay": -1.0, "color": "rgb(58,76,192)", "id": "LPL", "label": "LPL", "numFlights": 1, "shape": "dot", "size": 10, "title": "LPL\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: -1.0 min", "value": 11.0}, {"avgDelay": 19.0, "color": "rgb(88,118,226)", "id": "OPO", "label": "OPO", "numFlights": 1, "shape": "dot", "size": 10, "title": "OPO\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 19.0 min", "value": 11.0}, {"avgDelay": 13.0, "color": "rgb(78,105,216)", "id": "CPH", "label": "CPH", "numFlights": 1, "shape": "dot", "size": 10, "title": "CPH\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 13.0 min", "value": 11.0}, {"avgDelay": 4.0, "color": "rgb(64,84,199)", "id": "TLS", "label": "TLS", "numFlights": 1, "shape": "dot", "size": 10, "title": "TLS\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 4.0 min", "value": 11.0}, {"avgDelay": 27.5, "color": "rgb(104,137,238)", "id": "LHR", "label": "LHR", "numFlights": 2, "shape": "dot", "size": 10, "title": "LHR\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 27.5 min", "value": 17.0}, {"avgDelay": 3.0, "color": "rgb(63,83,198)", "id": "OSL", "label": "OSL", "numFlights": 1, "shape": "dot", "size": 10, "title": "OSL\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 3.0 min", "value": 11.0}, {"avgDelay": 0.0, "color": "rgb(58,76,192)", "id": "LYS", "label": "LYS", "numFlights": 1, "shape": "dot", "size": 10, "title": "LYS\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 0.0 min", "value": 11.0}, {"avgDelay": 13.0, "color": "rgb(78,105,216)", "id": "BOD", "label": "BOD", "numFlights": 1, "shape": "dot", "size": 10, "title": "BOD\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 13.0 min", "value": 11.0}, {"avgDelay": 1.0, "color": "rgb(59,77,193)", "id": "STR", "label": "STR", "numFlights": 1, "shape": "dot", "size": 10, "title": "STR\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 1.0 min", "value": 11.0}, {"avgDelay": 11.0, "color": "rgb(75,100,212)", "id": "DTW", "label": "DTW", "numFlights": 1, "shape": "dot", "size": 10, "title": "DTW\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 11.0 min", "value": 11.0}, {"avgDelay": 14.0, "color": "rgb(80,107,218)", "id": "JNB", "label": "JNB", "numFlights": 1, "shape": "dot", "size": 10, "title": "JNB\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 14.0 min", "value": 11.0}, {"avgDelay": 1.0, "color": "rgb(59,77,193)", "id": "BLL", "label": "BLL", "numFlights": 1, "shape": "dot", "size": 10, "title": "BLL\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 1.0 min", "value": 11.0}, {"avgDelay": 7.0, "color": "rgb(69,91,205)", "id": "WAW", "label": "WAW", "numFlights": 2, "shape": "dot", "size": 10, "title": "WAW\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 7.0 min", "value": 17.0}, {"avgDelay": 3.0, "color": "rgb(63,83,198)", "id": "BUD", "label": "BUD", "numFlights": 1, "shape": "dot", "size": 10, "title": "BUD\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 3.0 min", "value": 11.0}, {"avgDelay": 15.0, "color": "rgb(82,110,220)", "id": "BCN", "label": "BCN", "numFlights": 2, "shape": "dot", "size": 10, "title": "BCN\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 15.0 min", "value": 17.0}, {"avgDelay": 2.0, "color": "rgb(60,79,195)", "id": "DUS", "label": "DUS", "numFlights": 1, "shape": "dot", "size": 10, "title": "DUS\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 2.0 min", "value": 11.0}, {"avgDelay": 22.0, "color": "rgb(93,125,230)", "id": "GLA", "label": "GLA", "numFlights": 1, "shape": "dot", "size": 10, "title": "GLA\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 22.0 min", "value": 11.0}, {"avgDelay": 31.0, "color": "rgb(109,144,241)", "id": "SEA", "label": "SEA", "numFlights": 1, "shape": "dot", "size": 10, "title": "SEA\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 31.0 min", "value": 11.0}, {"avgDelay": 9.0, "color": "rgb(72,96,209)", "id": "TBS", "label": "TBS", "numFlights": 1, "shape": "dot", "size": 10, "title": "TBS\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 9.0 min", "value": 11.0}, {"avgDelay": 24.0, "color": "rgb(97,130,234)", "id": "PBM", "label": "PBM", "numFlights": 1, "shape": "dot", "size": 10, "title": "PBM\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 24.0 min", "value": 11.0}, {"avgDelay": 25.0, "color": "rgb(99,131,234)", "id": "SIN", "label": "SIN", "numFlights": 1, "shape": "dot", "size": 10, "title": "SIN\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 25.0 min", "value": 11.0}, {"avgDelay": 0.0, "color": "rgb(58,76,192)", "id": "NCL", "label": "NCL", "numFlights": 1, "shape": "dot", "size": 10, "title": "NCL\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 0.0 min", "value": 11.0}, {"avgDelay": 0.0, "color": "rgb(58,76,192)", "id": "LTN", "label": "LTN", "numFlights": 1, "shape": "dot", "size": 10, "title": "LTN\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 0.0 min", "value": 11.0}, {"avgDelay": 25.0, "color": "rgb(99,131,234)", "id": "MSP", "label": "MSP", "numFlights": 1, "shape": "dot", "size": 10, "title": "MSP\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 25.0 min", "value": 11.0}, {"avgDelay": 1.0, "color": "rgb(59,77,193)", "id": "DXB", "label": "DXB", "numFlights": 1, "shape": "dot", "size": 10, "title": "DXB\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 1.0 min", "value": 11.0}, {"avgDelay": 7.0, "color": "rgb(69,91,205)", "id": "BLQ", "label": "BLQ", "numFlights": 1, "shape": "dot", "size": 10, "title": "BLQ\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 7.0 min", "value": 11.0}, {"avgDelay": 10.0, "color": "rgb(73,98,211)", "id": "LPA", "label": "LPA", "numFlights": 1, "shape": "dot", "size": 10, "title": "LPA\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 10.0 min", "value": 11.0}, {"avgDelay": -1.0, "color": "rgb(58,76,192)", "id": "BRS", "label": "BRS", "numFlights": 1, "shape": "dot", "size": 10, "title": "BRS\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: -1.0 min", "value": 11.0}, {"avgDelay": 15.0, "color": "rgb(82,110,220)", "id": "GIG", "label": "GIG", "numFlights": 1, "shape": "dot", "size": 10, "title": "GIG\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 15.0 min", "value": 11.0}, {"avgDelay": 20.0, "color": "rgb(90,120,227)", "id": "ARN", "label": "ARN", "numFlights": 1, "shape": "dot", "size": 10, "title": "ARN\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 20.0 min", "value": 11.0}, {"avgDelay": 5.0, "color": "rgb(65,86,201)", "id": "JFK", "label": "JFK", "numFlights": 1, "shape": "dot", "size": 10, "title": "JFK\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 5.0 min", "value": 11.0}, {"avgDelay": 4.0, "color": "rgb(64,84,199)", "id": "TRN", "label": "TRN", "numFlights": 1, "shape": "dot", "size": 10, "title": "TRN\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 4.0 min", "value": 11.0}, {"avgDelay": 14.0, "color": "rgb(80,107,218)", "id": "BLR", "label": "BLR", "numFlights": 1, "shape": "dot", "size": 10, "title": "BLR\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 14.0 min", "value": 11.0}, {"avgDelay": 87.0, "color": "rgb(209,218,232)", "id": "LGW", "label": "LGW", "numFlights": 1, "shape": "dot", "size": 10, "title": "LGW\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 87.0 min", "value": 11.0}, {"avgDelay": 27.0, "color": "rgb(103,136,237)", "id": "GRU", "label": "GRU", "numFlights": 1, "shape": "dot", "size": 10, "title": "GRU\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 27.0 min", "value": 11.0}, {"avgDelay": 10.0, "color": "rgb(73,98,211)", "id": "MUC", "label": "MUC", "numFlights": 2, "shape": "dot", "size": 10, "title": "MUC\u003cbr\u003eFlights: 2\u003cbr\u003eAvg Delay: 10.0 min", "value": 17.0}, {"avgDelay": 26.0, "color": "rgb(101,134,236)", "id": "IAD", "label": "IAD", "numFlights": 1, "shape": "dot", "size": 10, "title": "IAD\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 26.0 min", "value": 11.0}, {"avgDelay": 13.0, "color": "rgb(78,105,216)", "id": "TPE", "label": "TPE", "numFlights": 1, "shape": "dot", "size": 10, "title": "TPE\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 13.0 min", "value": 11.0}, {"avgDelay": 6.0, "color": "rgb(67,90,204)", "id": "BOS", "label": "BOS", "numFlights": 1, "shape": "dot", "size": 10, "title": "BOS\u003cbr\u003eFlights: 1\u003cbr\u003eAvg Delay: 6.0 min", "value": 11.0}]);
+                  edges = new vis.DataSet([]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.005,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 200
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

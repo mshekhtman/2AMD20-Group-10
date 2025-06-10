@@ -1,0 +1,9 @@
+PREFIX ex: <http://example.org/flight/>
+SELECT ?dest ?numFlights ?avgDelay ?isHub ?isIntraEU WHERE {
+  ?airport a ex:Airport ;
+           ex:numFlights ?numFlights ;
+           ex:avgDelay ?avgDelay ;
+           ex:isHub ?isHub ;
+           ex:isIntraEU ?isIntraEU .
+  BIND(STRAFTER(STR(?airport), "airport/") AS ?dest)
+}

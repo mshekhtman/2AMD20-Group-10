@@ -1,0 +1,48 @@
+@prefix ex:  <http://example.org/flight/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+#### Classes
+ex:Flight        a owl:Class .
+ex:Airport       a owl:Class .
+ex:Region        a owl:Class .
+ex:DayOfWeek     a owl:Class .
+ex:VolumeBucket  a owl:Class .
+
+#### Object Properties
+ex:hasDestination a owl:ObjectProperty ;
+    rdfs:domain ex:Flight ;
+    rdfs:range  ex:Airport .
+
+ex:hasRegion      a owl:ObjectProperty ;
+    rdfs:domain ex:Airport ;
+    rdfs:range  ex:Region .
+
+ex:inBucket       a owl:ObjectProperty ;
+    rdfs:domain ex:Airport ;
+    rdfs:range  ex:VolumeBucket .
+
+#### Datatype Properties
+ex:delayMinutes   a owl:DatatypeProperty ;
+    rdfs:domain ex:Flight ;
+    rdfs:range  xsd:double .
+
+ex:dayOfWeek      a owl:DatatypeProperty ;
+    rdfs:domain ex:Flight ;
+    rdfs:range  xsd:string .
+
+ex:numFlights     a owl:DatatypeProperty ;
+    rdfs:domain ex:Airport ;
+    rdfs:range  xsd:integer .
+
+ex:avgDelay       a owl:DatatypeProperty ;
+    rdfs:domain ex:Airport ;
+    rdfs:range  xsd:double .
+
+ex:isHub          a owl:DatatypeProperty ;
+    rdfs:domain ex:Airport ;
+    rdfs:range  xsd:boolean .
+
+ex:isIntraEU      a owl:DatatypeProperty ;
+    rdfs:domain ex:Airport ;
+    rdfs:range  xsd:boolean .

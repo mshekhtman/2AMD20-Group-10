@@ -1,0 +1,74 @@
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ex:  <http://example.org/flight/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#### Flight Shape
+ex:FlightShape a sh:NodeShape ;
+    sh:targetClass ex:Flight ;
+
+    # Must have a delayMinutes
+    sh:property [
+        sh:path ex:delayMinutes ;
+        sh:datatype xsd:double ;
+        sh:minCount 1 ;
+    ] ;
+
+    # Must link to an airport
+    sh:property [
+        sh:path ex:hasDestination ;
+        sh:class ex:Airport ;
+        sh:minCount 1 ;
+    ] ;
+
+    # Must have a dayOfWeek
+    sh:property [
+        sh:path ex:dayOfWeek ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] .
+
+#### Airport Shape
+ex:AirportShape a sh:NodeShape ;
+    sh:targetClass ex:Airport ;
+
+    # Number of flights
+    sh:property [
+        sh:path ex:numFlights ;
+        sh:datatype xsd:integer ;
+        sh:minCount 1 ;
+    ] ;
+
+    # Average delay
+    sh:property [
+        sh:path ex:avgDelay ;
+        sh:datatype xsd:double ;
+        sh:minCount 1 ;
+    ] ;
+
+    # Hub flag
+    sh:property [
+        sh:path ex:isHub ;
+        sh:datatype xsd:boolean ;
+        sh:minCount 1 ;
+    ] ;
+
+    # Intra-EU flag
+    sh:property [
+        sh:path ex:isIntraEU ;
+        sh:datatype xsd:boolean ;
+        sh:minCount 1 ;
+    ] ;
+
+    # Must link to a Region
+    sh:property [
+        sh:path ex:hasRegion ;
+        sh:class ex:Region ;
+        sh:minCount 1 ;
+    ] ;
+
+    # Must link to a VolumeBucket
+    sh:property [
+        sh:path ex:inBucket ;
+        sh:class ex:VolumeBucket ;
+        sh:minCount 1 ;
+    ] .

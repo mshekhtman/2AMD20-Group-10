@@ -1,7 +1,5 @@
 {
-  "app_id": "df8d5218",
-  "app_key": "28be4a17746ad28e1646b40fc2060854",
-  "base_url": "https://api.schiphol.nl/public",
-  "rate_limit_minute": 60,
-  "rate_limit_day": 2000
+  "app_id":   "ec784af1",
+  "app_key":  "7f6b28026472246ed194c02f32b02905",
+  "base_url": "https://api.schiphol.nl/public-flights"
 }
