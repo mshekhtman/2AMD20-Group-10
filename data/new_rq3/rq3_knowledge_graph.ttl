@@ -1,0 +1,1179 @@
+@prefix ex: <http://example.org/airport#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:BIKF a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "10.152416356877325"^^xsd:float ;
+    ex:hasFlights 1937 ;
+    ex:hasPassengers 7750094 ;
+    ex:iataCode "KEF"^^xsd:string ;
+    ex:icaoCode "BIKF"^^xsd:string ;
+    ex:lat "63.985001"^^xsd:float ;
+    ex:locatedIn ex:Country_IS ;
+    ex:long "-22.6056"^^xsd:float ;
+    ex:runwayLength 10020 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EBBR a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "120.4196890362044"^^xsd:float ;
+    ex:hasFlights 2572 ;
+    ex:hasPassengers 22184622 ;
+    ex:iataCode "BRU"^^xsd:string ;
+    ex:icaoCode "EBBR"^^xsd:string ;
+    ex:lat "50.901402"^^xsd:float ;
+    ex:locatedIn ex:Country_BE ;
+    ex:long "4.48444"^^xsd:float ;
+    ex:runwayLength 9800 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EDDB a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "84.92480377627751"^^xsd:float ;
+    ex:hasFlights 6134 ;
+    ex:hasPassengers 23058827 ;
+    ex:iataCode "BER"^^xsd:string ;
+    ex:icaoCode "EDDB"^^xsd:string ;
+    ex:lat "52.362247"^^xsd:float ;
+    ex:locatedIn ex:Country_DE ;
+    ex:long "13.500672"^^xsd:float ;
+    ex:runwayLength 11811 ;
+    ex:runwaySurface "ASPH"^^xsd:string .
+
+ex:EDDF a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "281.1074700588673"^^xsd:float ;
+    ex:hasFlights 7193 ;
+    ex:hasPassengers 59329128 ;
+    ex:iataCode "FRA"^^xsd:string ;
+    ex:icaoCode "EDDF"^^xsd:string ;
+    ex:lat "50.036521"^^xsd:float ;
+    ex:locatedIn ex:Country_DE ;
+    ex:long "8.561268"^^xsd:float ;
+    ex:runwayLength 13123 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EDDH a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "75.14549527009316"^^xsd:float ;
+    ex:hasFlights 3730 ;
+    ex:hasPassengers 13557628 ;
+    ex:iataCode "HAM"^^xsd:string ;
+    ex:icaoCode "EDDH"^^xsd:string ;
+    ex:lat "53.630402"^^xsd:float ;
+    ex:locatedIn ex:Country_DE ;
+    ex:long "9.98823"^^xsd:float ;
+    ex:runwayLength 10663 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EDDL a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "56.62325743921728"^^xsd:float ;
+    ex:hasFlights 3151 ;
+    ex:hasPassengers 19103068 ;
+    ex:iataCode "DUS"^^xsd:string ;
+    ex:icaoCode "EDDL"^^xsd:string ;
+    ex:lat "51.289501"^^xsd:float ;
+    ex:locatedIn ex:Country_DE ;
+    ex:long "6.76678"^^xsd:float ;
+    ex:runwayLength 8858 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:EDDM a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "53.94325181491531"^^xsd:float ;
+    ex:hasFlights 7200 ;
+    ex:hasPassengers 37026088 ;
+    ex:iataCode "MUC"^^xsd:string ;
+    ex:icaoCode "EDDM"^^xsd:string ;
+    ex:lat "48.353802"^^xsd:float ;
+    ex:locatedIn ex:Country_DE ;
+    ex:long "11.7861"^^xsd:float ;
+    ex:runwayLength 13123 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:EDDN a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "11.249043611323644"^^xsd:float ;
+    ex:hasFlights 2220 ;
+    ex:hasPassengers 3922742 ;
+    ex:iataCode "NUE"^^xsd:string ;
+    ex:icaoCode "EDDN"^^xsd:string ;
+    ex:lat "49.498699"^^xsd:float ;
+    ex:locatedIn ex:Country_DE ;
+    ex:long "11.078056"^^xsd:float ;
+    ex:runwayLength 8858 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EDDS a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "15.399730773318218"^^xsd:float ;
+    ex:hasFlights 3429 ;
+    ex:hasPassengers 8435051 ;
+    ex:iataCode "STR"^^xsd:string ;
+    ex:icaoCode "EDDS"^^xsd:string ;
+    ex:lat "48.689899"^^xsd:float ;
+    ex:locatedIn ex:Country_DE ;
+    ex:long "9.22196"^^xsd:float ;
+    ex:runwayLength 10974 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:EDDV a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "15.114444618517938"^^xsd:float ;
+    ex:hasFlights 2263 ;
+    ex:hasPassengers 4598959 ;
+    ex:iataCode "HAJ"^^xsd:string ;
+    ex:icaoCode "EDDV"^^xsd:string ;
+    ex:lat "52.461102"^^xsd:float ;
+    ex:locatedIn ex:Country_DE ;
+    ex:long "9.68508"^^xsd:float ;
+    ex:runwayLength 1804 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EDDW a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "5.50925925925926"^^xsd:float ;
+    ex:hasFlights 2021 ;
+    ex:hasPassengers 1807897 ;
+    ex:iataCode "BRE"^^xsd:string ;
+    ex:icaoCode "EDDW"^^xsd:string ;
+    ex:lat "53.046786"^^xsd:float ;
+    ex:locatedIn ex:Country_DE ;
+    ex:long "8.78932"^^xsd:float ;
+    ex:runwayLength 2297 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EETN a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "6.153603089616431"^^xsd:float ;
+    ex:hasFlights 782 ;
+    ex:hasPassengers 2946323 ;
+    ex:iataCode "TLL"^^xsd:string ;
+    ex:icaoCode "EETN"^^xsd:string ;
+    ex:lat "59.4132995605"^^xsd:float ;
+    ex:locatedIn ex:Country_EE ;
+    ex:long "24.8327999115"^^xsd:float ;
+    ex:runwayLength 11417 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EFHK a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "17.96047309011057"^^xsd:float ;
+    ex:hasFlights 3679 ;
+    ex:hasPassengers 15412126 ;
+    ex:iataCode "HEL"^^xsd:string ;
+    ex:icaoCode "EFHK"^^xsd:string ;
+    ex:lat "60.3172"^^xsd:float ;
+    ex:locatedIn ex:Country_FI ;
+    ex:long "24.963301"^^xsd:float ;
+    ex:runwayLength 10039 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EICK a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "9.640397211071202"^^xsd:float ;
+    ex:hasFlights 2031 ;
+    ex:hasPassengers 2798024 ;
+    ex:iataCode "ORK"^^xsd:string ;
+    ex:icaoCode "EICK"^^xsd:string ;
+    ex:lat "51.841301"^^xsd:float ;
+    ex:locatedIn ex:Country_IE ;
+    ex:long "-8.49111"^^xsd:float ;
+    ex:runwayLength 4298 ;
+    ex:runwaySurface "PEM"^^xsd:string .
+
+ex:EIDW a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "363.3898709720402"^^xsd:float ;
+    ex:hasFlights 8836 ;
+    ex:hasPassengers 33262941 ;
+    ex:iataCode "DUB"^^xsd:string ;
+    ex:icaoCode "EIDW"^^xsd:string ;
+    ex:lat "53.428713"^^xsd:float ;
+    ex:locatedIn ex:Country_IE ;
+    ex:long "-6.262121"^^xsd:float ;
+    ex:runwayLength 10203 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:EKCH a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "215.5885379533248"^^xsd:float ;
+    ex:hasFlights 9454 ;
+    ex:hasPassengers 26739755 ;
+    ex:iataCode "CPH"^^xsd:string ;
+    ex:icaoCode "EKCH"^^xsd:string ;
+    ex:lat "55.617900848389"^^xsd:float ;
+    ex:locatedIn ex:Country_DK ;
+    ex:long "12.656000137329"^^xsd:float ;
+    ex:runwayLength 11811 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:ELLX a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "12.65248315447966"^^xsd:float ;
+    ex:hasFlights 2247 ;
+    ex:hasPassengers 4793539 ;
+    ex:iataCode "LUX"^^xsd:string ;
+    ex:icaoCode "ELLX"^^xsd:string ;
+    ex:lat "49.6233333"^^xsd:float ;
+    ex:locatedIn ex:Country_LU ;
+    ex:long "6.2044444"^^xsd:float ;
+    ex:runwayLength 13130 ;
+    ex:runwaySurface "ASPHALT"^^xsd:string .
+
+ex:ENBR a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "0.4870351323553294"^^xsd:float ;
+    ex:hasFlights 2810 ;
+    ex:hasPassengers 6277297 ;
+    ex:iataCode "BGO"^^xsd:string ;
+    ex:icaoCode "ENBR"^^xsd:string ;
+    ex:lat "60.2934"^^xsd:float ;
+    ex:locatedIn ex:Country_NO ;
+    ex:long "5.21814"^^xsd:float ;
+    ex:runwayLength 9810 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:ENCN a ex:Airport,
+        ex:RegionalAirport ;
+    ex:hasAvgATCDelay "1.1694088970140155"^^xsd:float ;
+    ex:hasFlights 1546 ;
+    ex:hasPassengers 819758 ;
+    ex:iataCode "KRS"^^xsd:string ;
+    ex:icaoCode "ENCN"^^xsd:string ;
+    ex:lat "58.204201"^^xsd:float ;
+    ex:locatedIn ex:Country_NO ;
+    ex:long "8.08537"^^xsd:float ;
+    ex:runwayLength 6660 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:ENGM a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "29.956387844753408"^^xsd:float ;
+    ex:hasFlights 5648 ;
+    ex:hasPassengers 25060257 ;
+    ex:iataCode "OSL"^^xsd:string ;
+    ex:icaoCode "ENGM"^^xsd:string ;
+    ex:lat "60.193901"^^xsd:float ;
+    ex:locatedIn ex:Country_NO ;
+    ex:long "11.1004"^^xsd:float ;
+    ex:runwayLength 11811 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:ENVA a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "1.7485736683942337"^^xsd:float ;
+    ex:hasFlights 1583 ;
+    ex:hasPassengers 4109049 ;
+    ex:iataCode "TRD"^^xsd:string ;
+    ex:icaoCode "ENVA"^^xsd:string ;
+    ex:lat "63.457802"^^xsd:float ;
+    ex:locatedIn ex:Country_NO ;
+    ex:long "10.924"^^xsd:float ;
+    ex:runwayLength 9052 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:ENZV a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "0.9524655469422912"^^xsd:float ;
+    ex:hasFlights 2966 ;
+    ex:hasPassengers 3656590 ;
+    ex:iataCode "SVG"^^xsd:string ;
+    ex:icaoCode "ENZV"^^xsd:string ;
+    ex:lat "58.876701"^^xsd:float ;
+    ex:locatedIn ex:Country_NO ;
+    ex:long "5.63778"^^xsd:float ;
+    ex:runwayLength 8035 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EPGD a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "8.530702563156924"^^xsd:float ;
+    ex:hasFlights 1980 ;
+    ex:hasPassengers 5896105 ;
+    ex:iataCode "GDN"^^xsd:string ;
+    ex:icaoCode "EPGD"^^xsd:string ;
+    ex:lat "54.377602"^^xsd:float ;
+    ex:locatedIn ex:Country_PL ;
+    ex:long "18.4662"^^xsd:float ;
+    ex:runwayLength 9186 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EPKK a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "47.70969105441132"^^xsd:float ;
+    ex:hasFlights 2003 ;
+    ex:hasPassengers 9399194 ;
+    ex:iataCode "KRK"^^xsd:string ;
+    ex:icaoCode "EPKK"^^xsd:string ;
+    ex:lat "50.077702"^^xsd:float ;
+    ex:locatedIn ex:Country_PL ;
+    ex:long "19.7848"^^xsd:float ;
+    ex:runwayLength 8366 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:EPWA a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "123.57236071335588"^^xsd:float ;
+    ex:hasFlights 5161 ;
+    ex:hasPassengers 18491394 ;
+    ex:iataCode "WAW"^^xsd:string ;
+    ex:icaoCode "EPWA"^^xsd:string ;
+    ex:lat "52.1656990051"^^xsd:float ;
+    ex:locatedIn ex:Country_PL ;
+    ex:long "20.9671001434"^^xsd:float ;
+    ex:runwayLength 9186 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:ESGG a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "7.7249162502059425"^^xsd:float ;
+    ex:hasFlights 2979 ;
+    ex:hasPassengers 5208411 ;
+    ex:iataCode "GOT"^^xsd:string ;
+    ex:icaoCode "ESGG"^^xsd:string ;
+    ex:lat "57.662799835205"^^xsd:float ;
+    ex:locatedIn ex:Country_SE ;
+    ex:long "12.279800415039"^^xsd:float ;
+    ex:runwayLength 10823 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:ESSA a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "31.22429131900315"^^xsd:float ;
+    ex:hasFlights 5737 ;
+    ex:hasPassengers 21965239 ;
+    ex:iataCode "ARN"^^xsd:string ;
+    ex:icaoCode "ESSA"^^xsd:string ;
+    ex:lat "59.651901245117"^^xsd:float ;
+    ex:locatedIn ex:Country_SE ;
+    ex:long "17.918600082397"^^xsd:float ;
+    ex:runwayLength 10830 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EVRA a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "10.278451043338684"^^xsd:float ;
+    ex:hasFlights 1622 ;
+    ex:hasPassengers 6620657 ;
+    ex:iataCode "RIX"^^xsd:string ;
+    ex:icaoCode "EVRA"^^xsd:string ;
+    ex:lat "56.923599"^^xsd:float ;
+    ex:locatedIn ex:Country_LV ;
+    ex:long "23.9711"^^xsd:float ;
+    ex:runwayLength 10499 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:EYVI a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "10.979066022544284"^^xsd:float ;
+    ex:hasFlights 720 ;
+    ex:hasPassengers 4398160 ;
+    ex:iataCode "VNO"^^xsd:string ;
+    ex:icaoCode "EYVI"^^xsd:string ;
+    ex:lat "54.634102"^^xsd:float ;
+    ex:locatedIn ex:Country_LT ;
+    ex:long "25.285801"^^xsd:float ;
+    ex:runwayLength 8251 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:GCFV a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "11.75869716747988"^^xsd:float ;
+    ex:hasFlights 541 ;
+    ex:hasPassengers 6009183 ;
+    ex:iataCode "FUE"^^xsd:string ;
+    ex:icaoCode "GCFV"^^xsd:string ;
+    ex:lat "28.4527"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-13.8638"^^xsd:float ;
+    ex:runwayLength 11598 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:GCLP a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "57.561169305724725"^^xsd:float ;
+    ex:hasFlights 1845 ;
+    ex:hasPassengers 13915133 ;
+    ex:iataCode "LPA"^^xsd:string ;
+    ex:icaoCode "GCLP"^^xsd:string ;
+    ex:lat "27.9319"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-15.3866"^^xsd:float ;
+    ex:runwayLength 10171 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:GCRR a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "39.99113082039912"^^xsd:float ;
+    ex:hasFlights 632 ;
+    ex:hasPassengers 8211804 ;
+    ex:iataCode "ACE"^^xsd:string ;
+    ex:icaoCode "GCRR"^^xsd:string ;
+    ex:lat "28.945499"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-13.6052"^^xsd:float ;
+    ex:runwayLength 7874 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:GCTS a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "17.59651743249086"^^xsd:float ;
+    ex:hasFlights 1466 ;
+    ex:hasPassengers 12297878 ;
+    ex:iataCode "TFS"^^xsd:string ;
+    ex:icaoCode "GCTS"^^xsd:string ;
+    ex:lat "28.0445"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-16.5725"^^xsd:float ;
+    ex:runwayLength 10499 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LBSF a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "23.999818632488967"^^xsd:float ;
+    ex:hasFlights 720 ;
+    ex:hasPassengers 7166520 ;
+    ex:iataCode "SOF"^^xsd:string ;
+    ex:icaoCode "LBSF"^^xsd:string ;
+    ex:lat "42.696357"^^xsd:float ;
+    ex:locatedIn ex:Country_BG ;
+    ex:long "23.417671"^^xsd:float ;
+    ex:runwayLength 11811 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LDZA a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "12.247502106657036"^^xsd:float ;
+    ex:hasFlights 1955 ;
+    ex:hasPassengers 3710149 ;
+    ex:iataCode "ZAG"^^xsd:string ;
+    ex:icaoCode "LDZA"^^xsd:string ;
+    ex:lat "45.742901"^^xsd:float ;
+    ex:locatedIn ex:Country_HR ;
+    ex:long "16.0688"^^xsd:float ;
+    ex:runwayLength 10669 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LEAL a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "100.81030619865572"^^xsd:float ;
+    ex:hasFlights 3194 ;
+    ex:hasPassengers 15736699 ;
+    ex:iataCode "ALC"^^xsd:string ;
+    ex:icaoCode "LEAL"^^xsd:string ;
+    ex:lat "38.2822"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-0.558156"^^xsd:float ;
+    ex:runwayLength 9842 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LEBB a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "8.167585684938912"^^xsd:float ;
+    ex:hasFlights 2143 ;
+    ex:hasPassengers 6330233 ;
+    ex:iataCode "BIO"^^xsd:string ;
+    ex:icaoCode "LEBB"^^xsd:string ;
+    ex:lat "43.301102"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-2.91061"^^xsd:float ;
+    ex:runwayLength 6562 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LEBL a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "333.4013597972973"^^xsd:float ;
+    ex:hasFlights 8896 ;
+    ex:hasPassengers 49877694 ;
+    ex:iataCode "BCN"^^xsd:string ;
+    ex:icaoCode "LEBL"^^xsd:string ;
+    ex:lat "41.2971"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "2.07846"^^xsd:float ;
+    ex:runwayLength 8294 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LEIB a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "40.78365747022463"^^xsd:float ;
+    ex:hasFlights 2014 ;
+    ex:hasPassengers 8921053 ;
+    ex:iataCode "IBZ"^^xsd:string ;
+    ex:icaoCode "LEIB"^^xsd:string ;
+    ex:lat "38.872898"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "1.37312"^^xsd:float ;
+    ex:runwayLength 9186 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LEMD a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "251.35953506018691"^^xsd:float ;
+    ex:hasFlights 6135 ;
+    ex:hasPassengers 60139313 ;
+    ex:iataCode "MAD"^^xsd:string ;
+    ex:icaoCode "LEMD"^^xsd:string ;
+    ex:lat "40.471926"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-3.56264"^^xsd:float ;
+    ex:runwayLength 11483 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LEMG a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "144.02908436101714"^^xsd:float ;
+    ex:hasFlights 4591 ;
+    ex:hasPassengers 22309430 ;
+    ex:iataCode "AGP"^^xsd:string ;
+    ex:icaoCode "LEMG"^^xsd:string ;
+    ex:lat "36.6749"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-4.49911"^^xsd:float ;
+    ex:runwayLength 9022 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LEPA a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "236.33136804758428"^^xsd:float ;
+    ex:hasFlights 2274 ;
+    ex:hasPassengers 31100266 ;
+    ex:iataCode "PMI"^^xsd:string ;
+    ex:icaoCode "LEPA"^^xsd:string ;
+    ex:lat "39.551701"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "2.73881"^^xsd:float ;
+    ex:runwayLength 10728 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LEVC a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "27.86738662538232"^^xsd:float ;
+    ex:hasFlights 3015 ;
+    ex:hasPassengers 9924948 ;
+    ex:iataCode "VLC"^^xsd:string ;
+    ex:icaoCode "LEVC"^^xsd:string ;
+    ex:lat "39.4893"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-0.481625"^^xsd:float ;
+    ex:runwayLength 5394 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LEZL a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "14.261968629233916"^^xsd:float ;
+    ex:hasFlights 895 ;
+    ex:hasPassengers 8062499 ;
+    ex:iataCode "SVQ"^^xsd:string ;
+    ex:icaoCode "LEZL"^^xsd:string ;
+    ex:lat "37.417999"^^xsd:float ;
+    ex:locatedIn ex:Country_ES ;
+    ex:long "-5.89311"^^xsd:float ;
+    ex:runwayLength 11030 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LFBD a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "20.794138946555304"^^xsd:float ;
+    ex:hasFlights 2000 ;
+    ex:hasPassengers 6602971 ;
+    ex:iataCode "BOD"^^xsd:string ;
+    ex:icaoCode "LFBD"^^xsd:string ;
+    ex:lat "44.8283"^^xsd:float ;
+    ex:locatedIn ex:Country_FR ;
+    ex:long "-0.715556"^^xsd:float ;
+    ex:runwayLength 10171 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LFBO a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "28.989465909974346"^^xsd:float ;
+    ex:hasFlights 2137 ;
+    ex:hasPassengers 7815379 ;
+    ex:iataCode "TLS"^^xsd:string ;
+    ex:icaoCode "LFBO"^^xsd:string ;
+    ex:lat "43.629101"^^xsd:float ;
+    ex:locatedIn ex:Country_FR ;
+    ex:long "1.36382"^^xsd:float ;
+    ex:runwayLength 9843 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LFLL a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "37.66598798397864"^^xsd:float ;
+    ex:hasFlights 2537 ;
+    ex:hasPassengers 9985443 ;
+    ex:iataCode "LYS"^^xsd:string ;
+    ex:icaoCode "LFLL"^^xsd:string ;
+    ex:lat "45.725556"^^xsd:float ;
+    ex:locatedIn ex:Country_FR ;
+    ex:long "5.081111"^^xsd:float ;
+    ex:runwayLength 8760 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LFML a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "38.93431571815718"^^xsd:float ;
+    ex:hasFlights 1958 ;
+    ex:hasPassengers 10878659 ;
+    ex:iataCode "MRS"^^xsd:string ;
+    ex:icaoCode "LFML"^^xsd:string ;
+    ex:lat "43.438088"^^xsd:float ;
+    ex:locatedIn ex:Country_FR ;
+    ex:long "5.2125"^^xsd:float ;
+    ex:runwayLength 11483 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LFMN a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "92.52409377311804"^^xsd:float ;
+    ex:hasFlights 3355 ;
+    ex:hasPassengers 14197126 ;
+    ex:iataCode "NCE"^^xsd:string ;
+    ex:icaoCode "LFMN"^^xsd:string ;
+    ex:lat "43.658401"^^xsd:float ;
+    ex:locatedIn ex:Country_FR ;
+    ex:long "7.21587"^^xsd:float ;
+    ex:runwayLength 8622 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LFPG a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "345.2641879498526"^^xsd:float ;
+    ex:hasFlights 7535 ;
+    ex:hasPassengers 67459319 ;
+    ex:iataCode "CDG"^^xsd:string ;
+    ex:icaoCode "LFPG"^^xsd:string ;
+    ex:lat "49.012798"^^xsd:float ;
+    ex:locatedIn ex:Country_FR ;
+    ex:long "2.55"^^xsd:float ;
+    ex:runwayLength 13829 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LFRS a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "30.6047920992088"^^xsd:float ;
+    ex:hasFlights 1743 ;
+    ex:hasPassengers 6533018 ;
+    ex:iataCode "NTE"^^xsd:string ;
+    ex:icaoCode "LFRS"^^xsd:string ;
+    ex:lat "47.1531982422"^^xsd:float ;
+    ex:locatedIn ex:Country_FR ;
+    ex:long "-1.61073005199"^^xsd:float ;
+    ex:runwayLength 9514 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LFSB a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "24.95632871688462"^^xsd:float ;
+    ex:hasFlights 3409 ;
+    ex:hasPassengers 8046738 ;
+    ex:iataCode "BSL"^^xsd:string ;
+    ex:icaoCode "LFSB"^^xsd:string ;
+    ex:lat "47.60068"^^xsd:float ;
+    ex:locatedIn ex:Country_FR ;
+    ex:long "7.521117"^^xsd:float ;
+    ex:runwayLength 5626 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:LGAV a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "222.42263404853733"^^xsd:float ;
+    ex:hasFlights 3035 ;
+    ex:hasPassengers 28256866 ;
+    ex:iataCode "ATH"^^xsd:string ;
+    ex:icaoCode "LGAV"^^xsd:string ;
+    ex:lat "37.936401"^^xsd:float ;
+    ex:locatedIn ex:Country_GR ;
+    ex:long "23.9445"^^xsd:float ;
+    ex:runwayLength 12467 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LGIR a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "25.73408056042032"^^xsd:float ;
+    ex:hasFlights 1376 ;
+    ex:hasPassengers 8703785 ;
+    ex:iataCode "HER"^^xsd:string ;
+    ex:icaoCode "LGIR"^^xsd:string ;
+    ex:lat "35.339699"^^xsd:float ;
+    ex:locatedIn ex:Country_GR ;
+    ex:long "25.1803"^^xsd:float ;
+    ex:runwayLength 8800 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LGKO a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "18.3270405330372"^^xsd:float ;
+    ex:hasFlights 803 ;
+    ex:hasPassengers 2950234 ;
+    ex:iataCode "KGS"^^xsd:string ;
+    ex:icaoCode "LGKO"^^xsd:string ;
+    ex:lat "36.7933006286621"^^xsd:float ;
+    ex:locatedIn ex:Country_GR ;
+    ex:long "27.0916996002197"^^xsd:float ;
+    ex:runwayLength 7841 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LGPZ a ex:Airport,
+        ex:RegionalAirport ;
+    ex:hasAvgATCDelay "5.687843137254902"^^xsd:float ;
+    ex:hasFlights 520 ;
+    ex:hasPassengers 814263 ;
+    ex:iataCode "PVK"^^xsd:string ;
+    ex:icaoCode "LGPZ"^^xsd:string ;
+    ex:lat "38.925499"^^xsd:float ;
+    ex:locatedIn ex:Country_GR ;
+    ex:long "20.765301"^^xsd:float ;
+    ex:runwayLength 9419 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LGRP a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "38.15082291572983"^^xsd:float ;
+    ex:hasFlights 754 ;
+    ex:hasPassengers 6134751 ;
+    ex:iataCode "RHO"^^xsd:string ;
+    ex:icaoCode "LGRP"^^xsd:string ;
+    ex:lat "36.405399"^^xsd:float ;
+    ex:locatedIn ex:Country_GR ;
+    ex:long "28.086201"^^xsd:float ;
+    ex:runwayLength 10846 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LGTS a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "35.263295371434545"^^xsd:float ;
+    ex:hasFlights 716 ;
+    ex:hasPassengers 7015558 ;
+    ex:iataCode "SKG"^^xsd:string ;
+    ex:icaoCode "LGTS"^^xsd:string ;
+    ex:lat "40.51928"^^xsd:float ;
+    ex:locatedIn ex:Country_GR ;
+    ex:long "22.970009"^^xsd:float ;
+    ex:runwayLength 11286 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LGZA a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "22.07512315270936"^^xsd:float ;
+    ex:hasFlights 1082 ;
+    ex:hasPassengers 2078863 ;
+    ex:iataCode "ZTH"^^xsd:string ;
+    ex:icaoCode "LGZA"^^xsd:string ;
+    ex:lat "37.7509"^^xsd:float ;
+    ex:locatedIn ex:Country_GR ;
+    ex:long "20.8843"^^xsd:float ;
+    ex:runwayLength 7310 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LHBP a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "34.88273596865276"^^xsd:float ;
+    ex:hasFlights 2857 ;
+    ex:hasPassengers 14615694 ;
+    ex:iataCode "BUD"^^xsd:string ;
+    ex:icaoCode "LHBP"^^xsd:string ;
+    ex:lat "47.43018"^^xsd:float ;
+    ex:locatedIn ex:Country_HU ;
+    ex:long "19.262393"^^xsd:float ;
+    ex:runwayLength 12162 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:LICC a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "107.4179791871748"^^xsd:float ;
+    ex:hasFlights 759 ;
+    ex:hasPassengers 10744294 ;
+    ex:iataCode "CTA"^^xsd:string ;
+    ex:icaoCode "LICC"^^xsd:string ;
+    ex:lat "37.466801"^^xsd:float ;
+    ex:locatedIn ex:Country_IT ;
+    ex:long "15.0664"^^xsd:float ;
+    ex:runwayLength 7989 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LIMC a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "196.6907497029089"^^xsd:float ;
+    ex:hasFlights 3418 ;
+    ex:hasPassengers 26244704 ;
+    ex:iataCode "MXP"^^xsd:string ;
+    ex:icaoCode "LIMC"^^xsd:string ;
+    ex:lat "45.6306"^^xsd:float ;
+    ex:locatedIn ex:Country_IT ;
+    ex:long "8.72811"^^xsd:float ;
+    ex:runwayLength 12861 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LIMF a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "20.19168553866063"^^xsd:float ;
+    ex:hasFlights 1176 ;
+    ex:hasPassengers 4569665 ;
+    ex:iataCode "TRN"^^xsd:string ;
+    ex:icaoCode "LIMF"^^xsd:string ;
+    ex:lat "45.200802"^^xsd:float ;
+    ex:locatedIn ex:Country_IT ;
+    ex:long "7.64963"^^xsd:float ;
+    ex:runwayLength 10827 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LIML a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "84.71080609776678"^^xsd:float ;
+    ex:hasFlights 4660 ;
+    ex:hasPassengers 9419154 ;
+    ex:iataCode "LIN"^^xsd:string ;
+    ex:icaoCode "LIML"^^xsd:string ;
+    ex:lat "45.445099"^^xsd:float ;
+    ex:locatedIn ex:Country_IT ;
+    ex:long "9.27674"^^xsd:float ;
+    ex:runwayLength 8012 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LIPE a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "70.88199347149472"^^xsd:float ;
+    ex:hasFlights 2120 ;
+    ex:hasPassengers 10053332 ;
+    ex:iataCode "BLQ"^^xsd:string ;
+    ex:icaoCode "LIPE"^^xsd:string ;
+    ex:lat "44.5354"^^xsd:float ;
+    ex:locatedIn ex:Country_IT ;
+    ex:long "11.2887"^^xsd:float ;
+    ex:runwayLength 9196 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LIPZ a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "84.10376765571765"^^xsd:float ;
+    ex:hasFlights 3068 ;
+    ex:hasPassengers 11331902 ;
+    ex:iataCode "VCE"^^xsd:string ;
+    ex:icaoCode "LIPZ"^^xsd:string ;
+    ex:lat "45.505299"^^xsd:float ;
+    ex:locatedIn ex:Country_IT ;
+    ex:long "12.3519"^^xsd:float ;
+    ex:runwayLength 9121 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LIRF a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "456.0360926221056"^^xsd:float ;
+    ex:hasFlights 4940 ;
+    ex:hasPassengers 40735369 ;
+    ex:iataCode "FCO"^^xsd:string ;
+    ex:icaoCode "LIRF"^^xsd:string ;
+    ex:lat "41.804532"^^xsd:float ;
+    ex:locatedIn ex:Country_IT ;
+    ex:long "12.251998"^^xsd:float ;
+    ex:runwayLength 10849 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LIRN a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "184.6686936222946"^^xsd:float ;
+    ex:hasFlights 1671 ;
+    ex:hasPassengers 12398392 ;
+    ex:iataCode "NAP"^^xsd:string ;
+    ex:icaoCode "LIRN"^^xsd:string ;
+    ex:lat "40.886002"^^xsd:float ;
+    ex:locatedIn ex:Country_IT ;
+    ex:long "14.2908"^^xsd:float ;
+    ex:runwayLength 8622 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LIRP a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "54.694626080420896"^^xsd:float ;
+    ex:hasFlights 863 ;
+    ex:hasPassengers 5111558 ;
+    ex:iataCode "PSA"^^xsd:string ;
+    ex:icaoCode "LIRP"^^xsd:string ;
+    ex:lat "43.683899"^^xsd:float ;
+    ex:locatedIn ex:Country_IT ;
+    ex:long "10.3927"^^xsd:float ;
+    ex:runwayLength 9160 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LKPR a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "40.61391085668906"^^xsd:float ;
+    ex:hasFlights 4024 ;
+    ex:hasPassengers 13817037 ;
+    ex:iataCode "PRG"^^xsd:string ;
+    ex:icaoCode "LKPR"^^xsd:string ;
+    ex:lat "50.103514"^^xsd:float ;
+    ex:locatedIn ex:Country_CZ ;
+    ex:long "14.256992"^^xsd:float ;
+    ex:runwayLength 6955 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LMML a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "31.31722171828431"^^xsd:float ;
+    ex:hasFlights 670 ;
+    ex:hasPassengers 7815593 ;
+    ex:iataCode "MLA"^^xsd:string ;
+    ex:icaoCode "LMML"^^xsd:string ;
+    ex:lat "35.857498"^^xsd:float ;
+    ex:locatedIn ex:Country_MT ;
+    ex:long "14.4775"^^xsd:float ;
+    ex:runwayLength 7799 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LOWW a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "138.76767440376148"^^xsd:float ;
+    ex:hasFlights 5328 ;
+    ex:hasPassengers 29794713 ;
+    ex:iataCode "VIE"^^xsd:string ;
+    ex:icaoCode "LOWW"^^xsd:string ;
+    ex:lat "48.110298"^^xsd:float ;
+    ex:locatedIn ex:Country_AT ;
+    ex:long "16.5697"^^xsd:float ;
+    ex:runwayLength 11483 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LPFR a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "45.52806588025818"^^xsd:float ;
+    ex:hasFlights 1539 ;
+    ex:hasPassengers 9606291 ;
+    ex:iataCode "FAO"^^xsd:string ;
+    ex:icaoCode "LPFR"^^xsd:string ;
+    ex:lat "37.0144004822"^^xsd:float ;
+    ex:locatedIn ex:Country_PT ;
+    ex:long "-7.96590995789"^^xsd:float ;
+    ex:runwayLength 8169 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LPMA a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "17.257388734353267"^^xsd:float ;
+    ex:hasFlights 595 ;
+    ex:hasPassengers 4590000 ;
+    ex:iataCode "FNC"^^xsd:string ;
+    ex:icaoCode "LPMA"^^xsd:string ;
+    ex:lat "32.697899"^^xsd:float ;
+    ex:locatedIn ex:Country_PT ;
+    ex:long "-16.7745"^^xsd:float ;
+    ex:runwayLength 9110 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LPPR a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "88.32799439532299"^^xsd:float ;
+    ex:hasFlights 2468 ;
+    ex:hasPassengers 15201210 ;
+    ex:iataCode "OPO"^^xsd:string ;
+    ex:icaoCode "LPPR"^^xsd:string ;
+    ex:lat "41.2481002808"^^xsd:float ;
+    ex:locatedIn ex:Country_PT ;
+    ex:long "-8.68138980865"^^xsd:float ;
+    ex:runwayLength 11417 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LPPT a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "1811.5081735101044"^^xsd:float ;
+    ex:hasFlights 6613 ;
+    ex:hasPassengers 33643652 ;
+    ex:iataCode "LIS"^^xsd:string ;
+    ex:icaoCode "LPPT"^^xsd:string ;
+    ex:lat "38.7813"^^xsd:float ;
+    ex:locatedIn ex:Country_PT ;
+    ex:long "-9.13592"^^xsd:float ;
+    ex:runwayLength 12162 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LROP a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "49.39337812157062"^^xsd:float ;
+    ex:hasFlights 3140 ;
+    ex:hasPassengers 14629523 ;
+    ex:iataCode "OTP"^^xsd:string ;
+    ex:icaoCode "LROP"^^xsd:string ;
+    ex:lat "44.572127"^^xsd:float ;
+    ex:locatedIn ex:Country_RO ;
+    ex:long "26.103396"^^xsd:float ;
+    ex:runwayLength 11484 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LSGG a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "86.2228765571914"^^xsd:float ;
+    ex:hasFlights 5260 ;
+    ex:hasPassengers 16471574 ;
+    ex:iataCode "GVA"^^xsd:string ;
+    ex:icaoCode "LSGG"^^xsd:string ;
+    ex:lat "46.238098"^^xsd:float ;
+    ex:locatedIn ex:Country_CH ;
+    ex:long "6.10895"^^xsd:float ;
+    ex:runwayLength 12795 ;
+    ex:runwaySurface "CONC"^^xsd:string .
+
+ex:LSZH a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "291.6724651265369"^^xsd:float ;
+    ex:hasFlights 6618 ;
+    ex:hasPassengers 28854573 ;
+    ex:iataCode "ZRH"^^xsd:string ;
+    ex:icaoCode "LSZH"^^xsd:string ;
+    ex:lat "47.458056"^^xsd:float ;
+    ex:locatedIn ex:Country_CH ;
+    ex:long "8.548056"^^xsd:float ;
+    ex:runwayLength 8202 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:LTAI a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "417.1658903039931"^^xsd:float ;
+    ex:hasFlights 1691 ;
+    ex:hasPassengers 35913424 ;
+    ex:iataCode "AYT"^^xsd:string ;
+    ex:icaoCode "LTAI"^^xsd:string ;
+    ex:lat "36.898701"^^xsd:float ;
+    ex:locatedIn ex:Country_TR ;
+    ex:long "30.800501"^^xsd:float ;
+    ex:runwayLength 11155 ;
+    ex:runwaySurface "concrete"^^xsd:string .
+
+ex:LTBJ a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "79.28041850337246"^^xsd:float ;
+    ex:hasFlights 850 ;
+    ex:hasPassengers 10597450 ;
+    ex:iataCode "ADB"^^xsd:string ;
+    ex:icaoCode "LTBJ"^^xsd:string ;
+    ex:lat "38.2924"^^xsd:float ;
+    ex:locatedIn ex:Country_TR ;
+    ex:long "27.157"^^xsd:float ;
+    ex:runwayLength 10630 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LTFJ a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "573.1351306830661"^^xsd:float ;
+    ex:hasFlights 3091 ;
+    ex:hasPassengers 36828857 ;
+    ex:iataCode "SAW"^^xsd:string ;
+    ex:icaoCode "LTFJ"^^xsd:string ;
+    ex:lat "40.898602"^^xsd:float ;
+    ex:locatedIn ex:Country_TR ;
+    ex:long "29.3092"^^xsd:float ;
+    ex:runwayLength 9843 ;
+    ex:runwaySurface "CON"^^xsd:string .
+
+ex:LTFM a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "925.6982862044068"^^xsd:float ;
+    ex:hasFlights 3569 ;
+    ex:hasPassengers 76030645 ;
+    ex:iataCode "IST"^^xsd:string ;
+    ex:icaoCode "LTFM"^^xsd:string ;
+    ex:lat "41.261297"^^xsd:float ;
+    ex:locatedIn ex:Country_TR ;
+    ex:long "28.741951"^^xsd:float ;
+    ex:runwayLength 12303 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:LYBE a ex:Airport,
+        ex:HubAirport ;
+    ex:hasAvgATCDelay "33.257591212240094"^^xsd:float ;
+    ex:hasFlights 2068 ;
+    ex:hasPassengers 7947580 ;
+    ex:iataCode "BEG"^^xsd:string ;
+    ex:icaoCode "LYBE"^^xsd:string ;
+    ex:lat "44.818401"^^xsd:float ;
+    ex:locatedIn ex:Country_RS ;
+    ex:long "20.309099"^^xsd:float ;
+    ex:runwayLength 11155 ;
+    ex:runwaySurface "ASP"^^xsd:string .
+
+ex:Country_AT a ex:Country ;
+    ex:isoCode "AT"^^xsd:string .
+
+ex:Country_BE a ex:Country ;
+    ex:isoCode "BE"^^xsd:string .
+
+ex:Country_BG a ex:Country ;
+    ex:isoCode "BG"^^xsd:string .
+
+ex:Country_CZ a ex:Country ;
+    ex:isoCode "CZ"^^xsd:string .
+
+ex:Country_DK a ex:Country ;
+    ex:isoCode "DK"^^xsd:string .
+
+ex:Country_EE a ex:Country ;
+    ex:isoCode "EE"^^xsd:string .
+
+ex:Country_FI a ex:Country ;
+    ex:isoCode "FI"^^xsd:string .
+
+ex:Country_HR a ex:Country ;
+    ex:isoCode "HR"^^xsd:string .
+
+ex:Country_HU a ex:Country ;
+    ex:isoCode "HU"^^xsd:string .
+
+ex:Country_IS a ex:Country ;
+    ex:isoCode "IS"^^xsd:string .
+
+ex:Country_LT a ex:Country ;
+    ex:isoCode "LT"^^xsd:string .
+
+ex:Country_LU a ex:Country ;
+    ex:isoCode "LU"^^xsd:string .
+
+ex:Country_LV a ex:Country ;
+    ex:isoCode "LV"^^xsd:string .
+
+ex:Country_MT a ex:Country ;
+    ex:isoCode "MT"^^xsd:string .
+
+ex:Country_RO a ex:Country ;
+    ex:isoCode "RO"^^xsd:string .
+
+ex:Country_RS a ex:Country ;
+    ex:isoCode "RS"^^xsd:string .
+
+ex:Country_CH a ex:Country ;
+    ex:isoCode "CH"^^xsd:string .
+
+ex:Country_IE a ex:Country ;
+    ex:isoCode "IE"^^xsd:string .
+
+ex:Country_SE a ex:Country ;
+    ex:isoCode "SE"^^xsd:string .
+
+ex:Country_PL a ex:Country ;
+    ex:isoCode "PL"^^xsd:string .
+
+ex:Country_PT a ex:Country ;
+    ex:isoCode "PT"^^xsd:string .
+
+ex:Country_TR a ex:Country ;
+    ex:isoCode "TR"^^xsd:string .
+
+ex:Country_NO a ex:Country ;
+    ex:isoCode "NO"^^xsd:string .
+
+ex:Country_GR a ex:Country ;
+    ex:isoCode "GR"^^xsd:string .
+
+ex:Country_FR a ex:Country ;
+    ex:isoCode "FR"^^xsd:string .
+
+ex:Country_DE a ex:Country ;
+    ex:isoCode "DE"^^xsd:string .
+
+ex:Country_IT a ex:Country ;
+    ex:isoCode "IT"^^xsd:string .
+
+ex:Country_ES a ex:Country ;
+    ex:isoCode "ES"^^xsd:string .
+

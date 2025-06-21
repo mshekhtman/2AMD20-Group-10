@@ -1,0 +1,76 @@
+@prefix ex: <http://example.org/airport#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Airport shape
+ex:AirportShape a sh:NodeShape ;
+  sh:targetClass ex:Airport ;
+
+  sh:property [
+    sh:path      ex:icaoCode ;
+    sh:datatype  xsd:string ;
+    sh:minCount  1 ; sh:maxCount 1 ;
+    sh:pattern   "^[A-Z]{4}$" ;
+  ] ;
+  sh:property [
+    sh:path      ex:iataCode ;
+    sh:datatype  xsd:string ;
+    sh:minCount  1 ; sh:maxCount 1 ;
+    sh:pattern   "^[A-Z]{3}$" ;
+  ] ;
+  sh:property [
+    sh:path      ex:hasFlights ;
+    sh:datatype  xsd:integer ;
+    sh:minCount  1 ; sh:maxCount 1 ;
+    sh:minInclusive 0 ;
+  ] ;
+  sh:property [
+    sh:path      ex:hasPassengers ;
+    sh:datatype  xsd:integer ;
+    sh:minCount  1 ; sh:maxCount 1 ;
+    sh:minInclusive 0 ;
+  ] ;
+  sh:property [
+    sh:path      ex:hasAvgATCDelay ;
+    sh:datatype  xsd:float ;
+    sh:minCount  1 ; sh:maxCount 1 ;
+    sh:minInclusive 0.0 ;
+  ] ;
+  sh:property [
+    sh:path      ex:lat ;
+    sh:datatype  xsd:float ;
+    sh:minCount  0 ; sh:maxCount 1 ;
+    sh:minInclusive -90.0 ; sh:maxInclusive 90.0 ;
+  ] ;
+  sh:property [
+    sh:path      ex:long ;
+    sh:datatype  xsd:float ;
+    sh:minCount  0 ; sh:maxCount 1 ;
+    sh:minInclusive -180.0 ; sh:maxInclusive 180.0 ;
+  ] ;
+  sh:property [
+    sh:path      ex:runwayLength ;
+    sh:datatype  xsd:integer ;
+    sh:minCount  0 ; sh:maxCount 1 ;
+    sh:minInclusive 0 ;
+  ] ;
+  sh:property [
+    sh:path      ex:runwaySurface ;
+    sh:datatype  xsd:string ;
+    sh:minCount  0 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path      ex:locatedIn ;
+    sh:class     ex:Country ;
+    sh:minCount  1 ; sh:maxCount 1 ;
+  ] .
+
+# Country shape
+ex:CountryShape a sh:NodeShape ;
+  sh:targetClass ex:Country ;
+  sh:property [
+    sh:path      ex:isoCode ;
+    sh:datatype  xsd:string ;
+    sh:minCount  1 ; sh:maxCount 1 ;
+    sh:pattern   "^[A-Z]{2}$" ;
+  ] .
