@@ -1,0 +1,22 @@
+PREFIX ex: <http://example.org/airport#>
+
+SELECT ?iata ?passengers ?delay
+WHERE {
+  # First compute the overall averages
+  {
+    SELECT (AVG(?p) AS ?avgP) (AVG(?d) AS ?avgD)
+    WHERE {
+      ?x a ex:Airport ;
+         ex:hasPassengers ?p ;
+         ex:hasAvgATCDelay ?d .
+    }
+  }
+  # Then retrieve each airport’s values
+  ?airport a ex:Airport ;
+           ex:iataCode      ?iata ;
+           ex:hasPassengers ?passengers ;
+           ex:hasAvgATCDelay ?delay .
+  # Filter to only those above both averages
+  FILTER( ?passengers > ?avgP && ?delay > ?avgD )
+}
+ORDER BY DESC(?delay)

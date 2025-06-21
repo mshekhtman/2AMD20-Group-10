@@ -1,0 +1,25 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:   <http://example.org/airport#> .
+
+# Classes
+ex:Airport       a rdfs:Class .
+ex:HubAirport    a rdfs:Class ; rdfs:subClassOf ex:Airport .
+ex:RegionalAirport a rdfs:Class ; rdfs:subClassOf ex:Airport .
+ex:Country       a rdfs:Class .
+
+# Data properties
+ex:icaoCode       a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range xsd:string .
+ex:iataCode       a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range xsd:string .
+ex:hasFlights     a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range xsd:integer .
+ex:hasPassengers  a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range xsd:integer .
+ex:hasAvgATCDelay a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range xsd:float .
+ex:lat            a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range xsd:float .
+ex:long           a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range xsd:float .
+ex:runwayLength   a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range xsd:integer .
+ex:runwaySurface  a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range xsd:string .
+ex:isoCode        a rdf:Property ; rdfs:domain ex:Country ; rdfs:range xsd:string .
+
+# Object property
+ex:locatedIn      a rdf:Property ; rdfs:domain ex:Airport ; rdfs:range ex:Country .
